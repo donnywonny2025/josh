@@ -241,8 +241,6 @@ function renderGrid() {
     const f = currentFiles[i];
     const key = currentFolder + '/' + f.name;
     const mark = marks[key] || '';
-  const faces = faceMap[key] || [];
-  const faceStr = faces.length > 0 ? `  •  👤 ${faces.join(', ')}` : '';
     const faces = faceMap[key] || [];
     const faceBadge = faces.length > 0 ? `<div class="face-badge">👤 ${faces.join(', ')}</div>` : '';
     const classes = [
