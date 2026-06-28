@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Josh Memorial — Master Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg-primary: #0a0a0f;
+  --bg-card: #12121a;
+  --bg-card-hover: #1a1a26;
+  --bg-accent: #1e1e2e;
+  --border: #2a2a3a;
+  --text-primary: #e8e8f0;
+  --text-secondary: #8888a0;
+  --text-muted: #555570;
+  --accent-blue: #4a9eff;
+  --accent-purple: #8b5cf6;
+  --accent-green: #34d399;
+  --accent-amber: #f59e0b;
+  --accent-rose: #f43f5e;
+  --accent-teal: #2dd4bf;
+  --gradient-hero: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  --shadow-card: 0 4px 24px rgba(0,0,0,0.3);
+  --shadow-glow: 0 0 30px rgba(74, 158, 255, 0.1);
+  --radius: 12px;
+  --radius-sm: 8px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', -apple-system, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+/* --- HEADER --- */
+.header {
+  background: var(--gradient-hero);
+  border-bottom: 1px solid var(--border);
+  padding: 28px 32px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: var(--shadow-card);
+}
+.header h1 {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  background: linear-gradient(135deg, #fff, #a0c4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header-sub {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-top: 4px;
+  font-weight: 400;
+}
+.header-stats {
+  display: flex;
+  gap: 24px;
+  margin-top: 14px;
+}
+.stat-pill {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255,255,255,0.06);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  border: 1px solid rgba(255,255,255,0.06);
+}
+.stat-pill .num {
+  font-weight: 700;
+  color: var(--text-primary);
+  font-size: 14px;
+}
+
+/* --- TABS --- */
+.tabs {
+  display: flex;
+  gap: 2px;
+  padding: 12px 32px;
+  background: var(--bg-primary);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 110px;
+  z-index: 99;
+}
+.tab {
+  padding: 8px 20px;
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 1px solid transparent;
+}
+.tab:hover { color: var(--text-primary); background: var(--bg-card); }
+.tab.active {
+  color: var(--accent-blue);
+  background: rgba(74, 158, 255, 0.08);
+  border-color: rgba(74, 158, 255, 0.2);
+}
+
+/* --- MAIN CONTENT --- */
+.content { padding: 24px 32px; max-width: 1400px; }
+
+/* --- SECTIONS VIEW --- */
+.sections-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 16px;
+}
+.section-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  transition: all 0.25s;
+  cursor: default;
+  position: relative;
+  overflow: hidden;
+}
+.section-card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--accent-blue);
+  box-shadow: var(--shadow-glow);
+  transform: translateY(-2px);
+}
+.section-card .order {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-muted);
+  background: var(--bg-accent);
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+.section-card h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--text-primary);
+}
+.section-meta {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.section-meta span {
+  font-size: 12px;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.section-song {
+  background: rgba(139, 92, 246, 0.08);
+  border: 1px solid rgba(139, 92, 246, 0.2);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+  margin-top: 8px;
+}
+.section-song .song-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent-purple);
+}
+.section-song .song-artist {
+  font-size: 11px;
+  color: var(--text-secondary);
+  margin-top: 2px;
+}
+.section-song .song-dur {
+  font-size: 11px;
+  color: var(--text-muted);
+  float: right;
+  margin-top: -16px;
+}
+.section-no-song {
+  background: rgba(245, 158, 11, 0.06);
+  border: 1px dashed rgba(245, 158, 11, 0.3);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--accent-amber);
+  text-align: center;
+}
+
+/* --- SONGS VIEW --- */
+.songs-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 4px;
+}
+.songs-table th {
+  text-align: left;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+}
+.songs-table td {
+  padding: 10px 12px;
+  font-size: 13px;
+  background: var(--bg-card);
+  vertical-align: middle;
+}
+.songs-table tr td:first-child { border-radius: var(--radius-sm) 0 0 var(--radius-sm); }
+.songs-table tr td:last-child { border-radius: 0 var(--radius-sm) var(--radius-sm) 0; }
+.songs-table tr:hover td { background: var(--bg-card-hover); }
+.song-num {
+  font-weight: 700;
+  color: var(--text-muted);
+  font-size: 12px;
+  width: 30px;
+}
+.song-title-cell { font-weight: 600; }
+.song-subtitle { font-weight: 400; color: var(--text-muted); font-size: 11px; }
+.song-artist-cell { color: var(--text-secondary); }
+.song-dur-cell { color: var(--text-muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+.song-section-badge {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 12px;
+  display: inline-block;
+}
+.song-section-badge.assigned {
+  background: rgba(52, 211, 153, 0.1);
+  color: var(--accent-green);
+  border: 1px solid rgba(52, 211, 153, 0.2);
+}
+.song-section-badge.unassigned {
+  background: rgba(85, 85, 112, 0.1);
+  color: var(--text-muted);
+  border: 1px solid rgba(85, 85, 112, 0.2);
+}
+
+/* --- INVENTORY VIEW --- */
+.inv-summary {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.inv-big {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  text-align: center;
+}
+.inv-big .label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+.inv-big .value { font-size: 36px; font-weight: 800; margin-top: 4px; }
+.inv-big .value.blue { color: var(--accent-blue); }
+.inv-big .value.purple { color: var(--accent-purple); }
+.inv-big .value.green { color: var(--accent-green); }
+.inv-big .value.amber { color: var(--accent-amber); }
+
+.inv-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(42,42,58,0.5);
+}
+.inv-bar-label { font-size: 13px; font-weight: 500; min-width: 200px; }
+.inv-bar-track { flex: 1; height: 20px; background: var(--bg-accent); border-radius: 10px; overflow: hidden; }
+.inv-bar-fill { height: 100%; border-radius: 10px; transition: width 0.5s ease; }
+.inv-bar-count { font-size: 12px; color: var(--text-secondary); min-width: 50px; text-align: right; font-variant-numeric: tabular-nums; }
+
+/* --- UPDATED TIMESTAMP --- */
+.updated {
+  font-size: 11px;
+  color: var(--text-muted);
+  text-align: right;
+  padding: 12px 32px;
+  border-top: 1px solid var(--border);
+  margin-top: 32px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Josh Memorial — Master Dashboard</h1>
+  <div class="header-sub">Slideshow Production Command Center</div>
+  <div class="header-stats" id="headerStats"></div>
+</div>
+
+<div class="tabs">
+  <div class="tab active" data-tab="sections">Sections</div>
+  <div class="tab" data-tab="songs">Songs (Full Playlist)</div>
+  <div class="tab" data-tab="inventory">Photo Inventory</div>
+</div>
+
+<div class="content" id="content"></div>
+<div class="updated" id="updated"></div>
+
+<script>
+let DATA = null;
+let activeTab = 'sections';
+
+async function loadData() {
+  const r = await fetch('/data/master_data.json?' + Date.now());
+  DATA = await r.json();
+  render();
+}
+
+function render() {
+  if (!DATA) return;
+  renderHeader();
+  if (activeTab === 'sections') renderSections();
+  else if (activeTab === 'songs') renderSongs();
+  else if (activeTab === 'inventory') renderInventory();
+  document.getElementById('updated').textContent = 'Last refreshed: ' + new Date().toLocaleTimeString();
+}
+
+function renderHeader() {
+  const assigned = DATA.songs.filter(s => s.section).length;
+  const sectionsWithSong = DATA.sections.filter(s => s.song_num !== null).length;
+  document.getElementById('headerStats').innerHTML = `
+    <div class="stat-pill"><span class="num">${DATA.project.total_photos}</span> photos</div>
+    <div class="stat-pill"><span class="num">${DATA.project.total_videos}</span> videos</div>
+    <div class="stat-pill"><span class="num">${DATA.songs.length}</span> songs</div>
+    <div class="stat-pill"><span class="num">${DATA.sections.length}</span> sections</div>
+    <div class="stat-pill"><span class="num">${sectionsWithSong}/${DATA.sections.length}</span> songs assigned</div>
+  `;
+}
+
+function renderSections() {
+  let html = '<div class="sections-grid">';
+  const sorted = [...DATA.sections].sort((a, b) => a.order - b.order);
+  for (const sec of sorted) {
+    const song = sec.song_num ? DATA.songs.find(s => s.num === sec.song_num) : null;
+    html += `
+      <div class="section-card">
+        <span class="order">#${sec.order}</span>
+        <h3>${sec.name}</h3>
+        <div class="section-meta">
+          <span>📷 ${sec.photos} photos</span>
+          ${sec.videos > 0 ? `<span>🎬 ${sec.videos} videos</span>` : ''}
+          <span>📁 ${sec.folder}</span>
+        </div>
+        ${song ? `
+          <div class="section-song">
+            <div class="song-title">♫ ${song.title}</div>
+            <div class="song-artist">${song.artist}</div>
+            <div class="song-dur">${song.duration}</div>
+          </div>
+        ` : `
+          <div class="section-no-song">⚠ No song assigned</div>
+        `}
+      </div>
+    `;
+  }
+  html += '</div>';
+  document.getElementById('content').innerHTML = html;
+}
+
+function renderSongs() {
+  let html = `<table class="songs-table"><thead><tr>
+    <th>#</th><th>Title</th><th>Artist</th><th>Duration</th><th>Assigned Section</th>
+  </tr></thead><tbody>`;
+  for (const song of DATA.songs) {
+    const secBadge = song.section
+      ? `<span class="song-section-badge assigned">✓ ${song.section}</span>`
+      : `<span class="song-section-badge unassigned">—</span>`;
+    html += `<tr>
+      <td class="song-num">${song.num}</td>
+      <td class="song-title-cell">${song.title}${song.subtitle ? ` <span class="song-subtitle">(${song.subtitle})</span>` : ''}</td>
+      <td class="song-artist-cell">${song.artist}</td>
+      <td class="song-dur-cell">${song.duration}</td>
+      <td>${secBadge}</td>
+    </tr>`;
+  }
+  html += '</tbody></table>';
+  document.getElementById('content').innerHTML = html;
+}
+
+function renderInventory() {
+  const totalPhotos = DATA.sections.reduce((s, x) => s + x.photos, 0);
+  const totalVideos = DATA.sections.reduce((s, x) => s + x.videos, 0);
+  const assigned = DATA.sections.filter(s => s.song_num !== null).length;
+  const colors = ['#4a9eff','#8b5cf6','#34d399','#f59e0b','#f43f5e','#2dd4bf','#ec4899','#6366f1','#84cc16','#f97316','#06b6d4'];
+
+  let html = `
+    <div class="inv-summary">
+      <div class="inv-big"><div class="label">Total Photos</div><div class="value blue">${totalPhotos}</div></div>
+      <div class="inv-big"><div class="label">Total Videos</div><div class="value purple">${totalVideos}</div></div>
+      <div class="inv-big"><div class="label">Sections</div><div class="value green">${DATA.sections.length}</div></div>
+      <div class="inv-big"><div class="label">Songs Paired</div><div class="value amber">${assigned} / ${DATA.sections.length}</div></div>
+    </div>
+    <div style="margin-top:8px">
+  `;
+  const maxPhotos = Math.max(...DATA.sections.map(s => s.photos));
+  const sorted = [...DATA.sections].sort((a, b) => b.photos - a.photos);
+  for (let i = 0; i < sorted.length; i++) {
+    const sec = sorted[i];
+    const pct = (sec.photos / maxPhotos * 100).toFixed(1);
+    html += `
+      <div class="inv-bar">
+        <div class="inv-bar-label">${sec.name}</div>
+        <div class="inv-bar-track">
+          <div class="inv-bar-fill" style="width:${pct}%; background:${colors[i % colors.length]}"></div>
+        </div>
+        <div class="inv-bar-count">${sec.photos} + ${sec.videos}v</div>
+      </div>
+    `;
+  }
+  html += '</div>';
+  document.getElementById('content').innerHTML = html;
+}
+
+// Tab switching
+document.querySelectorAll('.tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    activeTab = tab.dataset.tab;
+    render();
+  });
+});
+
+// Auto-refresh every 5 seconds
+loadData();
+setInterval(loadData, 5000);
+</script>
+</body>
+</html>

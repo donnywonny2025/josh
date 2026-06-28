@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Josh Memorial — Photo Browser</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Inter',sans-serif; background:#0a0a0f; color:#e0e0e8; height:100vh; display:flex; flex-direction:column; overflow:hidden; }
+
+/* --- TOP BAR --- */
+.topbar { background:#111118; border-bottom:1px solid #222; padding:8px 16px; display:flex; align-items:center; gap:16px; flex-shrink:0; }
+.topbar h1 { font-size:15px; font-weight:700; white-space:nowrap; }
+.topbar .breadcrumb { font-size:13px; color:#888; flex:1; }
+.topbar .breadcrumb span { color:#4a9eff; cursor:pointer; }
+.topbar .controls { display:flex; gap:8px; align-items:center; }
+.btn { padding:5px 12px; border-radius:6px; border:1px solid #333; background:#1a1a22; color:#ccc; font-size:12px; cursor:pointer; font-family:inherit; }
+.btn:hover { background:#252530; border-color:#555; }
+.btn.active { background:rgba(74,158,255,0.15); border-color:rgba(74,158,255,0.4); color:#4a9eff; }
+.btn.play { background:rgba(52,211,153,0.15); border-color:rgba(52,211,153,0.4); color:#34d399; }
+.size-slider { width:80px; accent-color:#4a9eff; }
+
+/* --- MAIN LAYOUT --- */
+.main { display:flex; flex:1; overflow:hidden; }
+
+/* --- SIDEBAR --- */
+.sidebar { width:240px; background:#0e0e15; border-right:1px solid #222; overflow-y:auto; flex-shrink:0; }
+.sidebar-section { padding:8px 0; }
+.sidebar-header { font-size:10px; font-weight:700; color:#555; text-transform:uppercase; letter-spacing:0.5px; padding:8px 14px 4px; }
+.folder-item { padding:7px 14px; font-size:13px; cursor:pointer; display:flex; justify-content:space-between; align-items:center; border-left:3px solid transparent; }
+.folder-item:hover { background:#151520; }
+.folder-item.active { background:rgba(74,158,255,0.08); border-left-color:#4a9eff; color:#fff; }
+.folder-item .count { font-size:11px; color:#555; background:#1a1a22; padding:1px 6px; border-radius:8px; }
+.folder-item.has-song::after { content:'♫'; margin-left:6px; font-size:10px; color:#8b5cf6; }
+
+/* --- PHOTO GRID --- */
+.grid-container { flex:1; overflow-y:auto; padding:12px; }
+.grid { display:grid; gap:8px; }
+.grid-item { position:relative; border-radius:6px; overflow:hidden; cursor:pointer; background:#15151f; border:2px solid transparent; transition:border-color 0.15s, transform 0.15s; }
+.grid-item:hover { border-color:#4a9eff; transform:scale(1.02); }
+.grid-item.marked { border-color:#f59e0b; }
+.grid-item.marked::before { content:'★'; position:absolute; top:4px; right:6px; color:#f59e0b; font-size:16px; z-index:2; text-shadow:0 1px 3px rgba(0,0,0,0.8); }
+.grid-item.excluded { opacity:0.3; }
+.grid-item.excluded::before { content:'✕'; position:absolute; top:4px; right:6px; color:#f43f5e; font-size:16px; z-index:2; }
+.grid-item img { width:100%; height:100%; object-fit:cover; display:block; }
+.grid-item video { width:100%; height:100%; object-fit:cover; display:block; }
+.grid-item .label { position:absolute; bottom:0; left:0; right:0; background:linear-gradient(transparent, rgba(0,0,0,0.85)); padding:16px 6px 4px; font-size:10px; color:#aaa; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+
+.grid-item .face-badge { position:absolute; top:4px; right:4px; background:rgba(74,158,255,0.85); color:#fff; font-size:9px; font-weight:600; padding:2px 6px; border-radius:4px; z-index:2; max-width:90%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.grid-item .type-badge { position:absolute; top:24px; left:6px; font-size:9px; padding:1px 5px; border-radius:4px; font-weight:600; }
+.grid-item .type-badge.video { background:rgba(139,92,246,0.8); color:#fff; }
+.grid-item .type-badge.heic { background:rgba(245,158,11,0.8); color:#fff; }
+
+/* --- LIGHTBOX --- */
+.lightbox { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.95); z-index:1000; flex-direction:column; align-items:center; justify-content:center; }
+.lightbox.open { display:flex; }
+.lightbox img, .lightbox video { max-width:90vw; max-height:80vh; object-fit:contain; border-radius:4px; }
+.lightbox .lb-info { color:#aaa; font-size:13px; margin-top:12px; text-align:center; }
+.lightbox .lb-nav { position:absolute; top:50%; transform:translateY(-50%); font-size:36px; color:#888; cursor:pointer; padding:20px; user-select:none; }
+.lightbox .lb-nav:hover { color:#fff; }
+.lightbox .lb-nav.prev { left:10px; }
+.lightbox .lb-nav.next { right:10px; }
+.lightbox .lb-close { position:absolute; top:12px; right:20px; font-size:28px; color:#888; cursor:pointer; }
+.lightbox .lb-close:hover { color:#fff; }
+.lightbox .lb-actions { display:flex; gap:8px; margin-top:10px; }
+
+/* --- SLIDESHOW --- */
+.slideshow-bar { display:none; background:#111118; border-top:1px solid #222; padding:8px 16px; flex-shrink:0; align-items:center; gap:12px; }
+.slideshow-bar.active { display:flex; }
+.slideshow-bar .progress { flex:1; height:4px; background:#222; border-radius:2px; overflow:hidden; }
+.slideshow-bar .progress-fill { height:100%; background:#4a9eff; transition:width 0.1s linear; }
+.slideshow-bar .slide-info { font-size:12px; color:#888; min-width:100px; text-align:right; }
+
+/* --- EMPTY STATE --- */
+.empty { display:flex; flex-direction:column; align-items:center; justify-content:center; height:100%; color:#555; }
+.empty .icon { font-size:48px; margin-bottom:12px; }
+.empty .msg { font-size:14px; }
+
+/* --- STATUS BAR --- */
+.statusbar { background:#0e0e15; border-top:1px solid #222; padding:4px 16px; font-size:11px; color:#555; display:flex; justify-content:space-between; flex-shrink:0; }
+</style>
+</head>
+<body>
+
+<div class="topbar" style="gap:8px">
+  <h1>📸 Josh Memorial</h1>
+  <a href="/" style="color:#4a9eff;font-size:12px;padding:4px 10px;border-radius:6px;background:rgba(74,158,255,0.1);border:1px solid rgba(74,158,255,0.2);text-decoration:none;font-weight:500">Browser</a>
+  <a href="/builder" style="color:#888;font-size:12px;padding:4px 10px;border-radius:6px;text-decoration:none;font-weight:500">Builder</a>
+  <a href="/player" style="color:#888;font-size:12px;padding:4px 10px;border-radius:6px;text-decoration:none;font-weight:500">Player</a>
+  <div class="breadcrumb" id="breadcrumb" style="margin-left:8px">All Folders</div>
+  <div class="controls">
+    <span style="font-size:11px;color:#666">Size:</span>
+    <input type="range" class="size-slider" id="sizeSlider" min="80" max="400" value="180">
+    <button class="btn" id="btnMark" title="Toggle mark on selected">★ Mark</button>
+    <button class="btn" id="btnExclude" title="Toggle exclude">✕ Exclude</button>
+    <button class="btn play" id="btnPlay">▶ Play</button>
+    <button class="btn" id="btnStats">📊 Stats</button>
+  </div>
+</div>
+
+<div class="main">
+  <div class="sidebar" id="sidebar"></div>
+  <div class="grid-container" id="gridContainer">
+    <div class="grid" id="grid"></div>
+  </div>
+</div>
+
+<div class="slideshow-bar" id="slideshowBar">
+  <button class="btn" id="btnStop">⏹ Stop</button>
+  <button class="btn" id="btnPauseSS">⏸ Pause</button>
+  <div class="progress"><div class="progress-fill" id="progressFill"></div></div>
+  <div class="slide-info" id="slideInfo">1 / 20</div>
+  <span style="font-size:11px;color:#666">Speed:</span>
+  <input type="range" id="speedSlider" min="1" max="10" value="4" style="width:60px;accent-color:#34d399">
+  <span id="speedLabel" style="font-size:11px;color:#888">4s</span>
+</div>
+
+<div class="statusbar">
+  <span id="statusLeft">Ready</span>
+  <span id="statusRight"></span>
+</div>
+
+<div class="lightbox" id="lightbox">
+  <div class="lb-close" id="lbClose">×</div>
+  <div class="lb-nav prev" id="lbPrev">‹</div>
+  <div class="lb-nav next" id="lbNext">›</div>
+  <div id="lbContent"></div>
+  <div class="lb-info" id="lbInfo"></div>
+  <div class="lb-actions">
+    <button class="btn" id="lbMark">★ Mark</button>
+    <button class="btn" id="lbExclude">✕ Exclude</button>
+  </div>
+</div>
+
+<script>
+// --- STATE ---
+let folders = [];
+let currentFolder = null;
+let currentFiles = [];
+let marks = {};
+let lightboxIndex = -1;
+let slideshowTimer = null;
+let slideshowPaused = false;
+let masterData = null;
+let faceClusters = null;
+let faceLabels = {};
+let faceMap = {};
+
+// --- INIT ---
+async function init() {
+  const [foldersResp, marksResp, masterResp, clustersResp, labelsResp] = await Promise.all([
+    fetch('/api/folders').then(r => r.json()),
+    fetch('/api/marks').then(r => r.json()),
+    fetch('/api/master').then(r => r.json()),
+    fetch('/data/face_data/face_clusters.json').then(r => r.ok ? r.json() : null).catch(()=>null),
+    fetch('/api/face-labels').then(r => r.ok ? r.json() : {}).catch(()=>({}))
+  ]);
+  folders = foldersResp;
+  marks = marksResp;
+  masterData = masterResp;
+  faceClusters = clustersResp;
+  faceLabels = labelsResp;
+  buildFaceMap();
+  renderSidebar();
+  showAllFolders();
+  updateStatus();
+}
+
+function buildFaceMap() {
+  faceMap = {};
+  if (!faceClusters || !faceClusters.clusters) return;
+  for (const c of faceClusters.clusters) {
+    let label = faceLabels[c.person_id] || c.label;
+    if (label.startsWith("Unknown")) continue;
+    for (const p of c.photos) {
+      const key = p.folder + '/' + p.file;
+      if (!faceMap[key]) faceMap[key] = [];
+      if (!faceMap[key].includes(label)) faceMap[key].push(label);
+    }
+  }
+}
+
+// --- SIDEBAR ---
+function renderSidebar() {
+  const sections = masterData?.sections || [];
+  let html = '<div class="sidebar-section"><div class="sidebar-header">Folders</div>';
+  html += `<div class="folder-item ${!currentFolder ? 'active' : ''}" onclick="showAllFolders()">All Folders <span class="count">${folders.reduce((s,f) => s+f.total, 0)}</span></div>`;
+  for (const f of folders) {
+    const sec = sections.find(s => s.folder === f.name);
+    const hasSong = sec && sec.song_num !== null;
+    html += `<div class="folder-item ${currentFolder === f.name ? 'active' : ''} ${hasSong ? 'has-song' : ''}" onclick="openFolder('${f.name.replace(/'/g, "\\'")}')">
+      ${f.name} <span class="count">${f.total}</span>
+    </div>`;
+  }
+  html += '</div>';
+  document.getElementById('sidebar').innerHTML = html;
+}
+
+// --- ALL FOLDERS VIEW ---
+function showAllFolders() {
+  currentFolder = null;
+  document.getElementById('breadcrumb').innerHTML = 'All Folders';
+  const grid = document.getElementById('grid');
+  const size = document.getElementById('sizeSlider').value;
+  grid.style.gridTemplateColumns = `repeat(auto-fill, minmax(${Math.max(size, 160)}px, 1fr))`;
+  
+  let html = '';
+  for (const f of folders) {
+    html += `<div class="grid-item" style="aspect-ratio:1;background:#15151f;display:flex;flex-direction:column;align-items:center;justify-content:center" onclick="openFolder('${f.name.replace(/'/g, "\\'")}')">
+      <div style="font-size:32px;margin-bottom:8px">📁</div>
+      <div style="font-size:13px;font-weight:600;text-align:center;padding:0 8px">${f.name}</div>
+      <div style="font-size:11px;color:#666;margin-top:4px">${f.photos} photos${f.videos ? ', ' + f.videos + ' videos' : ''}</div>
+    </div>`;
+  }
+  grid.innerHTML = html;
+  renderSidebar();
+  updateStatus();
+}
+
+// --- OPEN FOLDER ---
+async function openFolder(name) {
+  currentFolder = name;
+  document.getElementById('breadcrumb').innerHTML = `<span onclick="showAllFolders()">All Folders</span> / ${name}`;
+  
+  const resp = await fetch('/api/photos/' + encodeURIComponent(name));
+  currentFiles = await resp.json();
+  renderGrid();
+  renderSidebar();
+  updateStatus();
+}
+
+// --- RENDER GRID ---
+function renderGrid() {
+  const grid = document.getElementById('grid');
+  const size = parseInt(document.getElementById('sizeSlider').value);
+  grid.style.gridTemplateColumns = `repeat(auto-fill, minmax(${size}px, 1fr))`;
+  
+  let html = '';
+  for (let i = 0; i < currentFiles.length; i++) {
+    const f = currentFiles[i];
+    const key = currentFolder + '/' + f.name;
+    const mark = marks[key] || '';
+  const faces = faceMap[key] || [];
+  const faceStr = faces.length > 0 ? `  •  👤 ${faces.join(', ')}` : '';
+    const faces = faceMap[key] || [];
+    const faceBadge = faces.length > 0 ? `<div class="face-badge">👤 ${faces.join(', ')}</div>` : '';
+    const classes = [
+      'grid-item',
+      mark === 'star' ? 'marked' : '',
+      mark === 'exclude' ? 'excluded' : ''
+    ].filter(Boolean).join(' ');
+    
+    if (f.type === 'photo') {
+      html += `<div class="${classes}" style="aspect-ratio:1" onclick="openLightbox(${i})" oncontextmenu="toggleMark(event, ${i})">
+        <img loading="lazy" src="/photos/${encodeURIComponent(currentFolder)}/${encodeURIComponent(f.name)}">
+        ${faceBadge}<div class="label">${f.name}</div>
+      </div>`;
+    } else if (f.type === 'video') {
+      html += `<div class="${classes}" style="aspect-ratio:1" onclick="openLightbox(${i})" oncontextmenu="toggleMark(event, ${i})">
+        <video muted preload="metadata" src="/photos/${encodeURIComponent(currentFolder)}/${encodeURIComponent(f.name)}#t=1"></video>
+        <span class="type-badge video">VIDEO</span>
+        ${faceBadge}<div class="label">${f.name}</div>
+      </div>`;
+    } else if (f.type === 'heic') {
+      html += `<div class="${classes}" style="aspect-ratio:1;display:flex;align-items:center;justify-content:center" onclick="openLightbox(${i})" oncontextmenu="toggleMark(event, ${i})">
+        <div style="text-align:center"><div style="font-size:24px">📷</div><div style="font-size:10px;color:#888;margin-top:4px">HEIC</div></div>
+        <span class="type-badge heic">HEIC</span>
+        ${faceBadge}<div class="label">${f.name}</div>
+      </div>`;
+    } else {
+      html += `<div class="${classes}" style="aspect-ratio:1;display:flex;align-items:center;justify-content:center">
+        <div style="text-align:center;font-size:10px;color:#555">${f.name}</div>
+      </div>`;
+    }
+  }
+  grid.innerHTML = html;
+}
+
+// --- LIGHTBOX ---
+function openLightbox(index) {
+  lightboxIndex = index;
+  renderLightbox();
+  document.getElementById('lightbox').classList.add('open');
+}
+
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('open');
+  lightboxIndex = -1;
+}
+
+function renderLightbox() {
+  const f = currentFiles[lightboxIndex];
+  if (!f) return;
+  const src = `/photos/${encodeURIComponent(currentFolder)}/${encodeURIComponent(f.name)}`;
+  const key = currentFolder + '/' + f.name;
+  const mark = marks[key] || '';
+  const faces = faceMap[key] || [];
+  const faceStr = faces.length > 0 ? `  •  👤 ${faces.join(', ')}` : '';
+  
+  let content = '';
+  if (f.type === 'photo') {
+    content = `<img src="${src}">`;
+  } else if (f.type === 'video') {
+    content = `<video src="${src}" controls autoplay style="max-width:90vw;max-height:80vh"></video>`;
+  } else {
+    content = `<div style="color:#888;font-size:18px">Cannot preview ${f.ext} files</div>`;
+  }
+  
+  document.getElementById('lbContent').innerHTML = content;
+  document.getElementById('lbInfo').textContent = `${f.name}  •  ${lightboxIndex + 1} / ${currentFiles.length}  •  ${(f.size_kb/1024).toFixed(1)}MB  •  ${f.type}${faceStr}`;
+  
+  document.getElementById('lbMark').className = mark === 'star' ? 'btn active' : 'btn';
+  document.getElementById('lbExclude').className = mark === 'exclude' ? 'btn active' : 'btn';
+}
+
+document.getElementById('lbClose').onclick = closeLightbox;
+document.getElementById('lbPrev').onclick = () => { if (lightboxIndex > 0) { lightboxIndex--; renderLightbox(); } };
+document.getElementById('lbNext').onclick = () => { if (lightboxIndex < currentFiles.length - 1) { lightboxIndex++; renderLightbox(); } };
+
+document.addEventListener('keydown', e => {
+  if (!document.getElementById('lightbox').classList.contains('open')) return;
+  if (e.key === 'Escape') closeLightbox();
+  if (e.key === 'ArrowLeft' && lightboxIndex > 0) { lightboxIndex--; renderLightbox(); }
+  if (e.key === 'ArrowRight' && lightboxIndex < currentFiles.length - 1) { lightboxIndex++; renderLightbox(); }
+  if (e.key === 's') { toggleMarkKey(lightboxIndex, 'star'); renderLightbox(); renderGrid(); }
+  if (e.key === 'x') { toggleMarkKey(lightboxIndex, 'exclude'); renderLightbox(); renderGrid(); }
+});
+
+// --- MARKING ---
+function toggleMark(event, index) {
+  event.preventDefault();
+  toggleMarkKey(index, 'star');
+  renderGrid();
+}
+
+function toggleMarkKey(index, type) {
+  const f = currentFiles[index];
+  const key = currentFolder + '/' + f.name;
+  if (marks[key] === type) {
+    delete marks[key];
+  } else {
+    marks[key] = type;
+  }
+  saveMarks();
+  updateStatus();
+}
+
+document.getElementById('lbMark').onclick = () => { toggleMarkKey(lightboxIndex, 'star'); renderLightbox(); renderGrid(); };
+document.getElementById('lbExclude').onclick = () => { toggleMarkKey(lightboxIndex, 'exclude'); renderLightbox(); renderGrid(); };
+
+document.getElementById('btnMark').onclick = () => {
+  // Open lightbox mark mode hint
+  document.getElementById('statusLeft').textContent = 'Right-click photos to mark ★ | Lightbox: S=star, X=exclude';
+};
+document.getElementById('btnExclude').onclick = () => {
+  document.getElementById('statusLeft').textContent = 'Right-click photos to mark ★ | Lightbox: S=star, X=exclude';
+};
+
+async function saveMarks() {
+  await fetch('/api/marks', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify(marks) });
+}
+
+// --- SLIDESHOW ---
+document.getElementById('btnPlay').onclick = startSlideshow;
+document.getElementById('btnStop').onclick = stopSlideshow;
+document.getElementById('btnPauseSS').onclick = () => {
+  slideshowPaused = !slideshowPaused;
+  document.getElementById('btnPauseSS').textContent = slideshowPaused ? '▶ Resume' : '⏸ Pause';
+};
+
+document.getElementById('speedSlider').oninput = (e) => {
+  document.getElementById('speedLabel').textContent = e.target.value + 's';
+};
+
+function startSlideshow() {
+  if (!currentFolder || currentFiles.length === 0) {
+    document.getElementById('statusLeft').textContent = 'Open a folder first to start slideshow';
+    return;
+  }
+  document.getElementById('slideshowBar').classList.add('active');
+  openLightbox(0);
+  advanceSlideshow();
+}
+
+function advanceSlideshow() {
+  if (slideshowTimer) clearTimeout(slideshowTimer);
+  const speed = parseInt(document.getElementById('speedSlider').value) * 1000;
+  
+  slideshowTimer = setTimeout(() => {
+    if (slideshowPaused) { advanceSlideshow(); return; }
+    if (lightboxIndex < currentFiles.length - 1) {
+      lightboxIndex++;
+      renderLightbox();
+      const pct = ((lightboxIndex + 1) / currentFiles.length * 100).toFixed(1);
+      document.getElementById('progressFill').style.width = pct + '%';
+      document.getElementById('slideInfo').textContent = `${lightboxIndex + 1} / ${currentFiles.length}`;
+      advanceSlideshow();
+    } else {
+      stopSlideshow();
+    }
+  }, speed);
+}
+
+function stopSlideshow() {
+  if (slideshowTimer) clearTimeout(slideshowTimer);
+  slideshowTimer = null;
+  slideshowPaused = false;
+  document.getElementById('slideshowBar').classList.remove('active');
+  document.getElementById('btnPauseSS').textContent = '⏸ Pause';
+  document.getElementById('progressFill').style.width = '0%';
+  closeLightbox();
+}
+
+// --- SIZE SLIDER ---
+document.getElementById('sizeSlider').oninput = () => {
+  if (currentFolder) renderGrid();
+  else showAllFolders();
+};
+
+// --- STATS ---
+document.getElementById('btnStats').onclick = () => {
+  const starred = Object.values(marks).filter(m => m === 'star').length;
+  const excluded = Object.values(marks).filter(m => m === 'exclude').length;
+  const total = folders.reduce((s,f) => s + f.total, 0);
+  alert(`Total files: ${total}\nStarred ★: ${starred}\nExcluded ✕: ${excluded}\nUnmarked: ${total - starred - excluded}`);
+};
+
+// --- STATUS ---
+function updateStatus() {
+  const starred = Object.values(marks).filter(m => m === 'star').length;
+  const excluded = Object.values(marks).filter(m => m === 'exclude').length;
+  const total = folders.reduce((s,f) => s + f.total, 0);
+  document.getElementById('statusLeft').textContent = currentFolder 
+    ? `${currentFolder} — ${currentFiles.length} files` 
+    : `${folders.length} folders — ${total} files`;
+  document.getElementById('statusRight').textContent = `★ ${starred} marked  •  ✕ ${excluded} excluded`;
+}
+
+init();
+</script>
+</body>
+</html>

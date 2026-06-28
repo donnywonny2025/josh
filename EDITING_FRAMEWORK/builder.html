@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Josh Memorial — Sequence Builder</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Inter',sans-serif; background:#0a0a0f; color:#e0e0e8; height:100vh; display:flex; flex-direction:column; overflow:hidden; }
+
+/* NAV */
+.nav { background:#111118; border-bottom:1px solid #222; padding:6px 16px; display:flex; align-items:center; gap:12px; flex-shrink:0; }
+.nav a { color:#888; text-decoration:none; font-size:12px; font-weight:500; padding:5px 12px; border-radius:6px; border:1px solid transparent; }
+.nav a:hover { color:#ccc; background:#1a1a22; }
+.nav a.active { color:#4a9eff; background:rgba(74,158,255,0.1); border-color:rgba(74,158,255,0.2); }
+.nav .title { font-size:14px; font-weight:700; color:#e0e0e8; margin-right:auto; }
+
+/* TOOLBAR */
+.toolbar { background:#0e0e15; border-bottom:1px solid #222; padding:8px 16px; display:flex; align-items:center; gap:12px; flex-shrink:0; }
+.toolbar select { background:#1a1a22; border:1px solid #333; color:#ccc; padding:5px 10px; border-radius:6px; font-family:inherit; font-size:12px; }
+.toolbar .btn { padding:5px 12px; border-radius:6px; border:1px solid #333; background:#1a1a22; color:#ccc; font-size:12px; cursor:pointer; font-family:inherit; }
+.toolbar .btn:hover { background:#252530; }
+.toolbar .btn.save { background:rgba(52,211,153,0.15); border-color:rgba(52,211,153,0.3); color:#34d399; }
+.toolbar .btn.save:hover { background:rgba(52,211,153,0.25); }
+.toolbar .btn.play { background:rgba(74,158,255,0.15); border-color:rgba(74,158,255,0.3); color:#4a9eff; }
+.toolbar .song-info { font-size:11px; color:#8b5cf6; margin-left:auto; }
+.toolbar .duration-info { font-size:11px; color:#888; }
+.toolbar label { font-size:11px; color:#888; }
+.toolbar input[type=number] { width:50px; background:#1a1a22; border:1px solid #333; color:#ccc; padding:4px 6px; border-radius:4px; font-family:inherit; font-size:12px; text-align:center; }
+
+
+.pool-item .face-badge { position:absolute; top:2px; left:2px; background:rgba(74,158,255,0.85); color:#fff; font-size:8px; font-weight:600; padding:1px 4px; border-radius:3px; z-index:2; max-width:90%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+
+/* MAIN */
+.main { display:flex; flex:1; overflow:hidden; }
+
+/* PHOTO POOL */
+.pool { width:280px; background:#0e0e15; border-right:1px solid #222; display:flex; flex-direction:column; flex-shrink:0; }
+.pool-header { padding:8px 12px; border-bottom:1px solid #222; display:flex; align-items:center; gap:8px; }
+.pool-header select { flex:1; background:#1a1a22; border:1px solid #333; color:#ccc; padding:4px 8px; border-radius:4px; font-size:11px; font-family:inherit; }
+.pool-header .btn { padding:3px 8px; font-size:11px; border-radius:4px; border:1px solid #333; background:#1a1a22; color:#ccc; cursor:pointer; }
+.pool-header .btn:hover { background:#252530; }
+.pool-grid { flex:1; overflow-y:auto; padding:4px; display:grid; grid-template-columns:repeat(2,1fr); gap:4px; align-content:start; }
+.pool-item { position:relative; aspect-ratio:1; border-radius:4px; overflow:hidden; cursor:pointer; border:2px solid transparent; transition:all 0.15s; }
+.pool-item:hover { border-color:#4a9eff; }
+.pool-item.in-seq { opacity:0.4; }
+.pool-item.in-seq::after { content:'✓'; position:absolute; top:2px; right:4px; color:#34d399; font-size:12px; font-weight:700; }
+.pool-item img { width:100%; height:100%; object-fit:cover; }
+.pool-item .name { position:absolute; bottom:0; left:0; right:0; font-size:8px; color:#aaa; background:linear-gradient(transparent, rgba(0,0,0,0.8)); padding:8px 3px 2px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+
+/* SEQUENCE TIMELINE */
+.timeline { flex:1; display:flex; flex-direction:column; overflow:hidden; }
+.timeline-header { padding:8px 12px; border-bottom:1px solid #222; font-size:12px; color:#888; display:flex; justify-content:space-between; }
+.timeline-list { flex:1; overflow-y:auto; padding:4px 8px; }
+.slide-row { display:flex; align-items:center; gap:8px; padding:6px 8px; border-radius:6px; margin-bottom:2px; background:#111118; border:1px solid transparent; cursor:default; transition:all 0.15s; }
+.slide-row:hover { background:#15151f; border-color:#333; }
+.slide-row.selected { background:rgba(74,158,255,0.08); border-color:rgba(74,158,255,0.3); }
+.slide-row.dragging { opacity:0.5; }
+.slide-row .num { font-size:11px; color:#555; font-weight:700; min-width:24px; text-align:center; }
+.slide-row .thumb { width:48px; height:48px; border-radius:4px; overflow:hidden; flex-shrink:0; }
+.slide-row .thumb img { width:100%; height:100%; object-fit:cover; }
+.slide-row .info { flex:1; min-width:0; }
+.slide-row .info .filename { font-size:12px; font-weight:500; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.slide-row .info .folder { font-size:10px; color:#555; }
+.slide-row .dur-input { width:40px; background:#1a1a22; border:1px solid #333; color:#ccc; padding:3px 4px; border-radius:4px; font-size:11px; text-align:center; font-family:inherit; }
+.slide-row .dur-label { font-size:10px; color:#555; }
+.slide-row .actions { display:flex; gap:2px; }
+.slide-row .actions button { background:none; border:none; color:#555; cursor:pointer; font-size:14px; padding:2px 4px; border-radius:3px; }
+.slide-row .actions button:hover { color:#ccc; background:#222; }
+.slide-row .actions .remove:hover { color:#f43f5e; }
+
+/* PREVIEW PANEL */
+.preview { width:320px; background:#0a0a0f; border-left:1px solid #222; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:12px; flex-shrink:0; }
+.preview img { max-width:100%; max-height:100%; object-fit:contain; border-radius:4px; }
+.preview .label { font-size:11px; color:#555; margin-top:8px; text-align:center; }
+
+/* EMPTY */
+.empty-msg { display:flex; flex-direction:column; align-items:center; justify-content:center; height:100%; color:#444; }
+.empty-msg .icon { font-size:36px; margin-bottom:8px; }
+.empty-msg .text { font-size:13px; }
+
+/* STATUS */
+.statusbar { background:#0e0e15; border-top:1px solid #222; padding:4px 16px; font-size:11px; color:#555; display:flex; justify-content:space-between; flex-shrink:0; }
+</style>
+</head>
+<body>
+
+<div class="nav">
+  <span class="title">📸 Josh Memorial</span>
+  <a href="/">Browser</a>
+  <a href="/builder" class="active">Builder</a>
+  <a href="/player">Player</a>
+</div>
+
+<div class="toolbar">
+  <label>Section:</label>
+  <select id="sectionSelect"></select>
+  <button class="btn" id="btnNew">+ New Sequence</button>
+  <button class="btn" id="btnLoad">Load</button>
+  <button class="btn save" id="btnSave">💾 Save</button>
+  <label style="margin-left:16px">Default Duration:</label>
+  <input type="number" id="defaultDur" value="5" min="1" max="30">
+  <span style="font-size:11px;color:#555">sec</span>
+  <button class="btn play" id="btnPreview">▶ Preview</button>
+  <button class="btn" id="btnPlayer">Open in Player</button>
+  <div class="song-info" id="songInfo"></div>
+  <div class="duration-info" id="durationInfo"></div>
+</div>
+
+<div class="main">
+  <!-- Photo Pool -->
+  <div class="pool">
+    <div class="pool-header">
+      <select id="poolFolder"></select>
+      <button class="btn" id="btnAddAll" title="Add all photos from this folder">+ All</button>
+    </div>
+    <div class="pool-grid" id="poolGrid"></div>
+  </div>
+
+  <!-- Sequence Timeline -->
+  <div class="timeline">
+    <div class="timeline-header">
+      <span id="timelineTitle">Sequence</span>
+      <span id="timelineStats"></span>
+    </div>
+    <div class="timeline-list" id="timelineList"></div>
+  </div>
+
+  <!-- Preview Panel -->
+  <div class="preview" id="previewPanel">
+    <div class="empty-msg"><div class="icon">👁</div><div class="text">Hover a slide to preview</div></div>
+  </div>
+</div>
+
+<div class="statusbar">
+  <span id="statusLeft">Ready</span>
+  <span id="statusRight"></span>
+</div>
+
+<script>
+// --- STATE ---
+let folders = [];
+let masterData = null;
+let poolFiles = [];
+let currentPoolFolder = null;
+let sequence = { name:'', section_id:'', song:null, default_duration_sec:5, transition:'crossfade', transition_duration_sec:1, slides:[] };
+let selectedSlideIndex = -1;
+let savedSequences = [];
+let faceClusters = null;
+let faceLabels = {};
+let faceMap = {};
+
+// --- INIT ---
+async function init() {
+  const [fResp, mResp, sResp, cResp, lResp] = await Promise.all([
+    fetch('/api/folders').then(r=>r.json()),
+    fetch('/api/master').then(r=>r.json()),
+    fetch('/api/sequences').then(r=>r.json()),
+    fetch('/data/face_data/face_clusters.json').then(r => r.ok ? r.json() : null).catch(()=>null),
+    fetch('/api/face-labels').then(r => r.ok ? r.json() : {}).catch(()=>({}))
+  ]);
+  folders = fResp;
+  masterData = mResp;
+  savedSequences = sResp;
+  faceClusters = cResp;
+  faceLabels = lResp;
+  buildFaceMap();
+  
+  populateSectionSelect();
+  populatePoolFolderSelect();
+  updateStatus();
+}
+
+function buildFaceMap() {
+  faceMap = {};
+  if (!faceClusters || !faceClusters.clusters) return;
+  for (const c of faceClusters.clusters) {
+    let label = faceLabels[c.person_id] || c.label;
+    if (label.startsWith("Unknown")) continue;
+    for (const p of c.photos) {
+      const key = p.folder + '/' + p.file;
+      if (!faceMap[key]) faceMap[key] = [];
+      if (!faceMap[key].includes(label)) faceMap[key].push(label);
+    }
+  }
+}
+
+function populateSectionSelect() {
+  const sel = document.getElementById('sectionSelect');
+  sel.innerHTML = '<option value="">— Select Section —</option>';
+  if (masterData?.sections) {
+    for (const sec of masterData.sections.sort((a,b) => a.order - b.order)) {
+      const saved = savedSequences.find(s => s.section_id === sec.id);
+      const label = saved ? `${sec.name} (${saved.slides} slides)` : sec.name;
+      sel.innerHTML += `<option value="${sec.id}">${label}</option>`;
+    }
+  }
+  sel.innerHTML += '<option value="__custom">Custom Sequence...</option>';
+}
+
+function populatePoolFolderSelect() {
+  const sel = document.getElementById('poolFolder');
+  sel.innerHTML = '';
+  for (const f of folders) {
+    sel.innerHTML += `<option value="${f.name}">${f.name} (${f.total})</option>`;
+  }
+  if (folders.length > 0) {
+    loadPoolFolder(folders[0].name);
+  }
+  sel.onchange = () => loadPoolFolder(sel.value);
+}
+
+// --- SECTION SELECT ---
+document.getElementById('sectionSelect').onchange = async function() {
+  const secId = this.value;
+  if (!secId || secId === '__custom') return;
+  
+  const sec = masterData.sections.find(s => s.id === secId);
+  if (!sec) return;
+  
+  // Try to load saved sequence
+  try {
+    const resp = await fetch(`/api/sequences/${secId}`);
+    if (resp.ok) {
+      sequence = await resp.json();
+      document.getElementById('defaultDur').value = sequence.default_duration_sec || 5;
+    } else {
+      // Create new sequence for this section
+      const song = sec.song_num ? masterData.songs.find(s => s.num === sec.song_num) : null;
+      sequence = {
+        name: sec.name,
+        section_id: sec.id,
+        song: song ? { num:song.num, title:song.title, artist:song.artist, duration:song.duration } : null,
+        default_duration_sec: parseInt(document.getElementById('defaultDur').value) || 5,
+        transition: 'crossfade',
+        transition_duration_sec: 1,
+        slides: []
+      };
+    }
+  } catch(e) {
+    sequence = { name:sec.name, section_id:secId, song:null, default_duration_sec:5, transition:'crossfade', transition_duration_sec:1, slides:[] };
+  }
+  
+  // Switch pool to matching folder
+  const poolSel = document.getElementById('poolFolder');
+  for (let i = 0; i < poolSel.options.length; i++) {
+    if (poolSel.options[i].value === sec.folder) {
+      poolSel.selectedIndex = i;
+      loadPoolFolder(sec.folder);
+      break;
+    }
+  }
+  
+  updateSongInfo();
+  renderTimeline();
+  renderPool();
+  updateStatus();
+};
+
+// --- POOL ---
+async function loadPoolFolder(name) {
+  currentPoolFolder = name;
+  const resp = await fetch('/api/photos/' + encodeURIComponent(name));
+  poolFiles = await resp.json();
+  renderPool();
+}
+
+function renderPool() {
+  const grid = document.getElementById('poolGrid');
+  const inSeq = new Set(sequence.slides.map(s => s.folder + '/' + s.file));
+  
+  let html = '';
+  for (const f of poolFiles) {
+    if (f.type !== 'photo' && f.type !== 'video') continue;
+    const key = currentPoolFolder + '/' + f.name;
+    const cls = inSeq.has(key) ? 'pool-item in-seq' : 'pool-item';
+    const faces = faceMap[key] || [];
+    const faceBadge = faces.length > 0 ? `<div class="face-badge">👤 ${faces.join(', ')}</div>` : '';
+    const src = `/photos/${encodeURIComponent(currentPoolFolder)}/${encodeURIComponent(f.name)}`;
+    
+    if (f.type === 'photo') {
+      html += `<div class="${cls}" onclick="addSlide('${currentPoolFolder.replace(/'/g,"\\'")}','${f.name.replace(/'/g,"\\'")}')" 
+        onmouseenter="showPreview('${src.replace(/'/g,"\\'")}','${f.name.replace(/'/g,"\\'")}', '${key.replace(/'/g,"\\'")}')">
+        <img loading="lazy" src="${src}">${faceBadge}<div class="name">${f.name}</div></div>`;
+    } else if (f.type === 'video') {
+      html += `<div class="${cls}" onclick="addSlide('${currentPoolFolder.replace(/'/g,"\\'")}','${f.name.replace(/'/g,"\\'")}')"
+        onmouseenter="showPreview('${src.replace(/'/g,"\\'")}','${f.name.replace(/'/g,"\\'")}', '${key.replace(/'/g,"\\'")}')">
+        <video muted preload="metadata" src="${src}#t=1" style="width:100%;height:100%;object-fit:cover"></video>
+        ${faceBadge}<div class="name">🎬 ${f.name}</div></div>`;
+    }
+  }
+  grid.innerHTML = html || '<div class="empty-msg"><div class="text">No photos</div></div>';
+}
+
+// --- ADD SLIDES ---
+function addSlide(folder, file) {
+  // Don't add duplicates
+  if (sequence.slides.some(s => s.folder === folder && s.file === file)) return;
+  sequence.slides.push({
+    folder, file,
+    duration_sec: parseInt(document.getElementById('defaultDur').value) || 5,
+    transition: 'crossfade'
+  });
+  renderTimeline();
+  renderPool();
+  updateStatus();
+}
+
+document.getElementById('btnAddAll').onclick = () => {
+  const dur = parseInt(document.getElementById('defaultDur').value) || 5;
+  let added = 0;
+  for (const f of poolFiles) {
+    if (f.type !== 'photo' && f.type !== 'video') continue;
+    if (sequence.slides.some(s => s.folder === currentPoolFolder && s.file === f.name)) continue;
+    sequence.slides.push({ folder: currentPoolFolder, file: f.name, duration_sec: dur, transition: 'crossfade' });
+    added++;
+  }
+  renderTimeline();
+  renderPool();
+  updateStatus();
+  document.getElementById('statusLeft').textContent = `Added ${added} slides from ${currentPoolFolder}`;
+};
+
+// --- TIMELINE ---
+function renderTimeline() {
+  const list = document.getElementById('timelineList');
+  
+  if (sequence.slides.length === 0) {
+    list.innerHTML = '<div class="empty-msg"><div class="icon">📋</div><div class="text">No slides yet. Click photos on the left to add them.</div></div>';
+    updateTimelineStats();
+    return;
+  }
+  
+  let html = '';
+  for (let i = 0; i < sequence.slides.length; i++) {
+    const s = sequence.slides[i];
+    const src = `/photos/${encodeURIComponent(s.folder)}/${encodeURIComponent(s.file)}`;
+    const cls = i === selectedSlideIndex ? 'slide-row selected' : 'slide-row';
+    html += `<div class="${cls}" data-index="${i}" onclick="selectSlide(${i})"
+      onmouseenter="showPreview('${src.replace(/'/g,"\\'")}','${s.file.replace(/'/g,"\\'")}', '${s.folder.replace(/'/g,"\\'") + '/' + s.file.replace(/'/g,"\\'")}')"
+      draggable="true" ondragstart="dragStart(event,${i})" ondragover="dragOver(event)" ondrop="dropSlide(event,${i})">
+      <span class="num">${i+1}</span>
+      <div class="thumb"><img loading="lazy" src="${src}"></div>
+      <div class="info">
+        <div class="filename">${s.file}</div>
+        <div class="folder">${s.folder}</div>
+      </div>
+      <input class="dur-input" type="number" value="${s.duration_sec}" min="1" max="60" 
+        onclick="event.stopPropagation()" onchange="updateSlideDur(${i}, this.value)">
+      <span class="dur-label">sec</span>
+      <div class="actions">
+        <button onclick="event.stopPropagation();moveSlide(${i},-1)" title="Move up">▲</button>
+        <button onclick="event.stopPropagation();moveSlide(${i},1)" title="Move down">▼</button>
+        <button class="remove" onclick="event.stopPropagation();removeSlide(${i})" title="Remove">✕</button>
+      </div>
+    </div>`;
+  }
+  list.innerHTML = html;
+  updateTimelineStats();
+}
+
+function updateTimelineStats() {
+  const total = sequence.slides.length;
+  const totalSec = sequence.slides.reduce((s, sl) => s + (sl.duration_sec || 5), 0);
+  const min = Math.floor(totalSec / 60);
+  const sec = totalSec % 60;
+  document.getElementById('timelineStats').textContent = `${total} slides • ${min}:${sec.toString().padStart(2,'0')}`;
+  
+  // Compare to song duration
+  const song = sequence.song;
+  if (song?.duration) {
+    const parts = song.duration.split(':');
+    const songSec = parseInt(parts[0]) * 60 + parseInt(parts[1]);
+    const diff = totalSec - songSec;
+    const diffStr = diff > 0 ? `+${diff}s over` : diff < 0 ? `${Math.abs(diff)}s under` : 'exact match';
+    document.getElementById('durationInfo').textContent = `Sequence: ${min}:${sec.toString().padStart(2,'0')} / Song: ${song.duration} (${diffStr})`;
+  } else {
+    document.getElementById('durationInfo').textContent = `Total: ${min}:${sec.toString().padStart(2,'0')}`;
+  }
+}
+
+function selectSlide(i) {
+  selectedSlideIndex = i;
+  renderTimeline();
+  const s = sequence.slides[i];
+  showPreview(`/photos/${encodeURIComponent(s.folder)}/${encodeURIComponent(s.file)}`, s.file, s.folder + '/' + s.file);
+}
+
+function moveSlide(i, dir) {
+  const newI = i + dir;
+  if (newI < 0 || newI >= sequence.slides.length) return;
+  [sequence.slides[i], sequence.slides[newI]] = [sequence.slides[newI], sequence.slides[i]];
+  if (selectedSlideIndex === i) selectedSlideIndex = newI;
+  renderTimeline();
+}
+
+function removeSlide(i) {
+  sequence.slides.splice(i, 1);
+  if (selectedSlideIndex >= sequence.slides.length) selectedSlideIndex = sequence.slides.length - 1;
+  renderTimeline();
+  renderPool();
+  updateStatus();
+}
+
+function updateSlideDur(i, val) {
+  sequence.slides[i].duration_sec = parseInt(val) || 5;
+  updateTimelineStats();
+}
+
+// --- DRAG AND DROP ---
+let dragIndex = -1;
+function dragStart(e, i) { dragIndex = i; e.dataTransfer.effectAllowed = 'move'; }
+function dragOver(e) { e.preventDefault(); e.dataTransfer.dropEffect = 'move'; }
+function dropSlide(e, targetI) {
+  e.preventDefault();
+  if (dragIndex === targetI) return;
+  const [item] = sequence.slides.splice(dragIndex, 1);
+  sequence.slides.splice(targetI, 0, item);
+  selectedSlideIndex = targetI;
+  renderTimeline();
+  dragIndex = -1;
+}
+
+// --- PREVIEW ---
+function showPreview(src, name, key) {
+  const faces = key && faceMap[key] ? faceMap[key] : [];
+  const faceStr = faces.length > 0 ? `<br><span style="color:#4a9eff">👤 ${faces.join(', ')}</span>` : '';
+  document.getElementById('previewPanel').innerHTML = `<img src="${src}"><div class="label">${name}${faceStr}</div>`;
+}
+
+// --- SONG INFO ---
+function updateSongInfo() {
+  const el = document.getElementById('songInfo');
+  if (sequence.song) {
+    el.textContent = `♫ ${sequence.song.title} — ${sequence.song.artist} (${sequence.song.duration})`;
+  } else {
+    el.textContent = 'No song assigned';
+  }
+}
+
+// --- SAVE ---
+document.getElementById('btnSave').onclick = async () => {
+  if (!sequence.section_id) {
+    document.getElementById('statusLeft').textContent = 'Select a section first';
+    return;
+  }
+  sequence.default_duration_sec = parseInt(document.getElementById('defaultDur').value) || 5;
+  const resp = await fetch(`/api/sequences/${sequence.section_id}`, {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify(sequence)
+  });
+  const result = await resp.json();
+  document.getElementById('statusLeft').textContent = result.ok ? `✓ Saved "${sequence.name}" (${sequence.slides.length} slides)` : 'Save failed';
+};
+
+// --- LOAD ---
+document.getElementById('btnLoad').onclick = async () => {
+  const secId = document.getElementById('sectionSelect').value;
+  if (!secId) return;
+  document.getElementById('sectionSelect').dispatchEvent(new Event('change'));
+};
+
+// --- DEFAULT DURATION ---
+document.getElementById('defaultDur').onchange = function() {
+  sequence.default_duration_sec = parseInt(this.value) || 5;
+};
+
+// --- PREVIEW PLAYBACK ---
+document.getElementById('btnPreview').onclick = () => {
+  if (sequence.slides.length === 0) return;
+  if (!sequence.section_id) {
+    document.getElementById('statusLeft').textContent = 'Save first, then open in Player';
+    return;
+  }
+  window.open(`/player?seq=${sequence.section_id}`, '_blank');
+};
+
+document.getElementById('btnPlayer').onclick = () => {
+  if (sequence.section_id) {
+    window.open(`/player?seq=${sequence.section_id}`, '_blank');
+  }
+};
+
+// --- KEYBOARD ---
+document.addEventListener('keydown', e => {
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return;
+  if (e.key === 'Delete' || e.key === 'Backspace') {
+    if (selectedSlideIndex >= 0) { e.preventDefault(); removeSlide(selectedSlideIndex); }
+  }
+  if (e.key === 'ArrowUp' && selectedSlideIndex > 0) { e.preventDefault(); moveSlide(selectedSlideIndex, -1); }
+  if (e.key === 'ArrowDown' && selectedSlideIndex < sequence.slides.length - 1) { e.preventDefault(); moveSlide(selectedSlideIndex, 1); }
+});
+
+function updateStatus() {
+  const total = sequence.slides.length;
+  document.getElementById('statusLeft').textContent = sequence.name ? `Editing: ${sequence.name}` : 'Select a section to begin';
+  document.getElementById('statusRight').textContent = `${total} slides in sequence`;
+}
+
+init();
+</script>
+</body>
+</html>

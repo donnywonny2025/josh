@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Media & Large Files
+Photos/
+Music/
+Exports/
+Graphics/
+Premiere/
+.tmp/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+
+# App Data
+EDITING_FRAMEWORK/face_data/crops/
+EDITING_FRAMEWORK/face_data/face_encodings.json

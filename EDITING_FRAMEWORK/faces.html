@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Josh Memorial — Face ID</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Inter',sans-serif; background:#0a0a0f; color:#e0e0e8; min-height:100vh; }
+
+.nav { background:#111118; border-bottom:1px solid #222; padding:6px 16px; display:flex; align-items:center; gap:12px; position:sticky; top:0; z-index:10; }
+.nav a { color:#888; text-decoration:none; font-size:12px; font-weight:500; padding:5px 12px; border-radius:6px; border:1px solid transparent; }
+.nav a:hover { color:#ccc; background:#1a1a22; }
+.nav a.active { color:#f59e0b; background:rgba(245,158,11,0.1); border-color:rgba(245,158,11,0.2); }
+.nav .title { font-size:14px; font-weight:700; color:#e0e0e8; margin-right:auto; }
+
+.header { padding:24px 32px 16px; text-align:center; }
+.header h2 { font-size:20px; font-weight:700; margin-bottom:4px; }
+.header p { font-size:13px; color:#888; }
+
+.search-container { padding: 0 32px 16px; display: flex; justify-content: center; }
+.search-input { width: 100%; max-width: 500px; padding: 10px 16px; border-radius: 8px; border: 1px solid #333; background: #1a1a22; color: #e0e0e8; font-size: 14px; }
+.search-input:focus { border-color: #4a9eff; outline: none; }
+
+.grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:16px; padding:0 32px 80px; }
+
+.card { background:#111118; border:1px solid #222; border-radius:12px; overflow:hidden; transition:all 0.2s; display:flex; flex-direction:column; }
+.card:hover { border-color:#444; }
+.card .face-row { display:flex; align-items:center; gap:12px; padding:16px; cursor:pointer; }
+.card .face-row:hover { background: #151520; }
+.card .face-img { width:100px; height:100px; border-radius:8px; object-fit:cover; border:2px solid #333; flex-shrink:0; }
+.card .face-info { flex:1; }
+.card .person-num { font-size:24px; font-weight:800; color:#4a9eff; }
+.card .photo-count { font-size:12px; color:#888; margin-top:2px; }
+.card .folders { font-size:10px; color:#555; margin-top:4px; }
+
+.card .label-row { padding:0 16px 12px; display:flex; gap:6px; }
+.card .label-input { flex:1; background:#1a1a22; border:1px solid #333; color:#e0e0e8; padding:6px 10px; border-radius:6px; font-size:13px; font-family:inherit; }
+.card .label-input:focus { border-color:#4a9eff; outline:none; }
+.card .label-input.saved { border-color:#34d399; }
+
+.card .sample-photos { padding:0 12px 12px; display:flex; gap:4px; flex-wrap:wrap; }
+.card .sample-photos img { width:56px; height:56px; object-fit:cover; border-radius:4px; cursor:pointer; border:1px solid #333; }
+.card .sample-photos img:hover { border-color:#4a9eff; }
+
+.save-bar { position:fixed; bottom:0; left:0; right:0; background:#111118; border-top:1px solid #222; padding:12px 32px; display:flex; align-items:center; justify-content:space-between; z-index:10; }
+.save-bar .btn { padding:8px 20px; border-radius:8px; border:1px solid #333; background:#1a1a22; color:#ccc; font-size:13px; cursor:pointer; font-family:inherit; }
+.save-bar .btn:hover { background:#252530; }
+.save-bar .btn.save { background:rgba(52,211,153,0.15); border-color:rgba(52,211,153,0.3); color:#34d399; font-weight:600; }
+.save-bar .btn.save:hover { background:rgba(52,211,153,0.25); }
+.save-bar .status { font-size:12px; color:#888; }
+
+/* Lightbox */
+.lightbox { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.9); z-index:200; align-items:center; justify-content:center; cursor:pointer; }
+.lightbox.show { display:flex; }
+.lightbox img { max-width:90%; max-height:90%; object-fit:contain; border-radius:8px; }
+.lightbox .info { position:absolute; bottom:20px; color:#aaa; font-size:12px; }
+
+/* Full Gallery Modal */
+.gallery-modal { display:none; position:fixed; inset:0; background:rgba(10,10,15,0.98); z-index:100; overflow-y:auto; padding:32px; }
+.gallery-modal.show { display:block; }
+.gallery-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:24px; border-bottom:1px solid #333; padding-bottom:16px; }
+.gallery-header h3 { font-size:24px; color:#e0e0e8; }
+.gallery-close { background:none; border:none; color:#888; font-size:32px; cursor:pointer; }
+.gallery-close:hover { color:#fff; }
+.gallery-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(150px, 1fr)); gap:12px; }
+.gallery-grid img { width:100%; height:150px; object-fit:cover; border-radius:8px; cursor:pointer; border:1px solid #333; }
+.gallery-grid img:hover { border-color:#4a9eff; }
+</style>
+</head>
+<body>
+
+<div class="nav">
+  <span class="title">📸 Josh Memorial</span>
+  <a href="/">Browser</a>
+  <a href="/builder">Builder</a>
+  <a href="/player">Player</a>
+  <a href="/faces" class="active">Face ID</a>
+</div>
+
+<div class="header">
+  <h2>👤 Who Is Who?</h2>
+  <p>921 faces detected • 177 unique people • Type a name next to each face to identify them</p>
+</div>
+
+<div class="search-container">
+  <input type="text" id="searchInput" class="search-input" placeholder="Search by name or ID (e.g., Josh or #12)..." oninput="filterGrid()">
+</div>
+
+<div class="grid" id="grid"></div>
+
+<div class="save-bar">
+  <span class="status" id="status">Ready — type names and click Save</span>
+  <button class="btn save" onclick="saveLabels()">💾 Save All Labels</button>
+</div>
+
+<div class="gallery-modal" id="galleryModal">
+    <div class="gallery-header">
+        <h3 id="galleryTitle">Person Gallery</h3>
+        <button class="gallery-close" onclick="closeGallery()">&times;</button>
+    </div>
+    <div class="gallery-grid" id="galleryGrid"></div>
+</div>
+
+<div class="lightbox" id="lightbox" onclick="this.classList.remove('show')">
+  <img id="lightboxImg">
+  <div class="info" id="lightboxInfo"></div>
+</div>
+
+<script>
+let clusterData = null;
+
+async function init() {
+  const resp = await fetch('/data/face_data/face_clusters.json');
+  clusterData = await resp.json();
+  renderGrid();
+  startPolling();
+}
+
+function renderGrid() {
+  const grid = document.getElementById('grid');
+  let html = '';
+  
+  // Show top 50 clusters (people appearing in 2+ photos)
+  const clusters = clusterData.clusters.filter(c => c.photo_count >= 2).slice(0, 50);
+  
+  for (const c of clusters) {
+    const cropSrc = `/data/face_data/crops/${c.representative_crop}`;
+    
+    // Get unique folders this person appears in
+    const folders = [...new Set(c.photos.map(p => p.folder))];
+    const folderStr = folders.slice(0, 3).join(', ') + (folders.length > 3 ? ` +${folders.length-3} more` : '');
+    
+    // Get sample photos (up to 4)
+    const samples = c.photos.slice(0, 4);
+    
+    html += `<div class="card" data-person-id="${c.person_id}">
+      <div class="face-row" onclick="openGallery('${c.person_id}')" title="Click to view all photos">
+        <img class="face-img" src="${cropSrc}" alt="Person ${c.person_id}">
+        <div class="face-info">
+          <div class="person-num">#${c.person_id}</div>
+          <div class="photo-count">Appears in <strong>${c.photo_count}</strong> photos</div>
+          <div class="folders">${folderStr}</div>
+        </div>
+      </div>
+      <div class="label-row">
+        <input class="label-input" type="text" placeholder="Type name here..." 
+          value="${c.label.startsWith('Unknown') ? '' : c.label}"
+          data-person-id="${c.person_id}" oninput="this.classList.remove('saved')">
+      </div>
+      <div class="sample-photos">
+        ${samples.map(s => {
+          const src = `/photos/${encodeURIComponent(s.folder)}/${encodeURIComponent(s.file)}`;
+          return `<img src="${src}" loading="lazy" onclick="event.stopPropagation();showLightbox('${src.replace(/'/g,"\\'")}','${s.folder}/${s.file}')" title="${s.file}">`;
+        }).join('')}
+      </div>
+    </div>`;
+  }
+  
+  grid.innerHTML = html;
+}
+
+function filterGrid() {
+    const q = document.getElementById('searchInput').value.toLowerCase();
+    const cards = document.querySelectorAll('.card');
+    cards.forEach(card => {
+        const id = card.dataset.personId;
+        const nameInput = card.querySelector('.label-input');
+        const name = nameInput ? nameInput.value.toLowerCase() : '';
+        if (id.includes(q) || name.includes(q) || `#${id}`.includes(q)) {
+            card.style.display = 'flex';
+        } else {
+            card.style.display = 'none';
+        }
+    });
+}
+
+function openGallery(personId) {
+    const c = clusterData.clusters.find(x => x.person_id == personId);
+    if (!c) return;
+    
+    const input = document.querySelector(`.label-input[data-person-id="${personId}"]`);
+    const name = input && input.value ? input.value : '';
+    
+    document.getElementById('galleryTitle').textContent = name ? `Person #${c.person_id}: ${name}` : `Person #${c.person_id}`;
+    
+    let ghtml = '';
+    for (const s of c.photos) {
+        const src = `/photos/${encodeURIComponent(s.folder)}/${encodeURIComponent(s.file)}`;
+        ghtml += `<img src="${src}" loading="lazy" onclick="event.stopPropagation();showLightbox('${src.replace(/'/g,"\\'")}','${s.folder}/${s.file}')" title="${s.file}">`;
+    }
+    document.getElementById('galleryGrid').innerHTML = ghtml;
+    document.getElementById('galleryModal').classList.add('show');
+}
+
+function closeGallery() {
+    document.getElementById('galleryModal').classList.remove('show');
+}
+
+function showLightbox(src, info) {
+  document.getElementById('lightboxImg').src = src;
+  document.getElementById('lightboxInfo').textContent = info;
+  document.getElementById('lightbox').classList.add('show');
+}
+
+async function saveLabels() {
+  const inputs = document.querySelectorAll('.label-input');
+  const labels = {};
+  inputs.forEach(inp => {
+    const pid = inp.dataset.personId;
+    const name = inp.value.trim();
+    if (name) {
+      labels[pid] = name;
+      inp.classList.add('saved');
+    }
+  });
+  
+  for (const c of clusterData.clusters) {
+    if (labels[c.person_id]) {
+      c.label = labels[c.person_id];
+    }
+  }
+  
+  const resp = await fetch('/api/face-labels', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({ labels, full_data: clusterData })
+  });
+  
+  const result = await resp.json();
+  document.getElementById('status').textContent = result.ok 
+    ? `✓ Saved ${Object.keys(labels).length} labels at ${new Date().toLocaleTimeString()}` 
+    : 'Save failed';
+}
+
+function startPolling() {
+    setInterval(async () => {
+        try {
+            const resp = await fetch('/api/face-labels');
+            if (!resp.ok) return;
+            const labels = await resp.json();
+            let changed = false;
+            
+            const inputs = document.querySelectorAll('.label-input');
+            inputs.forEach(inp => {
+                const pid = inp.dataset.personId;
+                if (labels[pid] !== undefined && labels[pid] !== '') {
+                    if (inp.value !== labels[pid]) {
+                        inp.value = labels[pid];
+                        inp.classList.add('saved');
+                        changed = true;
+                    }
+                }
+            });
+            
+            if (changed) {
+                filterGrid();
+                document.getElementById('status').textContent = `✓ Auto-synced labels at ${new Date().toLocaleTimeString()}`;
+            }
+        } catch(e) {
+            console.error("Poll error", e);
+        }
+    }, 2000);
+}
+
+init();
+</script>
+</body>
+</html>
