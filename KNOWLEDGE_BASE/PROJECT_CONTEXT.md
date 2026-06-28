@@ -3,6 +3,36 @@
 ## Overview
 Memorial tribute project for Josh, Jeff's brother-in-law. Josh passed in 2026. He was a close, integral member of the family.
 
+### Immediate Family Structure
+- **Parents:** Dennis Burns and Phyllis Dowell
+- **Siblings:** Ben Burns (older brother - Deceased) and Natalie Burns (sister)
+- **Grandparents:** "Grandma Number Two" (Dennis's mother / Josh's paternal grandmother), Grandpa Burns (Paternal Grandfather)
+- **Extended Family:** Uncle Mike, Aunt Kristina, Cousin Sarah, Cousin Faith, Cousin Lindsay, Cousin Joe, Cousin Kyle (Deceased)
+- **Friends:** Collin Mekan, Liz
+- **Other:** Marcy (Ben Burns' widow, remarried)
+
+### Identified Faces (Face ID Tracker)
+The following individuals have been visually tagged and correlated into the `SORTED_BY_PERSON` directory:
+- **Josh Burns** (Including specific variants: *Josh (1998)* and *Josh (with mud on face)*)
+- **Dennis Burns** (Father)
+- **Phyllis Dowell** (Mother)
+- **Ben Burns** (Brother - Deceased, also *Ben Burns (child)*)
+- **Natalie Burns** (Sister)
+- **Grandparents:** "Grandma Number Two", Grandpa Burns
+- **Linsey Kerr**
+- **Cousin Sarah**
+- **Cousin Faith**
+- **Uncle Mike**
+- **Aunt Kristina**
+- **Cousin Lindsay** (Spelled with a D)
+- **Cousin Joe**
+- **Collin Mekan** (Friend)
+- **Liz** (Family Friend)
+- **Marcy** (Ben's widow)
+- **Wes**
+- **Cousin Kyle** (Deceased)
+- **Lisa Burr**
+
 ## Deliverables
 
 ### 1. Event Video

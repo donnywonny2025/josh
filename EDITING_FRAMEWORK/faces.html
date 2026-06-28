@@ -122,8 +122,8 @@ function renderGrid() {
   const grid = document.getElementById('grid');
   let html = '';
   
-  // Show top 50 clusters (people appearing in 2+ photos)
-  const clusters = clusterData.clusters.filter(c => c.photo_count >= 2).slice(0, 50);
+  // Show all valid clusters (people appearing in 2+ photos)
+  const clusters = clusterData.clusters.filter(c => c.photo_count >= 2);
   
   for (const c of clusters) {
     const cropSrc = `/data/face_data/crops/${c.representative_crop}`;
