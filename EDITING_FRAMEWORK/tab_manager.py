@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 Josh Memorial — Tab Management System
-Enforces the One-Tab Rule and kills stale about:blank tabs securely via Browser Harness CDP.
+Enforces the Context-Aware Multi-Tab Rule: "One Unique Instance per App"
+Kills stale about:blank tabs and deduplicates tabs based on their base URL.
 """
 
 import subprocess
@@ -9,6 +10,7 @@ import sys
 
 SCRIPT = """
 import sys
+from urllib.parse import urlparse
 
 tabs = list_tabs()
 closed = 0
@@ -24,17 +26,22 @@ for tab in tabs:
         closed += 1
         continue
         
-    base = url.split('?')[0].rstrip('/')
-    if 'localhost:8080' in base:
-        if base in seen:
-            print(f"[-] Closing duplicate: {url} [{tid}]")
-            cdp("Target.closeTarget", targetId=tid)
-            closed += 1
-        else:
-            seen[base] = tid
+    # Group by base URL scheme + netloc + path (ignores query params like ?seq=X or ?q=X)
+    try:
+        parsed = urlparse(url)
+        base = f"{parsed.scheme}://{parsed.netloc}{parsed.path}".rstrip('/')
+    except Exception:
+        base = url.split('?')[0].rstrip('/')
+        
+    if base in seen:
+        print(f"[-] Closing duplicate: {url} [{tid}]")
+        cdp("Target.closeTarget", targetId=tid)
+        closed += 1
+    else:
+        seen[base] = tid
 
 if closed > 0:
-    print(f"[✔] Tab sanitation complete. Closed {closed} tabs.")
+    print(f"[✔] Tab sanitation complete. Closed {closed} duplicate tabs.")
 else:
     print("[✔] Tab environment is clean. No duplicates or blanks found.")
 """
@@ -47,5 +54,5 @@ def sanitize_tabs():
         sys.exit(1)
 
 if __name__ == "__main__":
-    print("--- Browser Harness Tab Manager ---")
+    print("--- Browser Harness Tab Manager (Context-Aware) ---")
     sanitize_tabs()

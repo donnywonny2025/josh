@@ -49,11 +49,10 @@ print(page_info())
 | `current_tab()` | Get attached tab info |
 | `http_get(url)` | Pure HTTP fetch (no browser needed) |
 
-### Tab Rules
-- **Run Tab Manager:** ALWAYS run `python3 /Volumes/Extreme SSD/JOSH/EDITING_FRAMEWORK/tab_manager.py` before doing visual work. It will securely close `about:blank` and duplicate tabs via CDP.
-- **ONE tab.** `new_tab()` only for the very first navigation. After that, `goto_url()` always.
-- **Never duplicate tabs.** Check `list_tabs()` before opening.
-- **Clean up.** Close tabs when done.
+### Context-Aware Tab Navigation
+- **Run Tab Manager:** ALWAYS run `python3 /Volumes/Extreme SSD/JOSH/EDITING_FRAMEWORK/tab_manager.py` to securely close `about:blank` and enforce "One Unique Instance per App".
+- **NEVER use `goto_url()` to overwrite an active tool:** The user relies on a dual-monitor multi-tab workflow.
+- **Navigation Protocol:** When opening a URL, first check `list_tabs()`. If it exists, use `switch_tab(targetId)`. If it does not exist, use `new_tab(url)`. Only use `goto_url()` if you are explicitly navigating *within* an already correct context.
 - **Screenshots to artifacts directory, never /tmp.**
 
 ### Screenshots Path

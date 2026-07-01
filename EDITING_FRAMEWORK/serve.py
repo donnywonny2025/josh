@@ -13,6 +13,7 @@ from pathlib import Path
 PORT = 8080
 PROJECT = Path("/Volumes/Extreme SSD/JOSH")
 PHOTOS = PROJECT / "Photos" / "RAW_IMPORTS"
+MUSIC = PROJECT / "Music"
 FRAMEWORK = PROJECT / "EDITING_FRAMEWORK"
 MARKS_FILE = FRAMEWORK / "marks.json"
 SEQUENCES_DIR = FRAMEWORK / "sequences"
@@ -135,6 +136,29 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             self.send_error(404)
             return
         
+        # --- SERVE MUSIC ---
+        if path.startswith("/api/music/"):
+            rel = path[len("/api/music/"):]
+            # The audio files might be in Music/ or Music/FINAL_TRACKS/
+            # Search for the exact name
+            target_path = None
+            for f in MUSIC.rglob("*"):
+                if f.is_file() and f.name == rel:
+                    target_path = f
+                    break
+            if target_path:
+                self.send_response(200)
+                ct = self._content_type(target_path.suffix.lower())
+                self.send_header("Content-Type", ct)
+                self.send_header("Content-Length", str(target_path.stat().st_size))
+                self.send_header("Cache-Control", "public, max-age=86400")
+                self.end_headers()
+                with open(target_path, "rb") as fh:
+                    self.wfile.write(fh.read())
+                return
+            self.send_error(404)
+            return
+
         # --- SERVE DATA FILES ---
         if path.startswith("/data/"):
             rel = path[len("/data/"):]
