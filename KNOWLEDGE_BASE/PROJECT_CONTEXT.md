@@ -47,13 +47,15 @@ The following individuals have been visually tagged and correlated into the `SOR
 - Unknowns: Faces 104, 105, 106, 60, 66, 70, 71, 78, 80, 96, 100, 102.
 
 ## Deliverables & Technical Approach
-**1. Event Video:** Standalone video file curated with music, transitions, and pacing. Length determined by 17.1-minute auto-generated limit.
+**1. Event Video:** Standalone video file curated with music, transitions, and pacing. Length determined by 17.1-minute auto-generated limit. (Note: Using all 502 photos at a standard 6s Ken Burns pace would run ~50 minutes, so we must either heavily curate the photo pool, or use dynamic/montage pacing).
 **2. Looping Slideshow:** Plays on loop during gathering. Broader selection, ambient audio.
 
 **Pipeline:**
-- **1. Browser App (`player.html`):** Rapid prototyping, pacing math, and visual safe-margin framing.
-- **2. XML Generation:** Compiling timing data into `memorial_sequence.xml`.
-- **3. Premiere Pro:** Refining the timeline, adjusting pacing, and fine-tuning cuts.
+- **1. Browser App (`builder.html` & `player.html`):** Rapid prototyping, sequence building, pacing math, and visual safe-margin framing. 
+  - *Smart Framing Architecture:* We use `analyze_framing.py` to generate `photo_framing_map.json`, mapping the center-of-mass of detected faces. 
+  - *Manual Alignment Tool:* The Player features a live drag-to-pan "Align Framing" mode, allowing the user to pause, drag the photo into perfect alignment within the Safe Margins, and auto-save the custom coordinates directly to the sequence JSON.
+- **2. XML Generation:** Compiling sequence JSONs and framing coordinates into `memorial_sequence.xml`.
+- **3. Premiere Pro:** Refining the timeline, mapping `object-position` CSS to Premiere's Motion Scale/Position parameters, adjusting pacing, and fine-tuning cuts.
 - **4. After Effects:** Layering the intro, applying particles/lens flares, and subtle FX (without bogging down the main Premiere timeline).
 
 ## File Locations
