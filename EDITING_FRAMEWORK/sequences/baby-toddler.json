@@ -1,0 +1,126 @@
+{
+  "name": "Baby & Toddler Josh",
+  "section_id": "baby-toddler",
+  "song": null,
+  "default_duration_sec": 5,
+  "transition": "crossfade",
+  "transition_duration_sec": 1,
+  "slides": [
+    {
+      "folder": "Baby & toddler Josh",
+      "file": "IMG_113701.JPG",
+      "duration_sec": 5,
+      "transition": "crossfade"
+    },
+    {
+      "folder": "Baby & toddler Josh",
+      "file": "IMG_1459.JPG",
+      "duration_sec": 5,
+      "transition": "crossfade"
+    },
+    {
+      "folder": "Baby & toddler Josh",
+      "file": "IMG_20171212_0237.jpg",
+      "duration_sec": 5,
+      "transition": "crossfade"
+    },
+    {
+      "folder": "Baby & toddler Josh",
+      "file": "IMG_20171212_0261.jpg",
+      "duration_sec": 5,
+      "transition": "crossfade"
+    },
+    {
+      "folder": "Baby & toddler Josh",
+      "file": "IMG_20171212_0265.jpg",
+      "duration_sec": 5,
+      "transition": "crossfade"
+    },
+    {
+      "folder": "Baby & toddler Josh",
+      "file": "IMG_20171212_0275.jpg",
+      "duration_sec": 5,
+      "transition": "crossfade"
+    },
+    {
+      "folder": "Baby & toddler Josh",
+      "file": "IMG_20171212_0277.jpg",
+      "duration_sec": 5,
+      "transition": "crossfade"
+    },
+    {
+      "folder": "Baby & toddler Josh",
+      "file": "IMG_20171212_0293.jpg",
+      "duration_sec": 5,
+      "transition": "crossfade"
+    },
+    {
+      "folder": "Baby & toddler Josh",
+      "file": "IMG_20171212_0299.jpg",
+      "duration_sec": 5,
+      "transition": "crossfade"
+    },
+    {
+      "folder": "Baby & toddler Josh",
+      "file": "IMG_20171212_0336.jpg",
+      "duration_sec": 5,
+      "transition": "crossfade"
+    },
+    {
+      "folder": "Baby & toddler Josh",
+      "file": "IMG_20171212_0350.jpg",
+      "duration_sec": 5,
+      "transition": "crossfade"
+    },
+    {
+      "folder": "Baby & toddler Josh",
+      "file": "IMG_20171212_0358.jpg",
+      "duration_sec": 5,
+      "transition": "crossfade"
+    },
+    {
+      "folder": "Baby & toddler Josh",
+      "file": "IMG_20171212_0388.jpg",
+      "duration_sec": 5,
+      "transition": "crossfade"
+    },
+    {
+      "folder": "Baby & toddler Josh",
+      "file": "IMG_5337_Original.jpg",
+      "duration_sec": 5,
+      "transition": "crossfade"
+    },
+    {
+      "folder": "Baby & toddler Josh",
+      "file": "Photo May 24 2026, 10 32 05 AM.jpg",
+      "duration_sec": 5,
+      "transition": "crossfade"
+    },
+    {
+      "folder": "Baby & toddler Josh",
+      "file": "Photo May 24 2026, 10 32 52 AM.jpg",
+      "duration_sec": 5,
+      "transition": "crossfade"
+    },
+    {
+      "folder": "Baby & toddler Josh",
+      "file": "Photo May 24 2026, 10 33 02 AM.jpg",
+      "duration_sec": 5,
+      "transition": "crossfade"
+    },
+    {
+      "folder": "Baby & toddler Josh",
+      "file": "Photo May 24 2026, 10 34 49 AM.jpg",
+      "duration_sec": 5,
+      "transition": "crossfade"
+    },
+    {
+      "folder": "Baby & toddler Josh",
+      "file": "Photo May 24 2026, 10 36 19 AM.jpg",
+      "duration_sec": 5,
+      "transition": "crossfade"
+    }
+  ],
+  "modified": "2026-06-28T14:20:50.921643",
+  "created": "2026-06-28T14:03:54.547223"
+}

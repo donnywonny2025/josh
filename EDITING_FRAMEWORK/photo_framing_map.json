@@ -1,0 +1,12370 @@
+{
+  "1991 photos_20171213_0002.jpg": {
+    "width": 2672,
+    "height": 2088,
+    "faces_found": 4,
+    "center_of_mass": [
+      601,
+      1014
+    ],
+    "raw_faces": [
+      [
+        526,
+        667,
+        132,
+        132
+      ],
+      [
+        332,
+        923,
+        65,
+        65
+      ],
+      [
+        912,
+        920,
+        201,
+        201
+      ],
+      [
+        402,
+        1311,
+        69,
+        69
+      ]
+    ]
+  },
+  "1991 photos_20171213_0071.jpg": {
+    "width": 2272,
+    "height": 3304,
+    "faces_found": 1,
+    "center_of_mass": [
+      1044,
+      1240
+    ],
+    "raw_faces": [
+      [
+        847,
+        1044,
+        393,
+        393
+      ]
+    ]
+  },
+  "1991 photos_20171213_0043.jpg": {
+    "width": 3016,
+    "height": 2064,
+    "faces_found": 4,
+    "center_of_mass": [
+      1562,
+      1052
+    ],
+    "raw_faces": [
+      [
+        1679,
+        775,
+        201,
+        201
+      ],
+      [
+        871,
+        874,
+        231,
+        231
+      ],
+      [
+        1292,
+        966,
+        285,
+        285
+      ],
+      [
+        1899,
+        1085,
+        301,
+        301
+      ]
+    ]
+  },
+  "1995_20171214_0012.JPG": {
+    "width": 3320,
+    "height": 2152,
+    "faces_found": 8,
+    "center_of_mass": [
+      1881,
+      915
+    ],
+    "raw_faces": [
+      [
+        1073,
+        105,
+        582,
+        582
+      ],
+      [
+        1599,
+        193,
+        339,
+        339
+      ],
+      [
+        993,
+        380,
+        77,
+        77
+      ],
+      [
+        732,
+        679,
+        287,
+        287
+      ],
+      [
+        2194,
+        1053,
+        99,
+        99
+      ],
+      [
+        2255,
+        1177,
+        100,
+        100
+      ],
+      [
+        3085,
+        1447,
+        159,
+        159
+      ],
+      [
+        2249,
+        1412,
+        99,
+        99
+      ]
+    ]
+  },
+  "photos 1990_20171213_0055.jpg": {
+    "width": 2896,
+    "height": 1896,
+    "faces_found": 2,
+    "center_of_mass": [
+      1517,
+      1097
+    ],
+    "raw_faces": [
+      [
+        1576,
+        915,
+        156,
+        156
+      ],
+      [
+        1308,
+        1128,
+        145,
+        145
+      ]
+    ]
+  },
+  "1994 Photos_20171213_0016.jpg": {
+    "width": 2736,
+    "height": 1832,
+    "faces_found": 3,
+    "center_of_mass": [
+      1878,
+      795
+    ],
+    "raw_faces": [
+      [
+        1857,
+        243,
+        179,
+        179
+      ],
+      [
+        1109,
+        547,
+        129,
+        129
+      ],
+      [
+        2485,
+        1411,
+        60,
+        60
+      ]
+    ]
+  },
+  "1995_20171214_0022.jpg": {
+    "width": 3688,
+    "height": 2312,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "1994 Photos_20171213_0046.jpg": {
+    "width": 3392,
+    "height": 2360,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "1994 Photos_20171213_0017.JPG": {
+    "width": 3544,
+    "height": 2360,
+    "faces_found": 3,
+    "center_of_mass": [
+      1584,
+      448
+    ],
+    "raw_faces": [
+      [
+        906,
+        79,
+        62,
+        62
+      ],
+      [
+        966,
+        433,
+        57,
+        57
+      ],
+      [
+        2791,
+        742,
+        62,
+        62
+      ]
+    ]
+  },
+  "1991 photos_20171213_0051.jpg": {
+    "width": 2080,
+    "height": 2688,
+    "faces_found": 1,
+    "center_of_mass": [
+      858,
+      687
+    ],
+    "raw_faces": [
+      [
+        740,
+        569,
+        236,
+        236
+      ]
+    ]
+  },
+  "IMG_1084.JPG": {
+    "width": 960,
+    "height": 640,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_1141.JPG": {
+    "width": 720,
+    "height": 960,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "2000_20180203_0027.jpg": {
+    "width": 3296,
+    "height": 2384,
+    "faces_found": 5,
+    "center_of_mass": [
+      2118,
+      1026
+    ],
+    "raw_faces": [
+      [
+        905,
+        744,
+        228,
+        228
+      ],
+      [
+        1885,
+        833,
+        225,
+        225
+      ],
+      [
+        2143,
+        1100,
+        339,
+        339
+      ],
+      [
+        3048,
+        1034,
+        93,
+        93
+      ],
+      [
+        2137,
+        950,
+        56,
+        56
+      ]
+    ]
+  },
+  "1999_20180203_0078.jpg": {
+    "width": 2152,
+    "height": 3496,
+    "faces_found": 2,
+    "center_of_mass": [
+      958,
+      1704
+    ],
+    "raw_faces": [
+      [
+        871,
+        984,
+        226,
+        226
+      ],
+      [
+        830,
+        2209,
+        204,
+        204
+      ]
+    ]
+  },
+  "IMG_1852.JPG": {
+    "width": 720,
+    "height": 960,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "2000_20180203_0036.jpg": {
+    "width": 2368,
+    "height": 3560,
+    "faces_found": 3,
+    "center_of_mass": [
+      1154,
+      1660
+    ],
+    "raw_faces": [
+      [
+        1069,
+        1064,
+        195,
+        195
+      ],
+      [
+        875,
+        1204,
+        187,
+        187
+      ],
+      [
+        1297,
+        2488,
+        63,
+        63
+      ]
+    ]
+  },
+  "2000_20180203_0118.jpg": {
+    "width": 2888,
+    "height": 2064,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "1999_20180203_0108.jpg": {
+    "width": 3504,
+    "height": 2128,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_1524.JPG": {
+    "width": 720,
+    "height": 479,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_1525.JPG": {
+    "width": 604,
+    "height": 403,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_1523.JPG": {
+    "width": 479,
+    "height": 720,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_0359.JPG": {
+    "width": 1600,
+    "height": 1200,
+    "faces_found": 2,
+    "center_of_mass": [
+      674,
+      505
+    ],
+    "raw_faces": [
+      [
+        569,
+        234,
+        157,
+        157
+      ],
+      [
+        611,
+        608,
+        180,
+        180
+      ]
+    ]
+  },
+  "IMG_1521.JPG": {
+    "width": 600,
+    "height": 428,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_1155.JPG": {
+    "width": 1600,
+    "height": 1200,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_0338.JPG": {
+    "width": 1600,
+    "height": 1200,
+    "faces_found": 3,
+    "center_of_mass": [
+      708,
+      374
+    ],
+    "raw_faces": [
+      [
+        1222,
+        302,
+        98,
+        98
+      ],
+      [
+        508,
+        331,
+        99,
+        99
+      ],
+      [
+        245,
+        338,
+        103,
+        103
+      ]
+    ]
+  },
+  "IMG_0355.JPG": {
+    "width": 1600,
+    "height": 1200,
+    "faces_found": 2,
+    "center_of_mass": [
+      810,
+      484
+    ],
+    "raw_faces": [
+      [
+        503,
+        410,
+        106,
+        106
+      ],
+      [
+        1014,
+        455,
+        101,
+        101
+      ]
+    ]
+  },
+  "IMG_1091.JPG": {
+    "width": 718,
+    "height": 960,
+    "faces_found": 2,
+    "center_of_mass": [
+      254,
+      297
+    ],
+    "raw_faces": [
+      [
+        363,
+        208,
+        183,
+        183
+      ],
+      [
+        29,
+        269,
+        51,
+        51
+      ]
+    ]
+  },
+  "IMG_0363.JPG": {
+    "width": 1600,
+    "height": 1200,
+    "faces_found": 3,
+    "center_of_mass": [
+      832,
+      576
+    ],
+    "raw_faces": [
+      [
+        664,
+        361,
+        314,
+        314
+      ],
+      [
+        1031,
+        327,
+        336,
+        336
+      ],
+      [
+        332,
+        569,
+        289,
+        289
+      ]
+    ]
+  },
+  "2004_20180203_0003.jpg": {
+    "width": 3344,
+    "height": 2368,
+    "faces_found": 3,
+    "center_of_mass": [
+      1747,
+      758
+    ],
+    "raw_faces": [
+      [
+        1670,
+        455,
+        84,
+        84
+      ],
+      [
+        1615,
+        739,
+        156,
+        156
+      ],
+      [
+        1755,
+        880,
+        162,
+        162
+      ]
+    ]
+  },
+  "2005_20180203_0061.jpg": {
+    "width": 3312,
+    "height": 2392,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "2005_20180203_0075.jpg": {
+    "width": 3544,
+    "height": 2200,
+    "faces_found": 2,
+    "center_of_mass": [
+      1921,
+      800
+    ],
+    "raw_faces": [
+      [
+        1945,
+        657,
+        220,
+        220
+      ],
+      [
+        1686,
+        732,
+        201,
+        201
+      ]
+    ]
+  },
+  "2005_20180203_0042.jpg": {
+    "width": 3472,
+    "height": 2184,
+    "faces_found": 5,
+    "center_of_mass": [
+      1524,
+      978
+    ],
+    "raw_faces": [
+      [
+        1925,
+        223,
+        443,
+        443
+      ],
+      [
+        750,
+        344,
+        367,
+        367
+      ],
+      [
+        1388,
+        562,
+        348,
+        348
+      ],
+      [
+        1186,
+        978,
+        706,
+        706
+      ],
+      [
+        1404,
+        1812,
+        74,
+        74
+      ]
+    ]
+  },
+  "2005_20180203_0043.jpg": {
+    "width": 3360,
+    "height": 2384,
+    "faces_found": 3,
+    "center_of_mass": [
+      1939,
+      778
+    ],
+    "raw_faces": [
+      [
+        1065,
+        293,
+        400,
+        400
+      ],
+      [
+        1911,
+        807,
+        374,
+        374
+      ],
+      [
+        2350,
+        741,
+        209,
+        209
+      ]
+    ]
+  },
+  "Phyllis Old Photos_20180221_0007.jpg": {
+    "width": 1696,
+    "height": 2672,
+    "faces_found": 1,
+    "center_of_mass": [
+      818,
+      968
+    ],
+    "raw_faces": [
+      [
+        418,
+        569,
+        799,
+        799
+      ]
+    ]
+  },
+  "2005_20180203_0037.jpg": {
+    "width": 3544,
+    "height": 2360,
+    "faces_found": 3,
+    "center_of_mass": [
+      2001,
+      1358
+    ],
+    "raw_faces": [
+      [
+        1083,
+        418,
+        443,
+        443
+      ],
+      [
+        1779,
+        1003,
+        399,
+        399
+      ],
+      [
+        2639,
+        2149,
+        163,
+        163
+      ]
+    ]
+  },
+  "IMG_0583.JPG": {
+    "width": 1272,
+    "height": 2004,
+    "faces_found": 1,
+    "center_of_mass": [
+      614,
+      727
+    ],
+    "raw_faces": [
+      [
+        319,
+        432,
+        590,
+        590
+      ]
+    ]
+  },
+  "2004 Utah Josh Ben_20180206_0002.jpg": {
+    "width": 3472,
+    "height": 2152,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "2009_20180203_0020_Original.jpg": {
+    "width": 3544,
+    "height": 2136,
+    "faces_found": 7,
+    "center_of_mass": [
+      1735,
+      1051
+    ],
+    "raw_faces": [
+      [
+        2002,
+        427,
+        169,
+        169
+      ],
+      [
+        1474,
+        478,
+        177,
+        177
+      ],
+      [
+        2531,
+        592,
+        172,
+        172
+      ],
+      [
+        1348,
+        757,
+        79,
+        79
+      ],
+      [
+        2487,
+        1581,
+        237,
+        237
+      ],
+      [
+        359,
+        1391,
+        198,
+        198
+      ],
+      [
+        1325,
+        1509,
+        209,
+        209
+      ]
+    ]
+  },
+  "IMG_1454.JPG": {
+    "width": 1800,
+    "height": 1215,
+    "faces_found": 3,
+    "center_of_mass": [
+      825,
+      575
+    ],
+    "raw_faces": [
+      [
+        807,
+        293,
+        141,
+        141
+      ],
+      [
+        231,
+        316,
+        153,
+        153
+      ],
+      [
+        1258,
+        938,
+        62,
+        62
+      ]
+    ]
+  },
+  "IMG_1180.JPG": {
+    "width": 1032,
+    "height": 686,
+    "faces_found": 2,
+    "center_of_mass": [
+      469,
+      302
+    ],
+    "raw_faces": [
+      [
+        210,
+        213,
+        56,
+        56
+      ],
+      [
+        672,
+        334,
+        57,
+        57
+      ]
+    ]
+  },
+  "Josh Military 2_20180206_0007.jpg": {
+    "width": 3544,
+    "height": 2384,
+    "faces_found": 4,
+    "center_of_mass": [
+      1857,
+      1229
+    ],
+    "raw_faces": [
+      [
+        2924,
+        1025,
+        85,
+        85
+      ],
+      [
+        1735,
+        1003,
+        83,
+        83
+      ],
+      [
+        2251,
+        1256,
+        106,
+        106
+      ],
+      [
+        350,
+        1466,
+        59,
+        59
+      ]
+    ]
+  },
+  "IMG_1138.JPG": {
+    "width": 2048,
+    "height": 1536,
+    "faces_found": 6,
+    "center_of_mass": [
+      725,
+      902
+    ],
+    "raw_faces": [
+      [
+        791,
+        688,
+        56,
+        56
+      ],
+      [
+        621,
+        702,
+        60,
+        60
+      ],
+      [
+        961,
+        740,
+        57,
+        57
+      ],
+      [
+        264,
+        994,
+        68,
+        68
+      ],
+      [
+        575,
+        1035,
+        67,
+        67
+      ],
+      [
+        946,
+        1058,
+        77,
+        77
+      ]
+    ]
+  },
+  "2009_20180203_0007_Original.jpg": {
+    "width": 3536,
+    "height": 2384,
+    "faces_found": 7,
+    "center_of_mass": [
+      2252,
+      1159
+    ],
+    "raw_faces": [
+      [
+        2167,
+        659,
+        106,
+        106
+      ],
+      [
+        1374,
+        734,
+        88,
+        88
+      ],
+      [
+        3219,
+        754,
+        114,
+        114
+      ],
+      [
+        2870,
+        763,
+        115,
+        115
+      ],
+      [
+        1141,
+        1203,
+        44,
+        44
+      ],
+      [
+        2342,
+        1398,
+        79,
+        79
+      ],
+      [
+        2353,
+        2302,
+        57,
+        57
+      ]
+    ]
+  },
+  "IMG_1139.JPG": {
+    "width": 2048,
+    "height": 1536,
+    "faces_found": 2,
+    "center_of_mass": [
+      813,
+      552
+    ],
+    "raw_faces": [
+      [
+        1129,
+        471,
+        130,
+        130
+      ],
+      [
+        361,
+        498,
+        142,
+        142
+      ]
+    ]
+  },
+  "IMG_20171212_0350.jpg": {
+    "width": 1328,
+    "height": 1024,
+    "faces_found": 1,
+    "center_of_mass": [
+      790,
+      504
+    ],
+    "raw_faces": [
+      [
+        718,
+        433,
+        143,
+        143
+      ]
+    ]
+  },
+  "IMG_20171212_0237.jpg": {
+    "width": 1320,
+    "height": 1036,
+    "faces_found": 1,
+    "center_of_mass": [
+      630,
+      706
+    ],
+    "raw_faces": [
+      [
+        539,
+        615,
+        182,
+        182
+      ]
+    ]
+  },
+  "IMG_20171212_0358.jpg": {
+    "width": 664,
+    "height": 944,
+    "faces_found": 1,
+    "center_of_mass": [
+      327,
+      312
+    ],
+    "raw_faces": [
+      [
+        222,
+        207,
+        210,
+        210
+      ]
+    ]
+  },
+  "IMG_20171212_0265.jpg": {
+    "width": 1320,
+    "height": 960,
+    "faces_found": 1,
+    "center_of_mass": [
+      901,
+      446
+    ],
+    "raw_faces": [
+      [
+        858,
+        403,
+        86,
+        86
+      ]
+    ]
+  },
+  "Josh Random_20180206_0006.jpg": {
+    "width": 3272,
+    "height": 2368,
+    "faces_found": 3,
+    "center_of_mass": [
+      1713,
+      1187
+    ],
+    "raw_faces": [
+      [
+        1086,
+        926,
+        306,
+        306
+      ],
+      [
+        1612,
+        1066,
+        275,
+        275
+      ],
+      [
+        2010,
+        1138,
+        283,
+        283
+      ]
+    ]
+  },
+  "IMG_1075.JPG": {
+    "width": 2048,
+    "height": 1885,
+    "faces_found": 1,
+    "center_of_mass": [
+      1216,
+      1126
+    ],
+    "raw_faces": [
+      [
+        1110,
+        1019,
+        213,
+        213
+      ]
+    ]
+  },
+  "IMG_1103.JPG": {
+    "width": 960,
+    "height": 720,
+    "faces_found": 2,
+    "center_of_mass": [
+      546,
+      323
+    ],
+    "raw_faces": [
+      [
+        381,
+        242,
+        145,
+        145
+      ],
+      [
+        577,
+        269,
+        125,
+        125
+      ]
+    ]
+  },
+  "img_2502_Original.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "faces_found": 2,
+    "center_of_mass": [
+      778,
+      494
+    ],
+    "raw_faces": [
+      [
+        807,
+        342,
+        292,
+        292
+      ],
+      [
+        502,
+        399,
+        202,
+        202
+      ]
+    ]
+  },
+  "IMG_20171212_0735.jpg": {
+    "width": 1480,
+    "height": 984,
+    "faces_found": 2,
+    "center_of_mass": [
+      668,
+      217
+    ],
+    "raw_faces": [
+      [
+        799,
+        191,
+        54,
+        54
+      ],
+      [
+        478,
+        185,
+        62,
+        62
+      ]
+    ]
+  },
+  "IMG_20171212_0478.jpg": {
+    "width": 700,
+    "height": 908,
+    "faces_found": 2,
+    "center_of_mass": [
+      312,
+      489
+    ],
+    "raw_faces": [
+      [
+        55,
+        302,
+        250,
+        250
+      ],
+      [
+        321,
+        427,
+        248,
+        248
+      ]
+    ]
+  },
+  "IMG_20171212_0490.jpg": {
+    "width": 1500,
+    "height": 932,
+    "faces_found": 2,
+    "center_of_mass": [
+      772,
+      468
+    ],
+    "raw_faces": [
+      [
+        616,
+        394,
+        90,
+        90
+      ],
+      [
+        836,
+        452,
+        92,
+        92
+      ]
+    ]
+  },
+  "IMG_20171212_0437.jpg": {
+    "width": 1068,
+    "height": 1100,
+    "faces_found": 3,
+    "center_of_mass": [
+      565,
+      536
+    ],
+    "raw_faces": [
+      [
+        588,
+        344,
+        204,
+        204
+      ],
+      [
+        97,
+        407,
+        205,
+        205
+      ],
+      [
+        723,
+        569,
+        164,
+        164
+      ]
+    ]
+  },
+  "IMG_20171212_0546.jpg": {
+    "width": 1460,
+    "height": 932,
+    "faces_found": 4,
+    "center_of_mass": [
+      705,
+      434
+    ],
+    "raw_faces": [
+      [
+        488,
+        48,
+        500,
+        500
+      ],
+      [
+        590,
+        232,
+        127,
+        127
+      ],
+      [
+        765,
+        268,
+        144,
+        144
+      ],
+      [
+        563,
+        773,
+        55,
+        55
+      ]
+    ]
+  },
+  "IMG_20171212_0370.jpg": {
+    "width": 1232,
+    "height": 912,
+    "faces_found": 2,
+    "center_of_mass": [
+      582,
+      158
+    ],
+    "raw_faces": [
+      [
+        723,
+        7,
+        92,
+        92
+      ],
+      [
+        345,
+        214,
+        99,
+        99
+      ]
+    ]
+  },
+  "IMG_1166.JPG": {
+    "width": 1316,
+    "height": 948,
+    "faces_found": 1,
+    "center_of_mass": [
+      1002,
+      428
+    ],
+    "raw_faces": [
+      [
+        959,
+        385,
+        86,
+        86
+      ]
+    ]
+  },
+  "2012_20180206_0024.jpg": {
+    "width": 2384,
+    "height": 3344,
+    "faces_found": 2,
+    "center_of_mass": [
+      1185,
+      1046
+    ],
+    "raw_faces": [
+      [
+        118,
+        382,
+        770,
+        770
+      ],
+      [
+        1543,
+        1002,
+        647,
+        647
+      ]
+    ]
+  },
+  "2012_20180206_0022 - Copy (2).jpg": {
+    "width": 2360,
+    "height": 3552,
+    "faces_found": 2,
+    "center_of_mass": [
+      1175,
+      818
+    ],
+    "raw_faces": [
+      [
+        861,
+        541,
+        304,
+        304
+      ],
+      [
+        1208,
+        814,
+        258,
+        258
+      ]
+    ]
+  },
+  "IMG_1174.JPG": {
+    "width": 720,
+    "height": 960,
+    "faces_found": 1,
+    "center_of_mass": [
+      337,
+      901
+    ],
+    "raw_faces": [
+      [
+        298,
+        862,
+        78,
+        78
+      ]
+    ]
+  },
+  "Photo Aug 07 2007, 12 05 40 AM.jpg": {
+    "width": 3072,
+    "height": 2304,
+    "faces_found": 3,
+    "center_of_mass": [
+      1737,
+      1349
+    ],
+    "raw_faces": [
+      [
+        1631,
+        646,
+        528,
+        528
+      ],
+      [
+        1326,
+        895,
+        472,
+        472
+      ],
+      [
+        1702,
+        1953,
+        106,
+        106
+      ]
+    ]
+  },
+  "2012_20180206_0022 - Copy (3).jpg": {
+    "width": 2360,
+    "height": 3552,
+    "faces_found": 2,
+    "center_of_mass": [
+      1175,
+      818
+    ],
+    "raw_faces": [
+      [
+        861,
+        541,
+        304,
+        304
+      ],
+      [
+        1208,
+        814,
+        258,
+        258
+      ]
+    ]
+  },
+  "2012_20180206_0013.jpg": {
+    "width": 3544,
+    "height": 2368,
+    "faces_found": 2,
+    "center_of_mass": [
+      1461,
+      543
+    ],
+    "raw_faces": [
+      [
+        999,
+        142,
+        560,
+        560
+      ],
+      [
+        1409,
+        431,
+        467,
+        467
+      ]
+    ]
+  },
+  "IMG_1511.JPG": {
+    "width": 960,
+    "height": 960,
+    "faces_found": 2,
+    "center_of_mass": [
+      352,
+      319
+    ],
+    "raw_faces": [
+      [
+        237,
+        277,
+        72,
+        72
+      ],
+      [
+        391,
+        284,
+        82,
+        82
+      ]
+    ]
+  },
+  "Photo Aug 07 2007, 10 53 17 PM.jpg": {
+    "width": 3072,
+    "height": 2304,
+    "faces_found": 2,
+    "center_of_mass": [
+      1737,
+      1126
+    ],
+    "raw_faces": [
+      [
+        1779,
+        781,
+        383,
+        383
+      ],
+      [
+        1341,
+        1118,
+        325,
+        325
+      ]
+    ]
+  },
+  "IMG_1475.JPG": {
+    "width": 717,
+    "height": 960,
+    "faces_found": 3,
+    "center_of_mass": [
+      318,
+      463
+    ],
+    "raw_faces": [
+      [
+        220,
+        267,
+        79,
+        79
+      ],
+      [
+        329,
+        142,
+        108,
+        108
+      ],
+      [
+        275,
+        849,
+        74,
+        74
+      ]
+    ]
+  },
+  "img_2475_Original.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "faces_found": 2,
+    "center_of_mass": [
+      869,
+      444
+    ],
+    "raw_faces": [
+      [
+        855,
+        220,
+        253,
+        253
+      ],
+      [
+        656,
+        441,
+        200,
+        200
+      ]
+    ]
+  },
+  "IMG_5970.JPG": {
+    "width": 613,
+    "height": 1280,
+    "faces_found": 1,
+    "center_of_mass": [
+      286,
+      710
+    ],
+    "raw_faces": [
+      [
+        209,
+        634,
+        153,
+        153
+      ]
+    ]
+  },
+  "img_1109.jpg": {
+    "width": 720,
+    "height": 960,
+    "faces_found": 2,
+    "center_of_mass": [
+      292,
+      463
+    ],
+    "raw_faces": [
+      [
+        230,
+        337,
+        114,
+        114
+      ],
+      [
+        266,
+        501,
+        62,
+        62
+      ]
+    ]
+  },
+  "2006_20180203_0018.jpg": {
+    "width": 2384,
+    "height": 3264,
+    "faces_found": 7,
+    "center_of_mass": [
+      1340,
+      2149
+    ],
+    "raw_faces": [
+      [
+        936,
+        1373,
+        241,
+        241
+      ],
+      [
+        1522,
+        1548,
+        240,
+        240
+      ],
+      [
+        1573,
+        2144,
+        44,
+        44
+      ],
+      [
+        538,
+        2237,
+        63,
+        63
+      ],
+      [
+        1537,
+        2314,
+        101,
+        101
+      ],
+      [
+        1409,
+        2255,
+        115,
+        115
+      ],
+      [
+        1313,
+        2617,
+        304,
+        304
+      ]
+    ]
+  },
+  "IMG_20171212_0727.jpg": {
+    "width": 1528,
+    "height": 1036,
+    "faces_found": 2,
+    "center_of_mass": [
+      1022,
+      509
+    ],
+    "raw_faces": [
+      [
+        1138,
+        340,
+        51,
+        51
+      ],
+      [
+        800,
+        572,
+        160,
+        160
+      ]
+    ]
+  },
+  "IMG_1086.JPG": {
+    "width": 720,
+    "height": 960,
+    "faces_found": 1,
+    "center_of_mass": [
+      294,
+      454
+    ],
+    "raw_faces": [
+      [
+        264,
+        424,
+        61,
+        61
+      ]
+    ]
+  },
+  "IMG_20171212_0888.jpg": {
+    "width": 1532,
+    "height": 1032,
+    "faces_found": 3,
+    "center_of_mass": [
+      1008,
+      575
+    ],
+    "raw_faces": [
+      [
+        783,
+        402,
+        101,
+        101
+      ],
+      [
+        1036,
+        508,
+        100,
+        100
+      ],
+      [
+        1056,
+        668,
+        94,
+        94
+      ]
+    ]
+  },
+  "IMG_3578.JPG": {
+    "width": 1790,
+    "height": 1195,
+    "faces_found": 5,
+    "center_of_mass": [
+      967,
+      541
+    ],
+    "raw_faces": [
+      [
+        475,
+        374,
+        148,
+        148
+      ],
+      [
+        1276,
+        405,
+        120,
+        120
+      ],
+      [
+        996,
+        410,
+        141,
+        141
+      ],
+      [
+        1145,
+        558,
+        161,
+        161
+      ],
+      [
+        592,
+        609,
+        130,
+        130
+      ]
+    ]
+  },
+  "IMG_1399.JPG": {
+    "width": 1428,
+    "height": 980,
+    "faces_found": 2,
+    "center_of_mass": [
+      759,
+      607
+    ],
+    "raw_faces": [
+      [
+        786,
+        581,
+        62,
+        62
+      ],
+      [
+        661,
+        562,
+        81,
+        81
+      ]
+    ]
+  },
+  "IMG_20171212_0573.jpg": {
+    "width": 1320,
+    "height": 1032,
+    "faces_found": 2,
+    "center_of_mass": [
+      788,
+      666
+    ],
+    "raw_faces": [
+      [
+        738,
+        455,
+        54,
+        54
+      ],
+      [
+        730,
+        769,
+        161,
+        161
+      ]
+    ]
+  },
+  "IMG_2281.JPG": {
+    "width": 720,
+    "height": 960,
+    "faces_found": 4,
+    "center_of_mass": [
+      351,
+      383
+    ],
+    "raw_faces": [
+      [
+        125,
+        368,
+        64,
+        64
+      ],
+      [
+        321,
+        235,
+        77,
+        77
+      ],
+      [
+        471,
+        243,
+        73,
+        73
+      ],
+      [
+        347,
+        547,
+        63,
+        63
+      ]
+    ]
+  },
+  "019_16a.jpg": {
+    "width": 1536,
+    "height": 1024,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "2FE58D6D-E213-45A8-BD69-D2BB12081BD4.JPG": {
+    "width": 960,
+    "height": 1200,
+    "faces_found": 1,
+    "center_of_mass": [
+      356,
+      545
+    ],
+    "raw_faces": [
+      [
+        282,
+        471,
+        148,
+        148
+      ]
+    ]
+  },
+  "IMG_1061.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "faces_found": 3,
+    "center_of_mass": [
+      663,
+      592
+    ],
+    "raw_faces": [
+      [
+        601,
+        497,
+        137,
+        137
+      ],
+      [
+        891,
+        524,
+        125,
+        125
+      ],
+      [
+        288,
+        545,
+        155,
+        155
+      ]
+    ]
+  },
+  "2006_20180203_0013.jpg": {
+    "width": 3504,
+    "height": 2384,
+    "faces_found": 6,
+    "center_of_mass": [
+      2199,
+      922
+    ],
+    "raw_faces": [
+      [
+        3081,
+        521,
+        104,
+        104
+      ],
+      [
+        1568,
+        672,
+        378,
+        378
+      ],
+      [
+        2274,
+        674,
+        408,
+        408
+      ],
+      [
+        3097,
+        606,
+        65,
+        65
+      ],
+      [
+        838,
+        853,
+        404,
+        404
+      ],
+      [
+        1485,
+        1360,
+        338,
+        338
+      ]
+    ]
+  },
+  "IMG_1477.JPG": {
+    "width": 604,
+    "height": 453,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "P7080004_Original.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "faces_found": 2,
+    "center_of_mass": [
+      882,
+      426
+    ],
+    "raw_faces": [
+      [
+        922,
+        358,
+        130,
+        130
+      ],
+      [
+        697,
+        350,
+        159,
+        159
+      ]
+    ]
+  },
+  "IMG_1060_Original.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "faces_found": 2,
+    "center_of_mass": [
+      686,
+      509
+    ],
+    "raw_faces": [
+      [
+        735,
+        450,
+        85,
+        85
+      ],
+      [
+        541,
+        472,
+        106,
+        106
+      ]
+    ]
+  },
+  "BillBoat.JPG": {
+    "width": 1700,
+    "height": 2338,
+    "faces_found": 1,
+    "center_of_mass": [
+      907,
+      472
+    ],
+    "raw_faces": [
+      [
+        740,
+        305,
+        334,
+        334
+      ]
+    ]
+  },
+  "IMG_4602.JPG": {
+    "width": 1212,
+    "height": 1616,
+    "faces_found": 1,
+    "center_of_mass": [
+      642,
+      614
+    ],
+    "raw_faces": [
+      [
+        375,
+        347,
+        534,
+        534
+      ]
+    ]
+  },
+  "Phyllis Old Photos_20180221_0048.jpg": {
+    "width": 2040,
+    "height": 3064,
+    "faces_found": 2,
+    "center_of_mass": [
+      962,
+      1301
+    ],
+    "raw_faces": [
+      [
+        971,
+        761,
+        147,
+        147
+      ],
+      [
+        848,
+        1737,
+        61,
+        61
+      ]
+    ]
+  },
+  "IMG_1184_Original.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "faces_found": 2,
+    "center_of_mass": [
+      826,
+      712
+    ],
+    "raw_faces": [
+      [
+        467,
+        156,
+        419,
+        419
+      ],
+      [
+        916,
+        1000,
+        119,
+        119
+      ]
+    ]
+  },
+  "Josh Random_20180206_0001.jpg": {
+    "width": 3464,
+    "height": 2352,
+    "faces_found": 2,
+    "center_of_mass": [
+      1616,
+      959
+    ],
+    "raw_faces": [
+      [
+        1695,
+        742,
+        224,
+        224
+      ],
+      [
+        1317,
+        957,
+        214,
+        214
+      ]
+    ]
+  },
+  "Phyllis Old Photos_20180221_0044.jpg": {
+    "width": 2032,
+    "height": 3040,
+    "faces_found": 2,
+    "center_of_mass": [
+      1341,
+      878
+    ],
+    "raw_faces": [
+      [
+        945,
+        516,
+        201,
+        201
+      ],
+      [
+        1609,
+        1113,
+        55,
+        55
+      ]
+    ]
+  },
+  "School photos_20171213_0015.jpg": {
+    "width": 1528,
+    "height": 1968,
+    "faces_found": 1,
+    "center_of_mass": [
+      848,
+      671
+    ],
+    "raw_faces": [
+      [
+        615,
+        438,
+        466,
+        466
+      ]
+    ]
+  },
+  "School photos_20171213_0014.jpg": {
+    "width": 1488,
+    "height": 2056,
+    "faces_found": 1,
+    "center_of_mass": [
+      763,
+      846
+    ],
+    "raw_faces": [
+      [
+        522,
+        605,
+        482,
+        482
+      ]
+    ]
+  },
+  "IMG_20171212_0581.jpg": {
+    "width": 1484,
+    "height": 900,
+    "faces_found": 2,
+    "center_of_mass": [
+      435,
+      441
+    ],
+    "raw_faces": [
+      [
+        508,
+        186,
+        69,
+        69
+      ],
+      [
+        294,
+        627,
+        68,
+        68
+      ]
+    ]
+  },
+  "School photos_20171213_0013.jpg": {
+    "width": 2728,
+    "height": 4016,
+    "faces_found": 1,
+    "center_of_mass": [
+      1085,
+      1473
+    ],
+    "raw_faces": [
+      [
+        496,
+        884,
+        1178,
+        1178
+      ]
+    ]
+  },
+  "School photos_20171213_0012.jpg": {
+    "width": 1232,
+    "height": 1920,
+    "faces_found": 1,
+    "center_of_mass": [
+      855,
+      743
+    ],
+    "raw_faces": [
+      [
+        611,
+        499,
+        488,
+        488
+      ]
+    ]
+  },
+  "School photos_20171213_0022.jpg": {
+    "width": 1808,
+    "height": 2968,
+    "faces_found": 1,
+    "center_of_mass": [
+      1125,
+      1222
+    ],
+    "raw_faces": [
+      [
+        699,
+        796,
+        852,
+        852
+      ]
+    ]
+  },
+  "image722_Original.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_0968_Original.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "img_2532_Original.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "img_2732_Original.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "img_2738.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_1444_Original.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_0874_Original.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_0911_Original.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "img_2614_0682.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_1093.JPG": {
+    "width": 960,
+    "height": 960,
+    "faces_found": 1,
+    "center_of_mass": [
+      468,
+      372
+    ],
+    "raw_faces": [
+      [
+        435,
+        339,
+        65,
+        65
+      ]
+    ]
+  },
+  "IMG_1124.JPG": {
+    "width": 604,
+    "height": 453,
+    "faces_found": 1,
+    "center_of_mass": [
+      338,
+      236
+    ],
+    "raw_faces": [
+      [
+        287,
+        184,
+        103,
+        103
+      ]
+    ]
+  },
+  "IMG_0776_Original.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "faces_found": 1,
+    "center_of_mass": [
+      1039,
+      454
+    ],
+    "raw_faces": [
+      [
+        935,
+        350,
+        208,
+        208
+      ]
+    ]
+  },
+  "IMG_20171212_0779.jpg": {
+    "width": 1428,
+    "height": 1116,
+    "faces_found": 2,
+    "center_of_mass": [
+      490,
+      514
+    ],
+    "raw_faces": [
+      [
+        748,
+        325,
+        138,
+        138
+      ],
+      [
+        106,
+        577,
+        116,
+        116
+      ]
+    ]
+  },
+  "P7090012_Original.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "img_2414_0482.jpg": {
+    "width": 3072,
+    "height": 2304,
+    "faces_found": 2,
+    "center_of_mass": [
+      1062,
+      620
+    ],
+    "raw_faces": [
+      [
+        419,
+        361,
+        51,
+        51
+      ],
+      [
+        1510,
+        682,
+        341,
+        341
+      ]
+    ]
+  },
+  "img_1562_Original.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_0767_Original.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "faces_found": 2,
+    "center_of_mass": [
+      1143,
+      849
+    ],
+    "raw_faces": [
+      [
+        786,
+        495,
+        112,
+        112
+      ],
+      [
+        1411,
+        1114,
+        67,
+        67
+      ]
+    ]
+  },
+  "IMG_1159.JPG": {
+    "width": 1239,
+    "height": 1800,
+    "faces_found": 1,
+    "center_of_mass": [
+      822,
+      334
+    ],
+    "raw_faces": [
+      [
+        748,
+        259,
+        149,
+        149
+      ]
+    ]
+  },
+  "2010_20180206_0003.jpg": {
+    "width": 3344,
+    "height": 2376,
+    "faces_found": 1,
+    "center_of_mass": [
+      2224,
+      669
+    ],
+    "raw_faces": [
+      [
+        2189,
+        634,
+        70,
+        70
+      ]
+    ]
+  },
+  "IMG_1101.JPG": {
+    "width": 1799,
+    "height": 1800,
+    "faces_found": 2,
+    "center_of_mass": [
+      705,
+      944
+    ],
+    "raw_faces": [
+      [
+        502,
+        329,
+        487,
+        487
+      ],
+      [
+        597,
+        1248,
+        135,
+        135
+      ]
+    ]
+  },
+  "image743_Original.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_1503.JPG": {
+    "width": 960,
+    "height": 640,
+    "faces_found": 1,
+    "center_of_mass": [
+      377,
+      209
+    ],
+    "raw_faces": [
+      [
+        354,
+        186,
+        46,
+        46
+      ]
+    ]
+  },
+  "millerc-r1-024-10a.jpg": {
+    "width": 1800,
+    "height": 1215,
+    "faces_found": 4,
+    "center_of_mass": [
+      1188,
+      545
+    ],
+    "raw_faces": [
+      [
+        936,
+        302,
+        157,
+        157
+      ],
+      [
+        668,
+        408,
+        167,
+        167
+      ],
+      [
+        1338,
+        583,
+        67,
+        67
+      ],
+      [
+        1559,
+        633,
+        114,
+        114
+      ]
+    ]
+  },
+  "IMG_1522.JPG": {
+    "width": 720,
+    "height": 479,
+    "faces_found": 1,
+    "center_of_mass": [
+      494,
+      190
+    ],
+    "raw_faces": [
+      [
+        470,
+        166,
+        48,
+        48
+      ]
+    ]
+  },
+  "millerc-r1-034-15a.jpg": {
+    "width": 1800,
+    "height": 1215,
+    "faces_found": 3,
+    "center_of_mass": [
+      1113,
+      357
+    ],
+    "raw_faces": [
+      [
+        1080,
+        291,
+        81,
+        81
+      ],
+      [
+        1414,
+        360,
+        63,
+        63
+      ],
+      [
+        731,
+        306,
+        83,
+        83
+      ]
+    ]
+  },
+  "IMG_1459.JPG": {
+    "width": 1532,
+    "height": 932,
+    "faces_found": 1,
+    "center_of_mass": [
+      665,
+      457
+    ],
+    "raw_faces": [
+      [
+        578,
+        370,
+        174,
+        174
+      ]
+    ]
+  },
+  "IMG_20171212_0275.jpg": {
+    "width": 1172,
+    "height": 1040,
+    "faces_found": 1,
+    "center_of_mass": [
+      689,
+      307
+    ],
+    "raw_faces": [
+      [
+        510,
+        128,
+        358,
+        358
+      ]
+    ]
+  },
+  "Photo Aug 13 2017, 5 07 46 PM.jpg": {
+    "width": 960,
+    "height": 1280,
+    "faces_found": 1,
+    "center_of_mass": [
+      148,
+      574
+    ],
+    "raw_faces": [
+      [
+        63,
+        488,
+        171,
+        171
+      ]
+    ]
+  },
+  "IMG_1184.JPG": {
+    "width": 716,
+    "height": 960,
+    "faces_found": 1,
+    "center_of_mass": [
+      518,
+      422
+    ],
+    "raw_faces": [
+      [
+        428,
+        333,
+        179,
+        179
+      ]
+    ]
+  },
+  "Photo Aug 19 2017, 6 57 01 PM.jpg": {
+    "width": 960,
+    "height": 1280,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo Jul 28 2017, 6 58 24 PM.jpg": {
+    "width": 2448,
+    "height": 3264,
+    "faces_found": 3,
+    "center_of_mass": [
+      711,
+      1420
+    ],
+    "raw_faces": [
+      [
+        766,
+        930,
+        310,
+        310
+      ],
+      [
+        418,
+        1203,
+        257,
+        257
+      ],
+      [
+        591,
+        1770,
+        150,
+        150
+      ]
+    ]
+  },
+  "Photo Mar 10 2018, 8 47 56 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 2,
+    "center_of_mass": [
+      1377,
+      1568
+    ],
+    "raw_faces": [
+      [
+        1633,
+        1150,
+        683,
+        683
+      ],
+      [
+        683,
+        1547,
+        193,
+        193
+      ]
+    ]
+  },
+  "Photo Dec 23 2018, 7 39 02 PM.jpg": {
+    "width": 6000,
+    "height": 4000,
+    "faces_found": 5,
+    "center_of_mass": [
+      1892,
+      1866
+    ],
+    "raw_faces": [
+      [
+        1586,
+        783,
+        56,
+        56
+      ],
+      [
+        2514,
+        1406,
+        354,
+        354
+      ],
+      [
+        1764,
+        1486,
+        320,
+        320
+      ],
+      [
+        946,
+        2097,
+        61,
+        61
+      ],
+      [
+        2181,
+        3091,
+        148,
+        148
+      ]
+    ]
+  },
+  "Photo Apr 28 2018, 8 28 10 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 7,
+    "center_of_mass": [
+      1479,
+      1816
+    ],
+    "raw_faces": [
+      [
+        1410,
+        971,
+        171,
+        171
+      ],
+      [
+        1484,
+        1277,
+        429,
+        429
+      ],
+      [
+        793,
+        1395,
+        384,
+        384
+      ],
+      [
+        1979,
+        1467,
+        441,
+        441
+      ],
+      [
+        333,
+        1509,
+        426,
+        426
+      ],
+      [
+        1893,
+        1977,
+        412,
+        412
+      ],
+      [
+        1299,
+        2951,
+        64,
+        64
+      ]
+    ]
+  },
+  "IMG_6952_Original.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 4,
+    "center_of_mass": [
+      1289,
+      1572
+    ],
+    "raw_faces": [
+      [
+        1160,
+        877,
+        306,
+        306
+      ],
+      [
+        1712,
+        1023,
+        301,
+        301
+      ],
+      [
+        1416,
+        1601,
+        53,
+        53
+      ],
+      [
+        510,
+        2430,
+        56,
+        56
+      ]
+    ]
+  },
+  "IMG_20171212_0280.jpg": {
+    "width": 992,
+    "height": 864,
+    "faces_found": 1,
+    "center_of_mass": [
+      352,
+      364
+    ],
+    "raw_faces": [
+      [
+        250,
+        262,
+        203,
+        203
+      ]
+    ]
+  },
+  "IMG_1142.JPG": {
+    "width": 1328,
+    "height": 1032,
+    "faces_found": 1,
+    "center_of_mass": [
+      1130,
+      468
+    ],
+    "raw_faces": [
+      [
+        1101,
+        440,
+        57,
+        57
+      ]
+    ]
+  },
+  "IMG_20171212_0374.jpg": {
+    "width": 1316,
+    "height": 948,
+    "faces_found": 2,
+    "center_of_mass": [
+      946,
+      253
+    ],
+    "raw_faces": [
+      [
+        825,
+        26,
+        67,
+        67
+      ],
+      [
+        940,
+        354,
+        186,
+        186
+      ]
+    ]
+  },
+  "IMG_3570.JPG": {
+    "width": 1401,
+    "height": 2048,
+    "faces_found": 2,
+    "center_of_mass": [
+      582,
+      704
+    ],
+    "raw_faces": [
+      [
+        624,
+        489,
+        303,
+        303
+      ],
+      [
+        237,
+        618,
+        301,
+        301
+      ]
+    ]
+  },
+  "IMG_20171212_0363.jpg": {
+    "width": 1276,
+    "height": 808,
+    "faces_found": 2,
+    "center_of_mass": [
+      615,
+      436
+    ],
+    "raw_faces": [
+      [
+        831,
+        287,
+        143,
+        143
+      ],
+      [
+        252,
+        439,
+        150,
+        150
+      ]
+    ]
+  },
+  "Photo Jun 09 2017, 7 48 09 PM.jpg": {
+    "width": 2448,
+    "height": 2448,
+    "faces_found": 2,
+    "center_of_mass": [
+      627,
+      902
+    ],
+    "raw_faces": [
+      [
+        456,
+        752,
+        147,
+        147
+      ],
+      [
+        655,
+        908,
+        140,
+        140
+      ]
+    ]
+  },
+  "Photo Jul 07 2017, 3 01 58 PM.png": {
+    "width": 640,
+    "height": 1136,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 13 2018, 12 45 25 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 1,
+    "center_of_mass": [
+      1312,
+      1746
+    ],
+    "raw_faces": [
+      [
+        1147,
+        1581,
+        331,
+        331
+      ]
+    ]
+  },
+  "Photo May 27 2017, 11 54 06 AM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 3,
+    "center_of_mass": [
+      1471,
+      2986
+    ],
+    "raw_faces": [
+      [
+        1160,
+        937,
+        361,
+        361
+      ],
+      [
+        1629,
+        3921,
+        90,
+        90
+      ],
+      [
+        1338,
+        3815,
+        122,
+        122
+      ]
+    ]
+  },
+  "Photo Oct 30 2017, 9 36 38 PM.png": {
+    "width": 750,
+    "height": 1334,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_1468.JPG": {
+    "width": 1536,
+    "height": 2048,
+    "faces_found": 1,
+    "center_of_mass": [
+      992,
+      846
+    ],
+    "raw_faces": [
+      [
+        882,
+        736,
+        221,
+        221
+      ]
+    ]
+  },
+  "Photo Nov 26 2017, 1 08 44 PM.jpg": {
+    "width": 2320,
+    "height": 3088,
+    "faces_found": 2,
+    "center_of_mass": [
+      1217,
+      1679
+    ],
+    "raw_faces": [
+      [
+        1210,
+        885,
+        1029,
+        1029
+      ],
+      [
+        386,
+        1635,
+        648,
+        648
+      ]
+    ]
+  },
+  "Photo Jul 14 2018, 11 23 52 AM.jpg": {
+    "width": 2744,
+    "height": 3662,
+    "faces_found": 2,
+    "center_of_mass": [
+      1492,
+      1059
+    ],
+    "raw_faces": [
+      [
+        1709,
+        885,
+        294,
+        294
+      ],
+      [
+        965,
+        924,
+        325,
+        325
+      ]
+    ]
+  },
+  "Photo Jul 01 2017, 8 58 23 PM.jpg": {
+    "width": 960,
+    "height": 1280,
+    "faces_found": 2,
+    "center_of_mass": [
+      533,
+      655
+    ],
+    "raw_faces": [
+      [
+        449,
+        295,
+        384,
+        384
+      ],
+      [
+        256,
+        654,
+        339,
+        339
+      ]
+    ]
+  },
+  "Photo Sep 30 2016, 11 24 03 AM.jpg": {
+    "width": 2104,
+    "height": 2104,
+    "faces_found": 6,
+    "center_of_mass": [
+      940,
+      1025
+    ],
+    "raw_faces": [
+      [
+        767,
+        289,
+        56,
+        56
+      ],
+      [
+        770,
+        544,
+        62,
+        62
+      ],
+      [
+        524,
+        609,
+        151,
+        151
+      ],
+      [
+        858,
+        623,
+        176,
+        176
+      ],
+      [
+        1740,
+        1800,
+        88,
+        88
+      ],
+      [
+        666,
+        1969,
+        97,
+        97
+      ]
+    ]
+  },
+  "Photo Jun 14 2017, 8 39 12 PM.jpg": {
+    "width": 960,
+    "height": 960,
+    "faces_found": 2,
+    "center_of_mass": [
+      547,
+      448
+    ],
+    "raw_faces": [
+      [
+        307,
+        76,
+        278,
+        278
+      ],
+      [
+        395,
+        429,
+        505,
+        505
+      ]
+    ]
+  },
+  "Photo Sep 30 2018, 1 42 05 PM.jpg": {
+    "width": 5472,
+    "height": 3648,
+    "faces_found": 3,
+    "center_of_mass": [
+      2667,
+      1846
+    ],
+    "raw_faces": [
+      [
+        959,
+        673,
+        311,
+        311
+      ],
+      [
+        1880,
+        943,
+        334,
+        334
+      ],
+      [
+        4817,
+        3576,
+        44,
+        44
+      ]
+    ]
+  },
+  "Photo Dec 16 2017, 4 30 20 PM.jpg": {
+    "width": 2320,
+    "height": 3088,
+    "faces_found": 2,
+    "center_of_mass": [
+      870,
+      2122
+    ],
+    "raw_faces": [
+      [
+        88,
+        1469,
+        896,
+        896
+      ],
+      [
+        910,
+        2033,
+        589,
+        589
+      ]
+    ]
+  },
+  "Photo Dec 31 2018, 5 01 32 PM.jpg": {
+    "width": 2320,
+    "height": 3088,
+    "faces_found": 1,
+    "center_of_mass": [
+      860,
+      1562
+    ],
+    "raw_faces": [
+      [
+        556,
+        1258,
+        609,
+        609
+      ]
+    ]
+  },
+  "Photo Oct 14 2018, 12 43 07 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 2,
+    "center_of_mass": [
+      1618,
+      1416
+    ],
+    "raw_faces": [
+      [
+        1081,
+        918,
+        536,
+        536
+      ],
+      [
+        1588,
+        1349,
+        596,
+        596
+      ]
+    ]
+  },
+  "Photo Jul 08 2017, 7 07 20 AM.jpg": {
+    "width": 561,
+    "height": 635,
+    "faces_found": 2,
+    "center_of_mass": [
+      226,
+      260
+    ],
+    "raw_faces": [
+      [
+        108,
+        99,
+        266,
+        266
+      ],
+      [
+        176,
+        253,
+        70,
+        70
+      ]
+    ]
+  },
+  "Photo Oct 10 2018, 7 01 46 PM.jpg": {
+    "width": 2320,
+    "height": 3088,
+    "faces_found": 2,
+    "center_of_mass": [
+      833,
+      1285
+    ],
+    "raw_faces": [
+      [
+        819,
+        705,
+        670,
+        670
+      ],
+      [
+        48,
+        1067,
+        927,
+        927
+      ]
+    ]
+  },
+  "Photo Jun 04 2017, 3 00 06 PM.jpg": {
+    "width": 1522,
+    "height": 3488,
+    "faces_found": 2,
+    "center_of_mass": [
+      1023,
+      1150
+    ],
+    "raw_faces": [
+      [
+        652,
+        308,
+        403,
+        403
+      ],
+      [
+        1148,
+        1746,
+        88,
+        88
+      ]
+    ]
+  },
+  "Photo Jul 07 2017, 3 02 09 PM.png": {
+    "width": 640,
+    "height": 1136,
+    "faces_found": 2,
+    "center_of_mass": [
+      268,
+      566
+    ],
+    "raw_faces": [
+      [
+        311,
+        377,
+        259,
+        259
+      ],
+      [
+        20,
+        552,
+        149,
+        149
+      ]
+    ]
+  },
+  "Photo May 17 2018, 2 50 23 PM.jpg": {
+    "width": 6000,
+    "height": 4000,
+    "faces_found": 6,
+    "center_of_mass": [
+      2777,
+      3142
+    ],
+    "raw_faces": [
+      [
+        2439,
+        2219,
+        205,
+        205
+      ],
+      [
+        5669,
+        2030,
+        100,
+        100
+      ],
+      [
+        2487,
+        3448,
+        75,
+        75
+      ],
+      [
+        2721,
+        3387,
+        62,
+        62
+      ],
+      [
+        2656,
+        3586,
+        53,
+        53
+      ],
+      [
+        431,
+        3924,
+        26,
+        26
+      ]
+    ]
+  },
+  "Photo May 15 2018, 2 59 39 PM.jpg": {
+    "width": 4800,
+    "height": 3600,
+    "faces_found": 4,
+    "center_of_mass": [
+      1666,
+      2615
+    ],
+    "raw_faces": [
+      [
+        1510,
+        1146,
+        412,
+        412
+      ],
+      [
+        1990,
+        2273,
+        623,
+        623
+      ],
+      [
+        2152,
+        2985,
+        90,
+        90
+      ],
+      [
+        419,
+        3464,
+        58,
+        58
+      ]
+    ]
+  },
+  "Photo Aug 13 2017, 6 25 47 PM.jpg": {
+    "width": 3264,
+    "height": 2448,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_1512.JPG": {
+    "width": 720,
+    "height": 960,
+    "faces_found": 1,
+    "center_of_mass": [
+      310,
+      216
+    ],
+    "raw_faces": [
+      [
+        269,
+        175,
+        83,
+        83
+      ]
+    ]
+  },
+  "Photo Dec 24 2017, 6 29 34 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 3,
+    "center_of_mass": [
+      1828,
+      2945
+    ],
+    "raw_faces": [
+      [
+        1311,
+        1142,
+        390,
+        390
+      ],
+      [
+        1945,
+        3565,
+        179,
+        179
+      ],
+      [
+        1903,
+        3803,
+        83,
+        83
+      ]
+    ]
+  },
+  "Photo Sep 04 2017, 9 57 40 AM.jpg": {
+    "width": 1440,
+    "height": 2560,
+    "faces_found": 1,
+    "center_of_mass": [
+      440,
+      912
+    ],
+    "raw_faces": [
+      [
+        275,
+        747,
+        330,
+        330
+      ]
+    ]
+  },
+  "IMG_1502.JPG": {
+    "width": 960,
+    "height": 720,
+    "faces_found": 2,
+    "center_of_mass": [
+      404,
+      392
+    ],
+    "raw_faces": [
+      [
+        300,
+        227,
+        87,
+        87
+      ],
+      [
+        407,
+        458,
+        113,
+        113
+      ]
+    ]
+  },
+  "Photo Dec 21 2017, 4 12 10 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 4,
+    "center_of_mass": [
+      892,
+      1952
+    ],
+    "raw_faces": [
+      [
+        1384,
+        1251,
+        282,
+        282
+      ],
+      [
+        255,
+        1400,
+        91,
+        91
+      ],
+      [
+        1097,
+        1473,
+        231,
+        231
+      ],
+      [
+        498,
+        3351,
+        60,
+        60
+      ]
+    ]
+  },
+  "IMG_1514.JPG": {
+    "width": 720,
+    "height": 960,
+    "faces_found": 1,
+    "center_of_mass": [
+      378,
+      615
+    ],
+    "raw_faces": [
+      [
+        223,
+        460,
+        310,
+        310
+      ]
+    ]
+  },
+  "IMG_1515.JPG": {
+    "width": 720,
+    "height": 960,
+    "faces_found": 2,
+    "center_of_mass": [
+      337,
+      221
+    ],
+    "raw_faces": [
+      [
+        344,
+        205,
+        73,
+        73
+      ],
+      [
+        244,
+        151,
+        98,
+        98
+      ]
+    ]
+  },
+  "IMG_20171212_0709.jpg": {
+    "width": 1216,
+    "height": 1096,
+    "faces_found": 5,
+    "center_of_mass": [
+      588,
+      472
+    ],
+    "raw_faces": [
+      [
+        412,
+        192,
+        74,
+        74
+      ],
+      [
+        661,
+        313,
+        70,
+        70
+      ],
+      [
+        826,
+        426,
+        70,
+        70
+      ],
+      [
+        508,
+        524,
+        58,
+        58
+      ],
+      [
+        358,
+        733,
+        76,
+        76
+      ]
+    ]
+  },
+  "DSC_0392.JPG": {
+    "width": 6000,
+    "height": 4000,
+    "faces_found": 8,
+    "center_of_mass": [
+      3113,
+      1407
+    ],
+    "raw_faces": [
+      [
+        4282,
+        368,
+        52,
+        52
+      ],
+      [
+        3950,
+        855,
+        505,
+        505
+      ],
+      [
+        1443,
+        1305,
+        389,
+        389
+      ],
+      [
+        2368,
+        1354,
+        388,
+        388
+      ],
+      [
+        3156,
+        1319,
+        444,
+        444
+      ],
+      [
+        779,
+        1593,
+        346,
+        346
+      ],
+      [
+        5819,
+        1277,
+        60,
+        60
+      ],
+      [
+        1800,
+        1879,
+        428,
+        428
+      ]
+    ]
+  },
+  "IMG_6162_Original.jpg": {
+    "width": 2048,
+    "height": 1189,
+    "faces_found": 11,
+    "center_of_mass": [
+      1228,
+      470
+    ],
+    "raw_faces": [
+      [
+        362,
+        143,
+        104,
+        104
+      ],
+      [
+        583,
+        249,
+        102,
+        102
+      ],
+      [
+        779,
+        263,
+        96,
+        96
+      ],
+      [
+        1008,
+        350,
+        90,
+        90
+      ],
+      [
+        1139,
+        444,
+        76,
+        76
+      ],
+      [
+        1204,
+        463,
+        74,
+        74
+      ],
+      [
+        1465,
+        475,
+        76,
+        76
+      ],
+      [
+        1735,
+        501,
+        63,
+        63
+      ],
+      [
+        1477,
+        553,
+        65,
+        65
+      ],
+      [
+        1634,
+        610,
+        68,
+        68
+      ],
+      [
+        1678,
+        674,
+        68,
+        68
+      ]
+    ]
+  },
+  "Photo Jun 04 2017, 3 28 32 PM.jpg": {
+    "width": 2921,
+    "height": 2405,
+    "faces_found": 15,
+    "center_of_mass": [
+      1468,
+      807
+    ],
+    "raw_faces": [
+      [
+        1519,
+        216,
+        181,
+        181
+      ],
+      [
+        746,
+        230,
+        202,
+        202
+      ],
+      [
+        1295,
+        304,
+        225,
+        225
+      ],
+      [
+        1776,
+        344,
+        179,
+        179
+      ],
+      [
+        223,
+        242,
+        82,
+        82
+      ],
+      [
+        1102,
+        484,
+        212,
+        212
+      ],
+      [
+        1477,
+        511,
+        196,
+        196
+      ],
+      [
+        696,
+        498,
+        263,
+        263
+      ],
+      [
+        1824,
+        508,
+        217,
+        217
+      ],
+      [
+        2193,
+        507,
+        242,
+        242
+      ],
+      [
+        1860,
+        959,
+        166,
+        166
+      ],
+      [
+        1580,
+        1176,
+        66,
+        66
+      ],
+      [
+        2482,
+        1391,
+        75,
+        75
+      ],
+      [
+        1454,
+        1520,
+        89,
+        89
+      ],
+      [
+        565,
+        1988,
+        73,
+        73
+      ]
+    ]
+  },
+  "IMG_2201.JPG": {
+    "width": 4032,
+    "height": 3024,
+    "faces_found": 5,
+    "center_of_mass": [
+      1978,
+      1835
+    ],
+    "raw_faces": [
+      [
+        1187,
+        976,
+        635,
+        635
+      ],
+      [
+        2220,
+        1121,
+        648,
+        648
+      ],
+      [
+        2473,
+        1952,
+        230,
+        230
+      ],
+      [
+        710,
+        2080,
+        62,
+        62
+      ],
+      [
+        2482,
+        2229,
+        58,
+        58
+      ]
+    ]
+  },
+  "IMG_0004 (1).jpg": {
+    "width": 2047,
+    "height": 2047,
+    "faces_found": 4,
+    "center_of_mass": [
+      823,
+      952
+    ],
+    "raw_faces": [
+      [
+        873,
+        755,
+        235,
+        235
+      ],
+      [
+        505,
+        862,
+        217,
+        217
+      ],
+      [
+        185,
+        858,
+        237,
+        237
+      ],
+      [
+        1265,
+        869,
+        236,
+        236
+      ]
+    ]
+  },
+  "CB26E457-622D-4C13-8E9F-F0D3738D0DD3.JPG": {
+    "width": 6000,
+    "height": 4000,
+    "faces_found": 12,
+    "center_of_mass": [
+      2652,
+      2105
+    ],
+    "raw_faces": [
+      [
+        3747,
+        1061,
+        285,
+        285
+      ],
+      [
+        1820,
+        1040,
+        265,
+        265
+      ],
+      [
+        2895,
+        1183,
+        254,
+        254
+      ],
+      [
+        3291,
+        1124,
+        261,
+        261
+      ],
+      [
+        3350,
+        1548,
+        219,
+        219
+      ],
+      [
+        3415,
+        1833,
+        315,
+        315
+      ],
+      [
+        2620,
+        1928,
+        322,
+        322
+      ],
+      [
+        2310,
+        2107,
+        224,
+        224
+      ],
+      [
+        2055,
+        3190,
+        220,
+        220
+      ],
+      [
+        849,
+        2741,
+        59,
+        59
+      ],
+      [
+        1535,
+        3112,
+        64,
+        64
+      ],
+      [
+        2663,
+        3113,
+        64,
+        64
+      ]
+    ]
+  },
+  "FF6CC2C4-8AF9-4153-8A75-50A32F8B2B78.JPG": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 3,
+    "center_of_mass": [
+      1837,
+      2006
+    ],
+    "raw_faces": [
+      [
+        2064,
+        1270,
+        323,
+        323
+      ],
+      [
+        1277,
+        1263,
+        294,
+        294
+      ],
+      [
+        1832,
+        3147,
+        57,
+        57
+      ]
+    ]
+  },
+  "IMG_4990.jpeg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 3,
+    "center_of_mass": [
+      1520,
+      1289
+    ],
+    "raw_faces": [
+      [
+        1810,
+        991,
+        318,
+        318
+      ],
+      [
+        1375,
+        1221,
+        247,
+        247
+      ],
+      [
+        960,
+        1239,
+        268,
+        268
+      ]
+    ]
+  },
+  "IMG_3556.JPG": {
+    "width": 1820,
+    "height": 1345,
+    "faces_found": 2,
+    "center_of_mass": [
+      750,
+      333
+    ],
+    "raw_faces": [
+      [
+        873,
+        151,
+        125,
+        125
+      ],
+      [
+        499,
+        387,
+        130,
+        130
+      ]
+    ]
+  },
+  "IMG_4986.jpeg": {
+    "width": 4032,
+    "height": 3024,
+    "faces_found": 6,
+    "center_of_mass": [
+      1748,
+      1472
+    ],
+    "raw_faces": [
+      [
+        2719,
+        554,
+        386,
+        386
+      ],
+      [
+        1399,
+        690,
+        407,
+        407
+      ],
+      [
+        2107,
+        1067,
+        353,
+        353
+      ],
+      [
+        394,
+        1319,
+        83,
+        83
+      ],
+      [
+        2173,
+        1469,
+        293,
+        293
+      ],
+      [
+        892,
+        2926,
+        89,
+        89
+      ]
+    ]
+  },
+  "IMG_1618.JPG": {
+    "width": 6000,
+    "height": 4000,
+    "faces_found": 6,
+    "center_of_mass": [
+      3556,
+      2619
+    ],
+    "raw_faces": [
+      [
+        2567,
+        1158,
+        764,
+        764
+      ],
+      [
+        1765,
+        1710,
+        671,
+        671
+      ],
+      [
+        2274,
+        2483,
+        69,
+        69
+      ],
+      [
+        5766,
+        3235,
+        175,
+        175
+      ],
+      [
+        3119,
+        3072,
+        57,
+        57
+      ],
+      [
+        4934,
+        3147,
+        84,
+        84
+      ]
+    ]
+  },
+  "Photo Dec 24 2018, 10 39 53 PM.jpg": {
+    "width": 6000,
+    "height": 4000,
+    "faces_found": 12,
+    "center_of_mass": [
+      2652,
+      2105
+    ],
+    "raw_faces": [
+      [
+        3747,
+        1061,
+        285,
+        285
+      ],
+      [
+        3291,
+        1124,
+        261,
+        261
+      ],
+      [
+        1820,
+        1040,
+        265,
+        265
+      ],
+      [
+        2895,
+        1183,
+        254,
+        254
+      ],
+      [
+        3350,
+        1548,
+        219,
+        219
+      ],
+      [
+        2620,
+        1928,
+        322,
+        322
+      ],
+      [
+        3415,
+        1833,
+        315,
+        315
+      ],
+      [
+        2310,
+        2107,
+        224,
+        224
+      ],
+      [
+        2055,
+        3190,
+        220,
+        220
+      ],
+      [
+        849,
+        2741,
+        59,
+        59
+      ],
+      [
+        1535,
+        3112,
+        64,
+        64
+      ],
+      [
+        2663,
+        3113,
+        64,
+        64
+      ]
+    ]
+  },
+  "IMG_1150.JPG": {
+    "width": 1460,
+    "height": 924,
+    "faces_found": 3,
+    "center_of_mass": [
+      815,
+      360
+    ],
+    "raw_faces": [
+      [
+        535,
+        176,
+        94,
+        94
+      ],
+      [
+        786,
+        317,
+        98,
+        98
+      ],
+      [
+        979,
+        442,
+        98,
+        98
+      ]
+    ]
+  },
+  "DSC_0687.jpg": {
+    "width": 6000,
+    "height": 4000,
+    "faces_found": 2,
+    "center_of_mass": [
+      2586,
+      2444
+    ],
+    "raw_faces": [
+      [
+        2308,
+        1396,
+        301,
+        301
+      ],
+      [
+        2682,
+        3310,
+        64,
+        64
+      ]
+    ]
+  },
+  "fktmp222_0046_0046_Original.jpg": {
+    "width": 1012,
+    "height": 1521,
+    "faces_found": 2,
+    "center_of_mass": [
+      434,
+      639
+    ],
+    "raw_faces": [
+      [
+        319,
+        506,
+        79,
+        79
+      ],
+      [
+        481,
+        705,
+        56,
+        56
+      ]
+    ]
+  },
+  "Photo Nov 23 2018, 7 57 21 PM.jpg": {
+    "width": 3088,
+    "height": 2320,
+    "faces_found": 2,
+    "center_of_mass": [
+      1886,
+      1334
+    ],
+    "raw_faces": [
+      [
+        864,
+        581,
+        843,
+        843
+      ],
+      [
+        2443,
+        1621,
+        89,
+        89
+      ]
+    ]
+  },
+  "IMG_6008.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "faces_found": 5,
+    "center_of_mass": [
+      2685,
+      1650
+    ],
+    "raw_faces": [
+      [
+        677,
+        410,
+        549,
+        549
+      ],
+      [
+        1741,
+        695,
+        606,
+        606
+      ],
+      [
+        2829,
+        826,
+        581,
+        581
+      ],
+      [
+        3949,
+        2513,
+        67,
+        67
+      ],
+      [
+        3263,
+        2838,
+        130,
+        130
+      ]
+    ]
+  },
+  "IMG_1170.JPG": {
+    "width": 2048,
+    "height": 1246,
+    "faces_found": 8,
+    "center_of_mass": [
+      1057,
+      445
+    ],
+    "raw_faces": [
+      [
+        951,
+        24,
+        156,
+        156
+      ],
+      [
+        1318,
+        106,
+        149,
+        149
+      ],
+      [
+        653,
+        262,
+        156,
+        156
+      ],
+      [
+        1008,
+        257,
+        170,
+        170
+      ],
+      [
+        471,
+        295,
+        155,
+        155
+      ],
+      [
+        1526,
+        448,
+        173,
+        173
+      ],
+      [
+        1256,
+        513,
+        159,
+        159
+      ],
+      [
+        606,
+        986,
+        220,
+        220
+      ]
+    ]
+  },
+  "IMG_0469.JPG": {
+    "width": 1600,
+    "height": 1200,
+    "faces_found": 3,
+    "center_of_mass": [
+      624,
+      275
+    ],
+    "raw_faces": [
+      [
+        526,
+        222,
+        132,
+        132
+      ],
+      [
+        341,
+        269,
+        136,
+        136
+      ],
+      [
+        806,
+        136,
+        129,
+        129
+      ]
+    ]
+  },
+  "Photo Apr 30 2018, 7 51 47 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 1,
+    "center_of_mass": [
+      1337,
+      1953
+    ],
+    "raw_faces": [
+      [
+        719,
+        1335,
+        1236,
+        1236
+      ]
+    ]
+  },
+  "IMG_5002 (1).jpg": {
+    "width": 2921,
+    "height": 2405,
+    "faces_found": 15,
+    "center_of_mass": [
+      1468,
+      807
+    ],
+    "raw_faces": [
+      [
+        1519,
+        216,
+        181,
+        181
+      ],
+      [
+        746,
+        230,
+        202,
+        202
+      ],
+      [
+        223,
+        242,
+        82,
+        82
+      ],
+      [
+        1776,
+        344,
+        179,
+        179
+      ],
+      [
+        1295,
+        304,
+        225,
+        225
+      ],
+      [
+        1102,
+        484,
+        212,
+        212
+      ],
+      [
+        1824,
+        508,
+        217,
+        217
+      ],
+      [
+        696,
+        498,
+        263,
+        263
+      ],
+      [
+        2193,
+        507,
+        242,
+        242
+      ],
+      [
+        1477,
+        511,
+        196,
+        196
+      ],
+      [
+        1860,
+        959,
+        166,
+        166
+      ],
+      [
+        1580,
+        1176,
+        66,
+        66
+      ],
+      [
+        2482,
+        1391,
+        75,
+        75
+      ],
+      [
+        1454,
+        1520,
+        89,
+        89
+      ],
+      [
+        565,
+        1988,
+        73,
+        73
+      ]
+    ]
+  },
+  "IMG_1510.JPG": {
+    "width": 720,
+    "height": 960,
+    "faces_found": 2,
+    "center_of_mass": [
+      378,
+      466
+    ],
+    "raw_faces": [
+      [
+        279,
+        398,
+        84,
+        84
+      ],
+      [
+        400,
+        456,
+        72,
+        72
+      ]
+    ]
+  },
+  "38C4F891-1407-4951-BB2B-28E4583CA8FA.JPG": {
+    "width": 1757,
+    "height": 1170,
+    "faces_found": 3,
+    "center_of_mass": [
+      928,
+      584
+    ],
+    "raw_faces": [
+      [
+        743,
+        419,
+        165,
+        165
+      ],
+      [
+        1056,
+        536,
+        177,
+        177
+      ],
+      [
+        736,
+        550,
+        154,
+        154
+      ]
+    ]
+  },
+  "IMG_5971 - Copy (9).JPG": {
+    "width": 720,
+    "height": 960,
+    "faces_found": 3,
+    "center_of_mass": [
+      381,
+      455
+    ],
+    "raw_faces": [
+      [
+        165,
+        426,
+        90,
+        90
+      ],
+      [
+        513,
+        408,
+        85,
+        85
+      ],
+      [
+        339,
+        404,
+        78,
+        78
+      ]
+    ]
+  },
+  "6D0288DB-C3CF-4D9D-9154-02700DD81CE0.JPG": {
+    "width": 822,
+    "height": 591,
+    "faces_found": 4,
+    "center_of_mass": [
+      495,
+      206
+    ],
+    "raw_faces": [
+      [
+        541,
+        99,
+        70,
+        70
+      ],
+      [
+        395,
+        178,
+        63,
+        63
+      ],
+      [
+        305,
+        197,
+        65,
+        65
+      ],
+      [
+        599,
+        212,
+        80,
+        80
+      ]
+    ]
+  },
+  "IMG_20171212_0272.jpg": {
+    "width": 1300,
+    "height": 1088,
+    "faces_found": 1,
+    "center_of_mass": [
+      1008,
+      614
+    ],
+    "raw_faces": [
+      [
+        886,
+        493,
+        243,
+        243
+      ]
+    ]
+  },
+  "7EAA69DA-A0DC-4747-B158-B335EC0BD23D.JPG": {
+    "width": 2576,
+    "height": 1932,
+    "faces_found": 3,
+    "center_of_mass": [
+      1197,
+      657
+    ],
+    "raw_faces": [
+      [
+        2254,
+        32,
+        52,
+        52
+      ],
+      [
+        723,
+        123,
+        320,
+        320
+      ],
+      [
+        162,
+        1362,
+        534,
+        534
+      ]
+    ]
+  },
+  "IMG_20171212_0712.jpg": {
+    "width": 1460,
+    "height": 1032,
+    "faces_found": 4,
+    "center_of_mass": [
+      872,
+      453
+    ],
+    "raw_faces": [
+      [
+        711,
+        151,
+        269,
+        269
+      ],
+      [
+        861,
+        283,
+        69,
+        69
+      ],
+      [
+        566,
+        497,
+        193,
+        193
+      ],
+      [
+        986,
+        519,
+        193,
+        193
+      ]
+    ]
+  },
+  "IMG_7579.jpeg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 1,
+    "center_of_mass": [
+      713,
+      3639
+    ],
+    "raw_faces": [
+      [
+        686,
+        3612,
+        54,
+        54
+      ]
+    ]
+  },
+  "Phyllis Old Photos_20180221_0042.jpg": {
+    "width": 1744,
+    "height": 2104,
+    "faces_found": 1,
+    "center_of_mass": [
+      1060,
+      1464
+    ],
+    "raw_faces": [
+      [
+        1005,
+        1409,
+        109,
+        109
+      ]
+    ]
+  },
+  "IMG_20171213_0010.jpg": {
+    "width": 1500,
+    "height": 1952,
+    "faces_found": 2,
+    "center_of_mass": [
+      468,
+      1097
+    ],
+    "raw_faces": [
+      [
+        499,
+        426,
+        367,
+        367
+      ],
+      [
+        121,
+        1452,
+        266,
+        266
+      ]
+    ]
+  },
+  "School photos_20171213_0011.JPG": {
+    "width": 2128,
+    "height": 3000,
+    "faces_found": 1,
+    "center_of_mass": [
+      1112,
+      952
+    ],
+    "raw_faces": [
+      [
+        689,
+        529,
+        846,
+        846
+      ]
+    ]
+  },
+  "IMG_1163.JPG": {
+    "width": 1348,
+    "height": 1036,
+    "faces_found": 1,
+    "center_of_mass": [
+      756,
+      332
+    ],
+    "raw_faces": [
+      [
+        721,
+        298,
+        69,
+        69
+      ]
+    ]
+  },
+  "IMG_1460.JPG": {
+    "width": 1808,
+    "height": 1072,
+    "faces_found": 5,
+    "center_of_mass": [
+      920,
+      236
+    ],
+    "raw_faces": [
+      [
+        1450,
+        107,
+        123,
+        123
+      ],
+      [
+        1091,
+        153,
+        132,
+        132
+      ],
+      [
+        536,
+        150,
+        150,
+        150
+      ],
+      [
+        819,
+        169,
+        117,
+        117
+      ],
+      [
+        385,
+        283,
+        111,
+        111
+      ]
+    ]
+  },
+  "IMG_5589_Original.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_5477_Original.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_5530_Original.jpg": {
+    "width": 960,
+    "height": 720,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "2D3BB106-974A-4683-9E60-BE1216BBC805.JPG": {
+    "width": 6000,
+    "height": 4000,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo Sep 30 2017, 9 46 36 AM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 28 2017, 12 23 50 PM.jpg": {
+    "width": 2448,
+    "height": 3264,
+    "faces_found": 5,
+    "center_of_mass": [
+      932,
+      523
+    ],
+    "raw_faces": [
+      [
+        318,
+        214,
+        61,
+        61
+      ],
+      [
+        1190,
+        5,
+        68,
+        68
+      ],
+      [
+        322,
+        315,
+        237,
+        237
+      ],
+      [
+        1263,
+        751,
+        58,
+        58
+      ],
+      [
+        1306,
+        1069,
+        95,
+        95
+      ]
+    ]
+  },
+  "Photo Dec 25 2018, 10 33 34 AM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 2,
+    "center_of_mass": [
+      1727,
+      2817
+    ],
+    "raw_faces": [
+      [
+        2943,
+        2601,
+        76,
+        76
+      ],
+      [
+        426,
+        2947,
+        95,
+        95
+      ]
+    ]
+  },
+  "Photo Jun 30 2018, 1 24 41 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 2,
+    "center_of_mass": [
+      2043,
+      1432
+    ],
+    "raw_faces": [
+      [
+        2527,
+        1109,
+        74,
+        74
+      ],
+      [
+        1487,
+        1683,
+        71,
+        71
+      ]
+    ]
+  },
+  "Photo Oct 12 2018, 3 10 17 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 2,
+    "center_of_mass": [
+      1788,
+      2742
+    ],
+    "raw_faces": [
+      [
+        1424,
+        2124,
+        200,
+        200
+      ],
+      [
+        1998,
+        3204,
+        110,
+        110
+      ]
+    ]
+  },
+  "Photo May 28 2017, 1 09 42 PM.jpg": {
+    "width": 2448,
+    "height": 3264,
+    "faces_found": 4,
+    "center_of_mass": [
+      1479,
+      833
+    ],
+    "raw_faces": [
+      [
+        1784,
+        117,
+        62,
+        62
+      ],
+      [
+        2353,
+        188,
+        63,
+        63
+      ],
+      [
+        1214,
+        1202,
+        169,
+        169
+      ],
+      [
+        389,
+        1649,
+        58,
+        58
+      ]
+    ]
+  },
+  "Photo Sep 30 2017, 11 19 42 AM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 3,
+    "center_of_mass": [
+      889,
+      2076
+    ],
+    "raw_faces": [
+      [
+        741,
+        962,
+        1602,
+        1602
+      ],
+      [
+        966,
+        1519,
+        102,
+        102
+      ],
+      [
+        75,
+        2861,
+        65,
+        65
+      ]
+    ]
+  },
+  "Photo Dec 01 2018, 11 16 43 AM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo Dec 23 2018, 7 24 42 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_0021.JPG": {
+    "width": 2448,
+    "height": 3264,
+    "faces_found": 3,
+    "center_of_mass": [
+      1176,
+      1356
+    ],
+    "raw_faces": [
+      [
+        539,
+        428,
+        69,
+        69
+      ],
+      [
+        360,
+        1203,
+        871,
+        871
+      ],
+      [
+        1994,
+        1804,
+        328,
+        328
+      ]
+    ]
+  },
+  "IMG_1116.JPG": {
+    "width": 479,
+    "height": 720,
+    "faces_found": 1,
+    "center_of_mass": [
+      331,
+      253
+    ],
+    "raw_faces": [
+      [
+        243,
+        165,
+        176,
+        176
+      ]
+    ]
+  },
+  "Photo Apr 05 2018, 5 19 30 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 3,
+    "center_of_mass": [
+      1650,
+      1236
+    ],
+    "raw_faces": [
+      [
+        828,
+        865,
+        782,
+        782
+      ],
+      [
+        1937,
+        1100,
+        168,
+        168
+      ],
+      [
+        1677,
+        1235,
+        66,
+        66
+      ]
+    ]
+  },
+  "IMG_1099.JPG": {
+    "width": 720,
+    "height": 960,
+    "faces_found": 1,
+    "center_of_mass": [
+      268,
+      370
+    ],
+    "raw_faces": [
+      [
+        199,
+        301,
+        139,
+        139
+      ]
+    ]
+  },
+  "Photo Apr 28 2018, 4 06 42 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 1,
+    "center_of_mass": [
+      1442,
+      1276
+    ],
+    "raw_faces": [
+      [
+        1290,
+        1125,
+        303,
+        303
+      ]
+    ]
+  },
+  "Photo Sep 16 2017, 4 21 48 PM.jpg": {
+    "width": 2448,
+    "height": 3264,
+    "faces_found": 2,
+    "center_of_mass": [
+      1263,
+      338
+    ],
+    "raw_faces": [
+      [
+        1351,
+        132,
+        374,
+        374
+      ],
+      [
+        771,
+        139,
+        434,
+        434
+      ]
+    ]
+  },
+  "Photo Apr 06 2018, 6 21 56 PM.jpg": {
+    "width": 3662,
+    "height": 2744,
+    "faces_found": 8,
+    "center_of_mass": [
+      1980,
+      1260
+    ],
+    "raw_faces": [
+      [
+        2105,
+        738,
+        268,
+        268
+      ],
+      [
+        1422,
+        857,
+        202,
+        202
+      ],
+      [
+        1034,
+        948,
+        196,
+        196
+      ],
+      [
+        1814,
+        1089,
+        191,
+        191
+      ],
+      [
+        2422,
+        1063,
+        91,
+        91
+      ],
+      [
+        2118,
+        1363,
+        88,
+        88
+      ],
+      [
+        2080,
+        1621,
+        80,
+        80
+      ],
+      [
+        2244,
+        1796,
+        87,
+        87
+      ]
+    ]
+  },
+  "Photo May 15 2018, 4 37 09 PM.jpg": {
+    "width": 6000,
+    "height": 4000,
+    "faces_found": 7,
+    "center_of_mass": [
+      3263,
+      1817
+    ],
+    "raw_faces": [
+      [
+        3622,
+        550,
+        521,
+        521
+      ],
+      [
+        1408,
+        990,
+        478,
+        478
+      ],
+      [
+        2945,
+        1130,
+        538,
+        538
+      ],
+      [
+        2361,
+        1343,
+        408,
+        408
+      ],
+      [
+        5412,
+        2159,
+        83,
+        83
+      ],
+      [
+        5014,
+        2519,
+        68,
+        68
+      ],
+      [
+        967,
+        2919,
+        123,
+        123
+      ]
+    ]
+  },
+  "Photo Sep 15 2017, 8 58 00 PM.jpg": {
+    "width": 2185,
+    "height": 2019,
+    "faces_found": 3,
+    "center_of_mass": [
+      1166,
+      452
+    ],
+    "raw_faces": [
+      [
+        1046,
+        251,
+        239,
+        239
+      ],
+      [
+        1776,
+        301,
+        279,
+        279
+      ],
+      [
+        285,
+        412,
+        266,
+        266
+      ]
+    ]
+  },
+  "Photo May 18 2026, 7 11 52 PM (3).jpg": {
+    "width": 1776,
+    "height": 1192,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 16 2026, 6 16 04 PM (11).jpg": {
+    "width": 479,
+    "height": 720,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 16 2026, 6 16 04 PM (5).jpg": {
+    "width": 604,
+    "height": 403,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 24 2026, 10 33 20 AM.jpg": {
+    "width": 2644,
+    "height": 1983,
+    "faces_found": 5,
+    "center_of_mass": [
+      1489,
+      1150
+    ],
+    "raw_faces": [
+      [
+        188,
+        621,
+        278,
+        278
+      ],
+      [
+        1999,
+        711,
+        177,
+        177
+      ],
+      [
+        1533,
+        1095,
+        32,
+        32
+      ],
+      [
+        2072,
+        1479,
+        113,
+        113
+      ],
+      [
+        1310,
+        1504,
+        84,
+        84
+      ]
+    ]
+  },
+  "Photo May 16 2026, 6 16 04 PM (9).jpg": {
+    "width": 604,
+    "height": 403,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 16 2026, 6 16 04 PM (8).jpg": {
+    "width": 604,
+    "height": 403,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo Jun 06 2026, 9 56 02 AM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 8,
+    "center_of_mass": [
+      2044,
+      1826
+    ],
+    "raw_faces": [
+      [
+        2449,
+        86,
+        136,
+        136
+      ],
+      [
+        2422,
+        1104,
+        67,
+        67
+      ],
+      [
+        357,
+        1431,
+        344,
+        344
+      ],
+      [
+        1854,
+        1694,
+        418,
+        418
+      ],
+      [
+        2276,
+        1895,
+        164,
+        164
+      ],
+      [
+        1855,
+        2246,
+        61,
+        61
+      ],
+      [
+        2934,
+        2264,
+        61,
+        61
+      ],
+      [
+        1534,
+        3218,
+        85,
+        85
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 37 21 AM.jpg": {
+    "width": 2329,
+    "height": 3105,
+    "faces_found": 2,
+    "center_of_mass": [
+      878,
+      772
+    ],
+    "raw_faces": [
+      [
+        854,
+        364,
+        810,
+        810
+      ],
+      [
+        440,
+        720,
+        112,
+        112
+      ]
+    ]
+  },
+  "Photo May 16 2026, 6 16 04 PM (4).jpg": {
+    "width": 604,
+    "height": 453,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 16 2026, 6 16 04 PM (10).jpg": {
+    "width": 604,
+    "height": 403,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 18 2026, 7 11 52 PM.jpg": {
+    "width": 479,
+    "height": 720,
+    "faces_found": 1,
+    "center_of_mass": [
+      331,
+      253
+    ],
+    "raw_faces": [
+      [
+        243,
+        165,
+        176,
+        176
+      ]
+    ]
+  },
+  "Photo May 18 2026, 7 11 52 PM (2).jpg": {
+    "width": 604,
+    "height": 453,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 16 2026, 6 16 04 PM (3).jpg": {
+    "width": 720,
+    "height": 479,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 16 2026, 6 16 04 PM (11) (1).jpg": {
+    "width": 479,
+    "height": 720,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 16 2026, 6 16 04 PM (6) (1).jpg": {
+    "width": 720,
+    "height": 514,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 18 2026, 7 11 52 PM (4).jpg": {
+    "width": 720,
+    "height": 479,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 16 2026, 6 16 04 PM.jpg": {
+    "width": 720,
+    "height": 479,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 16 2026, 6 16 04 PM (1).jpg": {
+    "width": 720,
+    "height": 479,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 16 2026, 6 16 04 PM (8) (1).jpg": {
+    "width": 604,
+    "height": 403,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 16 2026, 6 16 04 PM (7).jpg": {
+    "width": 604,
+    "height": 403,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo Jun 06 2026, 9 59 06 AM.jpg": {
+    "width": 4031,
+    "height": 3023,
+    "faces_found": 1,
+    "center_of_mass": [
+      1504,
+      1110
+    ],
+    "raw_faces": [
+      [
+        1470,
+        1077,
+        67,
+        67
+      ]
+    ]
+  },
+  "Photo May 16 2026, 6 16 04 PM (12) (1).jpg": {
+    "width": 720,
+    "height": 514,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 16 2026, 6 16 04 PM (12).jpg": {
+    "width": 514,
+    "height": 720,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 16 2026, 6 16 04 PM (6).jpg": {
+    "width": 1800,
+    "height": 1215,
+    "faces_found": 1,
+    "center_of_mass": [
+      974,
+      322
+    ],
+    "raw_faces": [
+      [
+        928,
+        276,
+        91,
+        91
+      ]
+    ]
+  },
+  "IMG_20171212_0293.jpg": {
+    "width": 1316,
+    "height": 1028,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_20171212_0336.jpg": {
+    "width": 1324,
+    "height": 944,
+    "faces_found": 1,
+    "center_of_mass": [
+      620,
+      304
+    ],
+    "raw_faces": [
+      [
+        509,
+        194,
+        221,
+        221
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 34 49 AM.jpg": {
+    "width": 2837,
+    "height": 2128,
+    "faces_found": 6,
+    "center_of_mass": [
+      1530,
+      861
+    ],
+    "raw_faces": [
+      [
+        1035,
+        82,
+        63,
+        63
+      ],
+      [
+        1914,
+        856,
+        69,
+        69
+      ],
+      [
+        1800,
+        846,
+        99,
+        99
+      ],
+      [
+        1144,
+        871,
+        123,
+        123
+      ],
+      [
+        1587,
+        987,
+        119,
+        119
+      ],
+      [
+        1409,
+        1232,
+        115,
+        115
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 33 02 AM.jpg": {
+    "width": 3082,
+    "height": 2312,
+    "faces_found": 7,
+    "center_of_mass": [
+      1705,
+      437
+    ],
+    "raw_faces": [
+      [
+        1064,
+        60,
+        41,
+        41
+      ],
+      [
+        552,
+        183,
+        45,
+        45
+      ],
+      [
+        2252,
+        23,
+        57,
+        57
+      ],
+      [
+        2689,
+        201,
+        55,
+        55
+      ],
+      [
+        2799,
+        510,
+        61,
+        61
+      ],
+      [
+        1849,
+        562,
+        292,
+        292
+      ],
+      [
+        329,
+        1114,
+        257,
+        257
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 36 19 AM.jpg": {
+    "width": 2639,
+    "height": 1979,
+    "faces_found": 2,
+    "center_of_mass": [
+      1444,
+      1465
+    ],
+    "raw_faces": [
+      [
+        645,
+        1045,
+        124,
+        124
+      ],
+      [
+        2139,
+        1781,
+        84,
+        84
+      ]
+    ]
+  },
+  "IMG_113701.JPG": {
+    "width": 852,
+    "height": 651,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_20171212_0388.jpg": {
+    "width": 1296,
+    "height": 952,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 24 2026, 10 32 05 AM.jpg": {
+    "width": 2318,
+    "height": 3091,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_5337_Original.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 1,
+    "center_of_mass": [
+      1529,
+      1374
+    ],
+    "raw_faces": [
+      [
+        1403,
+        1248,
+        252,
+        252
+      ]
+    ]
+  },
+  "IMG_20171212_0299.jpg": {
+    "width": 1300,
+    "height": 984,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_20171212_0277.jpg": {
+    "width": 864,
+    "height": 928,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_20171212_0261.jpg": {
+    "width": 1292,
+    "height": 976,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 24 2026, 10 32 52 AM.jpg": {
+    "width": 1963,
+    "height": 2618,
+    "faces_found": 3,
+    "center_of_mass": [
+      1021,
+      1368
+    ],
+    "raw_faces": [
+      [
+        256,
+        566,
+        405,
+        405
+      ],
+      [
+        1435,
+        1260,
+        351,
+        351
+      ],
+      [
+        819,
+        1727,
+        348,
+        348
+      ]
+    ]
+  },
+  "Photo Mar 25 2022, 9 52 56 PM.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "faces_found": 3,
+    "center_of_mass": [
+      2141,
+      1828
+    ],
+    "raw_faces": [
+      [
+        3418,
+        1257,
+        187,
+        187
+      ],
+      [
+        533,
+        1619,
+        50,
+        50
+      ],
+      [
+        2318,
+        2456,
+        70,
+        70
+      ]
+    ]
+  },
+  "Photo Apr 16 2019, 9 00 15 PM.jpg": {
+    "width": 1584,
+    "height": 2775,
+    "faces_found": 2,
+    "center_of_mass": [
+      788,
+      1119
+    ],
+    "raw_faces": [
+      [
+        35,
+        623,
+        920,
+        920
+      ],
+      [
+        799,
+        873,
+        563,
+        563
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 26 57 AM.jpg": {
+    "width": 3363,
+    "height": 2403,
+    "faces_found": 3,
+    "center_of_mass": [
+      1488,
+      1188
+    ],
+    "raw_faces": [
+      [
+        524,
+        251,
+        613,
+        613
+      ],
+      [
+        1225,
+        534,
+        556,
+        556
+      ],
+      [
+        2104,
+        2167,
+        53,
+        53
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 59 13 AM.jpg": {
+    "width": 4031,
+    "height": 3023,
+    "faces_found": 9,
+    "center_of_mass": [
+      1859,
+      927
+    ],
+    "raw_faces": [
+      [
+        1363,
+        56,
+        68,
+        68
+      ],
+      [
+        2496,
+        231,
+        65,
+        65
+      ],
+      [
+        2069,
+        612,
+        648,
+        648
+      ],
+      [
+        908,
+        696,
+        739,
+        739
+      ],
+      [
+        3872,
+        668,
+        103,
+        103
+      ],
+      [
+        676,
+        912,
+        63,
+        63
+      ],
+      [
+        664,
+        1075,
+        55,
+        55
+      ],
+      [
+        437,
+        1010,
+        67,
+        67
+      ],
+      [
+        3304,
+        2141,
+        78,
+        78
+      ]
+    ]
+  },
+  "Photo Jan 21 2022, 6 45 38 PM (1).jpg": {
+    "width": 4032,
+    "height": 3024,
+    "faces_found": 9,
+    "center_of_mass": [
+      2025,
+      1343
+    ],
+    "raw_faces": [
+      [
+        2485,
+        889,
+        324,
+        324
+      ],
+      [
+        1095,
+        929,
+        315,
+        315
+      ],
+      [
+        1537,
+        1112,
+        295,
+        295
+      ],
+      [
+        2039,
+        1193,
+        268,
+        268
+      ],
+      [
+        1914,
+        1184,
+        53,
+        53
+      ],
+      [
+        2372,
+        1195,
+        60,
+        60
+      ],
+      [
+        3373,
+        1486,
+        86,
+        86
+      ],
+      [
+        2342,
+        1534,
+        105,
+        105
+      ],
+      [
+        302,
+        1792,
+        34,
+        34
+      ]
+    ]
+  },
+  "Photo Jun 03 2020, 9 15 54 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 2,
+    "center_of_mass": [
+      1231,
+      1448
+    ],
+    "raw_faces": [
+      [
+        1267,
+        1133,
+        355,
+        355
+      ],
+      [
+        860,
+        1429,
+        314,
+        314
+      ]
+    ]
+  },
+  "Photo May 24 2026, 9 40 44 AM (1).jpg": {
+    "width": 777,
+    "height": 1600,
+    "faces_found": 2,
+    "center_of_mass": [
+      247,
+      531
+    ],
+    "raw_faces": [
+      [
+        236,
+        447,
+        74,
+        74
+      ],
+      [
+        180,
+        536,
+        83,
+        83
+      ]
+    ]
+  },
+  "IMG_1456.JPG": {
+    "width": 1752,
+    "height": 1180,
+    "faces_found": 2,
+    "center_of_mass": [
+      1070,
+      223
+    ],
+    "raw_faces": [
+      [
+        1175,
+        80,
+        67,
+        67
+      ],
+      [
+        871,
+        271,
+        123,
+        123
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 27 53 AM.jpg": {
+    "width": 3698,
+    "height": 2479,
+    "faces_found": 6,
+    "center_of_mass": [
+      1769,
+      1041
+    ],
+    "raw_faces": [
+      [
+        1717,
+        473,
+        182,
+        182
+      ],
+      [
+        1332,
+        540,
+        171,
+        171
+      ],
+      [
+        2623,
+        557,
+        166,
+        166
+      ],
+      [
+        822,
+        654,
+        66,
+        66
+      ],
+      [
+        1014,
+        1517,
+        67,
+        67
+      ],
+      [
+        2676,
+        2078,
+        203,
+        203
+      ]
+    ]
+  },
+  "IMG_1582.JPEG": {
+    "width": 2320,
+    "height": 3088,
+    "faces_found": 2,
+    "center_of_mass": [
+      1826,
+      1727
+    ],
+    "raw_faces": [
+      [
+        983,
+        246,
+        1272,
+        1272
+      ],
+      [
+        1990,
+        2530,
+        85,
+        85
+      ]
+    ]
+  },
+  "IMG_1279.JPEG": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 6,
+    "center_of_mass": [
+      1917,
+      754
+    ],
+    "raw_faces": [
+      [
+        2862,
+        79,
+        82,
+        82
+      ],
+      [
+        1536,
+        178,
+        56,
+        56
+      ],
+      [
+        1673,
+        362,
+        536,
+        536
+      ],
+      [
+        626,
+        382,
+        97,
+        97
+      ],
+      [
+        2297,
+        1376,
+        70,
+        70
+      ],
+      [
+        1976,
+        1615,
+        220,
+        220
+      ]
+    ]
+  },
+  "DSC_0424.jpeg": {
+    "width": 6000,
+    "height": 4000,
+    "faces_found": 1,
+    "center_of_mass": [
+      5730,
+      3717
+    ],
+    "raw_faces": [
+      [
+        5691,
+        3678,
+        78,
+        78
+      ]
+    ]
+  },
+  "Photo Jun 28 2025, 2 07 18 PM.jpg": {
+    "width": 5712,
+    "height": 4284,
+    "faces_found": 4,
+    "center_of_mass": [
+      2569,
+      3413
+    ],
+    "raw_faces": [
+      [
+        2819,
+        2401,
+        77,
+        77
+      ],
+      [
+        2865,
+        3532,
+        186,
+        186
+      ],
+      [
+        2541,
+        3775,
+        130,
+        130
+      ],
+      [
+        1804,
+        3697,
+        102,
+        102
+      ]
+    ]
+  },
+  "Photo Feb 23 2021, 5 47 07 PM.jpg": {
+    "width": 2320,
+    "height": 3088,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 24 2026, 10 36 03 AM.jpg": {
+    "width": 2517,
+    "height": 1887,
+    "faces_found": 4,
+    "center_of_mass": [
+      1277,
+      546
+    ],
+    "raw_faces": [
+      [
+        1171,
+        303,
+        211,
+        211
+      ],
+      [
+        1639,
+        313,
+        227,
+        227
+      ],
+      [
+        655,
+        511,
+        244,
+        244
+      ],
+      [
+        1193,
+        608,
+        219,
+        219
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 27 45 AM.jpg": {
+    "width": 3490,
+    "height": 2561,
+    "faces_found": 10,
+    "center_of_mass": [
+      1807,
+      854
+    ],
+    "raw_faces": [
+      [
+        756,
+        700,
+        195,
+        195
+      ],
+      [
+        1328,
+        691,
+        183,
+        183
+      ],
+      [
+        2432,
+        696,
+        186,
+        186
+      ],
+      [
+        1882,
+        716,
+        195,
+        195
+      ],
+      [
+        2938,
+        713,
+        194,
+        194
+      ],
+      [
+        1505,
+        750,
+        217,
+        217
+      ],
+      [
+        1028,
+        770,
+        192,
+        192
+      ],
+      [
+        2693,
+        819,
+        210,
+        210
+      ],
+      [
+        2143,
+        833,
+        203,
+        203
+      ],
+      [
+        375,
+        867,
+        200,
+        200
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 54 40 AM.jpg": {
+    "width": 4031,
+    "height": 3023,
+    "faces_found": 2,
+    "center_of_mass": [
+      554,
+      1668
+    ],
+    "raw_faces": [
+      [
+        335,
+        530,
+        307,
+        307
+      ],
+      [
+        490,
+        2522,
+        259,
+        259
+      ]
+    ]
+  },
+  "Photo Jun 22 2019, 10 51 19 AM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 4,
+    "center_of_mass": [
+      2080,
+      1752
+    ],
+    "raw_faces": [
+      [
+        2698,
+        518,
+        64,
+        64
+      ],
+      [
+        2612,
+        1972,
+        48,
+        48
+      ],
+      [
+        1203,
+        1939,
+        94,
+        94
+      ],
+      [
+        1661,
+        2432,
+        85,
+        85
+      ]
+    ]
+  },
+  "Photo May 24 2026, 9 40 44 AM.jpg": {
+    "width": 1440,
+    "height": 1800,
+    "faces_found": 3,
+    "center_of_mass": [
+      668,
+      1060
+    ],
+    "raw_faces": [
+      [
+        628,
+        999,
+        70,
+        70
+      ],
+      [
+        812,
+        987,
+        76,
+        76
+      ],
+      [
+        452,
+        1082,
+        80,
+        80
+      ]
+    ]
+  },
+  "Josh Random_20180206_0007.jpg": {
+    "width": 3616,
+    "height": 2144,
+    "faces_found": 6,
+    "center_of_mass": [
+      1568,
+      521
+    ],
+    "raw_faces": [
+      [
+        2900,
+        207,
+        244,
+        244
+      ],
+      [
+        2181,
+        302,
+        271,
+        271
+      ],
+      [
+        1055,
+        281,
+        334,
+        334
+      ],
+      [
+        1638,
+        341,
+        230,
+        230
+      ],
+      [
+        772,
+        565,
+        219,
+        219
+      ],
+      [
+        151,
+        718,
+        126,
+        126
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 27 36 AM.jpg": {
+    "width": 2157,
+    "height": 3336,
+    "faces_found": 5,
+    "center_of_mass": [
+      1024,
+      1569
+    ],
+    "raw_faces": [
+      [
+        725,
+        839,
+        293,
+        293
+      ],
+      [
+        1453,
+        881,
+        279,
+        279
+      ],
+      [
+        1101,
+        956,
+        260,
+        260
+      ],
+      [
+        20,
+        1945,
+        225,
+        225
+      ],
+      [
+        1261,
+        2668,
+        59,
+        59
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 27 09 AM.jpg": {
+    "width": 2435,
+    "height": 3407,
+    "faces_found": 2,
+    "center_of_mass": [
+      1208,
+      652
+    ],
+    "raw_faces": [
+      [
+        484,
+        443,
+        327,
+        327
+      ],
+      [
+        1721,
+        650,
+        97,
+        97
+      ]
+    ]
+  },
+  "Photo May 24 2026, 9 40 44 AM (5).jpg": {
+    "width": 800,
+    "height": 600,
+    "faces_found": 3,
+    "center_of_mass": [
+      361,
+      201
+    ],
+    "raw_faces": [
+      [
+        248,
+        25,
+        106,
+        106
+      ],
+      [
+        565,
+        148,
+        101,
+        101
+      ],
+      [
+        55,
+        214,
+        223,
+        223
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 54 24 AM.jpg": {
+    "width": 4031,
+    "height": 3023,
+    "faces_found": 4,
+    "center_of_mass": [
+      1160,
+      1916
+    ],
+    "raw_faces": [
+      [
+        738,
+        601,
+        887,
+        887
+      ],
+      [
+        2210,
+        978,
+        716,
+        716
+      ],
+      [
+        367,
+        2576,
+        220,
+        220
+      ],
+      [
+        383,
+        2568,
+        62,
+        62
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 35 05 AM.jpg": {
+    "width": 2523,
+    "height": 1892,
+    "faces_found": 5,
+    "center_of_mass": [
+      1446,
+      738
+    ],
+    "raw_faces": [
+      [
+        1479,
+        339,
+        183,
+        183
+      ],
+      [
+        1758,
+        384,
+        175,
+        175
+      ],
+      [
+        1036,
+        377,
+        209,
+        209
+      ],
+      [
+        642,
+        537,
+        180,
+        180
+      ],
+      [
+        1771,
+        1509,
+        344,
+        344
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 59 34 AM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 5,
+    "center_of_mass": [
+      2300,
+      1844
+    ],
+    "raw_faces": [
+      [
+        1301,
+        596,
+        365,
+        365
+      ],
+      [
+        2776,
+        1490,
+        76,
+        76
+      ],
+      [
+        2653,
+        1653,
+        64,
+        64
+      ],
+      [
+        2315,
+        2327,
+        100,
+        100
+      ],
+      [
+        2020,
+        2719,
+        265,
+        265
+      ]
+    ]
+  },
+  "IMG_5951.JPEG": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 24 2026, 9 40 44 AM (4).jpg": {
+    "width": 1935,
+    "height": 1451,
+    "faces_found": 4,
+    "center_of_mass": [
+      898,
+      618
+    ],
+    "raw_faces": [
+      [
+        458,
+        240,
+        80,
+        80
+      ],
+      [
+        1030,
+        616,
+        116,
+        116
+      ],
+      [
+        657,
+        690,
+        105,
+        105
+      ],
+      [
+        1245,
+        722,
+        106,
+        106
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 54 18 AM.jpg": {
+    "width": 4031,
+    "height": 3023,
+    "faces_found": 5,
+    "center_of_mass": [
+      1601,
+      1767
+    ],
+    "raw_faces": [
+      [
+        2762,
+        958,
+        890,
+        890
+      ],
+      [
+        1865,
+        1334,
+        800,
+        800
+      ],
+      [
+        354,
+        1299,
+        790,
+        790
+      ],
+      [
+        1152,
+        1462,
+        856,
+        856
+      ],
+      [
+        175,
+        2088,
+        54,
+        54
+      ]
+    ]
+  },
+  "Photo Jul 09 2020, 9 10 20 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 8,
+    "center_of_mass": [
+      1699,
+      2775
+    ],
+    "raw_faces": [
+      [
+        1739,
+        1424,
+        477,
+        477
+      ],
+      [
+        1025,
+        1559,
+        459,
+        459
+      ],
+      [
+        224,
+        2262,
+        60,
+        60
+      ],
+      [
+        1401,
+        2127,
+        62,
+        62
+      ],
+      [
+        1394,
+        2883,
+        144,
+        144
+      ],
+      [
+        2513,
+        3610,
+        153,
+        153
+      ],
+      [
+        2023,
+        3571,
+        292,
+        292
+      ],
+      [
+        2409,
+        3900,
+        77,
+        77
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 59 53 AM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 5,
+    "center_of_mass": [
+      1201,
+      1848
+    ],
+    "raw_faces": [
+      [
+        278,
+        475,
+        478,
+        478
+      ],
+      [
+        1425,
+        900,
+        419,
+        419
+      ],
+      [
+        767,
+        1564,
+        571,
+        571
+      ],
+      [
+        2069,
+        2146,
+        486,
+        486
+      ],
+      [
+        403,
+        3091,
+        171,
+        171
+      ]
+    ]
+  },
+  "Photo Apr 17 2019, 4 48 41 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 24 2026, 9 40 44 AM (2).jpg": {
+    "width": 1440,
+    "height": 1440,
+    "faces_found": 3,
+    "center_of_mass": [
+      723,
+      474
+    ],
+    "raw_faces": [
+      [
+        487,
+        343,
+        135,
+        135
+      ],
+      [
+        764,
+        531,
+        78,
+        78
+      ],
+      [
+        752,
+        383,
+        119,
+        119
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 59 43 AM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 10,
+    "center_of_mass": [
+      1748,
+      2231
+    ],
+    "raw_faces": [
+      [
+        2326,
+        1263,
+        153,
+        153
+      ],
+      [
+        2621,
+        1699,
+        87,
+        87
+      ],
+      [
+        1726,
+        1725,
+        116,
+        116
+      ],
+      [
+        1209,
+        1851,
+        137,
+        137
+      ],
+      [
+        1572,
+        1922,
+        126,
+        126
+      ],
+      [
+        1613,
+        2554,
+        173,
+        173
+      ],
+      [
+        1506,
+        2434,
+        55,
+        55
+      ],
+      [
+        1048,
+        2518,
+        126,
+        126
+      ],
+      [
+        1572,
+        2843,
+        71,
+        71
+      ],
+      [
+        1725,
+        2936,
+        77,
+        77
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 59 20 AM.jpg": {
+    "width": 4031,
+    "height": 3023,
+    "faces_found": 2,
+    "center_of_mass": [
+      2133,
+      1754
+    ],
+    "raw_faces": [
+      [
+        1209,
+        772,
+        160,
+        160
+      ],
+      [
+        2842,
+        2521,
+        270,
+        270
+      ]
+    ]
+  },
+  "IMG_20171212_0251.jpg": {
+    "width": 1320,
+    "height": 1024,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 18 2026, 4 33 29 PM (5).jpg": {
+    "width": 720,
+    "height": 960,
+    "faces_found": 2,
+    "center_of_mass": [
+      380,
+      196
+    ],
+    "raw_faces": [
+      [
+        428,
+        119,
+        92,
+        92
+      ],
+      [
+        245,
+        186,
+        83,
+        83
+      ]
+    ]
+  },
+  "IMG_2577.JPG": {
+    "width": 1072,
+    "height": 1008,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 18 2026, 4 33 29 PM (4).jpg": {
+    "width": 1350,
+    "height": 1800,
+    "faces_found": 4,
+    "center_of_mass": [
+      708,
+      983
+    ],
+    "raw_faces": [
+      [
+        767,
+        435,
+        210,
+        210
+      ],
+      [
+        398,
+        493,
+        187,
+        187
+      ],
+      [
+        669,
+        1124,
+        53,
+        53
+      ],
+      [
+        708,
+        1591,
+        128,
+        128
+      ]
+    ]
+  },
+  "Photo May 18 2026, 4 33 29 PM (3).jpg": {
+    "width": 1231,
+    "height": 1800,
+    "faces_found": 2,
+    "center_of_mass": [
+      511,
+      618
+    ],
+    "raw_faces": [
+      [
+        548,
+        426,
+        268,
+        268
+      ],
+      [
+        207,
+        542,
+        266,
+        266
+      ]
+    ]
+  },
+  "Photo May 18 2026, 4 33 29 PM.jpg": {
+    "width": 2048,
+    "height": 1610,
+    "faces_found": 3,
+    "center_of_mass": [
+      1188,
+      833
+    ],
+    "raw_faces": [
+      [
+        1170,
+        339,
+        470,
+        470
+      ],
+      [
+        311,
+        570,
+        428,
+        428
+      ],
+      [
+        1600,
+        1106,
+        69,
+        69
+      ]
+    ]
+  },
+  "Photo May 18 2026, 4 33 29 PM (2).jpg": {
+    "width": 1376,
+    "height": 916,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 18 2026, 4 33 29 PM (1).jpg": {
+    "width": 604,
+    "height": 453,
+    "faces_found": 1,
+    "center_of_mass": [
+      358,
+      182
+    ],
+    "raw_faces": [
+      [
+        340,
+        164,
+        37,
+        37
+      ]
+    ]
+  },
+  "IMG_20171212_0476.jpg": {
+    "width": 1448,
+    "height": 1028,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_20171212_0462.jpg": {
+    "width": 1360,
+    "height": 912,
+    "faces_found": 2,
+    "center_of_mass": [
+      721,
+      242
+    ],
+    "raw_faces": [
+      [
+        887,
+        154,
+        137,
+        137
+      ],
+      [
+        430,
+        205,
+        114,
+        114
+      ]
+    ]
+  },
+  "Photo May 18 2026, 4 33 29 PM (6).jpg": {
+    "width": 1344,
+    "height": 1028,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo Nov 28 2019, 12 28 06 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 2,
+    "center_of_mass": [
+      1238,
+      2564
+    ],
+    "raw_faces": [
+      [
+        1269,
+        2189,
+        92,
+        92
+      ],
+      [
+        1072,
+        2803,
+        178,
+        178
+      ]
+    ]
+  },
+  "Photo Jan 12 2020, 2 24 37 PM.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "faces_found": 3,
+    "center_of_mass": [
+      2552,
+      1794
+    ],
+    "raw_faces": [
+      [
+        2278,
+        1039,
+        201,
+        201
+      ],
+      [
+        1577,
+        1195,
+        211,
+        211
+      ],
+      [
+        3568,
+        2916,
+        55,
+        55
+      ]
+    ]
+  },
+  "Photo May 28 2020, 8 02 15 PM.jpg": {
+    "width": 828,
+    "height": 747,
+    "faces_found": 2,
+    "center_of_mass": [
+      374,
+      316
+    ],
+    "raw_faces": [
+      [
+        357,
+        160,
+        311,
+        311
+      ],
+      [
+        58,
+        139,
+        355,
+        355
+      ]
+    ]
+  },
+  "Photo May 22 2026, 6 51 12 AM (2).jpg": {
+    "width": 3000,
+    "height": 2000,
+    "faces_found": 3,
+    "center_of_mass": [
+      1057,
+      1030
+    ],
+    "raw_faces": [
+      [
+        1307,
+        787,
+        222,
+        222
+      ],
+      [
+        1062,
+        987,
+        179,
+        179
+      ],
+      [
+        572,
+        1086,
+        58,
+        58
+      ]
+    ]
+  },
+  "Photo Oct 15 2021, 1 01 13 PM.jpg": {
+    "width": 2316,
+    "height": 3088,
+    "faces_found": 2,
+    "center_of_mass": [
+      1060,
+      1775
+    ],
+    "raw_faces": [
+      [
+        1005,
+        1334,
+        1009,
+        1009
+      ],
+      [
+        311,
+        1411,
+        601,
+        601
+      ]
+    ]
+  },
+  "IMG_1509.JPG": {
+    "width": 720,
+    "height": 960,
+    "faces_found": 1,
+    "center_of_mass": [
+      530,
+      516
+    ],
+    "raw_faces": [
+      [
+        374,
+        360,
+        313,
+        313
+      ]
+    ]
+  },
+  "IMG_1087.JPG": {
+    "width": 960,
+    "height": 640,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo Apr 13 2019, 7 41 46 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 4,
+    "center_of_mass": [
+      1596,
+      1322
+    ],
+    "raw_faces": [
+      [
+        1348,
+        647,
+        533,
+        533
+      ],
+      [
+        429,
+        635,
+        175,
+        175
+      ],
+      [
+        1862,
+        1209,
+        441,
+        441
+      ],
+      [
+        2110,
+        2163,
+        122,
+        122
+      ]
+    ]
+  },
+  "Photo Jun 03 2019, 10 26 51 AM.jpg": {
+    "width": 4024,
+    "height": 4000,
+    "faces_found": 7,
+    "center_of_mass": [
+      1999,
+      1142
+    ],
+    "raw_faces": [
+      [
+        1577,
+        322,
+        51,
+        51
+      ],
+      [
+        2107,
+        751,
+        63,
+        63
+      ],
+      [
+        1253,
+        832,
+        57,
+        57
+      ],
+      [
+        3557,
+        990,
+        67,
+        67
+      ],
+      [
+        2815,
+        1081,
+        60,
+        60
+      ],
+      [
+        1350,
+        1706,
+        205,
+        205
+      ],
+      [
+        984,
+        1966,
+        195,
+        195
+      ]
+    ]
+  },
+  "IMG_2983.JPEG": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 6,
+    "center_of_mass": [
+      1325,
+      2530
+    ],
+    "raw_faces": [
+      [
+        1339,
+        1340,
+        264,
+        264
+      ],
+      [
+        1420,
+        1981,
+        117,
+        117
+      ],
+      [
+        456,
+        2468,
+        58,
+        58
+      ],
+      [
+        301,
+        2732,
+        62,
+        62
+      ],
+      [
+        2186,
+        3010,
+        150,
+        150
+      ],
+      [
+        1882,
+        3284,
+        81,
+        81
+      ]
+    ]
+  },
+  "Photo May 07 2021, 9 25 05 PM.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "faces_found": 2,
+    "center_of_mass": [
+      2494,
+      1494
+    ],
+    "raw_faces": [
+      [
+        2143,
+        1256,
+        382,
+        382
+      ],
+      [
+        2504,
+        1393,
+        298,
+        298
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 27 26 AM.jpg": {
+    "width": 3205,
+    "height": 2302,
+    "faces_found": 3,
+    "center_of_mass": [
+      990,
+      1387
+    ],
+    "raw_faces": [
+      [
+        809,
+        614,
+        498,
+        498
+      ],
+      [
+        155,
+        1590,
+        180,
+        180
+      ],
+      [
+        1631,
+        1583,
+        69,
+        69
+      ]
+    ]
+  },
+  "Photo Sep 08 2019, 12 41 15 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 2,
+    "center_of_mass": [
+      1391,
+      2014
+    ],
+    "raw_faces": [
+      [
+        1414,
+        1768,
+        281,
+        281
+      ],
+      [
+        1073,
+        1965,
+        310,
+        310
+      ]
+    ]
+  },
+  "Photo Jun 01 2020, 3 56 04 PM.jpg": {
+    "width": 2316,
+    "height": 3088,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 22 2026, 6 51 12 AM.jpg": {
+    "width": 2732,
+    "height": 4096,
+    "faces_found": 2,
+    "center_of_mass": [
+      1378,
+      1910
+    ],
+    "raw_faces": [
+      [
+        1480,
+        1170,
+        409,
+        409
+      ],
+      [
+        1038,
+        2413,
+        65,
+        65
+      ]
+    ]
+  },
+  "Photo May 22 2026, 6 51 12 AM.png": {
+    "width": 640,
+    "height": 854,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo Feb 29 2020, 9 10 42 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 1,
+    "center_of_mass": [
+      1392,
+      1944
+    ],
+    "raw_faces": [
+      [
+        1199,
+        1751,
+        386,
+        386
+      ]
+    ]
+  },
+  "Photo Sep 02 2022, 12 05 44 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 4,
+    "center_of_mass": [
+      1307,
+      2502
+    ],
+    "raw_faces": [
+      [
+        1289,
+        1856,
+        242,
+        242
+      ],
+      [
+        1604,
+        2074,
+        216,
+        216
+      ],
+      [
+        1930,
+        2482,
+        56,
+        56
+      ],
+      [
+        108,
+        3298,
+        83,
+        83
+      ]
+    ]
+  },
+  "Photo May 29 2019, 4 49 18 PM.jpg": {
+    "width": 2320,
+    "height": 3088,
+    "faces_found": 3,
+    "center_of_mass": [
+      1064,
+      1608
+    ],
+    "raw_faces": [
+      [
+        1045,
+        1282,
+        968,
+        968
+      ],
+      [
+        1130,
+        1036,
+        61,
+        61
+      ],
+      [
+        219,
+        1708,
+        569,
+        569
+      ]
+    ]
+  },
+  "Photo Sep 11 2021, 6 34 44 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 4,
+    "center_of_mass": [
+      1156,
+      1833
+    ],
+    "raw_faces": [
+      [
+        204,
+        721,
+        67,
+        67
+      ],
+      [
+        816,
+        1054,
+        518,
+        518
+      ],
+      [
+        1653,
+        1394,
+        487,
+        487
+      ],
+      [
+        1174,
+        3384,
+        486,
+        486
+      ]
+    ]
+  },
+  "Photo Jan 13 2022, 10 34 23 AM.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "faces_found": 1,
+    "center_of_mass": [
+      2442,
+      1110
+    ],
+    "raw_faces": [
+      [
+        2089,
+        758,
+        705,
+        705
+      ]
+    ]
+  },
+  "Photo Dec 13 2020, 7 00 14 PM.jpg": {
+    "width": 6000,
+    "height": 4000,
+    "faces_found": 2,
+    "center_of_mass": [
+      3111,
+      1858
+    ],
+    "raw_faces": [
+      [
+        1615,
+        669,
+        1311,
+        1311
+      ],
+      [
+        3402,
+        1843,
+        1099,
+        1099
+      ]
+    ]
+  },
+  "B12EBCC3-C95D-4904-BD75-4B7D33F31E64.JPG": {
+    "width": 2744,
+    "height": 3662,
+    "faces_found": 1,
+    "center_of_mass": [
+      1026,
+      705
+    ],
+    "raw_faces": [
+      [
+        815,
+        494,
+        422,
+        422
+      ]
+    ]
+  },
+  "Photo Jan 21 2022, 3 28 07 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 4,
+    "center_of_mass": [
+      761,
+      2194
+    ],
+    "raw_faces": [
+      [
+        1254,
+        1502,
+        565,
+        565
+      ],
+      [
+        555,
+        1760,
+        539,
+        539
+      ],
+      [
+        406,
+        2360,
+        97,
+        97
+      ],
+      [
+        179,
+        2505,
+        99,
+        99
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 36 38 AM.jpg": {
+    "width": 2601,
+    "height": 1950,
+    "faces_found": 3,
+    "center_of_mass": [
+      1557,
+      642
+    ],
+    "raw_faces": [
+      [
+        2026,
+        385,
+        259,
+        259
+      ],
+      [
+        1179,
+        394,
+        566,
+        566
+      ],
+      [
+        806,
+        488,
+        496,
+        496
+      ]
+    ]
+  },
+  "Photo Sep 28 2019, 9 19 50 PM.jpg": {
+    "width": 3024,
+    "height": 3024,
+    "faces_found": 2,
+    "center_of_mass": [
+      1532,
+      838
+    ],
+    "raw_faces": [
+      [
+        1472,
+        701,
+        455,
+        455
+      ],
+      [
+        1164,
+        547,
+        403,
+        403
+      ]
+    ]
+  },
+  "IMG_1600.jpg": {
+    "width": 1068,
+    "height": 1118,
+    "faces_found": 1,
+    "center_of_mass": [
+      198,
+      996
+    ],
+    "raw_faces": [
+      [
+        167,
+        966,
+        61,
+        61
+      ]
+    ]
+  },
+  "Photo Jan 10 2020, 9 45 44 AM.jpg": {
+    "width": 4928,
+    "height": 3264,
+    "faces_found": 3,
+    "center_of_mass": [
+      2006,
+      1161
+    ],
+    "raw_faces": [
+      [
+        1626,
+        1035,
+        388,
+        388
+      ],
+      [
+        1474,
+        619,
+        165,
+        165
+      ],
+      [
+        2394,
+        1305,
+        494,
+        494
+      ]
+    ]
+  },
+  "Photo Oct 30 2021, 5 57 25 PM.jpg": {
+    "width": 2043,
+    "height": 2992,
+    "faces_found": 4,
+    "center_of_mass": [
+      988,
+      1140
+    ],
+    "raw_faces": [
+      [
+        1413,
+        63,
+        481,
+        481
+      ],
+      [
+        945,
+        920,
+        195,
+        195
+      ],
+      [
+        483,
+        1099,
+        180,
+        180
+      ],
+      [
+        604,
+        1972,
+        160,
+        160
+      ]
+    ]
+  },
+  "Photo May 24 2026, 9 40 44 AM (3).jpg": {
+    "width": 722,
+    "height": 1385,
+    "faces_found": 3,
+    "center_of_mass": [
+      386,
+      246
+    ],
+    "raw_faces": [
+      [
+        241,
+        74,
+        151,
+        151
+      ],
+      [
+        437,
+        199,
+        164,
+        164
+      ],
+      [
+        274,
+        260,
+        98,
+        98
+      ]
+    ]
+  },
+  "IMG_1507.JPG": {
+    "width": 720,
+    "height": 960,
+    "faces_found": 2,
+    "center_of_mass": [
+      301,
+      378
+    ],
+    "raw_faces": [
+      [
+        301,
+        317,
+        62,
+        62
+      ],
+      [
+        242,
+        381,
+        56,
+        56
+      ]
+    ]
+  },
+  "Photo May 22 2026, 6 51 12 AM (1).jpg": {
+    "width": 6000,
+    "height": 4000,
+    "faces_found": 5,
+    "center_of_mass": [
+      2936,
+      1861
+    ],
+    "raw_faces": [
+      [
+        2011,
+        1260,
+        507,
+        507
+      ],
+      [
+        4441,
+        1523,
+        470,
+        470
+      ],
+      [
+        5896,
+        1593,
+        66,
+        66
+      ],
+      [
+        311,
+        1801,
+        64,
+        64
+      ],
+      [
+        1370,
+        2478,
+        190,
+        190
+      ]
+    ]
+  },
+  "Photo Feb 11 2023, 12 01 02 PM.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "faces_found": 4,
+    "center_of_mass": [
+      1287,
+      696
+    ],
+    "raw_faces": [
+      [
+        26,
+        172,
+        60,
+        60
+      ],
+      [
+        1768,
+        372,
+        292,
+        292
+      ],
+      [
+        2071,
+        628,
+        224,
+        224
+      ],
+      [
+        968,
+        1297,
+        56,
+        56
+      ]
+    ]
+  },
+  "Photo Feb 03 2026, 9 07 07 PM.jpg": {
+    "width": 1199,
+    "height": 2109,
+    "faces_found": 1,
+    "center_of_mass": [
+      680,
+      942
+    ],
+    "raw_faces": [
+      [
+        602,
+        864,
+        155,
+        155
+      ]
+    ]
+  },
+  "Photo May 31 2020, 7 42 20 PM.jpg": {
+    "width": 2100,
+    "height": 2804,
+    "faces_found": 2,
+    "center_of_mass": [
+      1037,
+      2095
+    ],
+    "raw_faces": [
+      [
+        59,
+        1405,
+        1020,
+        1020
+      ],
+      [
+        1112,
+        1882,
+        786,
+        786
+      ]
+    ]
+  },
+  "Photo May 18 2026, 7 16 52 PM (2).jpg": {
+    "width": 2048,
+    "height": 1246,
+    "faces_found": 8,
+    "center_of_mass": [
+      1057,
+      445
+    ],
+    "raw_faces": [
+      [
+        951,
+        24,
+        156,
+        156
+      ],
+      [
+        1318,
+        106,
+        149,
+        149
+      ],
+      [
+        653,
+        262,
+        156,
+        156
+      ],
+      [
+        1008,
+        257,
+        170,
+        170
+      ],
+      [
+        471,
+        295,
+        155,
+        155
+      ],
+      [
+        1526,
+        448,
+        173,
+        173
+      ],
+      [
+        1256,
+        513,
+        159,
+        159
+      ],
+      [
+        606,
+        986,
+        220,
+        220
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 57 14 AM.jpg": {
+    "width": 3935,
+    "height": 2949,
+    "faces_found": 3,
+    "center_of_mass": [
+      2125,
+      1325
+    ],
+    "raw_faces": [
+      [
+        1905,
+        665,
+        655,
+        655
+      ],
+      [
+        807,
+        1140,
+        784,
+        784
+      ],
+      [
+        2680,
+        1186,
+        529,
+        529
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 32 45 AM.jpg": {
+    "width": 1906,
+    "height": 2541,
+    "faces_found": 3,
+    "center_of_mass": [
+      524,
+      933
+    ],
+    "raw_faces": [
+      [
+        856,
+        453,
+        190,
+        190
+      ],
+      [
+        6,
+        1133,
+        147,
+        147
+      ],
+      [
+        457,
+        961,
+        166,
+        166
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 34 28 AM.jpg": {
+    "width": 2589,
+    "height": 1942,
+    "faces_found": 5,
+    "center_of_mass": [
+      1546,
+      768
+    ],
+    "raw_faces": [
+      [
+        971,
+        359,
+        174,
+        174
+      ],
+      [
+        1324,
+        446,
+        194,
+        194
+      ],
+      [
+        1683,
+        451,
+        187,
+        187
+      ],
+      [
+        958,
+        854,
+        169,
+        169
+      ],
+      [
+        2392,
+        1328,
+        81,
+        81
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 37 31 AM.jpg": {
+    "width": 2933,
+    "height": 2200,
+    "faces_found": 7,
+    "center_of_mass": [
+      1691,
+      983
+    ],
+    "raw_faces": [
+      [
+        1989,
+        494,
+        146,
+        146
+      ],
+      [
+        987,
+        538,
+        151,
+        151
+      ],
+      [
+        208,
+        665,
+        172,
+        172
+      ],
+      [
+        2234,
+        841,
+        76,
+        76
+      ],
+      [
+        1311,
+        946,
+        139,
+        139
+      ],
+      [
+        2364,
+        1211,
+        149,
+        149
+      ],
+      [
+        2286,
+        1727,
+        86,
+        86
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 56 55 AM.jpg": {
+    "width": 4031,
+    "height": 3023,
+    "faces_found": 22,
+    "center_of_mass": [
+      3605,
+      1454
+    ],
+    "raw_faces": [
+      [
+        3828,
+        852,
+        137,
+        137
+      ],
+      [
+        2279,
+        1004,
+        344,
+        344
+      ],
+      [
+        3828,
+        951,
+        136,
+        136
+      ],
+      [
+        3831,
+        902,
+        136,
+        136
+      ],
+      [
+        1472,
+        1384,
+        348,
+        348
+      ],
+      [
+        3826,
+        1050,
+        137,
+        137
+      ],
+      [
+        3822,
+        999,
+        139,
+        139
+      ],
+      [
+        3825,
+        1100,
+        139,
+        139
+      ],
+      [
+        2697,
+        1442,
+        315,
+        315
+      ],
+      [
+        2147,
+        1628,
+        320,
+        320
+      ],
+      [
+        3825,
+        1149,
+        140,
+        140
+      ],
+      [
+        3827,
+        1200,
+        138,
+        138
+      ],
+      [
+        3829,
+        1253,
+        133,
+        133
+      ],
+      [
+        3832,
+        1400,
+        136,
+        136
+      ],
+      [
+        3818,
+        1595,
+        143,
+        143
+      ],
+      [
+        3818,
+        1547,
+        143,
+        143
+      ],
+      [
+        3819,
+        1649,
+        138,
+        138
+      ],
+      [
+        3816,
+        1797,
+        136,
+        136
+      ],
+      [
+        3817,
+        1697,
+        137,
+        137
+      ],
+      [
+        3814,
+        1747,
+        137,
+        137
+      ],
+      [
+        3812,
+        1845,
+        139,
+        139
+      ],
+      [
+        3814,
+        1896,
+        138,
+        138
+      ]
+    ]
+  },
+  "IMG_0016.JPG": {
+    "width": 960,
+    "height": 697,
+    "faces_found": 6,
+    "center_of_mass": [
+      388,
+      259
+    ],
+    "raw_faces": [
+      [
+        131,
+        78,
+        70,
+        70
+      ],
+      [
+        307,
+        179,
+        70,
+        70
+      ],
+      [
+        137,
+        130,
+        59,
+        59
+      ],
+      [
+        196,
+        176,
+        61,
+        61
+      ],
+      [
+        664,
+        312,
+        77,
+        77
+      ],
+      [
+        684,
+        471,
+        75,
+        75
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 56 36 AM.jpg": {
+    "width": 4031,
+    "height": 3023,
+    "faces_found": 3,
+    "center_of_mass": [
+      1894,
+      1022
+    ],
+    "raw_faces": [
+      [
+        1734,
+        812,
+        252,
+        252
+      ],
+      [
+        1470,
+        947,
+        219,
+        219
+      ],
+      [
+        2117,
+        946,
+        254,
+        254
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 56 10 AM.jpg": {
+    "width": 3929,
+    "height": 2945,
+    "faces_found": 2,
+    "center_of_mass": [
+      1119,
+      1350
+    ],
+    "raw_faces": [
+      [
+        1291,
+        1061,
+        402,
+        402
+      ],
+      [
+        533,
+        1226,
+        425,
+        425
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 56 26 AM.jpg": {
+    "width": 4031,
+    "height": 3023,
+    "faces_found": 3,
+    "center_of_mass": [
+      2140,
+      1064
+    ],
+    "raw_faces": [
+      [
+        2510,
+        545,
+        699,
+        699
+      ],
+      [
+        1093,
+        861,
+        714,
+        714
+      ],
+      [
+        1810,
+        778,
+        602,
+        602
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 57 43 AM.jpg": {
+    "width": 4031,
+    "height": 3023,
+    "faces_found": 3,
+    "center_of_mass": [
+      2131,
+      1323
+    ],
+    "raw_faces": [
+      [
+        2075,
+        677,
+        631,
+        631
+      ],
+      [
+        1326,
+        1078,
+        622,
+        622
+      ],
+      [
+        2331,
+        1551,
+        71,
+        71
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 36 27 AM.jpg": {
+    "width": 2592,
+    "height": 1943,
+    "faces_found": 7,
+    "center_of_mass": [
+      1317,
+      998
+    ],
+    "raw_faces": [
+      [
+        1594,
+        676,
+        192,
+        192
+      ],
+      [
+        1210,
+        662,
+        181,
+        181
+      ],
+      [
+        213,
+        756,
+        305,
+        305
+      ],
+      [
+        1792,
+        807,
+        239,
+        239
+      ],
+      [
+        611,
+        859,
+        170,
+        170
+      ],
+      [
+        2388,
+        1152,
+        58,
+        58
+      ],
+      [
+        805,
+        1468,
+        68,
+        68
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 57 51 AM.jpg": {
+    "width": 4031,
+    "height": 3023,
+    "faces_found": 3,
+    "center_of_mass": [
+      1188,
+      1784
+    ],
+    "raw_faces": [
+      [
+        1416,
+        1171,
+        415,
+        415
+      ],
+      [
+        807,
+        1426,
+        101,
+        101
+      ],
+      [
+        1052,
+        2465,
+        61,
+        61
+      ]
+    ]
+  },
+  "Photo May 18 2026, 7 16 52 PM (3).jpg": {
+    "width": 1280,
+    "height": 655,
+    "faces_found": 2,
+    "center_of_mass": [
+      493,
+      272
+    ],
+    "raw_faces": [
+      [
+        363,
+        212,
+        87,
+        87
+      ],
+      [
+        543,
+        253,
+        73,
+        73
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 32 28 AM.jpg": {
+    "width": 3216,
+    "height": 2412,
+    "faces_found": 3,
+    "center_of_mass": [
+      997,
+      1036
+    ],
+    "raw_faces": [
+      [
+        1568,
+        912,
+        454,
+        454
+      ],
+      [
+        325,
+        646,
+        116,
+        116
+      ],
+      [
+        568,
+        1021,
+        488,
+        488
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 32 36 AM.jpg": {
+    "width": 3085,
+    "height": 2314,
+    "faces_found": 3,
+    "center_of_mass": [
+      1804,
+      894
+    ],
+    "raw_faces": [
+      [
+        723,
+        680,
+        269,
+        269
+      ],
+      [
+        2067,
+        792,
+        259,
+        259
+      ],
+      [
+        2330,
+        920,
+        54,
+        54
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 34 18 AM.jpg": {
+    "width": 3153,
+    "height": 2365,
+    "faces_found": 5,
+    "center_of_mass": [
+      1830,
+      836
+    ],
+    "raw_faces": [
+      [
+        2690,
+        87,
+        157,
+        157
+      ],
+      [
+        1222,
+        28,
+        384,
+        384
+      ],
+      [
+        2269,
+        179,
+        421,
+        421
+      ],
+      [
+        617,
+        1527,
+        449,
+        449
+      ],
+      [
+        1443,
+        1447,
+        412,
+        412
+      ]
+    ]
+  },
+  "IMG_5286.JPG": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 6,
+    "center_of_mass": [
+      2018,
+      1325
+    ],
+    "raw_faces": [
+      [
+        1998,
+        405,
+        62,
+        62
+      ],
+      [
+        1812,
+        857,
+        332,
+        332
+      ],
+      [
+        438,
+        977,
+        296,
+        296
+      ],
+      [
+        2815,
+        1198,
+        125,
+        125
+      ],
+      [
+        1522,
+        1479,
+        283,
+        283
+      ],
+      [
+        2937,
+        2447,
+        76,
+        76
+      ]
+    ]
+  },
+  "Photo May 18 2026, 7 16 52 PM (8).jpg": {
+    "width": 3000,
+    "height": 2000,
+    "faces_found": 2,
+    "center_of_mass": [
+      1443,
+      724
+    ],
+    "raw_faces": [
+      [
+        1653,
+        377,
+        447,
+        447
+      ],
+      [
+        750,
+        588,
+        520,
+        520
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 56 18 AM.jpg": {
+    "width": 4031,
+    "height": 3023,
+    "faces_found": 8,
+    "center_of_mass": [
+      2183,
+      1258
+    ],
+    "raw_faces": [
+      [
+        1176,
+        436,
+        288,
+        288
+      ],
+      [
+        2865,
+        507,
+        304,
+        304
+      ],
+      [
+        1888,
+        565,
+        275,
+        275
+      ],
+      [
+        2469,
+        677,
+        272,
+        272
+      ],
+      [
+        1587,
+        961,
+        268,
+        268
+      ],
+      [
+        2692,
+        1480,
+        718,
+        718
+      ],
+      [
+        2337,
+        2138,
+        166,
+        166
+      ],
+      [
+        1267,
+        2118,
+        77,
+        77
+      ]
+    ]
+  },
+  "Photo May 18 2026, 7 16 52 PM (4) (1).jpg": {
+    "width": 943,
+    "height": 960,
+    "faces_found": 3,
+    "center_of_mass": [
+      536,
+      464
+    ],
+    "raw_faces": [
+      [
+        490,
+        345,
+        111,
+        111
+      ],
+      [
+        592,
+        387,
+        115,
+        115
+      ],
+      [
+        352,
+        486,
+        124,
+        124
+      ]
+    ]
+  },
+  "Photo May 18 2026, 7 16 52 PM.jpg": {
+    "width": 960,
+    "height": 720,
+    "faces_found": 2,
+    "center_of_mass": [
+      342,
+      210
+    ],
+    "raw_faces": [
+      [
+        459,
+        123,
+        111,
+        111
+      ],
+      [
+        103,
+        175,
+        133,
+        133
+      ]
+    ]
+  },
+  "Photo May 18 2026, 7 16 52 PM (4).jpg": {
+    "width": 1590,
+    "height": 1061,
+    "faces_found": 4,
+    "center_of_mass": [
+      1055,
+      449
+    ],
+    "raw_faces": [
+      [
+        841,
+        242,
+        127,
+        127
+      ],
+      [
+        1245,
+        313,
+        81,
+        81
+      ],
+      [
+        876,
+        429,
+        131,
+        131
+      ],
+      [
+        1029,
+        583,
+        120,
+        120
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 32 16 AM.jpg": {
+    "width": 3020,
+    "height": 2265,
+    "faces_found": 1,
+    "center_of_mass": [
+      2451,
+      1386
+    ],
+    "raw_faces": [
+      [
+        2175,
+        1110,
+        552,
+        552
+      ]
+    ]
+  },
+  "IMG_5837.JPEG": {
+    "width": 720,
+    "height": 960,
+    "faces_found": 3,
+    "center_of_mass": [
+      358,
+      241
+    ],
+    "raw_faces": [
+      [
+        451,
+        175,
+        75,
+        75
+      ],
+      [
+        185,
+        205,
+        75,
+        75
+      ],
+      [
+        326,
+        231,
+        72,
+        72
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 57 59 AM.jpg": {
+    "width": 4031,
+    "height": 3023,
+    "faces_found": 4,
+    "center_of_mass": [
+      2842,
+      788
+    ],
+    "raw_faces": [
+      [
+        3085,
+        264,
+        77,
+        77
+      ],
+      [
+        3270,
+        419,
+        190,
+        190
+      ],
+      [
+        1741,
+        775,
+        468,
+        468
+      ],
+      [
+        2686,
+        1108,
+        440,
+        440
+      ]
+    ]
+  },
+  "Photo Jun 03 2026, 7 37 42 PM.jpg": {
+    "width": 1125,
+    "height": 1516,
+    "faces_found": 2,
+    "center_of_mass": [
+      597,
+      251
+    ],
+    "raw_faces": [
+      [
+        408,
+        141,
+        130,
+        130
+      ],
+      [
+        645,
+        220,
+        152,
+        152
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 35 38 AM.jpg": {
+    "width": 1729,
+    "height": 1297,
+    "faces_found": 2,
+    "center_of_mass": [
+      878,
+      500
+    ],
+    "raw_faces": [
+      [
+        908,
+        234,
+        327,
+        327
+      ],
+      [
+        511,
+        428,
+        349,
+        349
+      ]
+    ]
+  },
+  "Photo May 18 2026, 7 16 52 PM (5).jpg": {
+    "width": 1800,
+    "height": 1800,
+    "faces_found": 2,
+    "center_of_mass": [
+      846,
+      521
+    ],
+    "raw_faces": [
+      [
+        915,
+        348,
+        304,
+        304
+      ],
+      [
+        459,
+        376,
+        332,
+        332
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 57 26 AM.jpg": {
+    "width": 4031,
+    "height": 3023,
+    "faces_found": 4,
+    "center_of_mass": [
+      2468,
+      1283
+    ],
+    "raw_faces": [
+      [
+        1884,
+        717,
+        152,
+        152
+      ],
+      [
+        2463,
+        1336,
+        419,
+        419
+      ],
+      [
+        1768,
+        1420,
+        454,
+        454
+      ],
+      [
+        3212,
+        1114,
+        62,
+        62
+      ]
+    ]
+  },
+  "IMG_2465.jpg": {
+    "width": 2320,
+    "height": 3088,
+    "faces_found": 2,
+    "center_of_mass": [
+      564,
+      714
+    ],
+    "raw_faces": [
+      [
+        547,
+        511,
+        61,
+        61
+      ],
+      [
+        524,
+        861,
+        51,
+        51
+      ]
+    ]
+  },
+  "IMG_1152.JPG": {
+    "width": 1652,
+    "height": 1072,
+    "faces_found": 4,
+    "center_of_mass": [
+      602,
+      557
+    ],
+    "raw_faces": [
+      [
+        1042,
+        300,
+        195,
+        195
+      ],
+      [
+        664,
+        331,
+        188,
+        188
+      ],
+      [
+        379,
+        583,
+        174,
+        174
+      ],
+      [
+        16,
+        706,
+        59,
+        59
+      ]
+    ]
+  },
+  "IMG_1357.jpeg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 2,
+    "center_of_mass": [
+      1333,
+      2072
+    ],
+    "raw_faces": [
+      [
+        1411,
+        1721,
+        355,
+        355
+      ],
+      [
+        812,
+        1980,
+        530,
+        530
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 33 36 AM.jpg": {
+    "width": 2823,
+    "height": 2117,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 18 2026, 7 16 52 PM (1) (1).jpg": {
+    "width": 960,
+    "height": 720,
+    "faces_found": 3,
+    "center_of_mass": [
+      438,
+      253
+    ],
+    "raw_faces": [
+      [
+        95,
+        224,
+        133,
+        133
+      ],
+      [
+        349,
+        160,
+        137,
+        137
+      ],
+      [
+        650,
+        155,
+        170,
+        170
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 56 46 AM.jpg": {
+    "width": 3945,
+    "height": 2957,
+    "faces_found": 1,
+    "center_of_mass": [
+      1996,
+      936
+    ],
+    "raw_faces": [
+      [
+        1749,
+        688,
+        495,
+        495
+      ]
+    ]
+  },
+  "2969251672116281152.jpeg": {
+    "width": 1536,
+    "height": 2048,
+    "faces_found": 9,
+    "center_of_mass": [
+      687,
+      1173
+    ],
+    "raw_faces": [
+      [
+        920,
+        552,
+        205,
+        205
+      ],
+      [
+        446,
+        616,
+        225,
+        225
+      ],
+      [
+        964,
+        919,
+        205,
+        205
+      ],
+      [
+        235,
+        1068,
+        216,
+        216
+      ],
+      [
+        475,
+        1084,
+        200,
+        200
+      ],
+      [
+        93,
+        1249,
+        252,
+        252
+      ],
+      [
+        1071,
+        1288,
+        220,
+        220
+      ],
+      [
+        955,
+        1443,
+        61,
+        61
+      ],
+      [
+        136,
+        1452,
+        185,
+        185
+      ]
+    ]
+  },
+  "Photo May 20 2019, 7 39 12 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 1,
+    "center_of_mass": [
+      1302,
+      1269
+    ],
+    "raw_faces": [
+      [
+        1192,
+        1159,
+        220,
+        220
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 33 42 AM.jpg": {
+    "width": 2651,
+    "height": 1988,
+    "faces_found": 7,
+    "center_of_mass": [
+      1380,
+      966
+    ],
+    "raw_faces": [
+      [
+        1323,
+        197,
+        364,
+        364
+      ],
+      [
+        568,
+        464,
+        87,
+        87
+      ],
+      [
+        932,
+        593,
+        180,
+        180
+      ],
+      [
+        820,
+        831,
+        245,
+        245
+      ],
+      [
+        1929,
+        1048,
+        261,
+        261
+      ],
+      [
+        1247,
+        1154,
+        251,
+        251
+      ],
+      [
+        2115,
+        1751,
+        65,
+        65
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 37 06 AM.jpg": {
+    "width": 2746,
+    "height": 2058,
+    "faces_found": 6,
+    "center_of_mass": [
+      1736,
+      775
+    ],
+    "raw_faces": [
+      [
+        2508,
+        446,
+        90,
+        90
+      ],
+      [
+        1194,
+        537,
+        329,
+        329
+      ],
+      [
+        1814,
+        557,
+        360,
+        360
+      ],
+      [
+        506,
+        670,
+        380,
+        380
+      ],
+      [
+        2527,
+        521,
+        55,
+        55
+      ],
+      [
+        1103,
+        1155,
+        319,
+        319
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 35 31 AM.jpg": {
+    "width": 2850,
+    "height": 2136,
+    "faces_found": 4,
+    "center_of_mass": [
+      1285,
+      1176
+    ],
+    "raw_faces": [
+      [
+        984,
+        785,
+        256,
+        256
+      ],
+      [
+        708,
+        921,
+        180,
+        180
+      ],
+      [
+        1430,
+        1085,
+        57,
+        57
+      ],
+      [
+        1738,
+        1633,
+        65,
+        65
+      ]
+    ]
+  },
+  "Photo Jun 03 2026, 7 27 37 PM.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "faces_found": 2,
+    "center_of_mass": [
+      780,
+      379
+    ],
+    "raw_faces": [
+      [
+        631,
+        246,
+        184,
+        184
+      ],
+      [
+        768,
+        351,
+        138,
+        138
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 35 23 AM.jpg": {
+    "width": 2868,
+    "height": 2150,
+    "faces_found": 3,
+    "center_of_mass": [
+      1499,
+      952
+    ],
+    "raw_faces": [
+      [
+        1776,
+        692,
+        413,
+        413
+      ],
+      [
+        705,
+        678,
+        497,
+        497
+      ],
+      [
+        1369,
+        838,
+        385,
+        385
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 36 12 AM.jpg": {
+    "width": 2247,
+    "height": 2996,
+    "faces_found": 4,
+    "center_of_mass": [
+      1195,
+      1422
+    ],
+    "raw_faces": [
+      [
+        1220,
+        824,
+        367,
+        367
+      ],
+      [
+        649,
+        865,
+        337,
+        337
+      ],
+      [
+        1613,
+        1087,
+        97,
+        97
+      ],
+      [
+        879,
+        2494,
+        35,
+        35
+      ]
+    ]
+  },
+  "Photo May 18 2026, 7 16 52 PM (6).jpg": {
+    "width": 1080,
+    "height": 1080,
+    "faces_found": 8,
+    "center_of_mass": [
+      558,
+      335
+    ],
+    "raw_faces": [
+      [
+        903,
+        257,
+        88,
+        88
+      ],
+      [
+        363,
+        305,
+        65,
+        65
+      ],
+      [
+        521,
+        315,
+        72,
+        72
+      ],
+      [
+        710,
+        262,
+        67,
+        67
+      ],
+      [
+        763,
+        333,
+        66,
+        66
+      ],
+      [
+        47,
+        300,
+        70,
+        70
+      ],
+      [
+        647,
+        332,
+        75,
+        75
+      ],
+      [
+        223,
+        292,
+        68,
+        68
+      ]
+    ]
+  },
+  "Photo Jun 03 2026, 7 28 12 PM.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "faces_found": 3,
+    "center_of_mass": [
+      782,
+      396
+    ],
+    "raw_faces": [
+      [
+        648,
+        313,
+        74,
+        74
+      ],
+      [
+        719,
+        366,
+        70,
+        70
+      ],
+      [
+        866,
+        399,
+        79,
+        79
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 57 05 AM.jpg": {
+    "width": 4031,
+    "height": 3023,
+    "faces_found": 3,
+    "center_of_mass": [
+      2078,
+      959
+    ],
+    "raw_faces": [
+      [
+        2366,
+        676,
+        506,
+        506
+      ],
+      [
+        1248,
+        659,
+        570,
+        570
+      ],
+      [
+        1831,
+        753,
+        502,
+        502
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 54 34 AM.jpg": {
+    "width": 4031,
+    "height": 3023,
+    "faces_found": 6,
+    "center_of_mass": [
+      2346,
+      1426
+    ],
+    "raw_faces": [
+      [
+        2496,
+        881,
+        313,
+        313
+      ],
+      [
+        1785,
+        950,
+        298,
+        298
+      ],
+      [
+        3089,
+        923,
+        297,
+        297
+      ],
+      [
+        927,
+        1257,
+        116,
+        116
+      ],
+      [
+        3633,
+        1548,
+        64,
+        64
+      ],
+      [
+        1569,
+        2420,
+        60,
+        60
+      ]
+    ]
+  },
+  "Photo Oct 06 2020, 4 22 51 PM.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "faces_found": 3,
+    "center_of_mass": [
+      1925,
+      1493
+    ],
+    "raw_faces": [
+      [
+        1743,
+        837,
+        209,
+        209
+      ],
+      [
+        2358,
+        1422,
+        84,
+        84
+      ],
+      [
+        1498,
+        2045,
+        58,
+        58
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 58 08 AM.jpg": {
+    "width": 4031,
+    "height": 3023,
+    "faces_found": 5,
+    "center_of_mass": [
+      1606,
+      1728
+    ],
+    "raw_faces": [
+      [
+        1640,
+        687,
+        650,
+        650
+      ],
+      [
+        2253,
+        994,
+        557,
+        557
+      ],
+      [
+        855,
+        1284,
+        58,
+        58
+      ],
+      [
+        2059,
+        2214,
+        58,
+        58
+      ],
+      [
+        523,
+        2761,
+        72,
+        72
+      ]
+    ]
+  },
+  "Photo May 18 2026, 7 16 52 PM (7).jpg": {
+    "width": 1080,
+    "height": 1080,
+    "faces_found": 4,
+    "center_of_mass": [
+      618,
+      437
+    ],
+    "raw_faces": [
+      [
+        629,
+        168,
+        168,
+        168
+      ],
+      [
+        409,
+        317,
+        197,
+        197
+      ],
+      [
+        142,
+        310,
+        265,
+        265
+      ],
+      [
+        943,
+        603,
+        72,
+        72
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 58 20 AM.jpg": {
+    "width": 4031,
+    "height": 3023,
+    "faces_found": 6,
+    "center_of_mass": [
+      2215,
+      1512
+    ],
+    "raw_faces": [
+      [
+        1262,
+        613,
+        694,
+        694
+      ],
+      [
+        1889,
+        1155,
+        628,
+        628
+      ],
+      [
+        1965,
+        1394,
+        552,
+        552
+      ],
+      [
+        760,
+        1308,
+        87,
+        87
+      ],
+      [
+        3586,
+        1603,
+        68,
+        68
+      ],
+      [
+        2783,
+        1956,
+        56,
+        56
+      ]
+    ]
+  },
+  "IMG_5301.JPG": {
+    "width": 2320,
+    "height": 3088,
+    "faces_found": 5,
+    "center_of_mass": [
+      1252,
+      1903
+    ],
+    "raw_faces": [
+      [
+        837,
+        1653,
+        260,
+        260
+      ],
+      [
+        584,
+        1724,
+        225,
+        225
+      ],
+      [
+        1350,
+        1641,
+        252,
+        252
+      ],
+      [
+        1704,
+        1879,
+        49,
+        49
+      ],
+      [
+        1366,
+        2200,
+        49,
+        49
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 34 35 AM.jpg": {
+    "width": 2866,
+    "height": 2150,
+    "faces_found": 4,
+    "center_of_mass": [
+      2086,
+      1189
+    ],
+    "raw_faces": [
+      [
+        951,
+        654,
+        137,
+        137
+      ],
+      [
+        2223,
+        944,
+        123,
+        123
+      ],
+      [
+        2684,
+        1159,
+        153,
+        153
+      ],
+      [
+        2227,
+        1738,
+        108,
+        108
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 33 52 AM.jpg": {
+    "width": 2814,
+    "height": 2111,
+    "faces_found": 3,
+    "center_of_mass": [
+      1693,
+      964
+    ],
+    "raw_faces": [
+      [
+        2148,
+        712,
+        134,
+        134
+      ],
+      [
+        1667,
+        855,
+        90,
+        90
+      ],
+      [
+        1094,
+        1156,
+        117,
+        117
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 34 56 AM.jpg": {
+    "width": 3207,
+    "height": 2405,
+    "faces_found": 4,
+    "center_of_mass": [
+      1142,
+      867
+    ],
+    "raw_faces": [
+      [
+        1651,
+        535,
+        88,
+        88
+      ],
+      [
+        482,
+        768,
+        75,
+        75
+      ],
+      [
+        756,
+        859,
+        323,
+        323
+      ],
+      [
+        1311,
+        938,
+        253,
+        253
+      ]
+    ]
+  },
+  "Photo Jul 08 2023, 9 43 01 AM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 4,
+    "center_of_mass": [
+      1270,
+      1672
+    ],
+    "raw_faces": [
+      [
+        1212,
+        1259,
+        344,
+        344
+      ],
+      [
+        2251,
+        1637,
+        84,
+        84
+      ],
+      [
+        926,
+        1690,
+        58,
+        58
+      ],
+      [
+        412,
+        1821,
+        72,
+        72
+      ]
+    ]
+  },
+  "Photo May 18 2024, 1 37 31 PM.jpg": {
+    "width": 2316,
+    "height": 3088,
+    "faces_found": 2,
+    "center_of_mass": [
+      1171,
+      1184
+    ],
+    "raw_faces": [
+      [
+        1220,
+        644,
+        711,
+        711
+      ],
+      [
+        454,
+        1056,
+        624,
+        624
+      ]
+    ]
+  },
+  "Photo Feb 23 2021, 5 29 26 PM.jpg": {
+    "width": 6000,
+    "height": 4000,
+    "faces_found": 2,
+    "center_of_mass": [
+      2586,
+      2444
+    ],
+    "raw_faces": [
+      [
+        2308,
+        1395,
+        301,
+        301
+      ],
+      [
+        2683,
+        3311,
+        62,
+        62
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 54 06 AM.jpg": {
+    "width": 4031,
+    "height": 3023,
+    "faces_found": 12,
+    "center_of_mass": [
+      2218,
+      1337
+    ],
+    "raw_faces": [
+      [
+        495,
+        745,
+        346,
+        346
+      ],
+      [
+        1402,
+        988,
+        234,
+        234
+      ],
+      [
+        944,
+        1022,
+        265,
+        265
+      ],
+      [
+        2170,
+        1067,
+        193,
+        193
+      ],
+      [
+        1591,
+        1173,
+        197,
+        197
+      ],
+      [
+        2329,
+        1160,
+        150,
+        150
+      ],
+      [
+        1876,
+        1162,
+        183,
+        183
+      ],
+      [
+        2517,
+        1239,
+        156,
+        156
+      ],
+      [
+        2806,
+        1347,
+        166,
+        166
+      ],
+      [
+        2697,
+        1375,
+        123,
+        123
+      ],
+      [
+        2947,
+        1513,
+        66,
+        66
+      ],
+      [
+        3761,
+        2172,
+        89,
+        89
+      ]
+    ]
+  },
+  "Photo Aug 02 2023, 6 22 33 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 6,
+    "center_of_mass": [
+      1266,
+      1672
+    ],
+    "raw_faces": [
+      [
+        428,
+        799,
+        176,
+        176
+      ],
+      [
+        2517,
+        1172,
+        161,
+        161
+      ],
+      [
+        504,
+        1565,
+        122,
+        122
+      ],
+      [
+        1014,
+        1900,
+        116,
+        116
+      ],
+      [
+        1387,
+        2042,
+        35,
+        35
+      ],
+      [
+        1406,
+        2211,
+        76,
+        76
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 34 07 AM.jpg": {
+    "width": 2900,
+    "height": 2174,
+    "faces_found": 4,
+    "center_of_mass": [
+      1409,
+      1415
+    ],
+    "raw_faces": [
+      [
+        1604,
+        877,
+        436,
+        436
+      ],
+      [
+        941,
+        999,
+        411,
+        411
+      ],
+      [
+        1719,
+        1242,
+        244,
+        244
+      ],
+      [
+        803,
+        1971,
+        48,
+        48
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 33 29 AM.jpg": {
+    "width": 2649,
+    "height": 1986,
+    "faces_found": 3,
+    "center_of_mass": [
+      1551,
+      757
+    ],
+    "raw_faces": [
+      [
+        287,
+        293,
+        841,
+        841
+      ],
+      [
+        1914,
+        356,
+        137,
+        137
+      ],
+      [
+        1668,
+        838,
+        589,
+        589
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 33 13 AM.jpg": {
+    "width": 2704,
+    "height": 2028,
+    "faces_found": 1,
+    "center_of_mass": [
+      1178,
+      170
+    ],
+    "raw_faces": [
+      [
+        1150,
+        141,
+        57,
+        57
+      ]
+    ]
+  },
+  "Photo Jun 10 2021, 8 22 07 PM.jpg": {
+    "width": 2320,
+    "height": 3088,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "image000000.jpeg": {
+    "width": 914,
+    "height": 2031,
+    "faces_found": 6,
+    "center_of_mass": [
+      528,
+      977
+    ],
+    "raw_faces": [
+      [
+        677,
+        954,
+        55,
+        55
+      ],
+      [
+        525,
+        971,
+        54,
+        54
+      ],
+      [
+        254,
+        954,
+        58,
+        58
+      ],
+      [
+        591,
+        929,
+        59,
+        59
+      ],
+      [
+        427,
+        940,
+        55,
+        55
+      ],
+      [
+        515,
+        932,
+        79,
+        79
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 36 51 AM.jpg": {
+    "width": 2657,
+    "height": 1993,
+    "faces_found": 4,
+    "center_of_mass": [
+      796,
+      915
+    ],
+    "raw_faces": [
+      [
+        779,
+        626,
+        217,
+        217
+      ],
+      [
+        1189,
+        723,
+        208,
+        208
+      ],
+      [
+        621,
+        927,
+        55,
+        55
+      ],
+      [
+        243,
+        1035,
+        221,
+        221
+      ]
+    ]
+  },
+  "Photo May 18 2026, 7 16 52 PM (1).jpg": {
+    "width": 768,
+    "height": 960,
+    "faces_found": 3,
+    "center_of_mass": [
+      368,
+      219
+    ],
+    "raw_faces": [
+      [
+        504,
+        119,
+        127,
+        127
+      ],
+      [
+        106,
+        143,
+        117,
+        117
+      ],
+      [
+        314,
+        214,
+        118,
+        118
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 57 35 AM.jpg": {
+    "width": 3872,
+    "height": 2904,
+    "faces_found": 8,
+    "center_of_mass": [
+      1978,
+      1193
+    ],
+    "raw_faces": [
+      [
+        2462,
+        260,
+        56,
+        56
+      ],
+      [
+        2516,
+        451,
+        342,
+        342
+      ],
+      [
+        2829,
+        674,
+        356,
+        356
+      ],
+      [
+        365,
+        745,
+        360,
+        360
+      ],
+      [
+        1688,
+        965,
+        413,
+        413
+      ],
+      [
+        928,
+        1192,
+        356,
+        356
+      ],
+      [
+        2583,
+        1541,
+        166,
+        166
+      ],
+      [
+        1335,
+        2602,
+        183,
+        183
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 35 56 AM.jpg": {
+    "width": 2094,
+    "height": 2792,
+    "faces_found": 2,
+    "center_of_mass": [
+      1116,
+      756
+    ],
+    "raw_faces": [
+      [
+        1453,
+        374,
+        81,
+        81
+      ],
+      [
+        474,
+        833,
+        528,
+        528
+      ]
+    ]
+  },
+  "IMG_20171212_0352.jpg": {
+    "width": 1324,
+    "height": 1036,
+    "faces_found": 1,
+    "center_of_mass": [
+      578,
+      378
+    ],
+    "raw_faces": [
+      [
+        457,
+        257,
+        241,
+        241
+      ]
+    ]
+  },
+  "IMG_20171212_0432.jpg": {
+    "width": 1320,
+    "height": 1032,
+    "faces_found": 4,
+    "center_of_mass": [
+      794,
+      475
+    ],
+    "raw_faces": [
+      [
+        989,
+        282,
+        105,
+        105
+      ],
+      [
+        500,
+        220,
+        124,
+        124
+      ],
+      [
+        931,
+        611,
+        53,
+        53
+      ],
+      [
+        560,
+        591,
+        110,
+        110
+      ]
+    ]
+  },
+  "IMG_20171213_0011.jpg": {
+    "width": 1476,
+    "height": 2080,
+    "faces_found": 1,
+    "center_of_mass": [
+      727,
+      542
+    ],
+    "raw_faces": [
+      [
+        552,
+        367,
+        350,
+        350
+      ]
+    ]
+  },
+  "IMG_0585.JPG": {
+    "width": 976,
+    "height": 1032,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 24 2026, 10 33 58 AM.jpg": {
+    "width": 3018,
+    "height": 2264,
+    "faces_found": 15,
+    "center_of_mass": [
+      1915,
+      1593
+    ],
+    "raw_faces": [
+      [
+        1263,
+        423,
+        279,
+        279
+      ],
+      [
+        2666,
+        548,
+        56,
+        56
+      ],
+      [
+        1884,
+        816,
+        62,
+        62
+      ],
+      [
+        2841,
+        1390,
+        66,
+        66
+      ],
+      [
+        2504,
+        1552,
+        134,
+        134
+      ],
+      [
+        1931,
+        1560,
+        126,
+        126
+      ],
+      [
+        370,
+        1608,
+        71,
+        71
+      ],
+      [
+        889,
+        1557,
+        67,
+        67
+      ],
+      [
+        2312,
+        1734,
+        131,
+        131
+      ],
+      [
+        2321,
+        1790,
+        56,
+        56
+      ],
+      [
+        1070,
+        1733,
+        66,
+        66
+      ],
+      [
+        2025,
+        2054,
+        116,
+        116
+      ],
+      [
+        1747,
+        2178,
+        52,
+        52
+      ],
+      [
+        1840,
+        2066,
+        101,
+        101
+      ],
+      [
+        2319,
+        2142,
+        113,
+        113
+      ]
+    ]
+  },
+  "IMG_1134.JPG": {
+    "width": 960,
+    "height": 720,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_1096.JPG": {
+    "width": 960,
+    "height": 720,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_1080.jpg": {
+    "width": 624,
+    "height": 623,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_1136.JPG": {
+    "width": 720,
+    "height": 960,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_1085.JPG": {
+    "width": 960,
+    "height": 640,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Resized_20190508_190507.JPEG": {
+    "width": 1512,
+    "height": 2016,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_1469.JPG": {
+    "width": 960,
+    "height": 960,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_0330_Original.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "006_6.jpg": {
+    "width": 2048,
+    "height": 1536,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_4346.JPG": {
+    "width": 652,
+    "height": 900,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_4627.JPG": {
+    "width": 914,
+    "height": 2031,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_1465.JPG": {
+    "width": 720,
+    "height": 960,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 19 2020, 11 39 39 AM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_1505.JPG": {
+    "width": 720,
+    "height": 960,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_1504.JPG": {
+    "width": 960,
+    "height": 720,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_1464.JPG": {
+    "width": 720,
+    "height": 960,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "94EAD1D4-E355-4A0F-B93F-15120CA59A61.JPG": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "C7C76AD6-087C-4AA1-875F-7170E206A748.PNG": {
+    "width": 750,
+    "height": 1334,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_1249.JPG": {
+    "width": 720,
+    "height": 960,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_1473.JPG": {
+    "width": 2048,
+    "height": 1529,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_1107.JPG": {
+    "width": 720,
+    "height": 540,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_1517.JPG": {
+    "width": 960,
+    "height": 960,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_1474.JPG": {
+    "width": 717,
+    "height": 960,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_1104.JPG": {
+    "width": 480,
+    "height": 640,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_0787_Original.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 24 2026, 10 35 14 AM.jpg": {
+    "width": 2735,
+    "height": 2051,
+    "faces_found": 2,
+    "center_of_mass": [
+      1642,
+      1459
+    ],
+    "raw_faces": [
+      [
+        2218,
+        1233,
+        58,
+        58
+      ],
+      [
+        1001,
+        1621,
+        70,
+        70
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 36 58 AM.jpg": {
+    "width": 2806,
+    "height": 2103,
+    "faces_found": 1,
+    "center_of_mass": [
+      1450,
+      862
+    ],
+    "raw_faces": [
+      [
+        1264,
+        676,
+        371,
+        371
+      ]
+    ]
+  },
+  "Photo Sep 03 2021, 7 20 26 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 1,
+    "center_of_mass": [
+      1396,
+      1488
+    ],
+    "raw_faces": [
+      [
+        1363,
+        1455,
+        66,
+        66
+      ]
+    ]
+  },
+  "IMG_1518.JPG": {
+    "width": 716,
+    "height": 960,
+    "faces_found": 2,
+    "center_of_mass": [
+      311,
+      500
+    ],
+    "raw_faces": [
+      [
+        236,
+        366,
+        57,
+        57
+      ],
+      [
+        329,
+        578,
+        57,
+        57
+      ]
+    ]
+  },
+  "IMG_0023.JPEG": {
+    "width": 1206,
+    "height": 1527,
+    "faces_found": 1,
+    "center_of_mass": [
+      454,
+      504
+    ],
+    "raw_faces": [
+      [
+        356,
+        406,
+        197,
+        197
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 54 58 AM.jpg": {
+    "width": 4031,
+    "height": 3023,
+    "faces_found": 2,
+    "center_of_mass": [
+      1906,
+      1944
+    ],
+    "raw_faces": [
+      [
+        1851,
+        1191,
+        309,
+        309
+      ],
+      [
+        1779,
+        2516,
+        55,
+        55
+      ]
+    ]
+  },
+  "Photo Apr 18 2019, 1 02 58 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 3,
+    "center_of_mass": [
+      2042,
+      2123
+    ],
+    "raw_faces": [
+      [
+        1777,
+        1448,
+        241,
+        241
+      ],
+      [
+        1717,
+        1903,
+        273,
+        273
+      ],
+      [
+        2346,
+        2731,
+        61,
+        61
+      ]
+    ]
+  },
+  "Photo Nov 10 2019, 4 24 38 PM.jpg": {
+    "width": 3999,
+    "height": 5162,
+    "faces_found": 1,
+    "center_of_mass": [
+      2092,
+      4016
+    ],
+    "raw_faces": [
+      [
+        2029,
+        3953,
+        125,
+        125
+      ]
+    ]
+  },
+  "Photo Aug 18 2021, 6 59 10 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 3,
+    "center_of_mass": [
+      1271,
+      1953
+    ],
+    "raw_faces": [
+      [
+        1127,
+        1641,
+        321,
+        321
+      ],
+      [
+        725,
+        1803,
+        77,
+        77
+      ],
+      [
+        1712,
+        2167,
+        99,
+        99
+      ]
+    ]
+  },
+  "Photo Sep 23 2021, 12 39 51 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 2,
+    "center_of_mass": [
+      2188,
+      2445
+    ],
+    "raw_faces": [
+      [
+        2139,
+        1011,
+        56,
+        56
+      ],
+      [
+        2176,
+        3817,
+        67,
+        67
+      ]
+    ]
+  },
+  "Photo Jan 26 2026, 1 09 45 AM.jpg": {
+    "width": 1155,
+    "height": 1622,
+    "faces_found": 1,
+    "center_of_mass": [
+      614,
+      731
+    ],
+    "raw_faces": [
+      [
+        571,
+        688,
+        86,
+        86
+      ]
+    ]
+  },
+  "Photo Oct 11 2020, 3 06 12 PM.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_1122.JPG": {
+    "width": 604,
+    "height": 453,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo Jul 06 2019, 11 52 03 AM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 2,
+    "center_of_mass": [
+      2061,
+      2574
+    ],
+    "raw_faces": [
+      [
+        1037,
+        1380,
+        327,
+        327
+      ],
+      [
+        2892,
+        3575,
+        59,
+        59
+      ]
+    ]
+  },
+  "Photo Oct 21 2021, 3 08 57 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 1,
+    "center_of_mass": [
+      1440,
+      2136
+    ],
+    "raw_faces": [
+      [
+        827,
+        1523,
+        1226,
+        1226
+      ]
+    ]
+  },
+  "Photo Jan 24 2026, 1 11 04 PM.jpg": {
+    "width": 1159,
+    "height": 1204,
+    "faces_found": 2,
+    "center_of_mass": [
+      325,
+      649
+    ],
+    "raw_faces": [
+      [
+        101,
+        554,
+        84,
+        84
+      ],
+      [
+        447,
+        642,
+        120,
+        120
+      ]
+    ]
+  },
+  "Photo Feb 01 2021, 9 18 39 PM.png": {
+    "width": 828,
+    "height": 1792,
+    "faces_found": 1,
+    "center_of_mass": [
+      498,
+      708
+    ],
+    "raw_faces": [
+      [
+        423,
+        633,
+        150,
+        150
+      ]
+    ]
+  },
+  "Photo Feb 03 2026, 9 07 39 PM (1).jpg": {
+    "width": 969,
+    "height": 1611,
+    "faces_found": 2,
+    "center_of_mass": [
+      218,
+      1468
+    ],
+    "raw_faces": [
+      [
+        89,
+        1425,
+        47,
+        47
+      ],
+      [
+        279,
+        1441,
+        91,
+        91
+      ]
+    ]
+  },
+  "IMG_1455.JPG": {
+    "width": 1752,
+    "height": 1056,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo Jan 07 2022, 1 59 14 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 6,
+    "center_of_mass": [
+      1305,
+      1711
+    ],
+    "raw_faces": [
+      [
+        1440,
+        95,
+        57,
+        57
+      ],
+      [
+        1612,
+        205,
+        74,
+        74
+      ],
+      [
+        1610,
+        2247,
+        224,
+        224
+      ],
+      [
+        437,
+        2376,
+        82,
+        82
+      ],
+      [
+        1940,
+        2535,
+        41,
+        41
+      ],
+      [
+        512,
+        2525,
+        85,
+        85
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 58 33 AM.jpg": {
+    "width": 3898,
+    "height": 2922,
+    "faces_found": 1,
+    "center_of_mass": [
+      1638,
+      1232
+    ],
+    "raw_faces": [
+      [
+        1196,
+        791,
+        883,
+        883
+      ]
+    ]
+  },
+  "Photo Apr 10 2020, 2 42 39 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 1,
+    "center_of_mass": [
+      1404,
+      1860
+    ],
+    "raw_faces": [
+      [
+        993,
+        1449,
+        823,
+        823
+      ]
+    ]
+  },
+  "Photo Jan 24 2026, 1 12 52 PM.png": {
+    "width": 1206,
+    "height": 2622,
+    "faces_found": 2,
+    "center_of_mass": [
+      737,
+      1535
+    ],
+    "raw_faces": [
+      [
+        595,
+        714,
+        186,
+        186
+      ],
+      [
+        750,
+        2228,
+        71,
+        71
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 35 45 AM.jpg": {
+    "width": 2762,
+    "height": 2072,
+    "faces_found": 3,
+    "center_of_mass": [
+      1320,
+      1343
+    ],
+    "raw_faces": [
+      [
+        1424,
+        493,
+        261,
+        261
+      ],
+      [
+        1259,
+        1370,
+        61,
+        61
+      ],
+      [
+        1088,
+        1978,
+        56,
+        56
+      ]
+    ]
+  },
+  "Photo Jul 13 2020, 5 10 59 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 3,
+    "center_of_mass": [
+      875,
+      966
+    ],
+    "raw_faces": [
+      [
+        259,
+        400,
+        625,
+        625
+      ],
+      [
+        1821,
+        1009,
+        92,
+        92
+      ],
+      [
+        134,
+        1077,
+        107,
+        107
+      ]
+    ]
+  },
+  "Photo Jun 27 2020, 6 15 47 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 1,
+    "center_of_mass": [
+      1634,
+      1612
+    ],
+    "raw_faces": [
+      [
+        1401,
+        1379,
+        465,
+        465
+      ]
+    ]
+  },
+  "IMG_0032.JPEG": {
+    "width": 1189,
+    "height": 1583,
+    "faces_found": 1,
+    "center_of_mass": [
+      634,
+      568
+    ],
+    "raw_faces": [
+      [
+        556,
+        490,
+        155,
+        155
+      ]
+    ]
+  },
+  "Photo May 24 2026, 10 28 01 AM.jpg": {
+    "width": 2349,
+    "height": 3629,
+    "faces_found": 2,
+    "center_of_mass": [
+      1150,
+      1932
+    ],
+    "raw_faces": [
+      [
+        785,
+        770,
+        402,
+        402
+      ],
+      [
+        1282,
+        2862,
+        62,
+        62
+      ]
+    ]
+  },
+  "Photo May 25 2020, 2 05 10 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 1,
+    "center_of_mass": [
+      1506,
+      984
+    ],
+    "raw_faces": [
+      [
+        1290,
+        767,
+        433,
+        433
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 55 39 AM.jpg": {
+    "width": 3737,
+    "height": 2803,
+    "faces_found": 1,
+    "center_of_mass": [
+      3498,
+      1038
+    ],
+    "raw_faces": [
+      [
+        3300,
+        840,
+        395,
+        395
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 55 27 AM.jpg": {
+    "width": 4031,
+    "height": 3023,
+    "faces_found": 6,
+    "center_of_mass": [
+      1437,
+      1799
+    ],
+    "raw_faces": [
+      [
+        233,
+        805,
+        216,
+        216
+      ],
+      [
+        665,
+        1424,
+        78,
+        78
+      ],
+      [
+        2074,
+        1927,
+        76,
+        76
+      ],
+      [
+        2058,
+        1957,
+        69,
+        69
+      ],
+      [
+        1546,
+        2032,
+        60,
+        60
+      ],
+      [
+        1767,
+        2371,
+        57,
+        57
+      ]
+    ]
+  },
+  "IMG_1176.JPG": {
+    "width": 960,
+    "height": 960,
+    "faces_found": 1,
+    "center_of_mass": [
+      455,
+      118
+    ],
+    "raw_faces": [
+      [
+        392,
+        55,
+        126,
+        126
+      ]
+    ]
+  },
+  "IMG_1599.jpg": {
+    "width": 1206,
+    "height": 1203,
+    "faces_found": 1,
+    "center_of_mass": [
+      390,
+      686
+    ],
+    "raw_faces": [
+      [
+        355,
+        650,
+        71,
+        71
+      ]
+    ]
+  },
+  "Photo Jul 10 2020, 12 29 23 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 2,
+    "center_of_mass": [
+      1049,
+      2395
+    ],
+    "raw_faces": [
+      [
+        125,
+        1628,
+        70,
+        70
+      ],
+      [
+        1912,
+        3101,
+        52,
+        52
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 53 51 AM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 3,
+    "center_of_mass": [
+      1672,
+      2124
+    ],
+    "raw_faces": [
+      [
+        1318,
+        662,
+        317,
+        317
+      ],
+      [
+        2783,
+        1882,
+        115,
+        115
+      ],
+      [
+        671,
+        3585,
+        55,
+        55
+      ]
+    ]
+  },
+  "IMG_0027.JPEG": {
+    "width": 1155,
+    "height": 1622,
+    "faces_found": 1,
+    "center_of_mass": [
+      615,
+      731
+    ],
+    "raw_faces": [
+      [
+        572,
+        688,
+        86,
+        86
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 58 53 AM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 1,
+    "center_of_mass": [
+      1891,
+      1443
+    ],
+    "raw_faces": [
+      [
+        1848,
+        1400,
+        86,
+        86
+      ]
+    ]
+  },
+  "Photo Oct 11 2020, 3 08 08 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 1,
+    "center_of_mass": [
+      2314,
+      2900
+    ],
+    "raw_faces": [
+      [
+        2283,
+        2870,
+        61,
+        61
+      ]
+    ]
+  },
+  "Photo Aug 05 2021, 3 48 39 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 1,
+    "center_of_mass": [
+      1322,
+      2396
+    ],
+    "raw_faces": [
+      [
+        1294,
+        2369,
+        55,
+        55
+      ]
+    ]
+  },
+  "Photo Sep 01 2021, 7 39 57 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 1,
+    "center_of_mass": [
+      752,
+      2008
+    ],
+    "raw_faces": [
+      [
+        679,
+        1935,
+        146,
+        146
+      ]
+    ]
+  },
+  "Photo Oct 11 2020, 5 14 35 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 1,
+    "center_of_mass": [
+      1931,
+      2478
+    ],
+    "raw_faces": [
+      [
+        1889,
+        2436,
+        84,
+        84
+      ]
+    ]
+  },
+  "Photo Jun 06 2026, 9 55 51 AM.jpg": {
+    "width": 2970,
+    "height": 3960,
+    "faces_found": 1,
+    "center_of_mass": [
+      1014,
+      1280
+    ],
+    "raw_faces": [
+      [
+        589,
+        856,
+        849,
+        849
+      ]
+    ]
+  },
+  "Photo Jul 20 2019, 3 31 06 PM.jpg": {
+    "width": 2316,
+    "height": 3088,
+    "faces_found": 1,
+    "center_of_mass": [
+      1203,
+      1265
+    ],
+    "raw_faces": [
+      [
+        285,
+        347,
+        1836,
+        1836
+      ]
+    ]
+  },
+  "IMG_1114.JPG": {
+    "width": 479,
+    "height": 720,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_20171212_0660.jpg": {
+    "width": 1460,
+    "height": 1044,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 18 2026, 7 11 52 PM (1).jpg": {
+    "width": 604,
+    "height": 453,
+    "faces_found": 1,
+    "center_of_mass": [
+      338,
+      236
+    ],
+    "raw_faces": [
+      [
+        287,
+        184,
+        103,
+        103
+      ]
+    ]
+  },
+  "IMG_1102.JPG": {
+    "width": 454,
+    "height": 453,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo Jan 21 2022, 3 21 36 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 5,
+    "center_of_mass": [
+      1743,
+      2327
+    ],
+    "raw_faces": [
+      [
+        986,
+        1326,
+        485,
+        485
+      ],
+      [
+        1428,
+        1737,
+        164,
+        164
+      ],
+      [
+        216,
+        2339,
+        98,
+        98
+      ],
+      [
+        2759,
+        2849,
+        78,
+        78
+      ],
+      [
+        2880,
+        2941,
+        65,
+        65
+      ]
+    ]
+  },
+  "IMG_1513.JPG": {
+    "width": 720,
+    "height": 960,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo Jun 02 2020, 2 55 07 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo Jan 10 2020, 7 55 02 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 1,
+    "center_of_mass": [
+      1486,
+      1390
+    ],
+    "raw_faces": [
+      [
+        1379,
+        1284,
+        213,
+        213
+      ]
+    ]
+  },
+  "IMG_1098.JPG": {
+    "width": 640,
+    "height": 640,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 24 2026, 10 34 42 AM.jpg": {
+    "width": 3123,
+    "height": 2343,
+    "faces_found": 1,
+    "center_of_mass": [
+      1598,
+      1034
+    ],
+    "raw_faces": [
+      [
+        1535,
+        970,
+        127,
+        127
+      ]
+    ]
+  },
+  "IMG_1516.JPG": {
+    "width": 720,
+    "height": 960,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "Photo May 25 2021, 3 55 31 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 1,
+    "center_of_mass": [
+      1500,
+      2028
+    ],
+    "raw_faces": [
+      [
+        1449,
+        1976,
+        103,
+        103
+      ]
+    ]
+  },
+  "IMG_0020.JPEG": {
+    "width": 1159,
+    "height": 1204,
+    "faces_found": 3,
+    "center_of_mass": [
+      448,
+      533
+    ],
+    "raw_faces": [
+      [
+        669,
+        275,
+        52,
+        52
+      ],
+      [
+        101,
+        553,
+        85,
+        85
+      ],
+      [
+        447,
+        642,
+        120,
+        120
+      ]
+    ]
+  },
+  "Photo Jan 11 2020, 11 28 23 AM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 4,
+    "center_of_mass": [
+      1823,
+      2920
+    ],
+    "raw_faces": [
+      [
+        1427,
+        1744,
+        198,
+        198
+      ],
+      [
+        1916,
+        3164,
+        99,
+        99
+      ],
+      [
+        2016,
+        3150,
+        121,
+        121
+      ],
+      [
+        1672,
+        3361,
+        105,
+        105
+      ]
+    ]
+  },
+  "IMG_8234.JPEG": {
+    "width": 2048,
+    "height": 1536,
+    "faces_found": 4,
+    "center_of_mass": [
+      538,
+      465
+    ],
+    "raw_faces": [
+      [
+        48,
+        201,
+        179,
+        179
+      ],
+      [
+        413,
+        283,
+        196,
+        196
+      ],
+      [
+        844,
+        337,
+        195,
+        195
+      ],
+      [
+        434,
+        627,
+        257,
+        257
+      ]
+    ]
+  },
+  "Photo Aug 29 2021, 6 49 05 PM.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "faces_found": 0,
+    "center_of_mass": null,
+    "raw_faces": []
+  },
+  "IMG_1598.jpg": {
+    "width": 1206,
+    "height": 1181,
+    "faces_found": 1,
+    "center_of_mass": [
+      888,
+      620
+    ],
+    "raw_faces": [
+      [
+        800,
+        532,
+        176,
+        176
+      ]
+    ]
+  }
+}

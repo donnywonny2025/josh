@@ -100,6 +100,24 @@ class Handler(http.server.SimpleHTTPRequestHandler):
                 return self._json(json.loads(seq_file.read_text()))
             return self._json({"error": "not found"}, 404)
         
+        # --- SERVE MUSIC ---
+        if path.startswith("/music/"):
+            rel = urllib.parse.unquote(path[len("/music/"):])
+            file_path = PROJECT / "Music" / rel
+            if file_path.is_file():
+                self.send_response(200)
+                ct = self._content_type(file_path.suffix.lower())
+                self.send_header("Content-Type", ct)
+                self.send_header("Content-Length", str(file_path.stat().st_size))
+                self.send_header("Cache-Control", "public, max-age=86400")
+                self.send_header("Accept-Ranges", "bytes")
+                self.end_headers()
+                with open(file_path, "rb") as fh:
+                    self.wfile.write(fh.read())
+                return
+            self.send_error(404)
+            return
+            
         # --- SERVE PHOTOS ---
         if path.startswith("/photos/"):
             rel = path[len("/photos/"):]
@@ -211,6 +229,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             '.json': 'application/json', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg',
             '.png': 'image/png', '.gif': 'image/gif', '.heic': 'image/heic',
             '.mov': 'video/quicktime', '.mp4': 'video/mp4', '.m4v': 'video/mp4',
+            '.mp3': 'audio/mpeg', '.wav': 'audio/wav',
         }.get(ext, 'application/octet-stream')
     
     def log_message(self, format, *args):

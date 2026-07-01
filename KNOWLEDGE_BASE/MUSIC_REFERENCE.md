@@ -56,12 +56,18 @@
 - **"I'ma Warrior"** by Soldier Hard — ties to Josh's military service.
 - Several songs are strong candidates for slideshow backing tracks (Time in a Bottle, Heart of Gold, Wild World, Hallelujah).
 
-## Song → Section Pairings (Confirmed)
-| Song | Artist | Photo Section | Reason |
-|------|--------|---------------|--------|
-| He Ain't Heavy He's My Brother | The Hollies | Ben and Josh | Brotherhood — Ben & Josh together |
-| I'ma Warrior | Soldier Hard | Josh - Military | Military service tribute |
-- Total playlist length (~2h15m) is much longer than a typical slideshow — selections will need to be made.
+## Song → Section Pairings (Confirmed by Phyllis)
+| Song | Artist | Photo Section | Reason / Directive |
+|------|--------|---------------|--------------------|
+| He Ain't Heavy He's My Brother | The Hollies | **Ben and Josh** | Brotherhood — Ben & Josh together |
+| Dancing in the Sky | Dani and Lizzy | **Fun/Travel** | Photos of Josh having fun, dancing, travels |
+| I'ma Warrior | Soldier Hard | **Military** | Military service. *CRITICAL: Edit out the intro talking segment about Iraq (profanity is fine).* |
+| Save A Place For Me | Matthew West | **Passed Loved Ones** | Use photos from the "Save a Place for me" folder (ones who have gone before Josh) |
+| Finally at Peace | Juno Skye | **Closing Sequence** | The big song for him, requested for the end. |
+| Don't Cry When I'm Gone | Tony Garcia | *General* | Requested as a favorite |
+
+- **Phyllis's Directive:** "I know you can't play all the songs in their entirety so I am deferring to you and your creativity to put it all together."
+- Total playlist length (~2h15m) is much longer than a typical slideshow — selections will need to be made, and songs cut down to fit the algorithmic pacing.
 
 ## Potential Slideshow Music Picks (TBD)
 - [ ] Event Video music selection

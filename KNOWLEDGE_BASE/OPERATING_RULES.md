@@ -50,6 +50,7 @@ print(page_info())
 | `http_get(url)` | Pure HTTP fetch (no browser needed) |
 
 ### Tab Rules
+- **Run Tab Manager:** ALWAYS run `python3 /Volumes/Extreme SSD/JOSH/EDITING_FRAMEWORK/tab_manager.py` before doing visual work. It will securely close `about:blank` and duplicate tabs via CDP.
 - **ONE tab.** `new_tab()` only for the very first navigation. After that, `goto_url()` always.
 - **Never duplicate tabs.** Check `list_tabs()` before opening.
 - **Clean up.** Close tabs when done.

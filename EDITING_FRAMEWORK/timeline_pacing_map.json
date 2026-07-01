@@ -1,0 +1,4113 @@
+{
+  "global_settings": {
+    "fps": 23.976,
+    "duration_per_photo": 2.5,
+    "transition_overlap": 0.5
+  },
+  "sequence": [
+    {
+      "file": "IMG_0359.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/IMG_0359.JPG",
+      "section": "Military",
+      "timeline_in_s": 0.0,
+      "timeline_out_s": 2.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_0338.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/IMG_0338.JPG",
+      "section": "Military",
+      "timeline_in_s": 2.0,
+      "timeline_out_s": 4.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_0355.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/IMG_0355.JPG",
+      "section": "Military",
+      "timeline_in_s": 4.0,
+      "timeline_out_s": 6.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "2009_20180203_0020_Original.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/2009_20180203_0020_Original.jpg",
+      "section": "Military",
+      "timeline_in_s": 6.0,
+      "timeline_out_s": 8.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "2009_20180203_0007_Original.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/2009_20180203_0007_Original.jpg",
+      "section": "Military",
+      "timeline_in_s": 8.0,
+      "timeline_out_s": 10.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 18 2026, 7 11 52 PM (3).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 18 2026, 7 11 52 PM (3).jpg",
+      "section": "Military",
+      "timeline_in_s": 10.0,
+      "timeline_out_s": 12.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 16 2026, 6 16 04 PM (11).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 16 2026, 6 16 04 PM (11).jpg",
+      "section": "Military",
+      "timeline_in_s": 12.0,
+      "timeline_out_s": 14.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 16 2026, 6 16 04 PM (5).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 16 2026, 6 16 04 PM (5).jpg",
+      "section": "Military",
+      "timeline_in_s": 14.0,
+      "timeline_out_s": 16.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 33 20 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 24 2026, 10 33 20 AM.jpg",
+      "section": "Military",
+      "timeline_in_s": 16.0,
+      "timeline_out_s": 18.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 16 2026, 6 16 04 PM (9).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 16 2026, 6 16 04 PM (9).jpg",
+      "section": "Military",
+      "timeline_in_s": 18.0,
+      "timeline_out_s": 20.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 16 2026, 6 16 04 PM (8).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 16 2026, 6 16 04 PM (8).jpg",
+      "section": "Military",
+      "timeline_in_s": 20.0,
+      "timeline_out_s": 22.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 56 02 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo Jun 06 2026, 9 56 02 AM.jpg",
+      "section": "Military",
+      "timeline_in_s": 22.0,
+      "timeline_out_s": 24.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 37 21 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 24 2026, 10 37 21 AM.jpg",
+      "section": "Military",
+      "timeline_in_s": 24.0,
+      "timeline_out_s": 26.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 16 2026, 6 16 04 PM (4).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 16 2026, 6 16 04 PM (4).jpg",
+      "section": "Military",
+      "timeline_in_s": 26.0,
+      "timeline_out_s": 28.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 16 2026, 6 16 04 PM (10).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 16 2026, 6 16 04 PM (10).jpg",
+      "section": "Military",
+      "timeline_in_s": 28.0,
+      "timeline_out_s": 30.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 18 2026, 7 11 52 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 18 2026, 7 11 52 PM.jpg",
+      "section": "Military",
+      "timeline_in_s": 30.0,
+      "timeline_out_s": 32.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 18 2026, 7 11 52 PM (2).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 18 2026, 7 11 52 PM (2).jpg",
+      "section": "Military",
+      "timeline_in_s": 32.0,
+      "timeline_out_s": 34.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 16 2026, 6 16 04 PM (3).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 16 2026, 6 16 04 PM (3).jpg",
+      "section": "Military",
+      "timeline_in_s": 34.0,
+      "timeline_out_s": 36.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 16 2026, 6 16 04 PM (11) (1).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 16 2026, 6 16 04 PM (11) (1).jpg",
+      "section": "Military",
+      "timeline_in_s": 36.0,
+      "timeline_out_s": 38.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 16 2026, 6 16 04 PM (6) (1).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 16 2026, 6 16 04 PM (6) (1).jpg",
+      "section": "Military",
+      "timeline_in_s": 38.0,
+      "timeline_out_s": 40.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 18 2026, 7 11 52 PM (4).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 18 2026, 7 11 52 PM (4).jpg",
+      "section": "Military",
+      "timeline_in_s": 40.0,
+      "timeline_out_s": 42.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 16 2026, 6 16 04 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 16 2026, 6 16 04 PM.jpg",
+      "section": "Military",
+      "timeline_in_s": 42.0,
+      "timeline_out_s": 44.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 16 2026, 6 16 04 PM (1).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 16 2026, 6 16 04 PM (1).jpg",
+      "section": "Military",
+      "timeline_in_s": 44.0,
+      "timeline_out_s": 46.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 16 2026, 6 16 04 PM (8) (1).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 16 2026, 6 16 04 PM (8) (1).jpg",
+      "section": "Military",
+      "timeline_in_s": 46.0,
+      "timeline_out_s": 48.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 16 2026, 6 16 04 PM (7).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 16 2026, 6 16 04 PM (7).jpg",
+      "section": "Military",
+      "timeline_in_s": 48.0,
+      "timeline_out_s": 50.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 59 06 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo Jun 06 2026, 9 59 06 AM.jpg",
+      "section": "Military",
+      "timeline_in_s": 50.0,
+      "timeline_out_s": 52.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 16 2026, 6 16 04 PM (12) (1).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 16 2026, 6 16 04 PM (12) (1).jpg",
+      "section": "Military",
+      "timeline_in_s": 52.0,
+      "timeline_out_s": 54.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 16 2026, 6 16 04 PM (12).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 16 2026, 6 16 04 PM (12).jpg",
+      "section": "Military",
+      "timeline_in_s": 54.0,
+      "timeline_out_s": 56.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 16 2026, 6 16 04 PM (6).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 16 2026, 6 16 04 PM (6).jpg",
+      "section": "Military",
+      "timeline_in_s": 56.0,
+      "timeline_out_s": 58.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1524.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/IMG_1524.JPG",
+      "section": "Military",
+      "timeline_in_s": 58.0,
+      "timeline_out_s": 60.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1525.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/IMG_1525.JPG",
+      "section": "Military",
+      "timeline_in_s": 60.0,
+      "timeline_out_s": 62.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "millerc-r1-024-10a.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/millerc-r1-024-10a.jpg",
+      "section": "Military",
+      "timeline_in_s": 62.0,
+      "timeline_out_s": 64.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1522.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/IMG_1522.JPG",
+      "section": "Military",
+      "timeline_in_s": 64.0,
+      "timeline_out_s": 66.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1523.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/IMG_1523.JPG",
+      "section": "Military",
+      "timeline_in_s": 66.0,
+      "timeline_out_s": 68.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1521.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/IMG_1521.JPG",
+      "section": "Military",
+      "timeline_in_s": 68.0,
+      "timeline_out_s": 70.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1454.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/IMG_1454.JPG",
+      "section": "Military",
+      "timeline_in_s": 70.0,
+      "timeline_out_s": 72.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1180.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/IMG_1180.JPG",
+      "section": "Military",
+      "timeline_in_s": 72.0,
+      "timeline_out_s": 74.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1155.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/IMG_1155.JPG",
+      "section": "Military",
+      "timeline_in_s": 74.0,
+      "timeline_out_s": 76.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Josh Military 2_20180206_0007.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Josh Military 2_20180206_0007.jpg",
+      "section": "Military",
+      "timeline_in_s": 76.0,
+      "timeline_out_s": 78.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "millerc-r1-034-15a.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/millerc-r1-034-15a.jpg",
+      "section": "Military",
+      "timeline_in_s": 78.0,
+      "timeline_out_s": 80.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1138.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/IMG_1138.JPG",
+      "section": "Military",
+      "timeline_in_s": 80.0,
+      "timeline_out_s": 82.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1139.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/IMG_1139.JPG",
+      "section": "Military",
+      "timeline_in_s": 82.0,
+      "timeline_out_s": 84.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "1991 photos_20171213_0002.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/1991 photos_20171213_0002.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 84.0,
+      "timeline_out_s": 86.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "1991 photos_20171213_0071.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/1991 photos_20171213_0071.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 86.0,
+      "timeline_out_s": 88.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "1994 Photos_20171213_0046.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/1994 Photos_20171213_0046.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 88.0,
+      "timeline_out_s": 90.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "1995_20171214_0022.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/1995_20171214_0022.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 90.0,
+      "timeline_out_s": 92.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "1999_20180203_0078.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/1999_20180203_0078.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 92.0,
+      "timeline_out_s": 94.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "1999_20180203_0108.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/1999_20180203_0108.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 94.0,
+      "timeline_out_s": 96.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "2000_20180203_0027.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/2000_20180203_0027.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 96.0,
+      "timeline_out_s": 98.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "2000_20180203_0118.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/2000_20180203_0118.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 98.0,
+      "timeline_out_s": 100.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "2004 Utah Josh Ben_20180206_0002.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/2004 Utah Josh Ben_20180206_0002.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 100.0,
+      "timeline_out_s": 102.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_0968_Original.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_0968_Original.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 102.0,
+      "timeline_out_s": 104.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_0874_Original.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_0874_Original.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 104.0,
+      "timeline_out_s": 106.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_0911_Original.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_0911_Original.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 106.0,
+      "timeline_out_s": 108.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "image722_Original.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/image722_Original.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 108.0,
+      "timeline_out_s": 110.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1444_Original.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_1444_Original.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 110.0,
+      "timeline_out_s": 112.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "img_2532_Original.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/img_2532_Original.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 112.0,
+      "timeline_out_s": 114.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "img_2732_Original.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/img_2732_Original.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 114.0,
+      "timeline_out_s": 116.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "img_2738.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/img_2738.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 116.0,
+      "timeline_out_s": 118.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Aug 13 2017, 5 07 46 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo Aug 13 2017, 5 07 46 PM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 118.0,
+      "timeline_out_s": 120.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Aug 19 2017, 6 57 01 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo Aug 19 2017, 6 57 01 PM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 120.0,
+      "timeline_out_s": 122.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jul 28 2017, 6 58 24 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo Jul 28 2017, 6 58 24 PM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 122.0,
+      "timeline_out_s": 124.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "DSC_0392.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/DSC_0392.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 124.0,
+      "timeline_out_s": 126.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_5589_Original.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_5589_Original.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 126.0,
+      "timeline_out_s": 128.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_5477_Original.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_5477_Original.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 128.0,
+      "timeline_out_s": 130.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_5530_Original.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_5530_Original.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 130.0,
+      "timeline_out_s": 132.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "2D3BB106-974A-4683-9E60-BE1216BBC805.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/2D3BB106-974A-4683-9E60-BE1216BBC805.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 132.0,
+      "timeline_out_s": 134.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Mar 10 2018, 8 47 56 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo Mar 10 2018, 8 47 56 PM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 134.0,
+      "timeline_out_s": 136.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Dec 23 2018, 7 39 02 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo Dec 23 2018, 7 39 02 PM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 136.0,
+      "timeline_out_s": 138.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Apr 28 2018, 8 28 10 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo Apr 28 2018, 8 28 10 PM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 138.0,
+      "timeline_out_s": 140.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Apr 16 2019, 9 00 15 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo Apr 16 2019, 9 00 15 PM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 140.0,
+      "timeline_out_s": 142.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 22 2019, 10 51 19 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo Jun 22 2019, 10 51 19 AM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 142.0,
+      "timeline_out_s": 144.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Apr 17 2019, 4 48 41 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo Apr 17 2019, 4 48 41 PM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 144.0,
+      "timeline_out_s": 146.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_0330_Original.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_0330_Original.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 146.0,
+      "timeline_out_s": 148.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "94EAD1D4-E355-4A0F-B93F-15120CA59A61.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/94EAD1D4-E355-4A0F-B93F-15120CA59A61.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 148.0,
+      "timeline_out_s": 150.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_0787_Original.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_0787_Original.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 150.0,
+      "timeline_out_s": 152.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 03 2020, 9 15 54 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo Jun 03 2020, 9 15 54 PM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 152.0,
+      "timeline_out_s": 154.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "DSC_0424.jpeg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/DSC_0424.jpeg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 154.0,
+      "timeline_out_s": 156.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jul 09 2020, 9 10 20 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo Jul 09 2020, 9 10 20 PM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 156.0,
+      "timeline_out_s": 158.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 19 2020, 11 39 39 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/Photo May 19 2020, 11 39 39 AM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 158.0,
+      "timeline_out_s": 160.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Feb 23 2021, 5 47 07 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo Feb 23 2021, 5 47 07 PM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 160.0,
+      "timeline_out_s": 162.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_4627.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_4627.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 162.0,
+      "timeline_out_s": 164.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Mar 25 2022, 9 52 56 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo Mar 25 2022, 9 52 56 PM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 164.0,
+      "timeline_out_s": 166.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jan 21 2022, 6 45 38 PM (1).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo Jan 21 2022, 6 45 38 PM (1).jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 166.0,
+      "timeline_out_s": 168.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1582.JPEG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/IMG_1582.JPEG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 168.0,
+      "timeline_out_s": 170.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1279.JPEG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/IMG_1279.JPEG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 170.0,
+      "timeline_out_s": 172.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 28 2025, 2 07 18 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo Jun 28 2025, 2 07 18 PM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 172.0,
+      "timeline_out_s": 174.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_5951.JPEG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/IMG_5951.JPEG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 174.0,
+      "timeline_out_s": 176.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 26 57 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo May 24 2026, 10 26 57 AM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 176.0,
+      "timeline_out_s": 178.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 59 13 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo Jun 06 2026, 9 59 13 AM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 178.0,
+      "timeline_out_s": 180.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 9 40 44 AM (1).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo May 24 2026, 9 40 44 AM (1).jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 180.0,
+      "timeline_out_s": 182.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 27 53 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo May 24 2026, 10 27 53 AM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 182.0,
+      "timeline_out_s": 184.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 36 03 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo May 24 2026, 10 36 03 AM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 184.0,
+      "timeline_out_s": 186.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 27 45 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo May 24 2026, 10 27 45 AM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 186.0,
+      "timeline_out_s": 188.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 54 40 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo Jun 06 2026, 9 54 40 AM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 188.0,
+      "timeline_out_s": 190.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 9 40 44 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo May 24 2026, 9 40 44 AM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 190.0,
+      "timeline_out_s": 192.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 27 36 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo May 24 2026, 10 27 36 AM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 192.0,
+      "timeline_out_s": 194.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 27 09 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo May 24 2026, 10 27 09 AM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 194.0,
+      "timeline_out_s": 196.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 9 40 44 AM (5).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo May 24 2026, 9 40 44 AM (5).jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 196.0,
+      "timeline_out_s": 198.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 54 24 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo Jun 06 2026, 9 54 24 AM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 198.0,
+      "timeline_out_s": 200.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 35 05 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo May 24 2026, 10 35 05 AM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 200.0,
+      "timeline_out_s": 202.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 59 34 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo Jun 06 2026, 9 59 34 AM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 202.0,
+      "timeline_out_s": 204.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 9 40 44 AM (4).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo May 24 2026, 9 40 44 AM (4).jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 204.0,
+      "timeline_out_s": 206.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 54 18 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo Jun 06 2026, 9 54 18 AM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 206.0,
+      "timeline_out_s": 208.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 59 53 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo Jun 06 2026, 9 59 53 AM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 208.0,
+      "timeline_out_s": 210.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 9 40 44 AM (2).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo May 24 2026, 9 40 44 AM (2).jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 210.0,
+      "timeline_out_s": 212.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 59 43 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo Jun 06 2026, 9 59 43 AM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 212.0,
+      "timeline_out_s": 214.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 59 20 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo Jun 06 2026, 9 59 20 AM.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 214.0,
+      "timeline_out_s": 216.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1456.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/IMG_1456.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 216.0,
+      "timeline_out_s": 218.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1084.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/IMG_1084.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 218.0,
+      "timeline_out_s": 220.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Josh Random_20180206_0006.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Josh Random_20180206_0006.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 220.0,
+      "timeline_out_s": 222.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1141.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/IMG_1141.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 222.0,
+      "timeline_out_s": 224.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Josh Random_20180206_0007.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Josh Random_20180206_0007.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 224.0,
+      "timeline_out_s": 226.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1184.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/IMG_1184.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 226.0,
+      "timeline_out_s": 228.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1075.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/IMG_1075.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 228.0,
+      "timeline_out_s": 230.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1103.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/IMG_1103.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 230.0,
+      "timeline_out_s": 232.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1852.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/IMG_1852.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 232.0,
+      "timeline_out_s": 234.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1134.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_1134.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 234.0,
+      "timeline_out_s": 236.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1096.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_1096.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 236.0,
+      "timeline_out_s": 238.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1080.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_1080.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 238.0,
+      "timeline_out_s": 240.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "millerc-r1-024-10a.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/millerc-r1-024-10a.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 240.0,
+      "timeline_out_s": 242.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1136.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_1136.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 242.0,
+      "timeline_out_s": 244.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1085.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_1085.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 244.0,
+      "timeline_out_s": 246.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1084.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_1084.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 246.0,
+      "timeline_out_s": 248.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Resized_20190508_190507.JPEG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/Resized_20190508_190507.JPEG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 248.0,
+      "timeline_out_s": 250.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1469.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_1469.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 250.0,
+      "timeline_out_s": 252.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1093.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_1093.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 252.0,
+      "timeline_out_s": 254.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "006_6.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/006_6.jpg",
+      "section": "Travel_Fun",
+      "timeline_in_s": 254.0,
+      "timeline_out_s": 256.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_4346.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_4346.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 256.0,
+      "timeline_out_s": 258.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1174.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_1174.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 258.0,
+      "timeline_out_s": 260.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1465.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_1465.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 260.0,
+      "timeline_out_s": 262.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1505.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_1505.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 262.0,
+      "timeline_out_s": 264.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1504.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_1504.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 264.0,
+      "timeline_out_s": 266.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1464.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_1464.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 266.0,
+      "timeline_out_s": 268.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "C7C76AD6-087C-4AA1-875F-7170E206A748.PNG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/C7C76AD6-087C-4AA1-875F-7170E206A748.PNG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 268.0,
+      "timeline_out_s": 270.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1249.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_1249.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 270.0,
+      "timeline_out_s": 272.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1473.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_1473.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 272.0,
+      "timeline_out_s": 274.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1107.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_1107.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 274.0,
+      "timeline_out_s": 276.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1517.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_1517.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 276.0,
+      "timeline_out_s": 278.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1474.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_1474.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 278.0,
+      "timeline_out_s": 280.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1104.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh\u2019s places and travel/IMG_1104.JPG",
+      "section": "Travel_Fun",
+      "timeline_in_s": 280.0,
+      "timeline_out_s": 282.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "img_2502_Original.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/img_2502_Original.jpg",
+      "section": "Ben_and_Josh",
+      "timeline_in_s": 282.0,
+      "timeline_out_s": 284.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_6952_Original.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/IMG_6952_Original.jpg",
+      "section": "Ben_and_Josh",
+      "timeline_in_s": 284.0,
+      "timeline_out_s": 286.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 18 2026, 4 33 29 PM (5).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/Photo May 18 2026, 4 33 29 PM (5).jpg",
+      "section": "Ben_and_Josh",
+      "timeline_in_s": 286.0,
+      "timeline_out_s": 288.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 18 2026, 4 33 29 PM (4).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/Photo May 18 2026, 4 33 29 PM (4).jpg",
+      "section": "Ben_and_Josh",
+      "timeline_in_s": 288.0,
+      "timeline_out_s": 290.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 18 2026, 4 33 29 PM (3).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/Photo May 18 2026, 4 33 29 PM (3).jpg",
+      "section": "Ben_and_Josh",
+      "timeline_in_s": 290.0,
+      "timeline_out_s": 292.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 18 2026, 4 33 29 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/Photo May 18 2026, 4 33 29 PM.jpg",
+      "section": "Ben_and_Josh",
+      "timeline_in_s": 292.0,
+      "timeline_out_s": 294.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 18 2026, 4 33 29 PM (2).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/Photo May 18 2026, 4 33 29 PM (2).jpg",
+      "section": "Ben_and_Josh",
+      "timeline_in_s": 294.0,
+      "timeline_out_s": 296.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 18 2026, 4 33 29 PM (1).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/Photo May 18 2026, 4 33 29 PM (1).jpg",
+      "section": "Ben_and_Josh",
+      "timeline_in_s": 296.0,
+      "timeline_out_s": 298.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 18 2026, 4 33 29 PM (6).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/Photo May 18 2026, 4 33 29 PM (6).jpg",
+      "section": "Ben_and_Josh",
+      "timeline_in_s": 298.0,
+      "timeline_out_s": 300.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0251.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/IMG_20171212_0251.jpg",
+      "section": "Ben_and_Josh",
+      "timeline_in_s": 300.0,
+      "timeline_out_s": 302.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0735.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/IMG_20171212_0735.jpg",
+      "section": "Ben_and_Josh",
+      "timeline_in_s": 302.0,
+      "timeline_out_s": 304.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_2577.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/IMG_2577.JPG",
+      "section": "Ben_and_Josh",
+      "timeline_in_s": 304.0,
+      "timeline_out_s": 306.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0478.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/IMG_20171212_0478.jpg",
+      "section": "Ben_and_Josh",
+      "timeline_in_s": 306.0,
+      "timeline_out_s": 308.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0280.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/IMG_20171212_0280.jpg",
+      "section": "Ben_and_Josh",
+      "timeline_in_s": 308.0,
+      "timeline_out_s": 310.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0490.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/IMG_20171212_0490.jpg",
+      "section": "Ben_and_Josh",
+      "timeline_in_s": 310.0,
+      "timeline_out_s": 312.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1142.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/IMG_1142.JPG",
+      "section": "Ben_and_Josh",
+      "timeline_in_s": 312.0,
+      "timeline_out_s": 314.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0437.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/IMG_20171212_0437.jpg",
+      "section": "Ben_and_Josh",
+      "timeline_in_s": 314.0,
+      "timeline_out_s": 316.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0546.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/IMG_20171212_0546.jpg",
+      "section": "Ben_and_Josh",
+      "timeline_in_s": 316.0,
+      "timeline_out_s": 318.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0370.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/IMG_20171212_0370.jpg",
+      "section": "Ben_and_Josh",
+      "timeline_in_s": 318.0,
+      "timeline_out_s": 320.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0374.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/IMG_20171212_0374.jpg",
+      "section": "Ben_and_Josh",
+      "timeline_in_s": 320.0,
+      "timeline_out_s": 322.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_3570.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/IMG_3570.JPG",
+      "section": "Ben_and_Josh",
+      "timeline_in_s": 322.0,
+      "timeline_out_s": 324.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0363.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/IMG_20171212_0363.jpg",
+      "section": "Ben_and_Josh",
+      "timeline_in_s": 324.0,
+      "timeline_out_s": 326.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1166.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/IMG_1166.JPG",
+      "section": "Ben_and_Josh",
+      "timeline_in_s": 326.0,
+      "timeline_out_s": 328.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0476.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/IMG_20171212_0476.jpg",
+      "section": "Ben_and_Josh",
+      "timeline_in_s": 328.0,
+      "timeline_out_s": 330.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0462.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/IMG_20171212_0462.jpg",
+      "section": "Ben_and_Josh",
+      "timeline_in_s": 330.0,
+      "timeline_out_s": 332.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "2005_20180203_0042.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/save a place for me/2005_20180203_0042.jpg",
+      "section": "Passed_Loved_Ones",
+      "timeline_in_s": 332.0,
+      "timeline_out_s": 334.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "2005_20180203_0043.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/save a place for me/2005_20180203_0043.jpg",
+      "section": "Passed_Loved_Ones",
+      "timeline_in_s": 334.0,
+      "timeline_out_s": 336.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "2005_20180203_0037.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/save a place for me/2005_20180203_0037.jpg",
+      "section": "Passed_Loved_Ones",
+      "timeline_in_s": 336.0,
+      "timeline_out_s": 338.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "BillBoat.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/save a place for me/BillBoat.JPG",
+      "section": "Passed_Loved_Ones",
+      "timeline_in_s": 338.0,
+      "timeline_out_s": 340.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1184_Original.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/save a place for me/IMG_1184_Original.jpg",
+      "section": "Passed_Loved_Ones",
+      "timeline_in_s": 340.0,
+      "timeline_out_s": 342.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_7579.jpeg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/save a place for me/IMG_7579.jpeg",
+      "section": "Passed_Loved_Ones",
+      "timeline_in_s": 342.0,
+      "timeline_out_s": 344.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Phyllis Old Photos_20180221_0007.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/save a place for me/Phyllis Old Photos_20180221_0007.jpg",
+      "section": "Passed_Loved_Ones",
+      "timeline_in_s": 344.0,
+      "timeline_out_s": 346.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0352.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/save a place for me/IMG_20171212_0352.jpg",
+      "section": "Passed_Loved_Ones",
+      "timeline_in_s": 346.0,
+      "timeline_out_s": 348.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_4602.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/save a place for me/IMG_4602.JPG",
+      "section": "Passed_Loved_Ones",
+      "timeline_in_s": 348.0,
+      "timeline_out_s": 350.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Phyllis Old Photos_20180221_0048.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/save a place for me/Phyllis Old Photos_20180221_0048.jpg",
+      "section": "Passed_Loved_Ones",
+      "timeline_in_s": 350.0,
+      "timeline_out_s": 352.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0432.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/save a place for me/IMG_20171212_0432.jpg",
+      "section": "Passed_Loved_Ones",
+      "timeline_in_s": 352.0,
+      "timeline_out_s": 354.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Josh Random_20180206_0001.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/save a place for me/Josh Random_20180206_0001.jpg",
+      "section": "Passed_Loved_Ones",
+      "timeline_in_s": 354.0,
+      "timeline_out_s": 356.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Phyllis Old Photos_20180221_0042.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/save a place for me/Phyllis Old Photos_20180221_0042.jpg",
+      "section": "Passed_Loved_Ones",
+      "timeline_in_s": 356.0,
+      "timeline_out_s": 358.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171213_0010.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/save a place for me/IMG_20171213_0010.jpg",
+      "section": "Passed_Loved_Ones",
+      "timeline_in_s": 358.0,
+      "timeline_out_s": 360.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171213_0011.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/save a place for me/IMG_20171213_0011.jpg",
+      "section": "Passed_Loved_Ones",
+      "timeline_in_s": 360.0,
+      "timeline_out_s": 362.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Phyllis Old Photos_20180221_0044.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/save a place for me/Phyllis Old Photos_20180221_0044.jpg",
+      "section": "Passed_Loved_Ones",
+      "timeline_in_s": 362.0,
+      "timeline_out_s": 364.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_0585.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/save a place for me/IMG_0585.JPG",
+      "section": "Passed_Loved_Ones",
+      "timeline_in_s": 364.0,
+      "timeline_out_s": 366.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_0583.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/save a place for me/IMG_0583.JPG",
+      "section": "Passed_Loved_Ones",
+      "timeline_in_s": 366.0,
+      "timeline_out_s": 368.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "photos 1990_20171213_0055.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/photos 1990_20171213_0055.jpg",
+      "section": "General",
+      "timeline_in_s": 368.0,
+      "timeline_out_s": 370.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "1991 photos_20171213_0043.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/1991 photos_20171213_0043.jpg",
+      "section": "General",
+      "timeline_in_s": 370.0,
+      "timeline_out_s": 372.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "1991 photos_20171213_0051.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/1991 photos_20171213_0051.jpg",
+      "section": "General",
+      "timeline_in_s": 372.0,
+      "timeline_out_s": 374.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "1994 Photos_20171213_0016.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh school years/1994 Photos_20171213_0016.jpg",
+      "section": "General",
+      "timeline_in_s": 374.0,
+      "timeline_out_s": 376.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "1994 Photos_20171213_0017.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/1994 Photos_20171213_0017.JPG",
+      "section": "General",
+      "timeline_in_s": 376.0,
+      "timeline_out_s": 378.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "1995_20171214_0012.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/1995_20171214_0012.JPG",
+      "section": "General",
+      "timeline_in_s": 378.0,
+      "timeline_out_s": 380.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "2000_20180203_0036.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/2000_20180203_0036.jpg",
+      "section": "General",
+      "timeline_in_s": 380.0,
+      "timeline_out_s": 382.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "2004_20180203_0003.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/2004_20180203_0003.jpg",
+      "section": "General",
+      "timeline_in_s": 382.0,
+      "timeline_out_s": 384.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_0363.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_0363.JPG",
+      "section": "General",
+      "timeline_in_s": 384.0,
+      "timeline_out_s": 386.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "2005_20180203_0061.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/2005_20180203_0061.jpg",
+      "section": "General",
+      "timeline_in_s": 386.0,
+      "timeline_out_s": 388.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "2005_20180203_0075.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/2005_20180203_0075.jpg",
+      "section": "General",
+      "timeline_in_s": 388.0,
+      "timeline_out_s": 390.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "2006_20180203_0018.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/2006_20180203_0018.jpg",
+      "section": "General",
+      "timeline_in_s": 390.0,
+      "timeline_out_s": 392.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "2006_20180203_0013.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/2006_20180203_0013.jpg",
+      "section": "General",
+      "timeline_in_s": 392.0,
+      "timeline_out_s": 394.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Aug 07 2007, 12 05 40 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Aug 07 2007, 12 05 40 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 394.0,
+      "timeline_out_s": 396.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Aug 07 2007, 10 53 17 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Aug 07 2007, 10 53 17 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 396.0,
+      "timeline_out_s": 398.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1061.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_1061.jpg",
+      "section": "General",
+      "timeline_in_s": 398.0,
+      "timeline_out_s": 400.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1060_Original.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_1060_Original.jpg",
+      "section": "General",
+      "timeline_in_s": 400.0,
+      "timeline_out_s": 402.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_0776_Original.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_0776_Original.jpg",
+      "section": "General",
+      "timeline_in_s": 402.0,
+      "timeline_out_s": 404.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_0767_Original.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_0767_Original.jpg",
+      "section": "General",
+      "timeline_in_s": 404.0,
+      "timeline_out_s": 406.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "P7080004_Original.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/P7080004_Original.jpg",
+      "section": "General",
+      "timeline_in_s": 406.0,
+      "timeline_out_s": 408.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "P7090012_Original.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/P7090012_Original.jpg",
+      "section": "General",
+      "timeline_in_s": 408.0,
+      "timeline_out_s": 410.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "img_1562_Original.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/img_1562_Original.jpg",
+      "section": "General",
+      "timeline_in_s": 410.0,
+      "timeline_out_s": 412.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "image743_Original.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/image743_Original.jpg",
+      "section": "General",
+      "timeline_in_s": 412.0,
+      "timeline_out_s": 414.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "img_2475_Original.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/img_2475_Original.jpg",
+      "section": "General",
+      "timeline_in_s": 414.0,
+      "timeline_out_s": 416.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "img_2414_0482.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/img_2414_0482.jpg",
+      "section": "General",
+      "timeline_in_s": 416.0,
+      "timeline_out_s": 418.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "2010_20180206_0003.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/2010_20180206_0003.jpg",
+      "section": "General",
+      "timeline_in_s": 418.0,
+      "timeline_out_s": 420.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "img_2614_0682.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/img_2614_0682.jpg",
+      "section": "General",
+      "timeline_in_s": 420.0,
+      "timeline_out_s": 422.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "2012_20180206_0024.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/2012_20180206_0024.jpg",
+      "section": "General",
+      "timeline_in_s": 422.0,
+      "timeline_out_s": 424.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "2012_20180206_0022 - Copy (2).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/2012_20180206_0022 - Copy (2).jpg",
+      "section": "General",
+      "timeline_in_s": 424.0,
+      "timeline_out_s": 426.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "2012_20180206_0022 - Copy (3).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/2012_20180206_0022 - Copy (3).jpg",
+      "section": "General",
+      "timeline_in_s": 426.0,
+      "timeline_out_s": 428.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "2012_20180206_0013.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/2012_20180206_0013.jpg",
+      "section": "General",
+      "timeline_in_s": 428.0,
+      "timeline_out_s": 430.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "fktmp222_0046_0046_Original.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/fktmp222_0046_0046_Original.jpg",
+      "section": "General",
+      "timeline_in_s": 430.0,
+      "timeline_out_s": 432.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_0469.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_0469.JPG",
+      "section": "General",
+      "timeline_in_s": 432.0,
+      "timeline_out_s": 434.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Sep 30 2016, 11 24 03 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Sep 30 2016, 11 24 03 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 434.0,
+      "timeline_out_s": 436.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_0004 (1).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_0004 (1).jpg",
+      "section": "General",
+      "timeline_in_s": 436.0,
+      "timeline_out_s": 438.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "FF6CC2C4-8AF9-4153-8A75-50A32F8B2B78.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/FF6CC2C4-8AF9-4153-8A75-50A32F8B2B78.JPG",
+      "section": "General",
+      "timeline_in_s": 438.0,
+      "timeline_out_s": 440.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "7EAA69DA-A0DC-4747-B158-B335EC0BD23D.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/7EAA69DA-A0DC-4747-B158-B335EC0BD23D.JPG",
+      "section": "General",
+      "timeline_in_s": 440.0,
+      "timeline_out_s": 442.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_0021.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_0021.JPG",
+      "section": "General",
+      "timeline_in_s": 442.0,
+      "timeline_out_s": 444.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 09 2017, 7 48 09 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Jun 09 2017, 7 48 09 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 444.0,
+      "timeline_out_s": 446.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jul 07 2017, 3 01 58 PM.png",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Jul 07 2017, 3 01 58 PM.png",
+      "section": "General",
+      "timeline_in_s": 446.0,
+      "timeline_out_s": 448.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 27 2017, 11 54 06 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo May 27 2017, 11 54 06 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 448.0,
+      "timeline_out_s": 450.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Oct 30 2017, 9 36 38 PM.png",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Oct 30 2017, 9 36 38 PM.png",
+      "section": "General",
+      "timeline_in_s": 450.0,
+      "timeline_out_s": 452.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Nov 26 2017, 1 08 44 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Nov 26 2017, 1 08 44 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 452.0,
+      "timeline_out_s": 454.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jul 01 2017, 8 58 23 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Jul 01 2017, 8 58 23 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 454.0,
+      "timeline_out_s": 456.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 14 2017, 8 39 12 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Jun 14 2017, 8 39 12 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 456.0,
+      "timeline_out_s": 458.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Dec 16 2017, 4 30 20 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Dec 16 2017, 4 30 20 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 458.0,
+      "timeline_out_s": 460.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jul 08 2017, 7 07 20 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Jul 08 2017, 7 07 20 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 460.0,
+      "timeline_out_s": 462.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 04 2017, 3 00 06 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Jun 04 2017, 3 00 06 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 462.0,
+      "timeline_out_s": 464.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jul 07 2017, 3 02 09 PM.png",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Jul 07 2017, 3 02 09 PM.png",
+      "section": "General",
+      "timeline_in_s": 464.0,
+      "timeline_out_s": 466.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Aug 13 2017, 6 25 47 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Aug 13 2017, 6 25 47 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 466.0,
+      "timeline_out_s": 468.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Dec 24 2017, 6 29 34 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Dec 24 2017, 6 29 34 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 468.0,
+      "timeline_out_s": 470.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Sep 04 2017, 9 57 40 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Sep 04 2017, 9 57 40 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 470.0,
+      "timeline_out_s": 472.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Dec 21 2017, 4 12 10 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Dec 21 2017, 4 12 10 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 472.0,
+      "timeline_out_s": 474.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "DSC_0392.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/DSC_0392.JPG",
+      "section": "General",
+      "timeline_in_s": 474.0,
+      "timeline_out_s": 476.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_6162_Original.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_6162_Original.jpg",
+      "section": "General",
+      "timeline_in_s": 476.0,
+      "timeline_out_s": 478.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 04 2017, 3 28 32 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 04 2017, 3 28 32 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 478.0,
+      "timeline_out_s": 480.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_4990.jpeg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_4990.jpeg",
+      "section": "General",
+      "timeline_in_s": 480.0,
+      "timeline_out_s": 482.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_4986.jpeg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_4986.jpeg",
+      "section": "General",
+      "timeline_in_s": 482.0,
+      "timeline_out_s": 484.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_5002 (1).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_5002 (1).jpg",
+      "section": "General",
+      "timeline_in_s": 484.0,
+      "timeline_out_s": 486.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Sep 30 2017, 9 46 36 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Sep 30 2017, 9 46 36 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 486.0,
+      "timeline_out_s": 488.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 28 2017, 12 23 50 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo May 28 2017, 12 23 50 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 488.0,
+      "timeline_out_s": 490.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 28 2017, 1 09 42 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo May 28 2017, 1 09 42 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 490.0,
+      "timeline_out_s": 492.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Sep 30 2017, 11 19 42 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Sep 30 2017, 11 19 42 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 492.0,
+      "timeline_out_s": 494.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Sep 16 2017, 4 21 48 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh with Kerrs/Photo Sep 16 2017, 4 21 48 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 494.0,
+      "timeline_out_s": 496.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Sep 15 2017, 8 58 00 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh with Kerrs/Photo Sep 15 2017, 8 58 00 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 496.0,
+      "timeline_out_s": 498.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 13 2018, 12 45 25 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo May 13 2018, 12 45 25 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 498.0,
+      "timeline_out_s": 500.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jul 14 2018, 11 23 52 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Jul 14 2018, 11 23 52 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 500.0,
+      "timeline_out_s": 502.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Sep 30 2018, 1 42 05 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Sep 30 2018, 1 42 05 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 502.0,
+      "timeline_out_s": 504.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Dec 31 2018, 5 01 32 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Dec 31 2018, 5 01 32 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 504.0,
+      "timeline_out_s": 506.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Oct 14 2018, 12 43 07 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Oct 14 2018, 12 43 07 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 506.0,
+      "timeline_out_s": 508.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Oct 10 2018, 7 01 46 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Oct 10 2018, 7 01 46 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 508.0,
+      "timeline_out_s": 510.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 17 2018, 2 50 23 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo May 17 2018, 2 50 23 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 510.0,
+      "timeline_out_s": 512.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 15 2018, 2 59 39 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo May 15 2018, 2 59 39 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 512.0,
+      "timeline_out_s": 514.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "CB26E457-622D-4C13-8E9F-F0D3738D0DD3.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/CB26E457-622D-4C13-8E9F-F0D3738D0DD3.JPG",
+      "section": "General",
+      "timeline_in_s": 514.0,
+      "timeline_out_s": 516.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1618.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_1618.JPG",
+      "section": "General",
+      "timeline_in_s": 516.0,
+      "timeline_out_s": 518.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Dec 24 2018, 10 39 53 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Dec 24 2018, 10 39 53 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 518.0,
+      "timeline_out_s": 520.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Nov 23 2018, 7 57 21 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Nov 23 2018, 7 57 21 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 520.0,
+      "timeline_out_s": 522.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Apr 30 2018, 7 51 47 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Apr 30 2018, 7 51 47 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 522.0,
+      "timeline_out_s": 524.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Dec 25 2018, 10 33 34 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Dec 25 2018, 10 33 34 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 524.0,
+      "timeline_out_s": 526.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 30 2018, 1 24 41 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Jun 30 2018, 1 24 41 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 526.0,
+      "timeline_out_s": 528.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Oct 12 2018, 3 10 17 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Oct 12 2018, 3 10 17 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 528.0,
+      "timeline_out_s": 530.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Dec 01 2018, 11 16 43 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Dec 01 2018, 11 16 43 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 530.0,
+      "timeline_out_s": 532.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Dec 23 2018, 7 24 42 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Dec 23 2018, 7 24 42 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 532.0,
+      "timeline_out_s": 534.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Apr 05 2018, 5 19 30 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Apr 05 2018, 5 19 30 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 534.0,
+      "timeline_out_s": 536.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Apr 28 2018, 4 06 42 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Apr 28 2018, 4 06 42 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 536.0,
+      "timeline_out_s": 538.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Apr 06 2018, 6 21 56 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh with Kerrs/Photo Apr 06 2018, 6 21 56 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 538.0,
+      "timeline_out_s": 540.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 15 2018, 4 37 09 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh with Kerrs/Photo May 15 2018, 4 37 09 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 540.0,
+      "timeline_out_s": 542.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_5337_Original.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/IMG_5337_Original.jpg",
+      "section": "General",
+      "timeline_in_s": 542.0,
+      "timeline_out_s": 544.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Nov 28 2019, 12 28 06 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Nov 28 2019, 12 28 06 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 544.0,
+      "timeline_out_s": 546.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Apr 13 2019, 7 41 46 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Apr 13 2019, 7 41 46 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 546.0,
+      "timeline_out_s": 548.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 03 2019, 10 26 51 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Jun 03 2019, 10 26 51 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 548.0,
+      "timeline_out_s": 550.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Sep 08 2019, 12 41 15 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Sep 08 2019, 12 41 15 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 550.0,
+      "timeline_out_s": 552.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 29 2019, 4 49 18 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo May 29 2019, 4 49 18 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 552.0,
+      "timeline_out_s": 554.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "B12EBCC3-C95D-4904-BD75-4B7D33F31E64.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/B12EBCC3-C95D-4904-BD75-4B7D33F31E64.JPG",
+      "section": "General",
+      "timeline_in_s": 554.0,
+      "timeline_out_s": 556.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Sep 28 2019, 9 19 50 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Sep 28 2019, 9 19 50 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 556.0,
+      "timeline_out_s": 558.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 20 2019, 7 39 12 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 20 2019, 7 39 12 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 558.0,
+      "timeline_out_s": 560.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Apr 18 2019, 1 02 58 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Apr 18 2019, 1 02 58 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 560.0,
+      "timeline_out_s": 562.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Nov 10 2019, 4 24 38 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Nov 10 2019, 4 24 38 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 562.0,
+      "timeline_out_s": 564.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jul 06 2019, 11 52 03 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Jul 06 2019, 11 52 03 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 564.0,
+      "timeline_out_s": 566.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jul 20 2019, 3 31 06 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Jul 20 2019, 3 31 06 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 566.0,
+      "timeline_out_s": 568.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jan 12 2020, 2 24 37 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Jan 12 2020, 2 24 37 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 568.0,
+      "timeline_out_s": 570.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 28 2020, 8 02 15 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo May 28 2020, 8 02 15 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 570.0,
+      "timeline_out_s": 572.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 01 2020, 3 56 04 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Jun 01 2020, 3 56 04 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 572.0,
+      "timeline_out_s": 574.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Feb 29 2020, 9 10 42 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Feb 29 2020, 9 10 42 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 574.0,
+      "timeline_out_s": 576.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Dec 13 2020, 7 00 14 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Dec 13 2020, 7 00 14 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 576.0,
+      "timeline_out_s": 578.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jan 10 2020, 9 45 44 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Jan 10 2020, 9 45 44 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 578.0,
+      "timeline_out_s": 580.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 31 2020, 7 42 20 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo May 31 2020, 7 42 20 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 580.0,
+      "timeline_out_s": 582.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Oct 06 2020, 4 22 51 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Oct 06 2020, 4 22 51 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 582.0,
+      "timeline_out_s": 584.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Oct 11 2020, 3 06 12 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Oct 11 2020, 3 06 12 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 584.0,
+      "timeline_out_s": 586.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Apr 10 2020, 2 42 39 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Apr 10 2020, 2 42 39 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 586.0,
+      "timeline_out_s": 588.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jul 13 2020, 5 10 59 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Jul 13 2020, 5 10 59 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 588.0,
+      "timeline_out_s": 590.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 27 2020, 6 15 47 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Jun 27 2020, 6 15 47 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 590.0,
+      "timeline_out_s": 592.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 25 2020, 2 05 10 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo May 25 2020, 2 05 10 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 592.0,
+      "timeline_out_s": 594.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jul 10 2020, 12 29 23 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Jul 10 2020, 12 29 23 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 594.0,
+      "timeline_out_s": 596.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Oct 11 2020, 3 08 08 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Oct 11 2020, 3 08 08 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 596.0,
+      "timeline_out_s": 598.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Oct 11 2020, 5 14 35 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Oct 11 2020, 5 14 35 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 598.0,
+      "timeline_out_s": 600.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 02 2020, 2 55 07 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Jun 02 2020, 2 55 07 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 600.0,
+      "timeline_out_s": 602.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jan 10 2020, 7 55 02 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Jan 10 2020, 7 55 02 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 602.0,
+      "timeline_out_s": 604.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jan 11 2020, 11 28 23 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Jan 11 2020, 11 28 23 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 604.0,
+      "timeline_out_s": 606.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Oct 15 2021, 1 01 13 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Oct 15 2021, 1 01 13 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 606.0,
+      "timeline_out_s": 608.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 07 2021, 9 25 05 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo May 07 2021, 9 25 05 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 608.0,
+      "timeline_out_s": 610.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Sep 11 2021, 6 34 44 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Sep 11 2021, 6 34 44 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 610.0,
+      "timeline_out_s": 612.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Oct 30 2021, 5 57 25 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Oct 30 2021, 5 57 25 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 612.0,
+      "timeline_out_s": 614.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_5286.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_5286.JPG",
+      "section": "General",
+      "timeline_in_s": 614.0,
+      "timeline_out_s": 616.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_5301.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_5301.JPG",
+      "section": "General",
+      "timeline_in_s": 616.0,
+      "timeline_out_s": 618.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Feb 23 2021, 5 29 26 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Feb 23 2021, 5 29 26 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 618.0,
+      "timeline_out_s": 620.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 10 2021, 8 22 07 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 10 2021, 8 22 07 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 620.0,
+      "timeline_out_s": 622.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "image000000.jpeg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/image000000.jpeg",
+      "section": "General",
+      "timeline_in_s": 622.0,
+      "timeline_out_s": 624.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Sep 03 2021, 7 20 26 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Sep 03 2021, 7 20 26 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 624.0,
+      "timeline_out_s": 626.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Aug 18 2021, 6 59 10 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Aug 18 2021, 6 59 10 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 626.0,
+      "timeline_out_s": 628.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Sep 23 2021, 12 39 51 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Sep 23 2021, 12 39 51 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 628.0,
+      "timeline_out_s": 630.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Oct 21 2021, 3 08 57 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Oct 21 2021, 3 08 57 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 630.0,
+      "timeline_out_s": 632.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Feb 01 2021, 9 18 39 PM.png",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Feb 01 2021, 9 18 39 PM.png",
+      "section": "General",
+      "timeline_in_s": 632.0,
+      "timeline_out_s": 634.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Aug 05 2021, 3 48 39 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Aug 05 2021, 3 48 39 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 634.0,
+      "timeline_out_s": 636.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Sep 01 2021, 7 39 57 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Sep 01 2021, 7 39 57 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 636.0,
+      "timeline_out_s": 638.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 25 2021, 3 55 31 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo May 25 2021, 3 55 31 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 638.0,
+      "timeline_out_s": 640.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_8234.JPEG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh with Kerrs/IMG_8234.JPEG",
+      "section": "General",
+      "timeline_in_s": 640.0,
+      "timeline_out_s": 642.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Aug 29 2021, 6 49 05 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh with Kerrs/Photo Aug 29 2021, 6 49 05 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 642.0,
+      "timeline_out_s": 644.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_2983.JPEG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/IMG_2983.JPEG",
+      "section": "General",
+      "timeline_in_s": 644.0,
+      "timeline_out_s": 646.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Sep 02 2022, 12 05 44 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Sep 02 2022, 12 05 44 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 646.0,
+      "timeline_out_s": 648.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jan 13 2022, 10 34 23 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Jan 13 2022, 10 34 23 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 648.0,
+      "timeline_out_s": 650.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jan 21 2022, 3 28 07 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Jan 21 2022, 3 28 07 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 650.0,
+      "timeline_out_s": 652.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jan 07 2022, 1 59 14 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Jan 07 2022, 1 59 14 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 652.0,
+      "timeline_out_s": 654.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jan 21 2022, 3 21 36 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Jan 21 2022, 3 21 36 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 654.0,
+      "timeline_out_s": 656.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Feb 11 2023, 12 01 02 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Feb 11 2023, 12 01 02 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 656.0,
+      "timeline_out_s": 658.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1357.jpeg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_1357.jpeg",
+      "section": "General",
+      "timeline_in_s": 658.0,
+      "timeline_out_s": 660.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jul 08 2023, 9 43 01 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jul 08 2023, 9 43 01 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 660.0,
+      "timeline_out_s": 662.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Aug 02 2023, 6 22 33 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Aug 02 2023, 6 22 33 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 662.0,
+      "timeline_out_s": 664.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 18 2024, 1 37 31 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 18 2024, 1 37 31 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 664.0,
+      "timeline_out_s": 666.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 34 49 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/Photo May 24 2026, 10 34 49 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 666.0,
+      "timeline_out_s": 668.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 33 02 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/Photo May 24 2026, 10 33 02 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 668.0,
+      "timeline_out_s": 670.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 36 19 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/Photo May 24 2026, 10 36 19 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 670.0,
+      "timeline_out_s": 672.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 32 05 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/Photo May 24 2026, 10 32 05 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 672.0,
+      "timeline_out_s": 674.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 32 52 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/Photo May 24 2026, 10 32 52 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 674.0,
+      "timeline_out_s": 676.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 22 2026, 6 51 12 AM (2).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo May 22 2026, 6 51 12 AM (2).jpg",
+      "section": "General",
+      "timeline_in_s": 676.0,
+      "timeline_out_s": 678.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 27 26 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo May 24 2026, 10 27 26 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 678.0,
+      "timeline_out_s": 680.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 22 2026, 6 51 12 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo May 22 2026, 6 51 12 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 680.0,
+      "timeline_out_s": 682.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 22 2026, 6 51 12 AM.png",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo May 22 2026, 6 51 12 AM.png",
+      "section": "General",
+      "timeline_in_s": 682.0,
+      "timeline_out_s": 684.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 36 38 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo May 24 2026, 10 36 38 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 684.0,
+      "timeline_out_s": 686.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1600.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/IMG_1600.jpg",
+      "section": "General",
+      "timeline_in_s": 686.0,
+      "timeline_out_s": 688.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 9 40 44 AM (3).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo May 24 2026, 9 40 44 AM (3).jpg",
+      "section": "General",
+      "timeline_in_s": 688.0,
+      "timeline_out_s": 690.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 22 2026, 6 51 12 AM (1).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo May 22 2026, 6 51 12 AM (1).jpg",
+      "section": "General",
+      "timeline_in_s": 690.0,
+      "timeline_out_s": 692.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Feb 03 2026, 9 07 07 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Feb 03 2026, 9 07 07 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 692.0,
+      "timeline_out_s": 694.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 18 2026, 7 16 52 PM (2).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 18 2026, 7 16 52 PM (2).jpg",
+      "section": "General",
+      "timeline_in_s": 694.0,
+      "timeline_out_s": 696.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 57 14 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 57 14 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 696.0,
+      "timeline_out_s": 698.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 32 45 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 32 45 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 698.0,
+      "timeline_out_s": 700.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 34 28 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 34 28 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 700.0,
+      "timeline_out_s": 702.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 37 31 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 37 31 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 702.0,
+      "timeline_out_s": 704.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 56 55 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 56 55 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 704.0,
+      "timeline_out_s": 706.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 56 36 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 56 36 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 706.0,
+      "timeline_out_s": 708.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 56 10 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 56 10 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 708.0,
+      "timeline_out_s": 710.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 34 49 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 34 49 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 710.0,
+      "timeline_out_s": 712.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 56 26 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 56 26 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 712.0,
+      "timeline_out_s": 714.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 57 43 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 57 43 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 714.0,
+      "timeline_out_s": 716.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 36 27 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 36 27 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 716.0,
+      "timeline_out_s": 718.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 57 51 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 57 51 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 718.0,
+      "timeline_out_s": 720.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 18 2026, 7 16 52 PM (3).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 18 2026, 7 16 52 PM (3).jpg",
+      "section": "General",
+      "timeline_in_s": 720.0,
+      "timeline_out_s": 722.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 32 28 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 32 28 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 722.0,
+      "timeline_out_s": 724.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 32 36 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 32 36 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 724.0,
+      "timeline_out_s": 726.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 33 02 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 33 02 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 726.0,
+      "timeline_out_s": 728.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 34 18 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 34 18 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 728.0,
+      "timeline_out_s": 730.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 18 2026, 7 16 52 PM (8).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 18 2026, 7 16 52 PM (8).jpg",
+      "section": "General",
+      "timeline_in_s": 730.0,
+      "timeline_out_s": 732.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 56 18 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 56 18 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 732.0,
+      "timeline_out_s": 734.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 18 2026, 7 16 52 PM (4) (1).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 18 2026, 7 16 52 PM (4) (1).jpg",
+      "section": "General",
+      "timeline_in_s": 734.0,
+      "timeline_out_s": 736.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 18 2026, 7 16 52 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 18 2026, 7 16 52 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 736.0,
+      "timeline_out_s": 738.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 36 19 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 36 19 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 738.0,
+      "timeline_out_s": 740.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 18 2026, 7 16 52 PM (4).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 18 2026, 7 16 52 PM (4).jpg",
+      "section": "General",
+      "timeline_in_s": 740.0,
+      "timeline_out_s": 742.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 32 16 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 32 16 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 742.0,
+      "timeline_out_s": 744.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 57 59 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 57 59 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 744.0,
+      "timeline_out_s": 746.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 03 2026, 7 37 42 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 03 2026, 7 37 42 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 746.0,
+      "timeline_out_s": 748.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 35 38 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 35 38 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 748.0,
+      "timeline_out_s": 750.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 18 2026, 7 16 52 PM (5).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 18 2026, 7 16 52 PM (5).jpg",
+      "section": "General",
+      "timeline_in_s": 750.0,
+      "timeline_out_s": 752.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 57 26 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 57 26 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 752.0,
+      "timeline_out_s": 754.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 33 36 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 33 36 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 754.0,
+      "timeline_out_s": 756.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 18 2026, 7 16 52 PM (1) (1).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 18 2026, 7 16 52 PM (1) (1).jpg",
+      "section": "General",
+      "timeline_in_s": 756.0,
+      "timeline_out_s": 758.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 56 46 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 56 46 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 758.0,
+      "timeline_out_s": 760.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "2969251672116281152.jpeg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/2969251672116281152.jpeg",
+      "section": "General",
+      "timeline_in_s": 760.0,
+      "timeline_out_s": 762.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 33 42 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 33 42 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 762.0,
+      "timeline_out_s": 764.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 37 06 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 37 06 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 764.0,
+      "timeline_out_s": 766.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 35 31 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 35 31 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 766.0,
+      "timeline_out_s": 768.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 03 2026, 7 27 37 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 03 2026, 7 27 37 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 768.0,
+      "timeline_out_s": 770.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 35 23 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 35 23 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 770.0,
+      "timeline_out_s": 772.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 36 12 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 36 12 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 772.0,
+      "timeline_out_s": 774.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 18 2026, 7 16 52 PM (6).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 18 2026, 7 16 52 PM (6).jpg",
+      "section": "General",
+      "timeline_in_s": 774.0,
+      "timeline_out_s": 776.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 03 2026, 7 28 12 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 03 2026, 7 28 12 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 776.0,
+      "timeline_out_s": 778.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 57 05 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 57 05 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 778.0,
+      "timeline_out_s": 780.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 54 34 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 54 34 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 780.0,
+      "timeline_out_s": 782.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 58 08 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 58 08 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 782.0,
+      "timeline_out_s": 784.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 18 2026, 7 16 52 PM (7).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 18 2026, 7 16 52 PM (7).jpg",
+      "section": "General",
+      "timeline_in_s": 784.0,
+      "timeline_out_s": 786.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 58 20 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 58 20 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 786.0,
+      "timeline_out_s": 788.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 34 35 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 34 35 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 788.0,
+      "timeline_out_s": 790.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 33 52 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 33 52 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 790.0,
+      "timeline_out_s": 792.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 34 56 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 34 56 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 792.0,
+      "timeline_out_s": 794.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 54 06 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 54 06 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 794.0,
+      "timeline_out_s": 796.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 34 07 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 34 07 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 796.0,
+      "timeline_out_s": 798.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 33 29 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 33 29 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 798.0,
+      "timeline_out_s": 800.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 33 13 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 33 13 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 800.0,
+      "timeline_out_s": 802.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 36 51 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 36 51 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 802.0,
+      "timeline_out_s": 804.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 18 2026, 7 16 52 PM (1).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 18 2026, 7 16 52 PM (1).jpg",
+      "section": "General",
+      "timeline_in_s": 804.0,
+      "timeline_out_s": 806.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 57 35 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 57 35 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 806.0,
+      "timeline_out_s": 808.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 32 52 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 32 52 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 808.0,
+      "timeline_out_s": 810.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 35 56 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 35 56 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 810.0,
+      "timeline_out_s": 812.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 33 58 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh school years/Photo May 24 2026, 10 33 58 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 812.0,
+      "timeline_out_s": 814.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 35 14 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo May 24 2026, 10 35 14 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 814.0,
+      "timeline_out_s": 816.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 36 58 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo May 24 2026, 10 36 58 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 816.0,
+      "timeline_out_s": 818.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_0023.JPEG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_0023.JPEG",
+      "section": "General",
+      "timeline_in_s": 818.0,
+      "timeline_out_s": 820.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 54 58 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Jun 06 2026, 9 54 58 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 820.0,
+      "timeline_out_s": 822.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jan 26 2026, 1 09 45 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Jan 26 2026, 1 09 45 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 822.0,
+      "timeline_out_s": 824.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jan 24 2026, 1 11 04 PM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Jan 24 2026, 1 11 04 PM.jpg",
+      "section": "General",
+      "timeline_in_s": 824.0,
+      "timeline_out_s": 826.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Feb 03 2026, 9 07 39 PM (1).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Feb 03 2026, 9 07 39 PM (1).jpg",
+      "section": "General",
+      "timeline_in_s": 826.0,
+      "timeline_out_s": 828.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 58 33 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Jun 06 2026, 9 58 33 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 828.0,
+      "timeline_out_s": 830.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jan 24 2026, 1 12 52 PM.png",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Jan 24 2026, 1 12 52 PM.png",
+      "section": "General",
+      "timeline_in_s": 830.0,
+      "timeline_out_s": 832.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 35 45 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo May 24 2026, 10 35 45 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 832.0,
+      "timeline_out_s": 834.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_0032.JPEG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_0032.JPEG",
+      "section": "General",
+      "timeline_in_s": 834.0,
+      "timeline_out_s": 836.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 28 01 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo May 24 2026, 10 28 01 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 836.0,
+      "timeline_out_s": 838.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 55 39 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Jun 06 2026, 9 55 39 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 838.0,
+      "timeline_out_s": 840.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 55 27 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Jun 06 2026, 9 55 27 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 840.0,
+      "timeline_out_s": 842.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1599.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_1599.jpg",
+      "section": "General",
+      "timeline_in_s": 842.0,
+      "timeline_out_s": 844.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 53 51 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Jun 06 2026, 9 53 51 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 844.0,
+      "timeline_out_s": 846.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_0027.JPEG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_0027.JPEG",
+      "section": "General",
+      "timeline_in_s": 846.0,
+      "timeline_out_s": 848.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 58 53 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Jun 06 2026, 9 58 53 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 848.0,
+      "timeline_out_s": 850.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo Jun 06 2026, 9 55 51 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Jun 06 2026, 9 55 51 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 850.0,
+      "timeline_out_s": 852.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 18 2026, 7 11 52 PM (1).jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo May 18 2026, 7 11 52 PM (1).jpg",
+      "section": "General",
+      "timeline_in_s": 852.0,
+      "timeline_out_s": 854.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "Photo May 24 2026, 10 34 42 AM.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo May 24 2026, 10 34 42 AM.jpg",
+      "section": "General",
+      "timeline_in_s": 854.0,
+      "timeline_out_s": 856.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_0020.JPEG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_0020.JPEG",
+      "section": "General",
+      "timeline_in_s": 856.0,
+      "timeline_out_s": 858.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1598.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh with Kerrs/IMG_1598.jpg",
+      "section": "General",
+      "timeline_in_s": 858.0,
+      "timeline_out_s": 860.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0293.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/IMG_20171212_0293.jpg",
+      "section": "General",
+      "timeline_in_s": 860.0,
+      "timeline_out_s": 862.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0336.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/IMG_20171212_0336.jpg",
+      "section": "General",
+      "timeline_in_s": 862.0,
+      "timeline_out_s": 864.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0350.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/IMG_20171212_0350.jpg",
+      "section": "General",
+      "timeline_in_s": 864.0,
+      "timeline_out_s": 866.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0237.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/IMG_20171212_0237.jpg",
+      "section": "General",
+      "timeline_in_s": 866.0,
+      "timeline_out_s": 868.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0358.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/IMG_20171212_0358.jpg",
+      "section": "General",
+      "timeline_in_s": 868.0,
+      "timeline_out_s": 870.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_113701.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/IMG_113701.JPG",
+      "section": "General",
+      "timeline_in_s": 870.0,
+      "timeline_out_s": 872.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0388.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/IMG_20171212_0388.jpg",
+      "section": "General",
+      "timeline_in_s": 872.0,
+      "timeline_out_s": 874.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1459.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/IMG_1459.JPG",
+      "section": "General",
+      "timeline_in_s": 874.0,
+      "timeline_out_s": 876.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0265.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/IMG_20171212_0265.jpg",
+      "section": "General",
+      "timeline_in_s": 876.0,
+      "timeline_out_s": 878.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0299.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/IMG_20171212_0299.jpg",
+      "section": "General",
+      "timeline_in_s": 878.0,
+      "timeline_out_s": 880.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0277.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/IMG_20171212_0277.jpg",
+      "section": "General",
+      "timeline_in_s": 880.0,
+      "timeline_out_s": 882.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0261.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/IMG_20171212_0261.jpg",
+      "section": "General",
+      "timeline_in_s": 882.0,
+      "timeline_out_s": 884.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0275.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/IMG_20171212_0275.jpg",
+      "section": "General",
+      "timeline_in_s": 884.0,
+      "timeline_out_s": 886.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1091.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/IMG_1091.JPG",
+      "section": "General",
+      "timeline_in_s": 886.0,
+      "timeline_out_s": 888.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1509.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/IMG_1509.JPG",
+      "section": "General",
+      "timeline_in_s": 888.0,
+      "timeline_out_s": 890.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1087.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/IMG_1087.JPG",
+      "section": "General",
+      "timeline_in_s": 890.0,
+      "timeline_out_s": 892.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1468.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/IMG_1468.JPG",
+      "section": "General",
+      "timeline_in_s": 892.0,
+      "timeline_out_s": 894.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1174.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/IMG_1174.JPG",
+      "section": "General",
+      "timeline_in_s": 894.0,
+      "timeline_out_s": 896.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1511.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/IMG_1511.JPG",
+      "section": "General",
+      "timeline_in_s": 896.0,
+      "timeline_out_s": 898.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1512.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/IMG_1512.JPG",
+      "section": "General",
+      "timeline_in_s": 898.0,
+      "timeline_out_s": 900.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1507.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/IMG_1507.JPG",
+      "section": "General",
+      "timeline_in_s": 900.0,
+      "timeline_out_s": 902.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1502.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/IMG_1502.JPG",
+      "section": "General",
+      "timeline_in_s": 902.0,
+      "timeline_out_s": 904.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1514.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/IMG_1514.JPG",
+      "section": "General",
+      "timeline_in_s": 904.0,
+      "timeline_out_s": 906.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1515.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/IMG_1515.JPG",
+      "section": "General",
+      "timeline_in_s": 906.0,
+      "timeline_out_s": 908.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1475.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/IMG_1475.JPG",
+      "section": "General",
+      "timeline_in_s": 908.0,
+      "timeline_out_s": 910.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_5970.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_5970.JPG",
+      "section": "General",
+      "timeline_in_s": 910.0,
+      "timeline_out_s": 912.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0709.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_20171212_0709.jpg",
+      "section": "General",
+      "timeline_in_s": 912.0,
+      "timeline_out_s": 914.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "img_1109.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/img_1109.jpg",
+      "section": "General",
+      "timeline_in_s": 914.0,
+      "timeline_out_s": 916.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_0016.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_0016.JPG",
+      "section": "General",
+      "timeline_in_s": 916.0,
+      "timeline_out_s": 918.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_2201.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_2201.JPG",
+      "section": "General",
+      "timeline_in_s": 918.0,
+      "timeline_out_s": 920.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0727.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_20171212_0727.jpg",
+      "section": "General",
+      "timeline_in_s": 920.0,
+      "timeline_out_s": 922.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1086.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_1086.JPG",
+      "section": "General",
+      "timeline_in_s": 922.0,
+      "timeline_out_s": 924.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0888.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_20171212_0888.jpg",
+      "section": "General",
+      "timeline_in_s": 924.0,
+      "timeline_out_s": 926.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_3556.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_3556.JPG",
+      "section": "General",
+      "timeline_in_s": 926.0,
+      "timeline_out_s": 928.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_5837.JPEG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_5837.JPEG",
+      "section": "General",
+      "timeline_in_s": 928.0,
+      "timeline_out_s": 930.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0437.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_20171212_0437.jpg",
+      "section": "General",
+      "timeline_in_s": 930.0,
+      "timeline_out_s": 932.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_3578.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_3578.JPG",
+      "section": "General",
+      "timeline_in_s": 932.0,
+      "timeline_out_s": 934.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_2465.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_2465.jpg",
+      "section": "General",
+      "timeline_in_s": 934.0,
+      "timeline_out_s": 936.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1150.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_1150.JPG",
+      "section": "General",
+      "timeline_in_s": 936.0,
+      "timeline_out_s": 938.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "DSC_0687.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/DSC_0687.jpg",
+      "section": "General",
+      "timeline_in_s": 938.0,
+      "timeline_out_s": 940.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1152.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_1152.JPG",
+      "section": "General",
+      "timeline_in_s": 940.0,
+      "timeline_out_s": 942.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_6008.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_6008.jpg",
+      "section": "General",
+      "timeline_in_s": 942.0,
+      "timeline_out_s": 944.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1399.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_1399.JPG",
+      "section": "General",
+      "timeline_in_s": 944.0,
+      "timeline_out_s": 946.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1170.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_1170.JPG",
+      "section": "General",
+      "timeline_in_s": 946.0,
+      "timeline_out_s": 948.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0573.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_20171212_0573.jpg",
+      "section": "General",
+      "timeline_in_s": 948.0,
+      "timeline_out_s": 950.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_2281.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_2281.JPG",
+      "section": "General",
+      "timeline_in_s": 950.0,
+      "timeline_out_s": 952.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "019_16a.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/019_16a.jpg",
+      "section": "General",
+      "timeline_in_s": 952.0,
+      "timeline_out_s": 954.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "2FE58D6D-E213-45A8-BD69-D2BB12081BD4.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/2FE58D6D-E213-45A8-BD69-D2BB12081BD4.JPG",
+      "section": "General",
+      "timeline_in_s": 954.0,
+      "timeline_out_s": 956.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1510.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_1510.JPG",
+      "section": "General",
+      "timeline_in_s": 956.0,
+      "timeline_out_s": 958.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "38C4F891-1407-4951-BB2B-28E4583CA8FA.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/38C4F891-1407-4951-BB2B-28E4583CA8FA.JPG",
+      "section": "General",
+      "timeline_in_s": 958.0,
+      "timeline_out_s": 960.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_5971 - Copy (9).JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_5971 - Copy (9).JPG",
+      "section": "General",
+      "timeline_in_s": 960.0,
+      "timeline_out_s": 962.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "6D0288DB-C3CF-4D9D-9154-02700DD81CE0.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/6D0288DB-C3CF-4D9D-9154-02700DD81CE0.JPG",
+      "section": "General",
+      "timeline_in_s": 962.0,
+      "timeline_out_s": 964.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0272.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_20171212_0272.jpg",
+      "section": "General",
+      "timeline_in_s": 964.0,
+      "timeline_out_s": 966.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1477.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_1477.JPG",
+      "section": "General",
+      "timeline_in_s": 966.0,
+      "timeline_out_s": 968.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0712.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_20171212_0712.jpg",
+      "section": "General",
+      "timeline_in_s": 968.0,
+      "timeline_out_s": 970.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "School photos_20171213_0015.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh school years/School photos_20171213_0015.jpg",
+      "section": "General",
+      "timeline_in_s": 970.0,
+      "timeline_out_s": 972.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "School photos_20171213_0014.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh school years/School photos_20171213_0014.jpg",
+      "section": "General",
+      "timeline_in_s": 972.0,
+      "timeline_out_s": 974.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0581.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh school years/IMG_20171212_0581.jpg",
+      "section": "General",
+      "timeline_in_s": 974.0,
+      "timeline_out_s": 976.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "School photos_20171213_0013.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh school years/School photos_20171213_0013.jpg",
+      "section": "General",
+      "timeline_in_s": 976.0,
+      "timeline_out_s": 978.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "School photos_20171213_0012.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh school years/School photos_20171213_0012.jpg",
+      "section": "General",
+      "timeline_in_s": 978.0,
+      "timeline_out_s": 980.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "School photos_20171213_0011.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh school years/School photos_20171213_0011.JPG",
+      "section": "General",
+      "timeline_in_s": 980.0,
+      "timeline_out_s": 982.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1163.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh school years/IMG_1163.JPG",
+      "section": "General",
+      "timeline_in_s": 982.0,
+      "timeline_out_s": 984.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "School photos_20171213_0022.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh school years/School photos_20171213_0022.jpg",
+      "section": "General",
+      "timeline_in_s": 984.0,
+      "timeline_out_s": 986.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1459.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh school years/IMG_1459.JPG",
+      "section": "General",
+      "timeline_in_s": 986.0,
+      "timeline_out_s": 988.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1460.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh school years/IMG_1460.JPG",
+      "section": "General",
+      "timeline_in_s": 988.0,
+      "timeline_out_s": 990.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1518.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_1518.JPG",
+      "section": "General",
+      "timeline_in_s": 990.0,
+      "timeline_out_s": 992.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1122.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_1122.JPG",
+      "section": "General",
+      "timeline_in_s": 992.0,
+      "timeline_out_s": 994.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1455.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_1455.JPG",
+      "section": "General",
+      "timeline_in_s": 994.0,
+      "timeline_out_s": 996.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1093.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_1093.JPG",
+      "section": "General",
+      "timeline_in_s": 996.0,
+      "timeline_out_s": 998.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1124.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_1124.JPG",
+      "section": "General",
+      "timeline_in_s": 998.0,
+      "timeline_out_s": 1000.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0779.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_20171212_0779.jpg",
+      "section": "General",
+      "timeline_in_s": 1000.0,
+      "timeline_out_s": 1002.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1176.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_1176.JPG",
+      "section": "General",
+      "timeline_in_s": 1002.0,
+      "timeline_out_s": 1004.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1159.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_1159.JPG",
+      "section": "General",
+      "timeline_in_s": 1004.0,
+      "timeline_out_s": 1006.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1101.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_1101.JPG",
+      "section": "General",
+      "timeline_in_s": 1006.0,
+      "timeline_out_s": 1008.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1114.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_1114.JPG",
+      "section": "General",
+      "timeline_in_s": 1008.0,
+      "timeline_out_s": 1010.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_20171212_0660.jpg",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_20171212_0660.jpg",
+      "section": "General",
+      "timeline_in_s": 1010.0,
+      "timeline_out_s": 1012.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1102.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_1102.JPG",
+      "section": "General",
+      "timeline_in_s": 1012.0,
+      "timeline_out_s": 1014.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1116.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_1116.JPG",
+      "section": "General",
+      "timeline_in_s": 1014.0,
+      "timeline_out_s": 1016.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1513.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_1513.JPG",
+      "section": "General",
+      "timeline_in_s": 1016.0,
+      "timeline_out_s": 1018.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1098.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_1098.JPG",
+      "section": "General",
+      "timeline_in_s": 1018.0,
+      "timeline_out_s": 1020.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1503.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_1503.JPG",
+      "section": "General",
+      "timeline_in_s": 1020.0,
+      "timeline_out_s": 1022.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1516.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_1516.JPG",
+      "section": "General",
+      "timeline_in_s": 1022.0,
+      "timeline_out_s": 1024.5,
+      "source_duration_s": 3.0
+    },
+    {
+      "file": "IMG_1099.JPG",
+      "path": "/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_1099.JPG",
+      "section": "General",
+      "timeline_in_s": 1024.0,
+      "timeline_out_s": 1026.5,
+      "source_duration_s": 3.0
+    }
+  ]
+}
