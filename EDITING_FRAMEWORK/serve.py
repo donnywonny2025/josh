@@ -84,6 +84,11 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             audio_file = FRAMEWORK / "audio_timeline.json"
             return self._json(json.loads(audio_file.read_text()) if audio_file.exists() else [])
 
+        # --- PROPOSED CUTS API ---
+        if path == "/api/proposed-cuts":
+            beats_file = SEQUENCES_DIR / "proposed_cuts.json"
+            return self._json(json.loads(beats_file.read_text()) if beats_file.exists() else {"cuts": []})
+
         # --- SEQUENCE APIs ---
         if path == "/api/sequences":
             seqs = []

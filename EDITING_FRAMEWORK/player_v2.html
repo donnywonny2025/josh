@@ -78,6 +78,16 @@ body { font-family:'Inter',sans-serif; background:#000; color:#e0e0e8; height:10
 
 
 .tl-item, .tl-card, .tl-slot, .tl-audio, .tl-section-block { position:absolute; top:0; bottom:0; box-sizing:border-box; cursor:pointer; overflow:hidden; left:calc(var(--f-start) * var(--z) * 1px); width:calc(var(--f-dur) * var(--z) * 1px); }
+.tl-beat-marker {
+    position: absolute;
+    left: calc(var(--f-start) * var(--z) * 1px);
+    bottom: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #00ff00;
+    pointer-events: none;
+    z-index: 10;
+}
 .tl-item { background:#2d5a88; border:1px solid #111; border-radius:3px; box-shadow:inset 0 0 0 1px rgba(255,255,255,0.1); font-size:10px; color:#ccc; white-space:nowrap; text-overflow:ellipsis; display:flex; align-items:center; }
 .tl-item img { position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; opacity:0.4; pointer-events:none; z-index:0; }
 .tl-item span { position:relative; z-index:1; padding-left:4px; pointer-events:none; }
@@ -133,7 +143,13 @@ body { font-family:'Inter',sans-serif; background:#000; color:#e0e0e8; height:10
            onmousemove="handleAlignMove(event)" 
            onmouseup="handleAlignUp(event)" 
            onmouseleave="handleAlignUp(event)">
-           <button class="align-done-btn" onmousedown="event.stopPropagation()" onclick="event.stopPropagation(); toggleAlign();">✅ Lock Framing & Resume</button>
+           
+           <div class="align-controls" onmousedown="event.stopPropagation()" onmousemove="event.stopPropagation()" style="position:absolute; bottom:80px; left:50%; transform:translateX(-50%); background:rgba(0,0,0,0.8); padding:10px 20px; border-radius:8px; display:flex; flex-direction:column; align-items:center; gap:8px;">
+               <label style="color:#fff; font-size:12px; font-weight:bold;">Scale (Zoom)</label>
+               <input type="range" id="alignScaleSlider" min="50" max="250" value="100" style="width:200px;" oninput="handleScaleChange(event)" onchange="saveMasterTimeline()">
+           </div>
+           
+           <button class="align-done-btn" onmousedown="event.stopPropagation()" onclick="event.stopPropagation(); toggleAlign(); saveMasterTimeline();">✅ Lock Framing & Resume</button>
       </div>
       <div class="slide hidden" id="slideA"><img id="imgA"></div>
       <div class="slide hidden" id="slideB"><img id="imgB"></div>
@@ -145,7 +161,8 @@ body { font-family:'Inter',sans-serif; background:#000; color:#e0e0e8; height:10
 <div class="controls">
   <div class="controls-row">
     <span id="slideCounter" style="font-size:12px; color:#888; min-width:80px;">0 / 0</span>
-    <button class="ctrl-btn" onclick="seekRelative(-1)">⏮</button>
+    <button class="ctrl-btn" onclick="seekToTime(0)" title="Go to Start">🏠</button>
+    <button class="ctrl-btn" onclick="seekRelative(-1)" title="Previous Photo">⏮</button>
     <button class="ctrl-btn play" id="btnPlayPause" onclick="togglePlay()">▶</button>
     <button class="ctrl-btn" onclick="seekRelative(1)">⏭</button>
     <div class="progress-bar" id="progressBar" onclick="seekProgress(event)">
@@ -159,10 +176,14 @@ body { font-family:'Inter',sans-serif; background:#000; color:#e0e0e8; height:10
 <div class="timeline-wrapper">
     <div class="zoom-controls">
         <label>Zoom:</label>
-        <input type="range" id="zoomSlider" min="1" max="100" step="1" value="50" oninput="updateZoom()">
+        <input type="range" id="zoomSlider" min="1" max="100" step="1" value="1" oninput="updateZoom()">
     </div>
-    <div class="timeline-container" id="timelineContainer">
-        <div class="timeline-tracks" id="timelineTracks" onclick="seekTimeline(event)">
+    <div class="timeline-container" id="timelineContainer" 
+         onmousedown="handleTimelineDown(event)"
+         onmousemove="handleScrub(event)"
+         onmouseup="handleTimelineUp(event)"
+         onmouseleave="handleTimelineUp(event)">
+        <div class="timeline-tracks" id="timelineTracks">
             <div class="tl-track" id="trackRuler"></div>
             <div class="tl-track" id="trackSections"></div>
             <div class="tl-track" id="trackCards"></div>
@@ -185,6 +206,7 @@ body { font-family:'Inter',sans-serif; background:#000; color:#e0e0e8; height:10
 // --- STATE ---
 let masterSequence = [];
 let audioSequence = [];
+let masterBeats = [];
 let framingMap = {};
 let currentIndex = -1;
 let playing = false;
@@ -212,15 +234,27 @@ async function init() {
           audioSequence = await audResp.json();
       }
   } catch(e) {}
+  
+  try {
+      const beatResp = await fetch(`/api/proposed-cuts?t=${Date.now()}`);
+      if (beatResp.ok) {
+          const beatData = await beatResp.json();
+          masterBeats = beatData.cuts || [];
+      }
+  } catch(e) {}
 
   totalSec = masterSequence.reduce((s, sl) => s + (sl.duration_sec || 5), 0);
   
   buildTimeline();
   document.getElementById('loadingOverlay').style.display = 'none';
   
-  if (masterSequence.length > 0) {
-    seekToTime(0);
-    updateFrame(true); 
+  // Restore saved playback position
+  const savedTime = localStorage.getItem('josh_player_time');
+  if (savedTime) {
+      seekToTime(parseFloat(savedTime));
+  } else if (masterSequence.length > 0) {
+      seekToTime(0);
+      updateFrame(true); 
   }
 }
 
@@ -334,6 +368,7 @@ function buildTimeline() {
       trackAudio.appendChild(audioDiv);
   }
   
+  
   updateZoom();
 }
 
@@ -381,7 +416,13 @@ function toggleAlign() {
   btn.textContent = isAlignMode ? '📐 Align ON' : '📐 Align Off';
   btn.style.color = isAlignMode ? '#4a9eff' : '#aaa';
   btn.style.borderColor = isAlignMode ? '#4a9eff' : '#444';
-  if (isAlignMode && playing) pausePlayback();
+  
+  if (isAlignMode) {
+      if (playing) pausePlayback();
+      const slide = masterSequence[currentIndex];
+      const slider = document.getElementById('alignScaleSlider');
+      if (slider) slider.value = slide && slide.scale ? slide.scale : 100;
+  }
 }
 
 function handleAlignDown(e) {
@@ -436,27 +477,55 @@ function handleAlignMove(e) {
   }
 }
 
-async function handleAlignUp(e) {
-  if (!isDragging) return;
-  isDragging = false;
-  
-  if (currentIndex < 0) return;
-  
-  // Auto-save master timeline
+async function saveMasterTimeline() {
   try {
     const resp = await fetch(`/api/sequences/master_timeline`, {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({ slides: masterSequence })
     });
-    if (!resp.ok) console.error("Failed to auto-save focus override");
+    if (!resp.ok) console.error("Failed to auto-save framing data");
   } catch(err) {
     console.error(err);
   }
 }
 
-// --- TL INTERACTION ---
-function seekTimeline(e) {
+function handleScaleChange(e) {
+    if (currentIndex < 0) return;
+    const newScale = parseInt(e.target.value);
+    masterSequence[currentIndex].scale = newScale;
+    
+    const curSlideDiv = document.querySelector('.slide.active');
+    if (curSlideDiv) {
+        curSlideDiv.style.transform = `scale(${newScale / 100})`;
+        curSlideDiv.dataset.baseScale = newScale / 100;
+    }
+}
+
+async function handleAlignUp(e) {
+  if (!isDragging) return;
+  isDragging = false;
+  
+  if (currentIndex < 0) return;
+  
+  saveMasterTimeline();
+}
+
+// --- TL INTERACTION (SCRUBBING) ---
+let isScrubbingTimeline = false;
+
+function handleTimelineDown(e) {
+  isScrubbingTimeline = true;
+  handleScrub(e);
+}
+
+function handleTimelineUp(e) {
+  isScrubbingTimeline = false;
+}
+
+function handleScrub(e) {
+  if (!isScrubbingTimeline && e.type !== 'click') return;
+  
   const sliderVal = parseFloat(document.getElementById("zoomSlider").value);
   const minLog = Math.log(0.05);
   const maxLog = Math.log(15.0);
@@ -631,6 +700,9 @@ function updateFrame(force = false, forcedTime = null) {
       if (audio.readyState >= 1 && !audio.error) audio.play();
       return;
   }
+  if (playing) {
+      localStorage.setItem('josh_player_time', nowSec);
+  }
   
   let accumulatedFrames = 0;
   let targetIndex = 0;
@@ -658,9 +730,9 @@ function updateFrame(force = false, forcedTime = null) {
   if (slide) {
      const durSec = (slide.duration_frames || Math.round((slide.duration_sec || 5) * 24)) / 24.0;
      const localSec = (nowFrames - accumulatedFrames) / 24.0;
-     const name = slide.isCard ? `[CARD] ${slide.title}` : (slide.file || "EMPTY SLOT");
+     const name = slide.isCard ? `[CARD] ${slide.title}` : (slide.folder ? `${slide.folder}/${slide.file}` : slide.file || "EMPTY SLOT");
      
-     document.getElementById('slideLabel').innerHTML = `${name} (${localSec.toFixed(1)}s / ${durSec.toFixed(1)}s)`;
+     document.getElementById('slideLabel').innerHTML = `<span class="active-section">${slide.sectionName || ''}</span><span style="color:#4a9eff; font-size:16px;">[${formatTime(nowSec)}]</span><br/>${name} (${localSec.toFixed(1)}s / ${durSec.toFixed(1)}s)`;
      
      // JS-Synced Ken Burns
      if (slide.isCard) {
@@ -741,11 +813,14 @@ function togglePlay() {
 }
 
 function seekToTime(targetTime) {
-  try {
+  if (audio.readyState >= 1) {
       audio.currentTime = targetTime;
-  } catch(e) {
-      console.warn("Could not seek audio yet.");
+  } else {
+      audio.addEventListener('loadedmetadata', () => {
+          audio.currentTime = targetTime;
+      }, {once: true});
   }
+  localStorage.setItem('josh_player_time', targetTime);
   startTime = Date.now() - (targetTime * 1000); // Always update JS timer as fallback
   
   const wasPlaying = playing;
