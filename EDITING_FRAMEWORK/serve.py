@@ -275,6 +275,28 @@ class Handler(http.server.SimpleHTTPRequestHandler):
                 body["created"] = body["modified"]
             seq_file = SEQUENCES_DIR / f"{seq_id}.json"
             seq_file.write_text(json.dumps(body, indent=2))
+            
+            # Auto-save all alignments to global_alignments.json
+            global_file = FRAMEWORK / "global_alignments.json"
+            global_alignments = {}
+            if global_file.exists():
+                try: global_alignments = json.loads(global_file.read_text())
+                except: pass
+                
+            if "slides" in body:
+                for slide in body["slides"]:
+                    if slide.get("file") and not slide.get("isCard"):
+                        filename = slide["file"]
+                        # Extract any manual alignment data
+                        align_data = {k: slide[k] for k in ["focus", "scale", "pan", "tilt", "zoom"] if k in slide}
+                        if align_data:
+                            # Only add if it's different or new
+                            if filename not in global_alignments or global_alignments[filename] != align_data:
+                                global_alignments[filename] = align_data
+                
+                # Write back global alignments
+                global_file.write_text(json.dumps(global_alignments, indent=4))
+            
             return self._json({"ok": True, "id": seq_id})
         
         if path == "/api/face-labels":

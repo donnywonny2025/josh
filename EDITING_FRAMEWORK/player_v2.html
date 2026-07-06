@@ -44,7 +44,7 @@ body { font-family:'Inter',sans-serif; background:#000; color:#e0e0e8; height:10
 .display .slide.active { opacity:1; z-index:2; }
 .display .slide.hidden { opacity:0; z-index:1; }
 
-.display .title-card { position:absolute; inset:0; background:#111; color:#fff; display:flex; align-items:center; justify-content:center; font-size:4vw; font-weight:800; letter-spacing:4px; text-transform:uppercase; transition:opacity 1s ease; opacity:0; z-index:1; }
+.display .title-card { position:absolute; inset:0; background:#111; color:#fff; display:flex; align-items:center; justify-content:center; font-size:4vw; font-weight:800; letter-spacing:4px; text-transform:uppercase; transition:opacity 1s ease; opacity:0; z-index:1; text-align:center; padding:0 10%; word-wrap:break-word; }
 .display .title-card.active { opacity:1; z-index:3; }
 
 /* CONTROLS */
@@ -88,7 +88,7 @@ body { font-family:'Inter',sans-serif; background:#000; color:#e0e0e8; height:10
     pointer-events: none;
     z-index: 10;
 }
-.tl-item { background:#2d5a88; border:1px solid #111; border-radius:3px; box-shadow:inset 0 0 0 1px rgba(255,255,255,0.1); font-size:10px; color:#ccc; white-space:nowrap; text-overflow:ellipsis; display:flex; align-items:center; }
+.tl-item { background:#2d5a88; border-right:1px solid #111; border-radius:3px; box-shadow:inset 0 0 0 1px rgba(255,255,255,0.1); font-size:10px; color:#ccc; white-space:nowrap; text-overflow:ellipsis; display:flex; align-items:center; }
 .tl-item img { position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; opacity:0.4; pointer-events:none; z-index:0; }
 .tl-item span { position:relative; z-index:1; padding-left:4px; pointer-events:none; }
 .tl-item:hover, .tl-card:hover, .tl-slot:hover, .tl-audio:hover { filter:brightness(1.3); z-index:10; }
@@ -219,6 +219,7 @@ let currentZoom = 1.0;
 const audio = document.getElementById('audioPlayer');
 
 // --- INIT ---
+// --- INIT ---
 async function init() {
   try { framingMap = await fetch('/data/photo_framing_map.json').then(r => r.json()); } catch(e) {}
 
@@ -255,6 +256,12 @@ async function init() {
   } else if (masterSequence.length > 0) {
       seekToTime(0);
       updateFrame(true); 
+  }
+  
+  const savedZoom = localStorage.getItem("timelineZoom");
+  if (savedZoom) {
+      document.getElementById("zoomSlider").value = savedZoom;
+      updateZoom();
   }
 }
 
@@ -368,6 +375,17 @@ function buildTimeline() {
       trackAudio.appendChild(audioDiv);
   }
   
+  const waveImg = document.createElement("img");
+  waveImg.src = "/data/waveform.png";
+  waveImg.style.position = "absolute";
+  waveImg.style.left = "0";
+  waveImg.style.top = "0";
+  waveImg.style.width = `calc(${currentFrame} * var(--z) * 1px)`;
+  waveImg.style.height = "100%";
+  waveImg.style.opacity = "0.85";
+  waveImg.style.pointerEvents = "none";
+  waveImg.style.zIndex = "5";
+  trackAudio.appendChild(waveImg);
   
   updateZoom();
 }
@@ -547,6 +565,7 @@ function updateZoom() {
   const scale = (maxLog - minLog) / (100 - 1);
   const zoom = Math.exp(minLog + scale * (sliderVal - 1));
   currentZoom = zoom;
+  localStorage.setItem("timelineZoom", sliderVal);
   
   document.documentElement.style.setProperty('--z', zoom);
   
@@ -841,9 +860,13 @@ function seekRelative(dir) {
     if(target < 0) target = 0;
     if(target >= masterSequence.length) target = masterSequence.length - 1;
     
-    let targetTime = 0;
-    for(let i=0; i<target; i++) { targetTime += (masterSequence[i].duration_sec || 5); }
-    targetTime += 0.05; // buffer
+    let targetFrames = 0;
+    for(let i=0; i<target; i++) { 
+        targetFrames += (masterSequence[i].duration_frames || Math.round((masterSequence[i].duration_sec || 5) * 24)); 
+    }
+    
+    // Add 1 frame buffer to guarantee it lands safely inside the target slide
+    let targetTime = (targetFrames + 1) / 24.0;
     seekToTime(targetTime);
 }
 

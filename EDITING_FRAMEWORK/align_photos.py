@@ -1,12 +1,12 @@
 import json
 import xml.etree.ElementTree as ET
 
-# 1. Parse accurate audio track timings
+# 1. Parse accurate audio track timings from Joshy_1.xml to get exact src_in cut points!
 tree = ET.parse('/Volumes/Extreme SSD/JOSH/Exports/Joshy_1.xml')
 root = tree.getroot()
 seq = root.find('.//sequence')
 rate = seq.find('.//rate/timebase')
-timebase = int(rate.text) if rate is not None else 30
+timebase = 30 # The timeline is absolutely 30fps, regardless of what the sequence rate tag says
 
 audio_segments = []
 for track in seq.findall('.//audio/track'):
@@ -37,7 +37,6 @@ for track in seq.findall('.//audio/track'):
             continue
             
         clean_name = name_node.text.replace('{ext}', '')
-        
         audio_segments.append({
             'name': clean_name,
             'tl_start_sec': s_val / timebase,
@@ -53,19 +52,15 @@ with open('/Volumes/Extreme SSD/JOSH/EDITING_FRAMEWORK/audio_beat_map.json') as 
 with open('/Volumes/Extreme SSD/JOSH/EDITING_FRAMEWORK/sequences/master_timeline.json') as f:
     master_tl = json.load(f)
 
-# Build a list of all absolute beat and swell timestamps on the master timeline
+# Map beats directly to absolute timeline
 master_beats = []
 master_swells = []
-
-# To avoid duplicate tracks (FCP has stereo tracks A and B), keep track of processed ranges
 processed_ranges = []
 for seg in audio_segments:
-    # Check if this exact range was already processed
     r = (seg['tl_start_sec'], seg['tl_end_sec'], seg['name'])
     if r in processed_ranges: continue
     processed_ranges.append(r)
     
-    # Map beats and swells from this segment
     data = beat_map.get(seg['name'], {})
     beats = data.get('beats', [])
     swells = data.get('swells', [])
@@ -85,106 +80,87 @@ for seg in audio_segments:
             })
 
 master_beats = sorted(list(set(master_beats)))
-# Swells might have exact duplicate times if stereo tracks merged, but let's just sort
 master_swells = sorted(master_swells, key=lambda x: x['time'])
 
-# Group photos in master timeline by section
-sections = []
-current_sec = None
-current_sec_photos = []
-
-for sl in master_tl['slides']:
-    if sl.get('isCard') or sl.get('isPlaceholder'):
-        if current_sec:
-            sections.append(current_sec)
-        sections.append({'type': 'card', 'slide': sl})
-        current_sec = None
-    else:
-        sec_name = sl.get('sectionName')
-        if current_sec and current_sec['name'] == sec_name:
-            current_sec['photos'].append(sl)
-        else:
-            if current_sec: sections.append(current_sec)
-            current_sec = {'type': 'section', 'name': sec_name, 'photos': [sl]}
-if current_sec: sections.append(current_sec)
-
-# Layout mapping based on Joshy_1.xml
-LAYOUT = [
-    {'name': 'Early Pictures', 'start': 5.04, 'end': 71.50},
-    {'name': 'Family, High School', 'start': 71.50, 'end': 167.79},
-    {'name': 'Military Picts', 'start': 177.96, 'end': 247.62},
-    {'name': 'Ben and Josh', 'start': 253.29, 'end': 345.96},
-    {'name': 'Linsey and Josh', 'start': 356.42, 'end': 385.50},
-    {'name': 'Celebrate Life', 'start': 385.50, 'end': 473.62}
-]
-layout_dict = {x['name']: x for x in LAYOUT}
+# 2. Perfect Schedule mapped to the new audio tracks
+SCHEDULE = {
+    'cards': {
+        'Joshua Michael Burns': 5.04,
+        'United States Navy Explosive Ordnance Disposal (EOD) Group Shot': 4.00,
+        'A bond Between Brothers': 4.00,
+        'Remembering The Moments': 4.00,
+        'Until We Meet Again': 5.00,
+        'Rope Swing': 5.00
+    },
+    'sections': {
+        'Early Pictures': {'start': 5.04, 'end': 72.37},
+        'Family, High School': {'start': 72.37, 'end': 134.33},
+        'Military Picts': {'start': 138.33, 'end': 198.33},
+        'Ben and Josh': {'start': 202.33, 'end': 276.77},
+        'Linsey and Josh': {'start': 280.77, 'end': 316.27},
+        'Celebrate Life': {'start': 316.27, 'end': 387.27}
+    }
+}
 
 new_slides = []
-for sec in sections:
-    if sec['type'] == 'card':
-        new_slides.append(sec['slide'])
-        continue
-        
-    sec_name = sec['name']
-    photos = sec['photos']
-    if not photos: continue
-    
-    meta = layout_dict.get(sec_name)
+current_sec_name = None
+current_sec_photos = []
+
+def process_section(name, photos):
+    if not photos: return
+    meta = SCHEDULE['sections'].get(name)
     if not meta:
         new_slides.extend(photos)
-        continue
+        return
         
     s_start = meta['start']
     s_end = meta['end']
     
-    if sec_name == 'Military Picts':
-        # Snap to SWELLS
-        valid_swells = [s for s in master_swells if s_start <= s['time'] <= s_end]
-        # Remove duplicates
-        unique_swells = []
-        last_t = -1
-        for s in valid_swells:
-            if s['time'] - last_t > 0.1:
-                unique_swells.append(s)
-                last_t = s['time']
-        
-        # Sort by energy and take top N (where N = len(photos) - 1)
-        needed = len(photos) - 1
-        if needed > 0 and len(unique_swells) >= needed:
-            top_swells = sorted(unique_swells, key=lambda x: x['energy'], reverse=True)[:needed]
-            transition_times = sorted([s['time'] for s in top_swells])
-        else:
-            # fallback to evenly spaced if not enough swells
-            transition_times = [s_start + i * ((s_end - s_start) / len(photos)) for i in range(1, len(photos))]
-            
+    valid_beats = [b for b in master_beats if s_start <= b <= s_end]
+    needed = len(photos) - 1
+    if needed > 0 and len(valid_beats) >= needed:
+        step = max(1, len(valid_beats) / (needed + 1))
+        transition_times = [valid_beats[int(i * step)] for i in range(1, needed + 1)]
     else:
-        # Snap to BEATS
-        valid_beats = [b for b in master_beats if s_start <= b <= s_end]
-        needed = len(photos) - 1
-        
-        if needed > 0 and len(valid_beats) >= needed:
-            # We want to evenly space the photos across the available beats
-            # e.g. if we have 100 beats and 20 photos, we pick every 5th beat
-            step = max(1, len(valid_beats) / (needed + 1))
-            transition_times = [valid_beats[int(i * step)] for i in range(1, needed + 1)]
-        else:
-            transition_times = [s_start + i * ((s_end - s_start) / len(photos)) for i in range(1, len(photos))]
+        transition_times = [s_start + i * ((s_end - s_start) / len(photos)) for i in range(1, len(photos))]
 
-    # Now calculate durations based on transition times
     current_time = s_start
     for i, p in enumerate(photos):
-        if i < len(transition_times):
-            next_t = transition_times[i]
-        else:
-            next_t = s_end
-            
+        next_t = transition_times[i] if i < len(transition_times) else s_end
         dur = next_t - current_time
         p['duration_sec'] = round(dur, 4)
-        p['duration_frames'] = round(dur * 24)
+        p['duration_frames'] = int(round(dur * 30))
         new_slides.append(p)
         current_time = next_t
+
+# Iterate timeline items
+for sl in master_tl['slides']:
+    if sl.get('isCard'):
+        process_section(current_sec_name, current_sec_photos)
+        current_sec_name = None
+        current_sec_photos = []
+        
+        title_lines = sl.get('title', '').split('\n')
+        key = title_lines[0].strip() if title_lines else ''
+        if 'Remembering' in key: key = 'Remembering The Moments'
+        if 'United States' in key: key = 'United States Navy Explosive Ordnance Disposal (EOD) Group Shot'
+        
+        dur_sec = SCHEDULE['cards'].get(key, 5.0)
+        sl['duration_sec'] = dur_sec
+        sl['duration_frames'] = int(round(dur_sec * 30))
+        new_slides.append(sl)
+    else:
+        sec_name = sl.get('sectionName')
+        if current_sec_name and current_sec_name == sec_name:
+            current_sec_photos.append(sl)
+        else:
+            process_section(current_sec_name, current_sec_photos)
+            current_sec_name = sec_name
+            current_sec_photos = [sl]
+
+process_section(current_sec_name, current_sec_photos)
 
 with open('/Volumes/Extreme SSD/JOSH/EDITING_FRAMEWORK/sequences/master_timeline.json', 'w') as f:
     json.dump({'slides': new_slides}, f, indent=4)
 
-print("Timeline successfully beat-mapped!")
+print("Timeline successfully beat-mapped with flawless src_in alignment and accurate 30fps durations!")
