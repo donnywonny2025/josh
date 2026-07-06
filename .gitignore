@@ -22,3 +22,14 @@ env/
 # App Data
 EDITING_FRAMEWORK/face_data/crops/
 EDITING_FRAMEWORK/face_data/face_encodings.json
+
+# Large Assets and Templates
+*.zip
+*.mp4
+*.mov
+*.wav
+*.aep
+AE/
+Proxies/
+EDITING_FRAMEWORK/test/
+EDITING_FRAMEWORK/proxies/

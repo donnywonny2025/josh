@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Josh Memorial — Player</title>
+<title>Josh Memorial — Advanced Player</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 * { margin:0; padding:0; box-sizing:border-box; }
@@ -43,17 +43,20 @@ body { font-family:'Inter',sans-serif; background:#000; color:#e0e0e8; height:10
    box-shadow: 0 4px 20px rgba(0,0,0,0.5); 
    border: 1px solid rgba(255,255,255,0.25);
 }
-.display .slide { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; transition:opacity 1s ease; }
-.display .slide img { width:100%; height:100%; object-fit:cover; object-position:center; }
-.display .slide.active { opacity:1; z-index:2; }
-.display .slide.hidden { opacity:0; z-index:1; }
+.display .slide { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; opacity:0; z-index:1; visibility:hidden; }
+.display .slide.active { opacity:1; z-index:2; visibility:visible; }
 
-/* KEN BURNS PUSH */
-@keyframes pushIn {
-  from { transform: scale(1.0); }
-  to { transform: scale(1.05); }
-}
-.display .slide.active.push img { animation: pushIn 10s linear forwards; }
+/* GSAP Layers */
+#global-bg { position:absolute; inset:-20%; width:140%; height:140%; z-index:0; background-size:cover; background-position:center; filter: brightness(0.6); }
+#extreme-fg { position:absolute; inset:0; width:100%; height:100%; z-index:40; pointer-events:none; }
+.extreme-fg-img { position:absolute; width:35%; object-fit:contain; border-radius:30px; box-shadow: 0 40px 80px rgba(0,0,0,0.9); filter: blur(15px); }
+#cinematic-grade { position:absolute; inset:0; z-index:50; pointer-events:none; background: radial-gradient(circle at 50% 50%, rgba(255, 230, 200, 0.15) 0%, rgba(100, 50, 0, 0.3) 50%, rgba(0, 0, 0, 0.9) 100%); mix-blend-mode: overlay; opacity: 0.8; }
+.cloud-photo { position: absolute; border-radius: 15px; box-shadow: 0 15px 40px rgba(0,0,0,0.8); object-fit: contain; }
+.cloud-deep { filter: blur(10px); z-index: 0; opacity: 0.6; }
+.cloud-mid { filter: blur(4px); z-index: 1; opacity: 0.8; }
+
+.slide .fg-layer { position:relative; width:100%; height:100%; z-index:2; display:flex; align-items:center; justify-content:center; }
+.slide .fg-layer img { width:auto; height:auto; max-width:75%; max-height:75%; object-fit:contain; border-radius: 20px; box-shadow: 0 40px 80px rgba(0,0,0,0.9);  }
 
 /* SAFE MARGINS */
 .safe-margin { position:absolute; inset:5%; border:1px solid rgba(255,255,255,0.7); pointer-events:none; z-index:10; display:none; }
@@ -116,7 +119,6 @@ body { font-family:'Inter',sans-serif; background:#000; color:#e0e0e8; height:10
   <a href="/">Browser</a>
   <a href="/builder">Builder</a>
   <a href="/player" class="active">Player</a>
-  <a href="/player_v2">Player V2</a>
   <a href="/faces">Face ID</a>
   <label style="font-size:11px;color:#666;margin-left:16px">Sequence:</label>
   <select id="seqSelect"></select>
@@ -150,8 +152,18 @@ body { font-family:'Inter',sans-serif; background:#000; color:#e0e0e8; height:10
       <div class="zone-left" onclick="seekRelative(-1)"></div>
       <div class="zone-right" onclick="seekRelative(1)"></div>
       
-      <div class="slide hidden" id="slideA"><img id="imgA"></div>
-      <div class="slide hidden" id="slideB"><img id="imgB"></div>
+      <canvas id="particleCanvas"></canvas>
+      <div id="lightLeaks"></div>
+      <div id="global-bg"></div>
+      <div id="extreme-fg"></div>
+      <div id="cinematic-grade"></div>
+      
+      <div class="slide" id="slideA">
+        <div class="fg-layer"><img id="imgA"></div>
+      </div>
+      <div class="slide" id="slideB">
+        <div class="fg-layer"><img id="imgB"></div>
+      </div>
       
       <div class="slide-label" id="slideLabel"></div>
       
@@ -191,7 +203,80 @@ body { font-family:'Inter',sans-serif; background:#000; color:#e0e0e8; height:10
 
 <audio id="audioPlayer"></audio>
 
+<script src="lib/gsap/gsap.min.js"></script>
 <script>
+
+// --- PARTICLE ENGINE & FX ---
+const pCanvas = document.getElementById('particleCanvas');
+const pCtx = pCanvas.getContext('2d');
+let particles = [];
+
+function initParticles() {
+    pCanvas.width = pCanvas.offsetWidth;
+    pCanvas.height = pCanvas.offsetHeight;
+    particles = [];
+    for(let i=0; i<40; i++) {
+        particles.push({
+            x: Math.random() * pCanvas.width,
+            y: Math.random() * pCanvas.height,
+            radius: Math.random() * 35 + 10,
+            vx: (Math.random() - 0.5) * 0.4,
+            vy: (Math.random() - 0.5) * 0.4,
+            alpha: Math.random() * 0.3 + 0.05,
+            hue: Math.random() > 0.5 ? '255, 220, 180' : '200, 230, 255'
+        });
+    }
+}
+
+function renderParticles() {
+    pCtx.clearRect(0, 0, pCanvas.width, pCanvas.height);
+    particles.forEach(p => {
+        p.x += p.vx;
+        p.y += p.vy;
+        if(p.x < -100) p.x = pCanvas.width + 100;
+        if(p.x > pCanvas.width + 100) p.x = -100;
+        if(p.y < -100) p.y = pCanvas.height + 100;
+        if(p.y > pCanvas.height + 100) p.y = -100;
+        
+        pCtx.beginPath();
+        pCtx.arc(p.x, p.y, p.radius, 0, Math.PI*2);
+        pCtx.fillStyle = `rgba(${p.hue}, ${p.alpha})`;
+        pCtx.shadowBlur = 20;
+        pCtx.shadowColor = `rgba(${p.hue}, ${p.alpha})`;
+        pCtx.fill();
+    });
+    requestAnimationFrame(renderParticles);
+}
+window.addEventListener('resize', initParticles);
+initParticles();
+// renderParticles(); // Disabled to prevent flickering with 3D cloud
+
+function triggerLightLeak(intense = false) {
+    const leak = document.getElementById('lightLeaks');
+    if (intense) {
+        leak.style.transition = 'background 0.2s ease, opacity 0.2s ease';
+        leak.style.opacity = '1';
+        leak.style.background = `radial-gradient(circle at 50% 50%, rgba(255,255,255,1) 0%, rgba(255,200,100,0.8) 30%, transparent 80%)`;
+        setTimeout(() => { 
+            leak.style.transition = 'background 2s ease, opacity 2s ease'; 
+            leak.style.opacity = '0.8';
+            triggerLightLeak(false); 
+        }, 200);
+        return;
+    }
+    const colors = [
+        `rgba(255,100,50,0.15)`,
+        `rgba(255,150,100,0.1)`,
+        `rgba(50,150,255,0.1)`,
+        `rgba(255,255,255,0.1)`
+    ];
+    const c1 = colors[Math.floor(Math.random() * colors.length)];
+    const c2 = colors[Math.floor(Math.random() * colors.length)];
+    const x = Math.random() * 100;
+    const y = Math.random() * 100;
+    leak.style.background = `radial-gradient(circle at ${x}% ${y}%, ${c1} 0%, transparent 70%), radial-gradient(circle at ${100-x}% ${100-y}%, ${c2} 0%, transparent 70%)`;
+}
+
 // --- STATE ---
 let seq = null;
 let framingMap = {};
@@ -202,6 +287,7 @@ let speedMultiplier = 1;
 let startTime = 0;
 let requestID = null;
 let totalSec = 0;
+let currentGsapTl = null;
 
 const audio = document.getElementById('audioPlayer');
 const tl = document.getElementById('miniTimeline');
@@ -251,6 +337,7 @@ async function loadSequence(id) {
   // otherwise seekToTime(0) triggers an infinite loop because totalSec is 0.
   totalSec = newSeq.slides.reduce((s, sl) => s + (sl.duration_sec || newSeq.default_duration_sec || 5), 0);
   seq = newSeq;
+  seq.id = id;
   stopPlayback();
   
   document.getElementById('emptyState').style.display = 'none';
@@ -275,6 +362,108 @@ async function loadSequence(id) {
   
   buildTimeline();
   
+  // --- CINEMATIC CONTINUOUS WORLD INIT ---
+  const globalBg = document.getElementById('global-bg');
+  globalBg.innerHTML = '';
+  globalBg.style.backgroundImage = 'none';
+  
+  // Build the 3D Photo Cloud (Deterministic Layout Grid)
+  const collageLayout = [
+      // LEFT FLANK (Peeking out left of subject)
+      {x: 15, y: 15, rot: -12, scale: 25, type: 'deep'},
+      {x: 25, y: 35, rot: 5, scale: 28, type: 'mid'},
+      {x: 18, y: 65, rot: -8, scale: 24, type: 'deep'},
+      {x: 28, y: 80, rot: 12, scale: 27, type: 'mid'},
+      {x: 12, y: 45, rot: -15, scale: 22, type: 'deep'},
+
+      // RIGHT FLANK (Peeking out right of subject)
+      {x: 75, y: 15, rot: 15, scale: 25, type: 'deep'},
+      {x: 65, y: 35, rot: -5, scale: 28, type: 'mid'},
+      {x: 72, y: 65, rot: 8, scale: 24, type: 'deep'},
+      {x: 62, y: 80, rot: -12, scale: 27, type: 'mid'},
+      {x: 78, y: 45, rot: 15, scale: 22, type: 'deep'},
+
+      // TOP FLANK (Peeking over the top)
+      {x: 35, y: 12, rot: -4, scale: 23, type: 'deep'},
+      {x: 50, y: 8, rot: 2, scale: 25, type: 'mid'},
+      {x: 60, y: 10, rot: -6, scale: 22, type: 'deep'},
+
+      // BOTTOM FLANK (Peeking under the bottom)
+      {x: 35, y: 85, rot: 5, scale: 23, type: 'deep'},
+      {x: 50, y: 88, rot: -2, scale: 25, type: 'mid'},
+      {x: 60, y: 82, rot: 7, scale: 22, type: 'deep'},
+      
+      // BACKGROUND FILL (Behind the main subject just in case of parallax)
+      {x: 45, y: 30, rot: -10, scale: 30, type: 'deep'},
+      {x: 55, y: 60, rot: 10, scale: 28, type: 'deep'},
+      {x: 40, y: 55, rot: 5, scale: 35, type: 'deep'}
+  ];
+  
+  // Clean up any old tweens on the cloud photos before we regenerate
+  gsap.killTweensOf('.cloud-photo');
+  
+  const cloudPhotos = [...seq.slides].sort(() => 0.5 - Math.random());
+  collageLayout.forEach((pos, idx) => {
+      if (cloudPhotos.length === 0) return;
+      const s = cloudPhotos[idx % cloudPhotos.length];
+      const img = document.createElement('img');
+      img.src = `/photos/${encodeURIComponent(s.folder)}/${encodeURIComponent(s.file)}`;
+      
+      img.className = `cloud-photo cloud-${pos.type}`;
+      img.style.width = pos.scale + '%';
+      img.style.left = pos.x + '%';
+      img.style.top = pos.y + '%';
+      
+      globalBg.appendChild(img);
+      
+      // Controlled Deterministic Drift Vectors (outward from center)
+      const driftX = pos.x < 50 ? -100 - Math.random()*150 : 100 + Math.random()*150;
+      const driftY = pos.y < 50 ? -80 - Math.random()*100 : 80 + Math.random()*100;
+      const duration = pos.type === 'deep' ? 90 + Math.random()*30 : 70 + Math.random()*20;
+      
+      gsap.to(img, {
+          x: driftX,
+          y: driftY,
+          rotation: pos.rot + (pos.x < 50 ? -10 : 10),
+          duration: duration,
+          ease: "none", repeat: -1, yoyo: true
+      });
+  });
+
+  if (window.globalBgTl) window.globalBgTl.kill();
+  window.globalBgTl = gsap.to(globalBg, {
+      scale: 1.25, x: 150, y: -80, duration: 90, ease: "none", repeat: -1, yoyo: true
+  });
+  
+  const extremeFg = document.getElementById('extreme-fg');
+  extremeFg.innerHTML = '';
+  const fgPhotos = [...seq.slides].sort(() => 0.5 - Math.random()).slice(0, 2);
+  fgPhotos.forEach((s, idx) => {
+      const img = document.createElement('img');
+      img.src = `/photos/${encodeURIComponent(s.folder)}/${encodeURIComponent(s.file)}`;
+      img.className = 'extreme-fg-img';
+      if (idx === 0) {
+          // Push extremely far to the left margin
+          img.style.left = '-45%'; img.style.bottom = '-15%'; img.dataset.rot = -20;
+      } else {
+          // Push extremely far to the right margin
+          img.style.right = '-45%'; img.style.top = '-15%'; img.dataset.rot = 20;
+      }
+      extremeFg.appendChild(img);
+  });
+  
+  if (window.extremeFgTl) window.extremeFgTl.kill();
+  window.extremeFgTl = gsap.to('.extreme-fg-img', {
+      scale: 1.15,
+      // Restrict X travel so they don't enter the middle, but keep moving smoothly
+      x: (i) => i === 0 ? 40 : -40,
+      y: (i) => i === 0 ? -40 : 40,
+      rotation: (i, el) => parseFloat(el.dataset.rot) + (i===0?25:-25),
+      // Linear drift so it never mechanical stops/starts
+      duration: 55, ease: "none", repeat: -1, yoyo: true
+  });
+  // ---------------------------------------
+
   if (seq.slides.length > 0) {
     seekToTime(0);
     // Draw initial frame manually
@@ -433,10 +622,6 @@ function showSlide(index) {
   const nextSlideDiv = document.getElementById(`slide${nextDiv}`);
   const curSlideDiv = document.getElementById(`slide${activeSlide}`);
   
-  const transDur = parseFloat(document.getElementById('transSlider').value);
-  nextSlideDiv.style.transition = `opacity ${transDur}s ease`;
-  curSlideDiv.style.transition = `opacity ${transDur}s ease`;
-  
   // Smart Framing Logic
   const frameInfo = framingMap[slide.file];
   let px = 50, py = 50;
@@ -454,34 +639,96 @@ function showSlide(index) {
 
   if (useSmartFraming) {
       nextImg.style.objectPosition = `${px}% ${py}%`;
-      nextSlideDiv.style.transformOrigin = `${px}% ${py}%`;
   } else {
       nextImg.style.objectPosition = '50% 50%';
-      nextSlideDiv.style.transformOrigin = '50% 50%';
   }
   
   nextImg.src = src;
   
+  // Light leak triggered inside GSAP transitions
+  
   let scale = slide.scale || 100;
-  nextSlideDiv.style.transform = `scale(${scale / 100})`;
+  const fgLayer = nextSlideDiv.querySelector('.fg-layer');
+  
   if (document.getElementById('scaleSlider')) {
       document.getElementById('scaleSlider').value = scale;
       document.getElementById('scaleVal').textContent = scale + '%';
   }
   
-  nextSlideDiv.classList.add('active');
-  nextSlideDiv.classList.remove('hidden');
-  curSlideDiv.classList.remove('active');
-  curSlideDiv.classList.add('hidden');
+  const transDur = parseFloat(document.getElementById('transSlider').value);
+  const dur = (slide.duration_sec || seq.default_duration_sec || 5);
   
-  // Handle Ken Burns
+  if (currentGsapTl) currentGsapTl.kill();
+  currentGsapTl = gsap.timeline();
+  
+  currentGsapTl.set(nextSlideDiv, { zIndex: 2, visibility: 'visible' });
+  if (curSlideDiv) currentGsapTl.set(curSlideDiv, { zIndex: 1 });
+               
   const usePush = document.getElementById('pushToggle').checked;
+  const isSceneBreak = (index > 0 && index % 5 === 0);
+  
+  // THE GLOBAL STATE RESET: Wipe any lingering transforms from previous recycling
+  gsap.set(fgLayer, { clearProps: "all" });
+  
   if (usePush) {
-      nextSlideDiv.classList.add('push');
+      const baseScale = scale/100;
+      const rotStart = -3 + Math.random() * 6;
+      const rotEnd = rotStart + (-1 + Math.random() * 2);
+      
+      if (isSceneBreak) {
+          triggerLightLeak(true);
+          
+          currentGsapTl.to(nextSlideDiv, { opacity: 1, duration: 1.0, ease: "power2.inOut" }, 0);
+          
+          if (curSlideDiv) {
+              currentGsapTl.to(curSlideDiv, { opacity: 0, duration: 1.5, ease: "power2.inOut" }, 0);
+          }
+          
+          // Elegant background pulse
+          const bgLayer = document.getElementById('global-bg');
+          currentGsapTl.fromTo(bgLayer,
+              { filter: 'brightness(0.9) blur(10px)' },
+              { filter: 'brightness(0.6) blur(0px)', duration: 2.0, ease: "power2.out" },
+              0
+          );
+          
+          // Gentle photo reveal out of the light wash
+          currentGsapTl.fromTo(fgLayer,
+              { scale: baseScale - 0.1, rotation: rotStart, opacity: 0, y: 15 },
+              { scale: baseScale, rotation: rotStart, opacity: 1, y: 0, duration: 2.5, ease: "power2.out" },
+              0.5
+          );
+          
+          // Continuous smooth drift
+          currentGsapTl.to(fgLayer, { scale: baseScale + 0.1, x: 10, y: -10, rotation: rotEnd, duration: dur, ease: "sine.inOut" }, 3.0);
+          
+      } else {
+          triggerLightLeak(false);
+          currentGsapTl.to(nextSlideDiv, { opacity: 1, duration: transDur, ease: "power2.inOut" }, 0);
+          if (curSlideDiv) {
+              currentGsapTl.to(curSlideDiv, { opacity: 0, duration: transDur, ease: "power2.inOut" }, 0);
+          }
+          
+          // Simple, smooth Toss
+          currentGsapTl.fromTo(fgLayer,
+              { scale: baseScale - 0.1, rotation: rotStart - 2, y: 20 },
+              { scale: baseScale, rotation: rotStart, y: 0, duration: transDur, ease: "power3.out" },
+              0
+          );
+          
+          currentGsapTl.to(fgLayer, { scale: baseScale + 0.1, x: 10, y: -10, rotation: rotEnd, duration: dur, ease: "sine.inOut" }, transDur);
+      }
   } else {
-      nextSlideDiv.classList.remove('push');
+      triggerLightLeak(false);
+      currentGsapTl.to(nextSlideDiv, { opacity: 1, duration: transDur, ease: "power2.inOut" }, 0);
+      if (curSlideDiv) {
+          currentGsapTl.to(curSlideDiv, { opacity: 0, duration: transDur, ease: "power2.inOut" }, 0);
+      }
+      currentGsapTl.set(fgLayer, { scale: scale/100, x:0, y:0, rotation:0 });
   }
-  curSlideDiv.classList.remove('push');
+  
+  nextSlideDiv.classList.add('active');
+  curSlideDiv.classList.remove('active');
   
   activeSlide = nextDiv;
 }
@@ -546,6 +793,7 @@ function startPlayback() {
   if (!seq || seq.slides.length === 0) return;
   playing = true;
   document.getElementById('btnPlayPause').textContent = '⏸';
+  if (currentGsapTl) currentGsapTl.play();
   if (audio.getAttribute('src')) {
     const p = audio.play();
     if (p !== undefined) {
@@ -569,6 +817,7 @@ function pausePlayback() {
   document.getElementById('btnPlayPause').textContent = '▶';
   if (audio.getAttribute('src')) audio.pause();
   if (requestID) cancelAnimationFrame(requestID);
+  if (currentGsapTl) currentGsapTl.pause();
 }
 
 function stopPlayback() {
@@ -650,9 +899,9 @@ function updateScale(val) {
   document.getElementById('scaleVal').textContent = val + '%';
   if (!seq || currentIndex < 0) return;
   seq.slides[currentIndex].scale = parseInt(val);
-  const curSlideDiv = document.querySelector('.slide.active');
-  if (curSlideDiv) {
-      curSlideDiv.style.transform = `scale(${val / 100})`;
+  const fgLayer = document.querySelector('.slide.active .fg-layer');
+  if (fgLayer) {
+      fgLayer.style.transform = `scale(${val / 100})`;
   }
 }
 

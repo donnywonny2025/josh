@@ -1,0 +1,2423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xmeml>
+<xmeml version="5">
+  <project>
+    <name>Josh_Master_Sequence</name>
+    <children>
+      <sequence id="master_sequence">
+        <name>Josh Master</name>
+        <rate>
+          <timebase>30</timebase>
+          <ntsc>FALSE</ntsc>
+        </rate>
+        <media>
+          <video>
+            <format>
+              <samplecharacteristics>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <width>1920</width>
+                <height>1080</height>
+              </samplecharacteristics>
+            </format>
+            <track>
+              <clipitem id="clip_0">
+                <name>Joshua Michael Burns</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>0</start>
+                <end>124</end>
+                <in>0</in>
+                <out>124</out>
+              </clipitem>
+              <clipitem id="clip_1">
+                <name>Early Pictures</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>124</start>
+                <end>248</end>
+                <in>0</in>
+                <out>124</out>
+              </clipitem>
+              <clipitem id="clip_2">
+                <name>IMG_113701.JPG</name>
+                <duration>86</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>248</start>
+                <end>334</end>
+                <in>0</in>
+                <out>86</out>
+                <file id="file_2">
+                  <name>IMG_113701.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Baby%20%26%20toddler%20Josh/IMG_113701.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_3">
+                <name>IMG_1459.JPG</name>
+                <duration>86</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>334</start>
+                <end>420</end>
+                <in>0</in>
+                <out>86</out>
+                <file id="file_3">
+                  <name>IMG_1459.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Baby%20%26%20toddler%20Josh/IMG_1459.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_4">
+                <name>IMG_20171212_0237.jpg</name>
+                <duration>86</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>420</start>
+                <end>506</end>
+                <in>0</in>
+                <out>86</out>
+                <file id="file_4">
+                  <name>IMG_20171212_0237.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Baby%20%26%20toddler%20Josh/IMG_20171212_0237.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_5">
+                <name>IMG_20171212_0261.jpg</name>
+                <duration>86</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>506</start>
+                <end>592</end>
+                <in>0</in>
+                <out>86</out>
+                <file id="file_5">
+                  <name>IMG_20171212_0261.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Baby%20%26%20toddler%20Josh/IMG_20171212_0261.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_6">
+                <name>IMG_20171212_0265.jpg</name>
+                <duration>86</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>592</start>
+                <end>678</end>
+                <in>0</in>
+                <out>86</out>
+                <file id="file_6">
+                  <name>IMG_20171212_0265.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Baby%20%26%20toddler%20Josh/IMG_20171212_0265.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_7">
+                <name>IMG_20171212_0275.jpg</name>
+                <duration>86</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>678</start>
+                <end>764</end>
+                <in>0</in>
+                <out>86</out>
+                <file id="file_7">
+                  <name>IMG_20171212_0275.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Baby%20%26%20toddler%20Josh/IMG_20171212_0275.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_8">
+                <name>IMG_20171212_0277.jpg</name>
+                <duration>86</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>764</start>
+                <end>850</end>
+                <in>0</in>
+                <out>86</out>
+                <file id="file_8">
+                  <name>IMG_20171212_0277.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Baby%20%26%20toddler%20Josh/IMG_20171212_0277.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_9">
+                <name>IMG_20171212_0293.jpg</name>
+                <duration>86</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>850</start>
+                <end>936</end>
+                <in>0</in>
+                <out>86</out>
+                <file id="file_9">
+                  <name>IMG_20171212_0293.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Baby%20%26%20toddler%20Josh/IMG_20171212_0293.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_10">
+                <name>IMG_20171212_0299.jpg</name>
+                <duration>86</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>936</start>
+                <end>1022</end>
+                <in>0</in>
+                <out>86</out>
+                <file id="file_10">
+                  <name>IMG_20171212_0299.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Baby%20%26%20toddler%20Josh/IMG_20171212_0299.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_11">
+                <name>IMG_20171212_0336.jpg</name>
+                <duration>86</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>1022</start>
+                <end>1108</end>
+                <in>0</in>
+                <out>86</out>
+                <file id="file_11">
+                  <name>IMG_20171212_0336.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Baby%20%26%20toddler%20Josh/IMG_20171212_0336.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_12">
+                <name>IMG_20171212_0350.jpg</name>
+                <duration>86</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>1108</start>
+                <end>1194</end>
+                <in>0</in>
+                <out>86</out>
+                <file id="file_12">
+                  <name>IMG_20171212_0350.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Baby%20%26%20toddler%20Josh/IMG_20171212_0350.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_13">
+                <name>IMG_20171212_0358.jpg</name>
+                <duration>86</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>1194</start>
+                <end>1280</end>
+                <in>0</in>
+                <out>86</out>
+                <file id="file_13">
+                  <name>IMG_20171212_0358.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Baby%20%26%20toddler%20Josh/IMG_20171212_0358.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_14">
+                <name>IMG_20171212_0388.jpg</name>
+                <duration>86</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>1280</start>
+                <end>1366</end>
+                <in>0</in>
+                <out>86</out>
+                <file id="file_14">
+                  <name>IMG_20171212_0388.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Baby%20%26%20toddler%20Josh/IMG_20171212_0388.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_15">
+                <name>IMG_5337_Original.jpg</name>
+                <duration>86</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>1366</start>
+                <end>1452</end>
+                <in>0</in>
+                <out>86</out>
+                <file id="file_15">
+                  <name>IMG_5337_Original.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Baby%20%26%20toddler%20Josh/IMG_5337_Original.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_16">
+                <name>Photo May 24 2026, 10 32 05 AM.jpg</name>
+                <duration>86</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>1452</start>
+                <end>1538</end>
+                <in>0</in>
+                <out>86</out>
+                <file id="file_16">
+                  <name>Photo May 24 2026, 10 32 05 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Baby%20%26%20toddler%20Josh/Photo%20May%2024%202026%2C%2010%2032%2005%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_17">
+                <name>Photo May 24 2026, 10 32 52 AM.jpg</name>
+                <duration>86</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>1538</start>
+                <end>1624</end>
+                <in>0</in>
+                <out>86</out>
+                <file id="file_17">
+                  <name>Photo May 24 2026, 10 32 52 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Baby%20%26%20toddler%20Josh/Photo%20May%2024%202026%2C%2010%2032%2052%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_18">
+                <name>Photo May 24 2026, 10 33 02 AM.jpg</name>
+                <duration>86</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>1624</start>
+                <end>1710</end>
+                <in>0</in>
+                <out>86</out>
+                <file id="file_18">
+                  <name>Photo May 24 2026, 10 33 02 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Baby%20%26%20toddler%20Josh/Photo%20May%2024%202026%2C%2010%2033%2002%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_19">
+                <name>Photo May 24 2026, 10 34 49 AM.jpg</name>
+                <duration>86</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>1710</start>
+                <end>1796</end>
+                <in>0</in>
+                <out>86</out>
+                <file id="file_19">
+                  <name>Photo May 24 2026, 10 34 49 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Baby%20%26%20toddler%20Josh/Photo%20May%2024%202026%2C%2010%2034%2049%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_20">
+                <name>Photo May 24 2026, 10 36 19 AM.jpg</name>
+                <duration>86</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>1796</start>
+                <end>1882</end>
+                <in>0</in>
+                <out>86</out>
+                <file id="file_20">
+                  <name>Photo May 24 2026, 10 36 19 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Baby%20%26%20toddler%20Josh/Photo%20May%2024%202026%2C%2010%2036%2019%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_21">
+                <name>Family, High School</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>1882</start>
+                <end>2006</end>
+                <in>0</in>
+                <out>124</out>
+              </clipitem>
+              <clipitem id="clip_22">
+                <name>019_16a.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>2006</start>
+                <end>2130</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_22">
+                  <name>019_16a.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/019_16a.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_23">
+                <name>IMG_6008.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>2130</start>
+                <end>2254</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_23">
+                  <name>IMG_6008.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/IMG_6008.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_24">
+                <name>image000000.jpeg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>2254</start>
+                <end>2378</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_24">
+                  <name>image000000.jpeg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/image000000.jpeg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_25">
+                <name>IMG_20171212_0709.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>2378</start>
+                <end>2502</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_25">
+                  <name>IMG_20171212_0709.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/IMG_20171212_0709.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_26">
+                <name>Photo May 18 2026, 7 16 52 PM (6).jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>2502</start>
+                <end>2626</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_26">
+                  <name>Photo May 18 2026, 7 16 52 PM (6).jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/Photo%20May%2018%202026%2C%207%2016%2052%20PM%20%286%29.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_27">
+                <name>Photo May 18 2026, 7 16 52 PM (1) (1).jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>2626</start>
+                <end>2750</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_27">
+                  <name>Photo May 18 2026, 7 16 52 PM (1) (1).jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/Photo%20May%2018%202026%2C%207%2016%2052%20PM%20%281%29%20%281%29.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_28">
+                <name>DSC_0687.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>2750</start>
+                <end>2874</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_28">
+                  <name>DSC_0687.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/DSC_0687.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_29">
+                <name>School photos_20171213_0022.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>2874</start>
+                <end>2998</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_29">
+                  <name>School photos_20171213_0022.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20school%20years/School%20photos_20171213_0022.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_30">
+                <name>IMG_3556.JPG</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>2998</start>
+                <end>3122</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_30">
+                  <name>IMG_3556.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/IMG_3556.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_31">
+                <name>IMG_5286.JPG</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>3122</start>
+                <end>3246</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_31">
+                  <name>IMG_5286.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/IMG_5286.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_32">
+                <name>Photo May 24 2026, 10 32 36 AM.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>3246</start>
+                <end>3370</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_32">
+                  <name>Photo May 24 2026, 10 32 36 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/Photo%20May%2024%202026%2C%2010%2032%2036%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_33">
+                <name>Photo May 18 2026, 7 16 52 PM (3).jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>3370</start>
+                <end>3494</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_33">
+                  <name>Photo May 18 2026, 7 16 52 PM (3).jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/Photo%20May%2018%202026%2C%207%2016%2052%20PM%20%283%29.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_34">
+                <name>Photo May 24 2026, 10 33 29 AM.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>3494</start>
+                <end>3618</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_34">
+                  <name>Photo May 24 2026, 10 33 29 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/Photo%20May%2024%202026%2C%2010%2033%2029%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_35">
+                <name>IMG_20171212_0437.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>3618</start>
+                <end>3742</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_35">
+                  <name>IMG_20171212_0437.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/IMG_20171212_0437.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_36">
+                <name>fktmp222_0046_0046_Original.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>3742</start>
+                <end>3866</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_36">
+                  <name>fktmp222_0046_0046_Original.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/fktmp222_0046_0046_Original.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_37">
+                <name>IMG_2281.JPG</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>3866</start>
+                <end>3990</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_37">
+                  <name>IMG_2281.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/IMG_2281.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_38">
+                <name>2000_20180203_0036.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>3990</start>
+                <end>4114</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_38">
+                  <name>2000_20180203_0036.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/2000_20180203_0036.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_39">
+                <name>Photo Jun 06 2026, 9 54 06 AM.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>4114</start>
+                <end>4238</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_39">
+                  <name>Photo Jun 06 2026, 9 54 06 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/Photo%20Jun%2006%202026%2C%209%2054%2006%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_40">
+                <name>IMG_1459.JPG</name>
+                <duration>89</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>4238</start>
+                <end>4327</end>
+                <in>0</in>
+                <out>89</out>
+                <file id="file_40">
+                  <name>IMG_1459.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20school%20years/IMG_1459.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_41">
+                <name>EOD Group Shot</name>
+                <duration>252</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>4327</start>
+                <end>4579</end>
+                <in>0</in>
+                <out>252</out>
+              </clipitem>
+              <clipitem id="clip_42">
+                <name>Military Picts</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>4579</start>
+                <end>4703</end>
+                <in>0</in>
+                <out>124</out>
+              </clipitem>
+              <clipitem id="clip_43">
+                <name>Photo May 18 2026, 7 11 52 PM (4).jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>4703</start>
+                <end>4827</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_43">
+                  <name>Photo May 18 2026, 7 11 52 PM (4).jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Military/Photo%20May%2018%202026%2C%207%2011%2052%20PM%20%284%29.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_44">
+                <name>IMG_1138.JPG</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>4827</start>
+                <end>4951</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_44">
+                  <name>IMG_1138.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Military/IMG_1138.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_45">
+                <name>Photo May 16 2026, 6 16 04 PM (12).jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>4951</start>
+                <end>5075</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_45">
+                  <name>Photo May 16 2026, 6 16 04 PM (12).jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Military/Photo%20May%2016%202026%2C%206%2016%2004%20PM%20%2812%29.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_46">
+                <name>Photo May 18 2026, 7 11 52 PM (2).jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>5075</start>
+                <end>5199</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_46">
+                  <name>Photo May 18 2026, 7 11 52 PM (2).jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Military/Photo%20May%2018%202026%2C%207%2011%2052%20PM%20%282%29.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_47">
+                <name>IMG_1523.JPG</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>5199</start>
+                <end>5323</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_47">
+                  <name>IMG_1523.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Military/IMG_1523.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_48">
+                <name>Photo May 16 2026, 6 16 04 PM (9).jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>5323</start>
+                <end>5447</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_48">
+                  <name>Photo May 16 2026, 6 16 04 PM (9).jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Military/Photo%20May%2016%202026%2C%206%2016%2004%20PM%20%289%29.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_49">
+                <name>IMG_1155.JPG</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>5447</start>
+                <end>5571</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_49">
+                  <name>IMG_1155.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Military/IMG_1155.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_50">
+                <name>Photo May 24 2026, 10 33 20 AM.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>5571</start>
+                <end>5695</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_50">
+                  <name>Photo May 24 2026, 10 33 20 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Military/Photo%20May%2024%202026%2C%2010%2033%2020%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_51">
+                <name>Photo May 24 2026, 10 37 21 AM.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>5695</start>
+                <end>5819</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_51">
+                  <name>Photo May 24 2026, 10 37 21 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Military/Photo%20May%2024%202026%2C%2010%2037%2021%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_52">
+                <name>2009_20180203_0020_Original.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>5819</start>
+                <end>5943</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_52">
+                  <name>2009_20180203_0020_Original.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Military/2009_20180203_0020_Original.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_53">
+                <name>IMG_1522.JPG</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>5943</start>
+                <end>6067</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_53">
+                  <name>IMG_1522.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Military/IMG_1522.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_54">
+                <name>Photo May 16 2026, 6 16 04 PM (10).jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>6067</start>
+                <end>6191</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_54">
+                  <name>Photo May 16 2026, 6 16 04 PM (10).jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Military/Photo%20May%2016%202026%2C%206%2016%2004%20PM%20%2810%29.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_55">
+                <name>2009_20180203_0007_Original.jpg</name>
+                <duration>116</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>6191</start>
+                <end>6307</end>
+                <in>0</in>
+                <out>116</out>
+                <file id="file_55">
+                  <name>2009_20180203_0007_Original.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Military/2009_20180203_0007_Original.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_56">
+                <name>A bond Between Brothers</name>
+                <duration>141</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>6307</start>
+                <end>6448</end>
+                <in>0</in>
+                <out>141</out>
+              </clipitem>
+              <clipitem id="clip_57">
+                <name>Ben and Josh</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>6448</start>
+                <end>6572</end>
+                <in>0</in>
+                <out>124</out>
+              </clipitem>
+              <clipitem id="clip_58">
+                <name>Photo May 18 2026, 4 33 29 PM (6).jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>6572</start>
+                <end>6622</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_58">
+                  <name>Photo May 18 2026, 4 33 29 PM (6).jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Ben%20and%20Josh/Photo%20May%2018%202026%2C%204%2033%2029%20PM%20%286%29.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_59">
+                <name>IMG_20171212_0432.jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>6622</start>
+                <end>6672</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_59">
+                  <name>IMG_20171212_0432.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/save%20a%20place%20for%20me/IMG_20171212_0432.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_60">
+                <name>IMG_20171212_0478.jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>6672</start>
+                <end>6722</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_60">
+                  <name>IMG_20171212_0478.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Ben%20and%20Josh/IMG_20171212_0478.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_61">
+                <name>IMG_3570.JPG</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>6722</start>
+                <end>6772</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_61">
+                  <name>IMG_3570.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Ben%20and%20Josh/IMG_3570.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_62">
+                <name>Photo Jun 06 2026, 9 56 36 AM.jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>6772</start>
+                <end>6822</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_62">
+                  <name>Photo Jun 06 2026, 9 56 36 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/Photo%20Jun%2006%202026%2C%209%2056%2036%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_63">
+                <name>Photo Jun 06 2026, 9 55 27 AM.jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>6822</start>
+                <end>6872</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_63">
+                  <name>Photo Jun 06 2026, 9 55 27 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Just%20Josh/Photo%20Jun%2006%202026%2C%209%2055%2027%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_64">
+                <name>IMG_20171212_0888.jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>6872</start>
+                <end>6922</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_64">
+                  <name>IMG_20171212_0888.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/IMG_20171212_0888.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_65">
+                <name>IMG_3578.JPG</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>6922</start>
+                <end>6972</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_65">
+                  <name>IMG_3578.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/IMG_3578.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_66">
+                <name>Photo May 24 2026, 10 34 49 AM.jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>6972</start>
+                <end>7022</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_66">
+                  <name>Photo May 24 2026, 10 34 49 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Baby%20%26%20toddler%20Josh/Photo%20May%2024%202026%2C%2010%2034%2049%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_67">
+                <name>IMG_20171212_0735.jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>7022</start>
+                <end>7072</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_67">
+                  <name>IMG_20171212_0735.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Ben%20and%20Josh/IMG_20171212_0735.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_68">
+                <name>Photo May 18 2026, 7 16 52 PM (2).jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>7072</start>
+                <end>7122</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_68">
+                  <name>Photo May 18 2026, 7 16 52 PM (2).jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/Photo%20May%2018%202026%2C%207%2016%2052%20PM%20%282%29.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_69">
+                <name>IMG_0016.JPG</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>7122</start>
+                <end>7172</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_69">
+                  <name>IMG_0016.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/IMG_0016.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_70">
+                <name>IMG_1150.JPG</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>7172</start>
+                <end>7222</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_70">
+                  <name>IMG_1150.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/IMG_1150.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_71">
+                <name>IMG_1170.JPG</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>7222</start>
+                <end>7272</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_71">
+                  <name>IMG_1170.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/IMG_1170.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_72">
+                <name>Photo Aug 02 2023, 6 22 33 PM.jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>7272</start>
+                <end>7322</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_72">
+                  <name>Photo Aug 02 2023, 6 22 33 PM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/Photo%20Aug%2002%202023%2C%206%2022%2033%20PM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_73">
+                <name>Photo May 24 2026, 10 32 52 AM.jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>7322</start>
+                <end>7372</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_73">
+                  <name>Photo May 24 2026, 10 32 52 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Baby%20%26%20toddler%20Josh/Photo%20May%2024%202026%2C%2010%2032%2052%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_74">
+                <name>Photo May 24 2026, 10 32 45 AM.jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>7372</start>
+                <end>7422</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_74">
+                  <name>Photo May 24 2026, 10 32 45 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/Photo%20May%2024%202026%2C%2010%2032%2045%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_75">
+                <name>1994 Photos_20171213_0016.jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>7422</start>
+                <end>7472</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_75">
+                  <name>1994 Photos_20171213_0016.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20school%20years/1994%20Photos_20171213_0016.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_76">
+                <name>2969251672116281152.jpeg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>7472</start>
+                <end>7522</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_76">
+                  <name>2969251672116281152.jpeg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/2969251672116281152.jpeg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_77">
+                <name>Photo Jun 06 2026, 9 56 26 AM.jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>7522</start>
+                <end>7572</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_77">
+                  <name>Photo Jun 06 2026, 9 56 26 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/Photo%20Jun%2006%202026%2C%209%2056%2026%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_78">
+                <name>Josh Random_20180206_0006.jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>7572</start>
+                <end>7622</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_78">
+                  <name>Josh Random_20180206_0006.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20and%20Friends/Josh%20Random_20180206_0006.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_79">
+                <name>Photo May 24 2026, 10 35 31 AM.jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>7622</start>
+                <end>7672</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_79">
+                  <name>Photo May 24 2026, 10 35 31 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/Photo%20May%2024%202026%2C%2010%2035%2031%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_80">
+                <name>2005_20180203_0042.jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>7672</start>
+                <end>7722</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_80">
+                  <name>2005_20180203_0042.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/save%20a%20place%20for%20me/2005_20180203_0042.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_81">
+                <name>Photo May 24 2026, 10 36 58 AM.jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>7722</start>
+                <end>7772</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_81">
+                  <name>Photo May 24 2026, 10 36 58 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Just%20Josh/Photo%20May%2024%202026%2C%2010%2036%2058%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_82">
+                <name>Photo Jun 06 2026, 9 58 33 AM.jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>7772</start>
+                <end>7822</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_82">
+                  <name>Photo Jun 06 2026, 9 58 33 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Just%20Josh/Photo%20Jun%2006%202026%2C%209%2058%2033%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_83">
+                <name>Photo Jun 06 2026, 9 57 35 AM.jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>7822</start>
+                <end>7872</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_83">
+                  <name>Photo Jun 06 2026, 9 57 35 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/Photo%20Jun%2006%202026%2C%209%2057%2035%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_84">
+                <name>Photo Jun 06 2026, 9 56 18 AM.jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>7872</start>
+                <end>7922</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_84">
+                  <name>Photo Jun 06 2026, 9 56 18 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/Photo%20Jun%2006%202026%2C%209%2056%2018%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_85">
+                <name>Photo Jun 06 2026, 9 57 59 AM.jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>7922</start>
+                <end>7972</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_85">
+                  <name>Photo Jun 06 2026, 9 57 59 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/Photo%20Jun%2006%202026%2C%209%2057%2059%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_86">
+                <name>1999_20180203_0078.jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>7972</start>
+                <end>8022</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_86">
+                  <name>1999_20180203_0078.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20and%20Friends/1999_20180203_0078.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_87">
+                <name>Photo May 24 2026, 10 32 16 AM.jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>8022</start>
+                <end>8072</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_87">
+                  <name>Photo May 24 2026, 10 32 16 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/Photo%20May%2024%202026%2C%2010%2032%2016%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_88">
+                <name>IMG_4627.JPG</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>8072</start>
+                <end>8122</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_88">
+                  <name>IMG_4627.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%E2%80%99s%20places%20and%20travel/IMG_4627.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_89">
+                <name>IMG_1464.JPG</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>8122</start>
+                <end>8172</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_89">
+                  <name>IMG_1464.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%E2%80%99s%20places%20and%20travel/IMG_1464.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_90">
+                <name>C7C76AD6-087C-4AA1-875F-7170E206A748.PNG</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>8172</start>
+                <end>8222</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_90">
+                  <name>C7C76AD6-087C-4AA1-875F-7170E206A748.PNG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%E2%80%99s%20places%20and%20travel/C7C76AD6-087C-4AA1-875F-7170E206A748.PNG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_91">
+                <name>IMG_1473.JPG</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>8222</start>
+                <end>8272</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_91">
+                  <name>IMG_1473.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%E2%80%99s%20places%20and%20travel/IMG_1473.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_92">
+                <name>2004_20180203_0003.jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>8272</start>
+                <end>8322</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_92">
+                  <name>2004_20180203_0003.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/2004_20180203_0003.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_93">
+                <name>IMG_1061.jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>8322</start>
+                <end>8372</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_93">
+                  <name>IMG_1061.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/IMG_1061.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_94">
+                <name>IMG_1060_Original.jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>8372</start>
+                <end>8422</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_94">
+                  <name>IMG_1060_Original.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/IMG_1060_Original.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_95">
+                <name>IMG_6162_Original.jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>8422</start>
+                <end>8472</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_95">
+                  <name>IMG_6162_Original.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20-%20Family/IMG_6162_Original.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_96">
+                <name>Photo Sep 15 2017, 8 58 00 PM.jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>8472</start>
+                <end>8522</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_96">
+                  <name>Photo Sep 15 2017, 8 58 00 PM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20with%20Kerrs/Photo%20Sep%2015%202017%2C%208%2058%2000%20PM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_97">
+                <name>IMG_2983.JPEG</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>8522</start>
+                <end>8572</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_97">
+                  <name>IMG_2983.JPEG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20%26%20Linsey/IMG_2983.JPEG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_98">
+                <name>img_2502_Original.jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>8572</start>
+                <end>8622</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_98">
+                  <name>img_2502_Original.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Ben%20and%20Josh/img_2502_Original.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_99">
+                <name>Photo May 18 2026, 4 33 29 PM (5).jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>8622</start>
+                <end>8672</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_99">
+                  <name>Photo May 18 2026, 4 33 29 PM (5).jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Ben%20and%20Josh/Photo%20May%2018%202026%2C%204%2033%2029%20PM%20%285%29.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_100">
+                <name>Photo May 18 2026, 4 33 29 PM (4).jpg</name>
+                <duration>50</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>8672</start>
+                <end>8722</end>
+                <in>0</in>
+                <out>50</out>
+                <file id="file_100">
+                  <name>Photo May 18 2026, 4 33 29 PM (4).jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Ben%20and%20Josh/Photo%20May%2018%202026%2C%204%2033%2029%20PM%20%284%29.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_101">
+                <name>Remembering The Moments...</name>
+                <duration>260</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>8722</start>
+                <end>8982</end>
+                <in>0</in>
+                <out>260</out>
+              </clipitem>
+              <clipitem id="clip_102">
+                <name>Linsey And Josh</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>8982</start>
+                <end>9106</end>
+                <in>0</in>
+                <out>124</out>
+              </clipitem>
+              <clipitem id="clip_103">
+                <name>IMG_1091.JPG</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>9106</start>
+                <end>9230</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_103">
+                  <name>IMG_1091.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20%26%20Linsey/IMG_1091.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_104">
+                <name>Photo Oct 14 2018, 12 43 07 PM.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>9230</start>
+                <end>9354</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_104">
+                  <name>Photo Oct 14 2018, 12 43 07 PM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20%26%20Linsey/Photo%20Oct%2014%202018%2C%2012%2043%2007%20PM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_105">
+                <name>IMG_1087.JPG</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>9354</start>
+                <end>9478</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_105">
+                  <name>IMG_1087.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20%26%20Linsey/IMG_1087.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_106">
+                <name>Photo Sep 30 2016, 11 24 03 AM.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>9478</start>
+                <end>9602</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_106">
+                  <name>Photo Sep 30 2016, 11 24 03 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20%26%20Linsey/Photo%20Sep%2030%202016%2C%2011%2024%2003%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_107">
+                <name>Photo Jun 01 2020, 3 56 04 PM.jpg</name>
+                <duration>99</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>9602</start>
+                <end>9701</end>
+                <in>0</in>
+                <out>99</out>
+                <file id="file_107">
+                  <name>Photo Jun 01 2020, 3 56 04 PM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20%26%20Linsey/Photo%20Jun%2001%202020%2C%203%2056%2004%20PM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_108">
+                <name>Celebrate Life</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>9701</start>
+                <end>9825</end>
+                <in>0</in>
+                <out>124</out>
+              </clipitem>
+              <clipitem id="clip_109">
+                <name>Photo May 28 2017, 1 09 42 PM.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>9825</start>
+                <end>9949</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_109">
+                  <name>Photo May 28 2017, 1 09 42 PM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Just%20Josh/Photo%20May%2028%202017%2C%201%2009%2042%20PM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_110">
+                <name>Photo May 24 2026, 10 35 45 AM.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>9949</start>
+                <end>10073</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_110">
+                  <name>Photo May 24 2026, 10 35 45 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Just%20Josh/Photo%20May%2024%202026%2C%2010%2035%2045%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_111">
+                <name>Photo Jul 28 2017, 6 58 24 PM.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>10073</start>
+                <end>10197</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_111">
+                  <name>Photo Jul 28 2017, 6 58 24 PM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20and%20Friends/Photo%20Jul%2028%202017%2C%206%2058%2024%20PM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_112">
+                <name>IMG_1174.JPG</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>10197</start>
+                <end>10321</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_112">
+                  <name>IMG_1174.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%E2%80%99s%20places%20and%20travel/IMG_1174.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_113">
+                <name>IMG_1249.JPG</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>10321</start>
+                <end>10445</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_113">
+                  <name>IMG_1249.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%E2%80%99s%20places%20and%20travel/IMG_1249.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_114">
+                <name>IMG_0021.JPG</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>10445</start>
+                <end>10569</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_114">
+                  <name>IMG_0021.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Just%20Josh/IMG_0021.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_115">
+                <name>IMG_1159.JPG</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>10569</start>
+                <end>10693</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_115">
+                  <name>IMG_1159.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Just%20Josh/IMG_1159.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_116">
+                <name>DSC_0392.JPG</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>10693</start>
+                <end>10817</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_116">
+                  <name>DSC_0392.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%E2%80%99s%20places%20and%20travel/DSC_0392.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_117">
+                <name>Photo May 15 2018, 4 37 09 PM.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>10817</start>
+                <end>10941</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_117">
+                  <name>Photo May 15 2018, 4 37 09 PM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20with%20Kerrs/Photo%20May%2015%202018%2C%204%2037%2009%20PM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_118">
+                <name>Photo May 24 2026, 10 27 45 AM.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>10941</start>
+                <end>11065</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_118">
+                  <name>Photo May 24 2026, 10 27 45 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20and%20Friends/Photo%20May%2024%202026%2C%2010%2027%2045%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_119">
+                <name>IMG_1116.JPG</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>11065</start>
+                <end>11189</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_119">
+                  <name>IMG_1116.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Just%20Josh/IMG_1116.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_120">
+                <name>IMG_0032.JPEG</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>11189</start>
+                <end>11313</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_120">
+                  <name>IMG_0032.JPEG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Just%20Josh/IMG_0032.JPEG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_121">
+                <name>IMG_0874_Original.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>11313</start>
+                <end>11437</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_121">
+                  <name>IMG_0874_Original.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%E2%80%99s%20places%20and%20travel/IMG_0874_Original.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_122">
+                <name>IMG_1080.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>11437</start>
+                <end>11561</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_122">
+                  <name>IMG_1080.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%E2%80%99s%20places%20and%20travel/IMG_1080.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_123">
+                <name>IMG_0787_Original.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>11561</start>
+                <end>11685</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_123">
+                  <name>IMG_0787_Original.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%E2%80%99s%20places%20and%20travel/IMG_0787_Original.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_124">
+                <name>1995_20171214_0022.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>11685</start>
+                <end>11809</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_124">
+                  <name>1995_20171214_0022.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%E2%80%99s%20places%20and%20travel/1995_20171214_0022.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_125">
+                <name>Photo Jun 06 2026, 9 59 20 AM.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>11809</start>
+                <end>11933</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_125">
+                  <name>Photo Jun 06 2026, 9 59 20 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20and%20Friends/Photo%20Jun%2006%202026%2C%209%2059%2020%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_126">
+                <name>Photo Dec 23 2018, 7 39 02 PM.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>11933</start>
+                <end>12057</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_126">
+                  <name>Photo Dec 23 2018, 7 39 02 PM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20and%20Friends/Photo%20Dec%2023%202018%2C%207%2039%2002%20PM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_127">
+                <name>2000_20180203_0118.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>12057</start>
+                <end>12181</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_127">
+                  <name>2000_20180203_0118.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%E2%80%99s%20places%20and%20travel/2000_20180203_0118.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_128">
+                <name>1999_20180203_0108.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>12181</start>
+                <end>12305</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_128">
+                  <name>1999_20180203_0108.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%E2%80%99s%20places%20and%20travel/1999_20180203_0108.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_129">
+                <name>1991 photos_20171213_0002.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>12305</start>
+                <end>12429</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_129">
+                  <name>1991 photos_20171213_0002.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20and%20Friends/1991%20photos_20171213_0002.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_130">
+                <name>Photo Jan 11 2020, 11 28 23 AM.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>12429</start>
+                <end>12553</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_130">
+                  <name>Photo Jan 11 2020, 11 28 23 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Just%20Josh/Photo%20Jan%2011%202020%2C%2011%2028%2023%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_131">
+                <name>94EAD1D4-E355-4A0F-B93F-15120CA59A61.JPG</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>12553</start>
+                <end>12677</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_131">
+                  <name>94EAD1D4-E355-4A0F-B93F-15120CA59A61.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%E2%80%99s%20places%20and%20travel/94EAD1D4-E355-4A0F-B93F-15120CA59A61.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_132">
+                <name>Photo Jun 02 2020, 2 55 07 PM.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>12677</start>
+                <end>12801</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_132">
+                  <name>Photo Jun 02 2020, 2 55 07 PM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Just%20Josh/Photo%20Jun%2002%202020%2C%202%2055%2007%20PM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_133">
+                <name>Photo Jan 24 2026, 1 12 52 PM.png</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>12801</start>
+                <end>12925</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_133">
+                  <name>Photo Jan 24 2026, 1 12 52 PM.png</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Just%20Josh/Photo%20Jan%2024%202026%2C%201%2012%2052%20PM.png</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_134">
+                <name>IMG_1124.JPG</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>12925</start>
+                <end>13049</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_134">
+                  <name>IMG_1124.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Just%20Josh/IMG_1124.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_135">
+                <name>IMG_1517.JPG</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>13049</start>
+                <end>13173</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_135">
+                  <name>IMG_1517.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%E2%80%99s%20places%20and%20travel/IMG_1517.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_136">
+                <name>IMG_20171212_0779.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>13173</start>
+                <end>13297</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_136">
+                  <name>IMG_20171212_0779.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Just%20Josh/IMG_20171212_0779.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_137">
+                <name>Photo May 24 2026, 9 40 44 AM (4).jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>13297</start>
+                <end>13421</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_137">
+                  <name>Photo May 24 2026, 9 40 44 AM (4).jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20and%20Friends/Photo%20May%2024%202026%2C%209%2040%2044%20AM%20%284%29.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_138">
+                <name>Photo Jun 06 2026, 9 54 40 AM.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>13421</start>
+                <end>13545</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_138">
+                  <name>Photo Jun 06 2026, 9 54 40 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%20and%20Friends/Photo%20Jun%2006%202026%2C%209%2054%2040%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_139">
+                <name>IMG_1122.JPG</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>13545</start>
+                <end>13669</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_139">
+                  <name>IMG_1122.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Just%20Josh/IMG_1122.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_140">
+                <name>IMG_1474.JPG</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>13669</start>
+                <end>13793</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_140">
+                  <name>IMG_1474.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%E2%80%99s%20places%20and%20travel/IMG_1474.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_141">
+                <name>IMG_1455.JPG</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>13793</start>
+                <end>13917</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_141">
+                  <name>IMG_1455.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Just%20Josh/IMG_1455.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_142">
+                <name>Photo Oct 12 2018, 3 10 17 PM.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>13917</start>
+                <end>14041</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_142">
+                  <name>Photo Oct 12 2018, 3 10 17 PM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Just%20Josh/Photo%20Oct%2012%202018%2C%203%2010%2017%20PM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_143">
+                <name>1994 Photos_20171213_0017.JPG</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>14041</start>
+                <end>14165</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_143">
+                  <name>1994 Photos_20171213_0017.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Just%20Josh/1994%20Photos_20171213_0017.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_144">
+                <name>IMG_0968_Original.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>14165</start>
+                <end>14289</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_144">
+                  <name>IMG_0968_Original.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%E2%80%99s%20places%20and%20travel/IMG_0968_Original.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_145">
+                <name>Phyllis Old Photos_20180221_0048.jpg</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>14289</start>
+                <end>14413</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_145">
+                  <name>Phyllis Old Photos_20180221_0048.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/save%20a%20place%20for%20me/Phyllis%20Old%20Photos_20180221_0048.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_146">
+                <name>IMG_1096.JPG</name>
+                <duration>124</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>14413</start>
+                <end>14537</end>
+                <in>0</in>
+                <out>124</out>
+                <file id="file_146">
+                  <name>IMG_1096.JPG</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Josh%E2%80%99s%20places%20and%20travel/IMG_1096.JPG</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_147">
+                <name>Photo May 24 2026, 10 35 14 AM.jpg</name>
+                <duration>96</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>14537</start>
+                <end>14633</end>
+                <in>0</in>
+                <out>96</out>
+                <file id="file_147">
+                  <name>Photo May 24 2026, 10 35 14 AM.jpg</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/RAW_IMPORTS/Just%20Josh/Photo%20May%2024%202026%2C%2010%2035%2014%20AM.jpg</pathurl>
+                </file>
+              </clipitem>
+              <clipitem id="clip_148">
+                <name>Until We Meet Again</name>
+                <duration>260</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>14633</start>
+                <end>14893</end>
+                <in>0</in>
+                <out>260</out>
+              </clipitem>
+            </track>
+          </video>
+          <audio>
+            <numOutputChannels>2</numOutputChannels>
+            <format>
+              <samplecharacteristics>
+                <depth>16</depth>
+                <samplerate>48000</samplerate>
+              </samplecharacteristics>
+            </format>
+            <track>
+              <clipitem id="audio_clip_0">
+                <name>Master.mp3</name>
+                <duration>14893</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>0</start>
+                <end>14893</end>
+                <in>0</in>
+                <out>14893</out>
+                <file id="master_audio_file">
+                  <name>Master.mp3</name>
+                  <pathurl>file://localhost/Volumes/Extreme%20SSD/JOSH/Music/Master.mp3</pathurl>
+                </file>
+                <sourcetrack>
+                  <mediatype>audio</mediatype>
+                  <trackindex>1</trackindex>
+                </sourcetrack>
+              </clipitem>
+            </track>
+            <track>
+              <clipitem id="audio_clip_1">
+                <name>Master.mp3</name>
+                <duration>14893</duration>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>0</start>
+                <end>14893</end>
+                <in>0</in>
+                <out>14893</out>
+                <file id=""/>
+                <sourcetrack>
+                  <mediatype>audio</mediatype>
+                  <trackindex>2</trackindex>
+                </sourcetrack>
+              </clipitem>
+            </track>
+          </audio>
+        </media>
+        <duration>14893</duration>
+      </sequence>
+    </children>
+  </project>
+</xmeml>

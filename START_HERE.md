@@ -1,67 +1,43 @@
-# Josh Memorial Project — Start Here
+# START HERE - Josh Memorial Video Project
 
-> **URGENT AGENT DIRECTIVE:** READ THIS CONVERSATION TRANSCRIPT FIRST.
-> **Conversation ID:** 7a5ecc61-d065-4df2-8aa6-b7cef6bcd099
-> You must read the transcript of this conversation to fully understand the context of how this FCP7 XML was built and validated against the Parker Hannifin framework.
+## What We Are Building
+We are building a custom web-based application (`player_v2.html`) to visually align, sort, and beat-match 144 photos to a precise 8-minute audio edit, and then export those photos as a final **FCP7 XML file** for Adobe Premiere.
 
-## The Parker Hannifin XML Validation (Conversation Recap)
-Over the last five minutes, the user grilled the agent to ensure the notoriously fragile Premiere Pro XML framework was correctly ported from the Parker Hannifin "Multi-Cam Edit" project. 
+This web player is essentially our own custom video editor tailored specifically for this memorial project.
 
-**The User Asked:**
-- *"Do you understand how that works inside of Parker Hannifin?"*
-- *"Is there documentation that explains the problems, explains how to do it correctly?"* 
-- *"Did you read through all that documentation?"*
+## The Source of Truth (The XML)
+All timing, sections, and audio tracks are dictated by **`Joshy_1.xml`** (located in `Exports/`). 
+* The timeline is exactly **8 minutes and 14 seconds** long.
+* The songs are: Caamp, Carter Burwell, The Hollies, and Healing.
+* **CRITICAL RULE:** All scripts must run at **24 FPS**. If 30 FPS is used anywhere, the entire timeline will drift out of sync.
 
-**The AI Confirmed:**
-Yes, the agent read the *XML Multicam Sync Bible* and the *FCP7 XML Deep Reference*. We proved that `generate_xml.py` perfectly avoids the 4 catastrophic Premiere XML bugs:
-1. **The Bin Contamination & Duplication Nightmare:** All photos are pre-registered as Master Clips in a `<bin>` at the top of the XML. The `<name>` tags are never altered.
-2. **The Overengineering Spiral:** The XML uses the absolute minimalist `<clipitem>` template. We explicitly stripped out `<sourcetrack>` and `<link>` elements because Parker Hannifin proved they break Premiere.
-3. **The Timebase Drift Bug:** Every single cut is hard-stamped with `<rate><timebase>24</timebase><ntsc>TRUE</ntsc></rate>` to prevent audio drift.
-4. **The Golden Math Rule:** The code strictly enforces `out - in == end - start` on every single photo.
+## The Code Architecture & Workflow (EDITING_FRAMEWORK)
+All scripts live in `/Volumes/Extreme SSD/JOSH/EDITING_FRAMEWORK/`. This is a Python backend + Vanilla HTML/JS frontend architecture.
 
----
+1. **Audio Analysis (`audio_analyzer.py`)**
+   - **Purpose:** Uses `librosa` to analyze the MP3 files for rhythmic beats (percussive transients) and RMS energy swells (volume peaks).
+   - **Output:** Saves timestamps to `audio_beat_map.json`.
 
-> **Navigation Breadcrumb:** If you are looking for your son's Arcade game project (Lincoln Circle), your other workspace is located at: `/Volumes/WORK 2TB/WORK 2026/LincolnCircle`
+2. **Timeline Math (`align_photos.py`)**
+   - **Purpose:** The core math engine. It reads the section bounds from `Joshy_1.xml`. It takes the photos and mathematically snaps their durations to the beats and swells in `audio_beat_map.json`. 
+   - **Rules:** The **Military** section snaps to RMS energy swells (for cinematic impact). All other sections snap to percussive beats.
+   - **Output:** Overwrites `sequences/master_timeline.json` with exact `duration_sec` and `duration_frames` for every single photo.
 
-This document explains the automated photo timeline pipeline we built for Josh's memorial video. This system completely replaces the need to manually drag, drop, and sort photos in Premiere Pro.
+3. **The Web Player (`player_v2.html` & `serve.py`)**
+   - **Backend:** `serve.py` is a simple Python HTTP server that serves the UI and exposes API endpoints (like `/api/export_xml`).
+   - **Frontend:** `player_v2.html` is the UI. It is NOT an MP4 video player. It dynamically renders the JPG/PNG photos sequentially using JavaScript based on the durations in `master_timeline.json`. 
+   - **Timeline UI:** Renders a flat, single-track visual representation of the audio tracks at the bottom of the screen to avoid UI clutter, reading from `audio_timeline.json`.
 
-## How the System Works
+4. **XML Export (`generate_xml.py`)**
+   - **Purpose:** When the user clicks "Export XML" in the UI, `serve.py` triggers this script. It reads the final `master_timeline.json` and outputs a compliant FCP7 XML file.
+   - **Constraint:** It must maintain strict 24 FPS math (`s2f(sec) = round(sec * 24)`) and replace the original placeholder `Graphic` blocks from Premiere with the actual beat-matched photos.
 
-We built a custom Python automation pipeline that groups photos by emotional themes, sorts them chronologically within those themes, and generates an FCP7 XML timeline that you can import directly into Premiere Pro.
+## Current State
+The backend math (24 FPS alignment) and the UI track rendering are fully synced and locked to `Joshy_1.xml`. 
 
-### 1. Thematic Sorting
-Phyllis mapped out specific songs for specific emotional arcs. Instead of a single chronological timeline, the photos are organized into thematic buckets based on the folders in `Photos/RAW_IMPORTS/`:
-- **Military**
-- **Travel_Fun**
-- **Ben_and_Josh**
-- **Passed_Loved_Ones**
-- **General**
+**Next Steps:** We are ready to start physically placing, adding, and removing photos from the timeline using the web player, adjusting their Ken Burns framing, and preparing for the final XML export to Premiere.
 
-### 2. Exact Age Calculation (1982)
-Within each of those folders, the `chrono_engine.py` script scans the EXIF metadata of every single photo. It takes the year the photo was taken, subtracts Josh's birth year (**1982**), and calculates his exact age in that moment. It then mathematically sorts the photos perfectly from youngest to oldest *within* each music theme.
+## 🎯 NEXT CHAT GOAL
+When a new chat session starts, the **primary and exclusive focus** should be on `player_v2.html` and its associated JavaScript. The goal is to build out the UI functionality to allow the user to easily **add pictures, remove pictures, and reorder them** directly within the web player interface.
 
-### 3. Timeline Pacing
-The `generate_pacing.py` script automatically calculates the duration for each photo to match a standard memorial video pace (2.5-second hold + 0.5-second cross-dissolve). 
-- **Current Total Photos:** 513
-- **Generated Sequence Length:** 17.1 Minutes
-
-## How to Run the Pipeline
-
-If you add new photos or change the folders, you just run the pipeline to rebuild the XML file instantly.
-
-1. **Rebuild the Data:**
-   ```bash
-   python3 EDITING_FRAMEWORK/chrono_engine.py
-   python3 EDITING_FRAMEWORK/generate_pacing.py
-   ```
-
-2. **Generate the Premiere Sequence:**
-   ```bash
-   python3 EDITING_FRAMEWORK/generate_xml.py
-   ```
-
-3. **Import to Premiere:**
-   Simply drag the generated `EDITING_FRAMEWORK/memorial_sequence.xml` directly into Premiere Pro. It will instantly build out your timeline with all 513 photos perfectly ordered.
-
-## Pending Tasks / Next Steps
-- **Audio Mixing:** The 2-hour Spotify playlist needs to be edited down to fit the 17.1-minute timeline, and the intro talking segment must be stripped from the "I'ma Warrior" military track. This can be done via FFmpeg scripts or manually inside Premiere.
+**🚨 ULTIMATE END GOAL:** Remember that this entire web app is just a staging environment. At the end of the day, whatever changes the user makes in `player_v2.html` MUST be pushed out to a valid **FCP7 Premiere XML** (via `generate_xml.py`). Any features you build for adding/removing photos must perfectly update `master_timeline.json` so the XML generator can successfully export the timeline back into Premiere.

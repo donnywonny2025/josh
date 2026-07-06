@@ -31,8 +31,12 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             return self._serve_file(FRAMEWORK / "builder.html", "text/html")
         if path == "/player":
             return self._serve_file(FRAMEWORK / "player.html", "text/html")
+        if path == "/player_v2":
+            return self._serve_file(FRAMEWORK / "player_v2.html", "text/html")
         if path == "/faces":
             return self._serve_file(FRAMEWORK / "faces.html", "text/html")
+        if path == "/advanced":
+            return self._serve_file(FRAMEWORK / "advanced.html", "text/html")
         
         # --- FOLDER/PHOTO APIs ---
         if path == "/api/folders":
@@ -75,7 +79,11 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             labels_file = FRAMEWORK / "face_data" / "face_labels.json"
             return self._json(json.loads(labels_file.read_text()) if labels_file.exists() else {})
 
-        
+        # --- AUDIO TIMELINE API ---
+        if path == "/api/audio-timeline":
+            audio_file = FRAMEWORK / "audio_timeline.json"
+            return self._json(json.loads(audio_file.read_text()) if audio_file.exists() else [])
+
         # --- SEQUENCE APIs ---
         if path == "/api/sequences":
             seqs = []
@@ -122,7 +130,43 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         # --- SERVE PHOTOS ---
         if path.startswith("/photos/"):
             rel = path[len("/photos/"):]
-            file_path = PHOTOS / rel
+            target_path = PHOTOS / rel
+            if target_path.is_file():
+                range_header = self.headers.get("Range")
+                total_size = target_path.stat().st_size
+                with open(target_path, "rb") as fh:
+                    if range_header:
+                        import re
+                        r_match = re.match(r"bytes=(\d+)-(\d*)", range_header)
+                        if r_match:
+                            start = int(r_match.group(1))
+                            end_str = r_match.group(2)
+                            end = int(end_str) if end_str else total_size - 1
+                            length = end - start + 1
+                            self.send_response(206)
+                            self.send_header("Content-Range", f"bytes {start}-{end}/{total_size}")
+                        else:
+                            start, length = 0, total_size
+                            self.send_response(200)
+                    else:
+                        start, length = 0, total_size
+                        self.send_response(200)
+                    ct = self._content_type(target_path.suffix.lower())
+                    self.send_header("Content-Type", ct)
+                    self.send_header("Content-Length", str(length))
+                    self.send_header("Cache-Control", "public, max-age=86400")
+                    self.send_header("Accept-Ranges", "bytes")
+                    self.end_headers()
+                    fh.seek(start)
+                    self.wfile.write(fh.read(length))
+                return
+            self.send_error(404)
+            return
+            
+        # --- SERVE PROXIES ---
+        if path.startswith("/proxies/"):
+            rel = path[len("/proxies/"):]
+            file_path = PROJECT / "Proxies" / rel
             if file_path.is_file():
                 self.send_response(200)
                 ct = self._content_type(file_path.suffix.lower())
@@ -131,7 +175,11 @@ class Handler(http.server.SimpleHTTPRequestHandler):
                 self.send_header("Cache-Control", "public, max-age=86400")
                 self.end_headers()
                 with open(file_path, "rb") as fh:
-                    self.wfile.write(fh.read())
+                    try:
+                        import shutil
+                        shutil.copyfileobj(fh, self.wfile)
+                    except (BrokenPipeError, ConnectionResetError):
+                        pass
                 return
             self.send_error(404)
             return
@@ -147,14 +195,33 @@ class Handler(http.server.SimpleHTTPRequestHandler):
                     target_path = f
                     break
             if target_path:
-                self.send_response(200)
-                ct = self._content_type(target_path.suffix.lower())
-                self.send_header("Content-Type", ct)
-                self.send_header("Content-Length", str(target_path.stat().st_size))
-                self.send_header("Cache-Control", "public, max-age=86400")
-                self.end_headers()
+                range_header = self.headers.get("Range")
+                total_size = target_path.stat().st_size
                 with open(target_path, "rb") as fh:
-                    self.wfile.write(fh.read())
+                    if range_header:
+                        import re
+                        r_match = re.match(r"bytes=(\d+)-(\d*)", range_header)
+                        if r_match:
+                            start = int(r_match.group(1))
+                            end_str = r_match.group(2)
+                            end = int(end_str) if end_str else total_size - 1
+                            length = end - start + 1
+                            self.send_response(206)
+                            self.send_header("Content-Range", f"bytes {start}-{end}/{total_size}")
+                        else:
+                            start, length = 0, total_size
+                            self.send_response(200)
+                    else:
+                        start, length = 0, total_size
+                        self.send_response(200)
+                    ct = self._content_type(target_path.suffix.lower())
+                    self.send_header("Content-Type", ct)
+                    self.send_header("Content-Length", str(length))
+                    self.send_header("Cache-Control", "public, max-age=86400")
+                    self.send_header("Accept-Ranges", "bytes")
+                    self.end_headers()
+                    fh.seek(start)
+                    self.wfile.write(fh.read(length))
                 return
             self.send_error(404)
             return
@@ -170,7 +237,11 @@ class Handler(http.server.SimpleHTTPRequestHandler):
                 self.send_header("Cache-Control", "public, max-age=3600")
                 self.end_headers()
                 with open(file_path, "rb") as fh:
-                    self.wfile.write(fh.read())
+                    try:
+                        import shutil
+                        shutil.copyfileobj(fh, self.wfile)
+                    except (BrokenPipeError, ConnectionResetError):
+                        pass
                 return
         
         # --- SERVE STATIC FILES ---
@@ -211,6 +282,118 @@ class Handler(http.server.SimpleHTTPRequestHandler):
                 (face_data_dir / "face_labels.json").write_text(json.dumps(body["labels"], indent=2))
             return self._json({"ok": True, "count": len(body.get("labels", {}))})
         
+        if path == "/api/export_xml":
+            import xml.etree.ElementTree as ET
+            from xml.dom import minidom
+            
+            master_file = SEQUENCES_DIR / "master_timeline.json"
+            if not master_file.exists():
+                return self._json({"error": "master_timeline not found"}, 404)
+            data = json.loads(master_file.read_text())
+            slides = data.get("slides", [])
+            
+            xmeml = ET.Element("xmeml", version="5")
+            project = ET.SubElement(xmeml, "project")
+            ET.SubElement(project, "name").text = "Josh_Master_Sequence"
+            children = ET.SubElement(project, "children")
+            
+            sequence = ET.SubElement(children, "sequence", id="master_sequence")
+            ET.SubElement(sequence, "name").text = "Josh Master"
+            
+            rate = ET.SubElement(sequence, "rate")
+            ET.SubElement(rate, "timebase").text = "30"
+            ET.SubElement(rate, "ntsc").text = "FALSE"
+            
+            media = ET.SubElement(sequence, "media")
+            video = ET.SubElement(media, "video")
+            format_el = ET.SubElement(video, "format")
+            sc = ET.SubElement(format_el, "samplecharacteristics")
+            sc_rate = ET.SubElement(sc, "rate")
+            ET.SubElement(sc_rate, "timebase").text = "30"
+            ET.SubElement(sc_rate, "ntsc").text = "FALSE"
+            ET.SubElement(sc, "width").text = "1920"
+            ET.SubElement(sc, "height").text = "1080"
+            
+            v_track = ET.SubElement(video, "track")
+            
+            current_frame = 0
+            for idx, sl in enumerate(slides):
+                dur = sl.get("duration_frames", 150)
+                
+                if sl.get("isPlaceholder"):
+                    current_frame += dur
+                    continue
+                
+                clipitem = ET.SubElement(v_track, "clipitem", id=f"clip_{idx}")
+                if sl.get("isCard"):
+                    ET.SubElement(clipitem, "name").text = sl.get("title", "Card")
+                else:
+                    ET.SubElement(clipitem, "name").text = sl.get("file", f"Slide_{idx}")
+                    
+                ET.SubElement(clipitem, "duration").text = str(dur)
+                
+                rate_el = ET.SubElement(clipitem, "rate")
+                ET.SubElement(rate_el, "timebase").text = "30"
+                ET.SubElement(rate_el, "ntsc").text = "FALSE"
+                
+                ET.SubElement(clipitem, "start").text = str(current_frame)
+                ET.SubElement(clipitem, "end").text = str(current_frame + dur)
+                ET.SubElement(clipitem, "in").text = "0"
+                ET.SubElement(clipitem, "out").text = str(dur)
+                
+                if not sl.get("isCard"):
+                    file_el = ET.SubElement(clipitem, "file", id=f"file_{idx}")
+                    ET.SubElement(file_el, "name").text = sl.get("file")
+                    file_path = f"file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/{sl.get('folder')}/{sl.get('file')}"
+                    ET.SubElement(file_el, "pathurl").text = urllib.parse.quote(file_path, safe='/:')
+                
+                current_frame += dur
+                
+            ET.SubElement(sequence, "duration").text = str(current_frame)
+            
+            audio = ET.SubElement(media, "audio")
+            ET.SubElement(audio, "numOutputChannels").text = "2"
+            format_el = ET.SubElement(audio, "format")
+            sc = ET.SubElement(format_el, "samplecharacteristics")
+            ET.SubElement(sc, "depth").text = "16"
+            ET.SubElement(sc, "samplerate").text = "48000"
+            
+            a_track1 = ET.SubElement(audio, "track")
+            a_track2 = ET.SubElement(audio, "track")
+            
+            for t_idx, a_track in enumerate([a_track1, a_track2]):
+                clipitem = ET.SubElement(a_track, "clipitem", id=f"audio_clip_{t_idx}")
+                ET.SubElement(clipitem, "name").text = "Master.mp3"
+                ET.SubElement(clipitem, "duration").text = str(current_frame)
+                rate_el = ET.SubElement(clipitem, "rate")
+                ET.SubElement(rate_el, "timebase").text = "30"
+                ET.SubElement(rate_el, "ntsc").text = "FALSE"
+                
+                ET.SubElement(clipitem, "start").text = "0"
+                ET.SubElement(clipitem, "end").text = str(current_frame)
+                ET.SubElement(clipitem, "in").text = "0"
+                ET.SubElement(clipitem, "out").text = str(current_frame)
+                
+                file_el = ET.SubElement(clipitem, "file", id="master_audio_file" if t_idx == 0 else "")
+                if t_idx == 0:
+                    ET.SubElement(file_el, "name").text = "Master.mp3"
+                    file_path = "file://localhost/Volumes/Extreme SSD/JOSH/Music/Master.mp3"
+                    ET.SubElement(file_el, "pathurl").text = urllib.parse.quote(file_path, safe='/:')
+                
+                sourcetrack = ET.SubElement(clipitem, "sourcetrack")
+                ET.SubElement(sourcetrack, "mediatype").text = "audio"
+                ET.SubElement(sourcetrack, "trackindex").text = str(t_idx + 1)
+            
+            xmlstr = minidom.parseString(ET.tostring(xmeml)).toprettyxml(indent="  ")
+            xmlstr = xmlstr.replace('<?xml version="1.0" ?>', '<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE xmeml>')
+            
+            self.send_response(200)
+            self.send_header("Content-Type", "application/xml")
+            self.send_header("Content-Disposition", 'attachment; filename="Josh_Master_Sequence.xml"')
+            self.end_headers()
+            self.wfile.write(xmlstr.encode("utf-8"))
+            return
+
         self.send_error(404)
     
     def do_DELETE(self):
@@ -236,6 +419,9 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             content_type = self._content_type(filepath.suffix.lower())
         self.send_response(200)
         self.send_header("Content-Type", content_type)
+        self.send_header("Cache-Control", "no-store, no-cache, must-revalidate, max-age=0")
+        self.send_header("Pragma", "no-cache")
+        self.send_header("Expires", "0")
         self.end_headers()
         with open(filepath, "rb") as f:
             self.wfile.write(f.read())
@@ -260,8 +446,8 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         pass
 
 if __name__ == "__main__":
-    socketserver.TCPServer.allow_reuse_address = True
-    with socketserver.TCPServer(("", PORT), Handler) as httpd:
+    socketserver.ThreadingTCPServer.allow_reuse_address = True
+    with socketserver.ThreadingTCPServer(("", PORT), Handler) as httpd:
         print(f"Josh Memorial server v2 — http://localhost:{PORT}")
         print(f"  Browser: /  |  Builder: /builder  |  Player: /player")
         print(f"  Photos: {PHOTOS}")

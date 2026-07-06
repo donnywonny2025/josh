@@ -33,7 +33,7 @@ body { font-family:'Inter',sans-serif; background:#0a0a0f; color:#e0e0e8; height
 .pool-item .face-badge { position:absolute; top:2px; left:2px; background:rgba(74,158,255,0.85); color:#fff; font-size:8px; font-weight:600; padding:1px 4px; border-radius:3px; z-index:2; max-width:90%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
 
 /* MAIN */
-.main { display:flex; flex:1; overflow:hidden; }
+.main { display:flex; flex-direction:column; flex:1; overflow:hidden; }
 
 /* PHOTO POOL */
 .pool { width:280px; background:#0e0e15; border-right:1px solid #222; display:flex; flex-direction:column; flex-shrink:0; }
@@ -48,6 +48,32 @@ body { font-family:'Inter',sans-serif; background:#0a0a0f; color:#e0e0e8; height
 .pool-item.in-seq::after { content:'✓'; position:absolute; top:2px; right:4px; color:#34d399; font-size:12px; font-weight:700; }
 .pool-item img { width:100%; height:100%; object-fit:cover; }
 .pool-item .name { position:absolute; bottom:0; left:0; right:0; font-size:8px; color:#aaa; background:linear-gradient(transparent, rgba(0,0,0,0.8)); padding:8px 3px 2px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+
+
+/* NLE TIMELINE */
+:root { --z: 2; }
+.top-stage { display:flex; flex:1; overflow:hidden; }
+.timeline-wrapper { height:35vh; background:#111118; display:flex; flex-direction:column; border-top:1px solid #333; flex-shrink:0; }
+.zoom-controls { padding:4px 12px; display:flex; align-items:center; gap:8px; background:#0a0a0f; border-bottom:1px solid #222; color:#aaa; font-size:12px; }
+.zoom-controls input[type="range"] { flex:1; max-width:200px; cursor:pointer; }
+.timeline-container { flex:1; overflow-x:auto; overflow-y:hidden; position:relative; background:#111; }
+.timeline-container::-webkit-scrollbar { height: 10px; }
+.timeline-container::-webkit-scrollbar-thumb { background: #555; border-radius: 5px; }
+.timeline-tracks { position:relative; height:100%; display:flex; flex-direction:column; }
+.tl-track { position:relative; border-bottom:1px solid #222; background:#1a1a22; }
+.tl-track#trackCards { height:25px; background:#15151a; border-bottom:2px solid #333; flex-shrink:0; }
+.tl-track#trackMedia { flex:1; }
+
+.tl-item, .tl-card, .tl-slot { position:absolute; top:0; bottom:0; border-right:1px solid #000; box-sizing:border-box; cursor:pointer; overflow:hidden; left:calc(var(--f-start) * var(--z) * 1px); width:calc(var(--f-dur) * var(--z) * 1px); }
+.tl-item img { width:100%; height:100%; object-fit:cover; opacity:0.6; pointer-events:none; }
+.tl-item:hover, .tl-card:hover, .tl-slot:hover { filter:brightness(1.3); z-index:10; }
+.tl-item.active, .tl-card.active, .tl-slot.active { border:2px solid #4a9eff; z-index:20; }
+.tl-item.active img { opacity:1; }
+
+.tl-card { background:#3a3a4a; display:flex; align-items:center; padding-left:8px; color:#fff; font-size:11px; font-weight:bold; white-space:nowrap; text-overflow:ellipsis; border-bottom:none; }
+.tl-slot { background:#222; display:flex; align-items:center; justify-content:center; color:#555; font-size:10px; border-style:dashed; border-width:1px; border-color:#444; }
+.playhead { position:absolute; top:0; bottom:0; width:2px; background:#ff3333; z-index:50; pointer-events:none; left:calc(var(--f-play) * var(--z) * 1px); }
+.playhead::before { content:""; position:absolute; top:0; left:-4px; width:10px; height:10px; background:#ff3333; border-radius:50%; }
 
 /* SEQUENCE TIMELINE */
 .timeline { flex:1; display:flex; flex-direction:column; overflow:hidden; }
@@ -91,6 +117,7 @@ body { font-family:'Inter',sans-serif; background:#0a0a0f; color:#e0e0e8; height
   <a href="/">Browser</a>
   <a href="/builder" class="active">Builder</a>
   <a href="/player">Player</a>
+  <a href="/player_v2">Player V2</a>
   <a href="/faces">Face ID</a>
 </div>
 
@@ -105,32 +132,42 @@ body { font-family:'Inter',sans-serif; background:#0a0a0f; color:#e0e0e8; height
   <span style="font-size:11px;color:#555">sec</span>
   <button class="btn play" id="btnPreview">▶ Preview</button>
   <button class="btn" id="btnPlayer">Open in Player</button>
+  <button class="btn play" id="btnAdvanced" style="background:rgba(236,72,153,0.15);border-color:rgba(236,72,153,0.3);color:#ec4899">🎥 Advanced Player</button>
   <div class="song-info" id="songInfo"></div>
   <div class="duration-info" id="durationInfo"></div>
 </div>
 
 <div class="main">
-  <!-- Photo Pool -->
-  <div class="pool">
-    <div class="pool-header">
-      <select id="poolFolder"></select>
-      <button class="btn" id="btnAddAll" title="Add all photos from this folder">+ All</button>
+  <div class="top-stage">
+    <!-- Photo Pool -->
+    <div class="pool">
+      <div class="pool-header">
+        <select id="poolFolder"></select>
+        <button class="btn" id="btnAddAll" title="Add all photos from this folder">+ All</button>
+      </div>
+      <div class="pool-grid" id="poolGrid"></div>
     </div>
-    <div class="pool-grid" id="poolGrid"></div>
+
+    <!-- Preview Panel -->
+    <div class="preview" id="previewPanel">
+      <div class="empty-msg"><div class="icon">👁</div><div class="text">Hover a slide to preview</div></div>
+    </div>
   </div>
 
-  <!-- Sequence Timeline -->
-  <div class="timeline">
-    <div class="timeline-header">
-      <span id="timelineTitle">Sequence</span>
-      <span id="timelineStats"></span>
+  <!-- NLE Timeline -->
+  <div class="timeline-wrapper">
+    <div class="zoom-controls">
+        <label>Zoom:</label>
+        <input type="range" id="zoomSlider" min="0.5" max="15" step="0.1" value="2" oninput="updateZoom()">
+        <span id="timelineStats" style="margin-left:auto;"></span>
     </div>
-    <div class="timeline-list" id="timelineList"></div>
-  </div>
-
-  <!-- Preview Panel -->
-  <div class="preview" id="previewPanel">
-    <div class="empty-msg"><div class="icon">👁</div><div class="text">Hover a slide to preview</div></div>
+    <div class="timeline-container" id="timelineContainer">
+        <div class="timeline-tracks" id="timelineTracks">
+            <div class="tl-track" id="trackCards"></div>
+            <div class="tl-track" id="trackMedia"></div>
+            <div class="playhead" id="playhead"></div>
+        </div>
+    </div>
   </div>
 </div>
 
@@ -168,9 +205,20 @@ async function init() {
   faceLabels = lResp;
   buildFaceMap();
   
-  populateSectionSelect();
   populatePoolFolderSelect();
-  updateStatus();
+  
+  // Load master timeline directly
+  fetch('/api/sequences/master_timeline')
+    .then(r => r.json())
+    .then(data => {
+       sequence = data;
+       if(!sequence.slides) sequence.slides = [];
+       renderTimeline();
+       updateStatus();
+    })
+    .catch(e => {
+       console.error("No master timeline found", e);
+    });
 }
 
 function buildFaceMap() {
@@ -481,6 +529,12 @@ document.getElementById('btnPreview').onclick = () => {
 document.getElementById('btnPlayer').onclick = () => {
   if (sequence.section_id) {
     window.open(`/player?seq=${sequence.section_id}`, '_blank');
+  }
+};
+
+document.getElementById('btnAdvanced').onclick = () => {
+  if (sequence.section_id) {
+    window.open(`/advanced?seq=${sequence.section_id}`, '_blank');
   }
 };
 

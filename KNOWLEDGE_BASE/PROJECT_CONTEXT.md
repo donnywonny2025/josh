@@ -48,6 +48,11 @@ The following individuals have been visually tagged and correlated into the `SOR
 
 ## Deliverables & Technical Approach
 **1. Event Video:** Standalone video file curated with music, transitions, and pacing. Length determined by 17.1-minute auto-generated limit. (Note: Using all 502 photos at a standard 6s Ken Burns pace would run ~50 minutes, so we must either heavily curate the photo pool, or use dynamic/montage pacing).
+
+**2. The NLE XML Pipeline (Premiere Pro):**
+We are using a custom local web app to build sequences and output FCP7 XML files for Premiere. The XML logic auto-scales photos to fill a 1080p frame and uses Basic Motion to pan exactly to the facial focus coordinates chosen in the app. 
+*See the full technical protocol for bypassing Premiere's photo import bugs:* [Premiere_Photo_Import_Protocol.md](file:///Volumes/Extreme%20SSD/JOSH/KNOWLEDGE_BASE/Premiere_Photo_Import_Protocol.md)
+
 **2. Looping Slideshow:** Plays on loop during gathering. Broader selection, ambient audio.
 
 **Pipeline:**
