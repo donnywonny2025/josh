@@ -1,1820 +1,1798 @@
 {
-    "slides": [
-        {
-            "type": "title",
-            "title": "Joshua Michael Burns",
-            "duration_sec": 5.04,
-            "duration_frames": 151,
-            "sectionName": "Intro",
-            "isCard": true
-        },
-        {
-            "folder": "Josh - Family",
-            "file": "photos 1990_20171213_0055.jpg",
-            "duration_sec": 3.5514,
-            "transition": "crossfade",
-            "sectionName": "Early Pictures",
-            "duration_frames": 85,
-            "isPlaceholder": false,
-            "focus": [
-                52.38259668508287,
-                57.858649789029535
-            ]
-        },
-        {
-            "folder": "Josh - Family",
-            "file": "1991 photos_20171213_0043.jpg",
-            "duration_sec": 3.5527,
-            "transition": "crossfade",
-            "sectionName": "Early Pictures",
-            "duration_frames": 85,
-            "isPlaceholder": false,
-            "focus": [
-                51.79045092838196,
-                50.968992248062015
-            ]
-        },
-        {
-            "folder": "Josh and Friends",
-            "file": "1991 photos_20171213_0002.jpg",
-            "duration_sec": 3.5294,
-            "transition": "crossfade",
-            "sectionName": "Early Pictures",
-            "duration_frames": 85,
-            "isPlaceholder": false,
-            "focus": [
-                22.49251497005988,
-                48.56321839080459
-            ]
-        },
-        {
-            "folder": "Josh and Friends",
-            "file": "1991 photos_20171213_0071.jpg",
-            "duration_sec": 3.5527,
-            "transition": "crossfade",
-            "sectionName": "Early Pictures",
-            "duration_frames": 85,
-            "isPlaceholder": false,
-            "focus": [
-                45.95070422535211,
-                37.530266343825666
-            ]
-        },
-        {
-            "folder": "Just Josh",
-            "file": "1991 photos_20171213_0051.jpg",
-            "duration_sec": 3.5759,
-            "transition": "crossfade",
-            "sectionName": "Early Pictures",
-            "duration_frames": 86,
-            "isPlaceholder": false,
-            "focus": [
-                41.25,
-                25.558035714285715
-            ]
-        },
-        {
-            "folder": "Josh school years",
-            "file": "1994 Photos_20171213_0016.jpg",
-            "duration_sec": 3.483,
-            "transition": "crossfade",
-            "sectionName": "Early Pictures",
-            "duration_frames": 84,
-            "isPlaceholder": false,
-            "focus": [
-                68.64035087719299,
-                43.39519650655022
-            ]
-        },
-        {
-            "folder": "Josh - Family",
-            "file": "1995_20171214_0012.JPG",
-            "duration_sec": 3.5062,
-            "transition": "crossfade",
-            "focus": [
-                56.6566265060241,
-                42.51858736059479
-            ],
-            "sectionName": "Early Pictures",
-            "duration_frames": 84,
-            "isPlaceholder": false
-        },
-        {
-            "folder": "Baby & toddler Josh",
-            "file": "Photo May 24 2026, 10 34 49 AM.jpg",
-            "duration_sec": 3.5062,
-            "transition": "crossfade",
-            "sectionName": "Early Pictures",
-            "duration_frames": 84,
-            "isPlaceholder": false,
-            "focus": [
-                53.93020796616143,
-                40.46052631578947
-            ]
-        },
-        {
-            "folder": "Baby & toddler Josh",
-            "file": "Photo May 24 2026, 10 33 02 AM.jpg",
-            "duration_sec": 3.4598,
-            "transition": "crossfade",
-            "sectionName": "Early Pictures",
-            "duration_frames": 83,
-            "isPlaceholder": false,
-            "focus": [
-                55.32121998702142,
-                18.901384083044984
-            ]
-        },
-        {
-            "folder": "Baby & toddler Josh",
-            "file": "Photo May 24 2026, 10 32 05 AM.jpg",
-            "duration_sec": 3.5759,
-            "transition": "crossfade",
-            "sectionName": "Early Pictures",
-            "duration_frames": 86,
-            "isPlaceholder": false
-        },
-        {
-            "folder": "Baby & toddler Josh",
-            "file": "Photo May 24 2026, 10 32 52 AM.jpg",
-            "duration_sec": 3.5062,
-            "transition": "crossfade",
-            "sectionName": "Early Pictures",
-            "duration_frames": 84,
-            "isPlaceholder": false,
-            "focus": [
-                52.01222618441162,
-                52.25362872421696
-            ]
-        },
-        {
-            "folder": "Josh school years",
-            "file": "Photo May 24 2026, 10 33 58 AM.jpg",
-            "duration_sec": 3.3437,
-            "transition": "crossfade",
-            "sectionName": "Early Pictures",
-            "duration_frames": 80,
-            "isPlaceholder": false,
-            "focus": [
-                63.45261762756793,
-                70.36219081272085
-            ]
-        },
-        {
-            "folder": "Josh school years",
-            "file": "IMG_1460.JPG",
-            "duration_sec": 3.3205,
-            "transition": "crossfade",
-            "focus": [
-                50.88495575221239,
-                22.01492537313433
-            ],
-            "sectionName": "Early Pictures",
-            "duration_frames": 80,
-            "isPlaceholder": false
-        },
-        {
-            "folder": "Baby & toddler Josh",
-            "file": "IMG_20171212_0336.jpg",
-            "duration_sec": 3.6223,
-            "transition": "crossfade",
-            "sectionName": "Early Pictures",
-            "duration_frames": 87,
-            "isPlaceholder": false,
-            "focus": [
-                46.82779456193353,
-                32.20338983050847
-            ]
-        },
-        {
-            "folder": "Baby & toddler Josh",
-            "file": "IMG_20171212_0358.jpg",
-            "duration_sec": 3.6223,
-            "transition": "crossfade",
-            "focus": [
-                49.24698795180723,
-                33.05084745762712
-            ],
-            "sectionName": "Early Pictures",
-            "duration_frames": 87,
-            "isPlaceholder": false
-        },
-        {
-            "folder": "Baby & toddler Josh",
-            "file": "IMG_1459.JPG",
-            "duration_sec": 3.5294,
-            "transition": "crossfade",
-            "sectionName": "Early Pictures",
-            "duration_frames": 85,
-            "isPlaceholder": false,
-            "focus": [
-                43.407310704960835,
-                49.0343347639485
-            ]
-        },
-        {
-            "folder": "Baby & toddler Josh",
-            "file": "IMG_20171212_0277.jpg",
-            "duration_sec": 3.5759,
-            "transition": "crossfade",
-            "sectionName": "Early Pictures",
-            "duration_frames": 86,
-            "isPlaceholder": false
-        },
-        {
-            "folder": "Baby & toddler Josh",
-            "file": "IMG_20171212_0275.jpg",
-            "duration_sec": 3.5759,
-            "transition": "crossfade",
-            "sectionName": "Early Pictures",
-            "duration_frames": 86,
-            "isPlaceholder": false,
-            "focus": [
-                58.78839590443686,
-                29.51923076923077
-            ]
-        },
-        {
-            "folder": "Josh school years",
-            "file": "School photos_20171213_0015.jpg",
-            "duration_sec": 3.0708,
-            "transition": "crossfade",
-            "sectionName": "Early Pictures",
-            "duration_frames": 74,
-            "isPlaceholder": false,
-            "focus": [
-                55.497382198952884,
-                34.09552845528455
-            ]
-        },
-        {
-            "duration_sec": 5.1259,
-            "sectionName": "Family, High School",
-            "file": "2000_20180203_0036.jpg",
-            "folder": "Josh - Family",
-            "duration_frames": 123,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                48.733108108108105,
-                46.62921348314607
-            ]
-        },
-        {
-            "duration_sec": 5.2709,
-            "sectionName": "Family, High School",
-            "file": "2005_20180203_0037.jpg",
-            "folder": "save a place for me",
-            "duration_frames": 127,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                56.46162528216704,
-                57.54237288135593
-            ]
-        },
-        {
-            "duration_sec": 5.2709,
-            "sectionName": "Family, High School",
-            "file": "IMG_0363.JPG",
-            "folder": "Josh - Family",
-            "duration_frames": 127,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                52.0,
-                48.0
-            ]
-        },
-        {
-            "duration_sec": 3.6776,
-            "sectionName": "Family, High School",
-            "file": "2006_20180203_0018.jpg",
-            "folder": "Josh - Family",
-            "duration_frames": 88,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                56.208053691275175,
-                65.83946078431373
-            ]
-        },
-        {
-            "duration_sec": 5.3406,
-            "sectionName": "Family, High School",
-            "file": "IMG_0874_Original.jpg",
-            "folder": "Josh\u2019s places and travel",
-            "duration_frames": 128,
-            "transition": "crossfade",
-            "isPlaceholder": false
-        },
-        {
-            "duration_sec": 5.3638,
-            "sectionName": "Family, High School",
-            "file": "IMG_0911_Original.jpg",
-            "folder": "Josh\u2019s places and travel",
-            "duration_frames": 129,
-            "transition": "crossfade",
-            "isPlaceholder": false
-        },
-        {
-            "duration_sec": 4.7137,
-            "sectionName": "Family, High School",
-            "file": "img_2475_Original.jpg",
-            "folder": "Josh - Family",
-            "duration_frames": 113,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                54.3125,
-                37.0
-            ]
-        },
-        {
-            "duration_sec": 4.9923,
-            "sectionName": "Family, High School",
-            "file": "Photo Feb 23 2021, 5 47 07 PM.jpg",
-            "folder": "Josh and Friends",
-            "duration_frames": 120,
-            "transition": "crossfade",
-            "isPlaceholder": false
-        },
-        {
-            "duration_sec": 5.387,
-            "sectionName": "Family, High School",
-            "file": "Photo Feb 23 2021, 5 29 26 PM.jpg",
-            "folder": "Josh - Family",
-            "duration_frames": 129,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                43.1,
-                61.1
-            ]
-        },
-        {
-            "duration_sec": 4.7369,
-            "sectionName": "Family, High School",
-            "file": "Photo May 24 2026, 10 36 03 AM.jpg",
-            "folder": "Josh and Friends",
-            "duration_frames": 114,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                50.73500198649186,
-                28.934817170111288
-            ]
-        },
-        {
-            "duration_sec": 5.4567,
-            "sectionName": "Family, High School",
-            "file": "Photo Jun 06 2026, 9 57 14 AM.jpg",
-            "folder": "Josh - Family",
-            "duration_frames": 131,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                54.00254129606099,
-                44.93048491013903
-            ]
-        },
-        {
-            "duration_sec": 5.3406,
-            "sectionName": "Family, High School",
-            "file": "Photo Jun 06 2026, 9 56 10 AM.jpg",
-            "folder": "Josh - Family",
-            "duration_frames": 128,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                28.480529396793074,
-                45.840407470288625
-            ]
-        },
-        {
-            "duration_sec": 4.7601,
-            "sectionName": "Family, High School",
-            "file": "Photo Jun 06 2026, 9 57 43 AM.jpg",
-            "folder": "Josh - Family",
-            "duration_frames": 114,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                52.865293971719176,
-                43.764472378432025
-            ]
-        },
-        {
-            "duration_sec": 5.4102,
-            "sectionName": "Family, High School",
-            "file": "IMG_20171212_0352.jpg",
-            "folder": "save a place for me",
-            "duration_frames": 130,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                43.65558912386707,
-                36.486486486486484
-            ]
-        },
-        {
-            "duration_sec": 5.3638,
-            "sectionName": "Family, High School",
-            "file": "Josh Random_20180206_0001.jpg",
-            "folder": "save a place for me",
-            "duration_frames": 129,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                46.65127020785219,
-                40.773809523809526
-            ]
-        },
-        {
-            "duration_sec": 4.644,
-            "sectionName": "Family, High School",
-            "file": "Josh Random_20180206_0007.jpg",
-            "folder": "Josh and Friends",
-            "duration_frames": 111,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                43.36283185840708,
-                24.300373134328357
-            ]
-        },
-        {
-            "duration_sec": 5.2477,
-            "sectionName": "Family, High School",
-            "file": "millerc-r1-024-10a.jpg",
-            "folder": "Josh\u2019s places and travel",
-            "duration_frames": 126,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                66.0,
-                44.8559670781893
-            ]
-        },
-        {
-            "duration_sec": 5.2709,
-            "sectionName": "Family, High School",
-            "file": "006_6.jpg",
-            "folder": "Josh\u2019s places and travel",
-            "duration_frames": 127,
-            "transition": "crossfade",
-            "isPlaceholder": false
-        },
-        {
-            "duration_sec": 4.9163,
-            "sectionName": "Family, High School",
-            "file": "IMG_1249.JPG",
-            "folder": "Josh\u2019s places and travel",
-            "duration_frames": 118,
-            "transition": "crossfade",
-            "isPlaceholder": false
-        },
-        {
-            "type": "title",
-            "title": "United States Navy Explosive Ordnance Disposal (EOD) Group Shot",
-            "duration_sec": 10.17,
-            "duration_frames": 305,
-            "isCard": true
-        },
-        {
-            "duration_sec": 5.3585,
-            "sectionName": "Military Picts",
-            "file": "IMG_0338.JPG",
-            "folder": "Josh - Military",
-            "duration_frames": 129,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                44.25,
-                31.166666666666664
-            ]
-        },
-        {
-            "duration_sec": 5.3585,
-            "sectionName": "Military Picts",
-            "file": "IMG_0355.JPG",
-            "folder": "Josh - Military",
-            "duration_frames": 129,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                50.625,
-                40.33333333333333
-            ]
-        },
-        {
-            "duration_sec": 5.3585,
-            "sectionName": "Military Picts",
-            "file": "IMG_0359.JPG",
-            "folder": "Josh - Military",
-            "duration_frames": 129,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                42.125,
-                42.083333333333336
-            ]
-        },
-        {
-            "duration_sec": 5.3585,
-            "sectionName": "Military Picts",
-            "file": "2009_20180203_0007_Original.jpg",
-            "folder": "Josh - Military",
-            "duration_frames": 129,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                63.68778280542986,
-                48.61577181208054
-            ]
-        },
-        {
-            "duration_sec": 5.3585,
-            "sectionName": "Military Picts",
-            "file": "2009_20180203_0020_Original.jpg",
-            "folder": "Josh - Military",
-            "duration_frames": 129,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                48.955981941309254,
-                49.20411985018727
-            ]
-        },
-        {
-            "duration_sec": 5.3585,
-            "sectionName": "Military Picts",
-            "file": "Photo May 24 2026, 10 33 20 AM.jpg",
-            "folder": "Josh - Military",
-            "duration_frames": 129,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                56.3161875945537,
-                57.99293998991427
-            ]
-        },
-        {
-            "duration_sec": 5.3585,
-            "sectionName": "Military Picts",
-            "file": "Photo May 24 2026, 10 37 21 AM.jpg",
-            "folder": "Josh - Military",
-            "duration_frames": 129,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                37.69858308286818,
-                24.863123993558776
-            ]
-        },
-        {
-            "duration_sec": 5.3585,
-            "sectionName": "Military Picts",
-            "file": "Photo May 18 2026, 7 11 52 PM.jpg",
-            "folder": "Josh - Military",
-            "duration_frames": 129,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                69.10229645093946,
-                35.138888888888886
-            ]
-        },
-        {
-            "duration_sec": 5.3585,
-            "sectionName": "Military Picts",
-            "file": "IMG_1180.JPG",
-            "folder": "Josh - Military",
-            "duration_frames": 129,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                45.445736434108525,
-                44.02332361516035
-            ]
-        },
-        {
-            "duration_sec": 5.3585,
-            "sectionName": "Military Picts",
-            "file": "millerc-r1-024-10a.jpg",
-            "folder": "Josh - Military",
-            "duration_frames": 129,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                66.0,
-                44.8559670781893
-            ]
-        },
-        {
-            "duration_sec": 5.3585,
-            "sectionName": "Military Picts",
-            "file": "IMG_1454.JPG",
-            "folder": "Josh - Military",
-            "duration_frames": 129,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                45.83333333333333,
-                47.325102880658434
-            ]
-        },
-        {
-            "duration_sec": 5.3585,
-            "sectionName": "Military Picts",
-            "file": "millerc-r1-034-15a.jpg",
-            "folder": "Josh - Military",
-            "duration_frames": 129,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                61.83333333333333,
-                29.38271604938272
-            ]
-        },
-        {
-            "duration_sec": 5.3585,
-            "sectionName": "Military Picts",
-            "file": "IMG_1139.JPG",
-            "folder": "Josh - Military",
-            "duration_frames": 129,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                39.697265625,
-                35.9375
-            ]
-        },
-        {
-            "type": "title",
-            "title": "A bond Between Brothers",
-            "duration_sec": 5.67,
-            "duration_frames": 170,
-            "isCard": true
-        },
-        {
-            "id": "slide_8",
-            "file": "1999_20180203_0078.jpg",
-            "folder": "Josh and Friends",
-            "focus": [
-                44.51672862453532,
-                48.74141876430206
-            ],
-            "scale": 121,
-            "duration_sec": 2.3633,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 57,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_26",
-            "file": "2004_20180203_0003.jpg",
-            "folder": "Josh - Family",
-            "focus": [
-                52.24282296650718,
-                32.01013513513514
-            ],
-            "scale": 100,
-            "duration_sec": 1.9969,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 48,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_12",
-            "file": "2005_20180203_0042.jpg",
-            "folder": "save a place for me",
-            "focus": [
-                43.894009216589865,
-                44.78021978021978
-            ],
-            "scale": 105,
-            "duration_sec": 2.3917,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 57,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_20",
-            "file": "2006_20180203_0013.jpg",
-            "folder": "Josh - Family",
-            "focus": [
-                62.7568493150685,
-                38.6744966442953
-            ],
-            "scale": 100,
-            "duration_sec": 1.9737,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 47,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_55",
-            "file": "IMG_1061.jpg",
-            "folder": "Josh - Family",
-            "scale": 100,
-            "duration_sec": 2.4149,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 58,
-            "isPlaceholder": false,
-            "focus": [
-                41.4375,
-                49.333333333333336
-            ]
-        },
-        {
-            "id": "slide_72",
-            "file": "IMG_1060_Original.jpg",
-            "folder": "Josh - Family",
-            "focus": [
-                42.875,
-                42.41666666666667
-            ],
-            "scale": 100,
-            "duration_sec": 1.9737,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 47,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_74",
-            "file": "img_2502_Original.jpg",
-            "folder": "Ben and Josh",
-            "focus": [
-                48.625,
-                41.16666666666667
-            ],
-            "scale": 100,
-            "duration_sec": 2.3684,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 57,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_75",
-            "file": "IMG_6162_Original.jpg",
-            "folder": "Josh - Family",
-            "focus": [
-                59.9609375,
-                39.52901597981497
-            ],
-            "scale": 100,
-            "duration_sec": 1.9505,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 47,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_49",
-            "file": "Photo Jun 04 2017, 3 28 32 PM.jpg",
-            "folder": "Josh - Family",
-            "focus": [
-                50.25676138308799,
-                33.555093555093556
-            ],
-            "scale": 100,
-            "duration_sec": 2.3452,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 56,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_10",
-            "file": "IMG_5002 (1).jpg",
-            "folder": "Josh - Family",
-            "scale": 150,
-            "duration_sec": 1.9737,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 47,
-            "isPlaceholder": false,
-            "focus": [
-                50.25676138308799,
-                33.555093555093556
-            ]
-        },
-        {
-            "id": "slide_51",
-            "file": "CB26E457-622D-4C13-8E9F-F0D3738D0DD3.JPG",
-            "folder": "Josh - Family",
-            "focus": [
-                44.2,
-                52.625
-            ],
-            "scale": 100,
-            "duration_sec": 2.5078,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 60,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_73",
-            "file": "Photo Dec 24 2018, 10 39 53 PM.jpg",
-            "folder": "Josh - Family",
-            "focus": [
-                44.2,
-                52.625
-            ],
-            "scale": 100,
-            "duration_sec": 1.9505,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 47,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_76",
-            "file": "IMG_4627.JPG",
-            "folder": "Josh\u2019s places and travel",
-            "scale": 100,
-            "duration_sec": 2.3917,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 57,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_77",
-            "file": "Photo May 18 2026, 7 16 52 PM (2).jpg",
-            "folder": "Josh - Family",
-            "focus": [
-                51.611328125,
-                35.714285714285715
-            ],
-            "scale": 100,
-            "duration_sec": 2.0898,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 50,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_48",
-            "file": "Photo May 24 2026, 10 32 45 AM.jpg",
-            "folder": "Josh - Family",
-            "focus": [
-                27.492130115424974,
-                36.717827626918535
-            ],
-            "scale": 100,
-            "duration_sec": 2.0201,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 48,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_50",
-            "file": "Photo May 24 2026, 10 34 28 AM.jpg",
-            "folder": "Josh - Family",
-            "focus": [
-                59.71417535728081,
-                39.54685890834192
-            ],
-            "scale": 100,
-            "duration_sec": 2.4149,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 58,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_52",
-            "file": "Photo May 24 2026, 10 37 31 AM.jpg",
-            "folder": "Josh - Family",
-            "focus": [
-                57.654278895329014,
-                44.68181818181819
-            ],
-            "scale": 100,
-            "duration_sec": 1.9737,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 47,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_33",
-            "file": "Photo Jun 06 2026, 9 56 36 AM.jpg",
-            "folder": "Josh - Family",
-            "scale": 100,
-            "duration_sec": 2.3684,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 57,
-            "isPlaceholder": false,
-            "focus": [
-                46.985859588191516,
-                33.80747601720145
-            ]
-        },
-        {
-            "id": "slide_62",
-            "file": "Photo May 24 2026, 10 36 27 AM.jpg",
-            "folder": "Josh - Family",
-            "focus": [
-                50.81018518518518,
-                51.363870303654146
-            ],
-            "scale": 100,
-            "duration_sec": 1.9505,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 47,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_56",
-            "file": "Photo May 24 2026, 10 32 28 AM.jpg",
-            "folder": "Josh - Family",
-            "focus": [
-                31.00124378109453,
-                42.95190713101161
-            ],
-            "scale": 100,
-            "duration_sec": 2.3684,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 57,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_29",
-            "file": "Photo Jun 06 2026, 9 56 18 AM.jpg",
-            "folder": "Josh - Family",
-            "focus": [
-                54.155296452493175,
-                41.61429043996031
-            ],
-            "scale": 100,
-            "duration_sec": 1.9505,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 47,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_64",
-            "file": "Photo May 24 2026, 10 32 16 AM.jpg",
-            "folder": "Josh - Family",
-            "focus": [
-                81.158940397351,
-                61.19205298013245
-            ],
-            "scale": 100,
-            "duration_sec": 2.3452,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 56,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_25",
-            "file": "Photo May 24 2026, 10 37 06 AM.jpg",
-            "folder": "Josh - Family",
-            "focus": [
-                63.21922796795339,
-                37.65792031098154
-            ],
-            "scale": 100,
-            "duration_sec": 1.9737,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 47,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_70",
-            "file": "Photo May 24 2026, 10 35 31 AM.jpg",
-            "folder": "Josh - Family",
-            "focus": [
-                45.08771929824562,
-                55.0561797752809
-            ],
-            "scale": 100,
-            "duration_sec": 2.3452,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 56,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_71",
-            "file": "Photo May 24 2026, 10 36 12 AM.jpg",
-            "folder": "Josh - Family",
-            "focus": [
-                53.1820204717401,
-                47.46328437917223
-            ],
-            "scale": 100,
-            "duration_sec": 1.9505,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 47,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_69",
-            "file": "Photo Jun 06 2026, 9 54 06 AM.jpg",
-            "folder": "Josh - Family",
-            "focus": [
-                55.02356735301414,
-                44.2275884882567
-            ],
-            "scale": 100,
-            "duration_sec": 2.3917,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 57,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_59",
-            "file": "Photo May 24 2026, 10 36 51 AM.jpg",
-            "folder": "Josh - Family",
-            "scale": 100,
-            "duration_sec": 1.9737,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 47,
-            "isPlaceholder": false,
-            "focus": [
-                29.958599924727135,
-                45.910687405920726
-            ]
-        },
-        {
-            "id": "slide_61",
-            "file": "Photo Jun 06 2026, 9 57 35 AM.jpg",
-            "folder": "Josh - Family",
-            "focus": [
-                51.08471074380165,
-                41.08126721763085
-            ],
-            "scale": 100,
-            "duration_sec": 2.3684,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 57,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_27",
-            "file": "Photo May 18 2026, 4 33 29 PM (5).jpg",
-            "folder": "Ben and Josh",
-            "scale": 100,
-            "duration_sec": 1.9505,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 47,
-            "isPlaceholder": false,
-            "focus": [
-                52.77777777777778,
-                20.416666666666668
-            ]
-        },
-        {
-            "id": "slide_60",
-            "file": "Photo May 18 2026, 4 33 29 PM (4).jpg",
-            "folder": "Ben and Josh",
-            "focus": [
-                52.44444444444445,
-                54.61111111111111
-            ],
-            "scale": 100,
-            "duration_sec": 1.9737,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 47,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_28",
-            "file": "Photo May 18 2026, 4 33 29 PM (6).jpg",
-            "folder": "Ben and Josh",
-            "scale": 100,
-            "duration_sec": 2.2756,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 55,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_30",
-            "file": "IMG_20171212_0437.jpg",
-            "folder": "Ben and Josh",
-            "scale": 100,
-            "duration_sec": 1.9969,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 48,
-            "isPlaceholder": false,
-            "focus": [
-                52.90262172284644,
-                48.72727272727273
-            ]
-        },
-        {
-            "id": "slide_31",
-            "file": "IMG_20171212_0432.jpg",
-            "folder": "save a place for me",
-            "scale": 100,
-            "duration_sec": 2.3452,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 56,
-            "isPlaceholder": false,
-            "focus": [
-                60.151515151515156,
-                46.02713178294574
-            ]
-        },
-        {
-            "id": "slide_32",
-            "file": "IMG_1473.JPG",
-            "folder": "Josh\u2019s places and travel",
-            "scale": 100,
-            "duration_sec": 1.904,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 46,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_34",
-            "file": "IMG_0016.JPG",
-            "folder": "Josh - Family",
-            "focus": [
-                40.416666666666664,
-                37.15925394548063
-            ],
-            "scale": 100,
-            "duration_sec": 2.322,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 56,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_37",
-            "file": "IMG_20171212_0437.jpg",
-            "folder": "Josh - Family",
-            "focus": [
-                52.90262172284644,
-                48.72727272727273
-            ],
-            "scale": 113,
-            "duration_sec": 1.9273,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 46,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_38",
-            "file": "IMG_1170.JPG",
-            "folder": "Josh - Family",
-            "scale": 100,
-            "duration_sec": 2.2988,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 55,
-            "isPlaceholder": false,
-            "focus": [
-                51.611328125,
-                35.714285714285715
-            ]
-        },
-        {
-            "id": "slide_39",
-            "file": "IMG_2281.JPG",
-            "folder": "Josh - Family",
-            "focus": [
-                48.75,
-                39.895833333333336
-            ],
-            "scale": 100,
-            "duration_sec": 1.9505,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 47,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_42",
-            "file": "IMG_20171212_0735.jpg",
-            "folder": "Ben and Josh",
-            "focus": [
-                45.13513513513514,
-                22.052845528455283
-            ],
-            "scale": 100,
-            "duration_sec": 2.2988,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 55,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_47",
-            "file": "IMG_20171212_0478.jpg",
-            "folder": "Ben and Josh",
-            "focus": [
-                44.57142857142857,
-                53.85462555066079
-            ],
-            "scale": 100,
-            "duration_sec": 1.9273,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 46,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_0",
-            "file": "IMG_3570.JPG",
-            "folder": "Ben and Josh",
-            "focus": [
-                41.54175588865097,
-                34.375
-            ],
-            "scale": 100,
-            "duration_sec": 2.322,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 56,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_2",
-            "file": "Josh Random_20180206_0006.jpg",
-            "folder": "Josh and Friends",
-            "focus": [
-                52.35330073349633,
-                50.126689189189186
-            ],
-            "scale": 100,
-            "duration_sec": 1.904,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 46,
-            "isPlaceholder": false
-        },
-        {
-            "id": "slide_3",
-            "file": "IMG_1464.JPG",
-            "folder": "Josh\u2019s places and travel",
-            "scale": 100,
-            "duration_sec": 2.187,
-            "sectionName": "Ben and Josh",
-            "duration_frames": 52,
-            "isPlaceholder": false
-        },
-        {
-            "type": "title",
-            "title": "Remembering The Moments\nJuly 8th 1982 - January 20th 2026",
-            "duration_sec": 10.46,
-            "duration_frames": 314,
-            "isCard": true
-        },
-        {
-            "duration_sec": 6.2799,
-            "sectionName": "Linsey and Josh",
-            "file": "IMG_1444_Original.jpg",
-            "folder": "Josh\u2019s places and travel",
-            "duration_frames": 151,
-            "transition": "crossfade",
-            "isPlaceholder": false
-        },
-        {
-            "duration_sec": 5.6657,
-            "sectionName": "Linsey and Josh",
-            "file": "DSC_0392.JPG",
-            "folder": "Josh\u2019s places and travel",
-            "duration_frames": 136,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                51.88333333333334,
-                35.175
-            ]
-        },
-        {
-            "duration_sec": 5.6192,
-            "sectionName": "Linsey and Josh",
-            "file": "IMG_5530_Original.jpg",
-            "folder": "Josh\u2019s places and travel",
-            "duration_frames": 135,
-            "transition": "crossfade",
-            "isPlaceholder": false
-        },
-        {
-            "duration_sec": 5.805,
-            "sectionName": "Linsey and Josh",
-            "file": "2D3BB106-974A-4683-9E60-BE1216BBC805.JPG",
-            "folder": "Josh\u2019s places and travel",
-            "duration_frames": 139,
-            "transition": "crossfade",
-            "isPlaceholder": false
-        },
-        {
-            "duration_sec": 5.7102,
-            "sectionName": "Linsey and Josh",
-            "file": "Photo May 24 2026, 10 27 53 AM.jpg",
-            "folder": "Josh and Friends",
-            "duration_frames": 137,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                47.83666846944294,
-                41.99273900766438
-            ]
-        },
-        {
-            "duration_sec": 2.3936,
-            "sectionName": "Celebrate Life",
-            "file": "IMG_6952_Original.jpg",
-            "folder": "Ben and Josh",
-            "duration_frames": 57,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                42.62566137566138,
-                38.98809523809524
-            ]
-        },
-        {
-            "duration_sec": 2.2756,
-            "sectionName": "Celebrate Life",
-            "file": "Photo May 24 2026, 10 32 36 AM.jpg",
-            "folder": "Josh - Family",
-            "duration_frames": 55,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                58.476499189627226,
-                38.63439930855661
-            ]
-        },
-        {
-            "duration_sec": 2.2291,
-            "sectionName": "Celebrate Life",
-            "file": "Photo May 24 2026, 10 34 18 AM.jpg",
-            "folder": "Josh - Family",
-            "duration_frames": 53,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                58.03996194100856,
-                35.348837209302324
-            ]
-        },
-        {
-            "duration_sec": 2.2756,
-            "sectionName": "Celebrate Life",
-            "file": "Photo May 18 2026, 7 16 52 PM (8).jpg",
-            "folder": "Josh - Family",
-            "duration_frames": 55,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                48.1,
-                36.199999999999996
-            ]
-        },
-        {
-            "duration_sec": 2.2523,
-            "sectionName": "Celebrate Life",
-            "file": "Photo May 18 2026, 7 16 52 PM.jpg",
-            "folder": "Josh - Family",
-            "duration_frames": 54,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                35.625,
-                29.166666666666668
-            ]
-        },
-        {
-            "duration_sec": 2.2756,
-            "sectionName": "Celebrate Life",
-            "file": "Photo Jun 03 2026, 7 37 42 PM.jpg",
-            "folder": "Josh - Family",
-            "duration_frames": 55,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                53.06666666666666,
-                16.556728232189975
-            ]
-        },
-        {
-            "duration_sec": 2.2523,
-            "sectionName": "Celebrate Life",
-            "file": "Photo May 18 2026, 7 16 52 PM (5).jpg",
-            "folder": "Josh - Family",
-            "duration_frames": 54,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                47.0,
-                28.944444444444446
-            ]
-        },
-        {
-            "duration_sec": 2.2756,
-            "sectionName": "Celebrate Life",
-            "file": "Photo Jun 06 2026, 9 57 26 AM.jpg",
-            "folder": "Josh - Family",
-            "duration_frames": 55,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                61.225502356735305,
-                42.441283493218656
-            ]
-        },
-        {
-            "duration_sec": 2.2988,
-            "sectionName": "Celebrate Life",
-            "file": "Photo May 18 2026, 7 16 52 PM (1) (1).jpg",
-            "folder": "Josh - Family",
-            "duration_frames": 55,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                45.625,
-                35.138888888888886
-            ]
-        },
-        {
-            "duration_sec": 2.2523,
-            "sectionName": "Celebrate Life",
-            "file": "Photo Jun 03 2026, 7 27 37 PM.jpg",
-            "folder": "Josh - Family",
-            "duration_frames": 54,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                48.75,
-                31.583333333333336
-            ]
-        },
-        {
-            "duration_sec": 2.2059,
-            "sectionName": "Celebrate Life",
-            "file": "Photo Jun 03 2026, 7 28 12 PM.jpg",
-            "folder": "Josh - Family",
-            "duration_frames": 53,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                48.875,
-                33.0
-            ]
-        },
-        {
-            "duration_sec": 2.2756,
-            "sectionName": "Celebrate Life",
-            "file": "Photo Jun 06 2026, 9 57 05 AM.jpg",
-            "folder": "Josh - Family",
-            "duration_frames": 55,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                51.55048375093029,
-                31.723453522990408
-            ]
-        },
-        {
-            "duration_sec": 2.2756,
-            "sectionName": "Celebrate Life",
-            "file": "Photo Jun 06 2026, 9 54 34 AM.jpg",
-            "folder": "Josh - Family",
-            "duration_frames": 55,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                58.198958074919375,
-                47.171683757856435
-            ]
-        },
-        {
-            "duration_sec": 2.322,
-            "sectionName": "Celebrate Life",
-            "file": "Photo Jun 06 2026, 9 58 08 AM.jpg",
-            "folder": "Josh - Family",
-            "duration_frames": 56,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                39.841230463904736,
-                57.16175984121733
-            ]
-        },
-        {
-            "duration_sec": 2.2523,
-            "sectionName": "Celebrate Life",
-            "file": "Photo Jun 06 2026, 9 58 20 AM.jpg",
-            "folder": "Josh - Family",
-            "duration_frames": 54,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                54.94914413296949,
-                50.01653986106517
-            ]
-        },
-        {
-            "duration_sec": 2.2756,
-            "sectionName": "Celebrate Life",
-            "file": "Photo May 24 2026, 10 34 56 AM.jpg",
-            "folder": "Josh - Family",
-            "duration_frames": 55,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                35.609603991269104,
-                36.04989604989605
-            ]
-        },
-        {
-            "duration_sec": 2.3452,
-            "sectionName": "Celebrate Life",
-            "file": "Photo May 24 2026, 10 34 07 AM.jpg",
-            "folder": "Josh - Family",
-            "duration_frames": 56,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                48.58620689655172,
-                65.08739650413983
-            ]
-        },
-        {
-            "duration_sec": 2.2988,
-            "sectionName": "Celebrate Life",
-            "file": "Photo May 24 2026, 10 33 13 AM.jpg",
-            "folder": "Josh - Family",
-            "duration_frames": 55,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                43.565088757396445,
-                8.382642998027613
-            ]
-        },
-        {
-            "duration_sec": 2.1827,
-            "sectionName": "Celebrate Life",
-            "file": "Photo May 18 2026, 4 33 29 PM (3).jpg",
-            "folder": "Ben and Josh",
-            "duration_frames": 52,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                41.51096669374492,
-                34.333333333333336
-            ]
-        },
-        {
-            "duration_sec": 2.2756,
-            "sectionName": "Celebrate Life",
-            "file": "Photo May 18 2026, 4 33 29 PM.jpg",
-            "folder": "Ben and Josh",
-            "duration_frames": 55,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                58.0078125,
-                51.73913043478261
-            ]
-        },
-        {
-            "duration_sec": 2.2756,
-            "sectionName": "Celebrate Life",
-            "file": "Photo May 18 2026, 4 33 29 PM (2).jpg",
-            "folder": "Ben and Josh",
-            "duration_frames": 55,
-            "transition": "crossfade",
-            "isPlaceholder": false
-        },
-        {
-            "duration_sec": 2.2291,
-            "sectionName": "Celebrate Life",
-            "file": "IMG_20171212_0709.jpg",
-            "folder": "Josh - Family",
-            "duration_frames": 53,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                48.35526315789473,
-                43.06569343065693
-            ]
-        },
-        {
-            "duration_sec": 2.2988,
-            "sectionName": "Celebrate Life",
-            "file": "IMG_20171212_0727.jpg",
-            "folder": "Josh - Family",
-            "duration_frames": 55,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                66.8848167539267,
-                49.13127413127413
-            ]
-        },
-        {
-            "duration_sec": 2.2756,
-            "sectionName": "Celebrate Life",
-            "file": "IMG_3556.JPG",
-            "folder": "Josh - Family",
-            "duration_frames": 55,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                41.208791208791204,
-                24.75836431226766
-            ]
-        },
-        {
-            "duration_sec": 2.2523,
-            "sectionName": "Celebrate Life",
-            "file": "IMG_5837.JPEG",
-            "folder": "Josh - Family",
-            "duration_frames": 54,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                49.72222222222222,
-                25.104166666666668
-            ]
-        },
-        {
-            "duration_sec": 2.2523,
-            "sectionName": "Celebrate Life",
-            "file": "DSC_0687.jpg",
-            "folder": "Josh - Family",
-            "duration_frames": 54,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                43.1,
-                61.1
-            ]
-        },
-        {
-            "duration_sec": 2.322,
-            "sectionName": "Celebrate Life",
-            "file": "IMG_1510.JPG",
-            "folder": "Josh - Family",
-            "duration_frames": 56,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                52.5,
-                48.541666666666664
-            ]
-        },
-        {
-            "duration_sec": 2.2988,
-            "sectionName": "Celebrate Life",
-            "file": "IMG_5971 - Copy (9).JPG",
-            "folder": "Josh - Family",
-            "duration_frames": 55,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                52.916666666666664,
-                47.39583333333333
-            ]
-        },
-        {
-            "duration_sec": 2.2988,
-            "sectionName": "Celebrate Life",
-            "file": "6D0288DB-C3CF-4D9D-9154-02700DD81CE0.JPG",
-            "folder": "Josh - Family",
-            "duration_frames": 55,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                60.21897810218978,
-                34.85617597292725
-            ]
-        },
-        {
-            "duration_sec": 2.2756,
-            "sectionName": "Celebrate Life",
-            "file": "IMG_20171212_0712.jpg",
-            "folder": "Josh - Family",
-            "duration_frames": 55,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                59.726027397260275,
-                43.895348837209305
-            ]
-        },
-        {
-            "duration_sec": 2.4149,
-            "sectionName": "Celebrate Life",
-            "file": "IMG_20171212_0280.jpg",
-            "folder": "Ben and Josh",
-            "duration_frames": 58,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                35.483870967741936,
-                42.129629629629626
-            ]
-        },
-        {
-            "duration_sec": 2.2756,
-            "sectionName": "Celebrate Life",
-            "file": "IMG_20171212_0490.jpg",
-            "folder": "Ben and Josh",
-            "duration_frames": 55,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                51.46666666666667,
-                50.21459227467812
-            ]
-        },
-        {
-            "duration_sec": 2.1595,
-            "sectionName": "Celebrate Life",
-            "file": "IMG_20171212_0546.jpg",
-            "folder": "Ben and Josh",
-            "duration_frames": 52,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                48.28767123287671,
-                46.56652360515021
-            ]
-        },
-        {
-            "duration_sec": 2.0898,
-            "sectionName": "Celebrate Life",
-            "file": "IMG_20171212_0370.jpg",
-            "folder": "Ben and Josh",
-            "duration_frames": 50,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                47.24025974025974,
-                17.324561403508774
-            ]
-        },
-        {
-            "duration_sec": 2.2291,
-            "sectionName": "Celebrate Life",
-            "file": "IMG_20171212_0374.jpg",
-            "folder": "Ben and Josh",
-            "duration_frames": 53,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                71.88449848024317,
-                26.68776371308017
-            ]
-        },
-        {
-            "duration_sec": 2.2988,
-            "sectionName": "Celebrate Life",
-            "file": "IMG_20171212_0363.jpg",
-            "folder": "Ben and Josh",
-            "duration_frames": 55,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                48.1974921630094,
-                53.960396039603964
-            ]
-        },
-        {
-            "duration_sec": 2.2059,
-            "sectionName": "Celebrate Life",
-            "file": "IMG_1166.JPG",
-            "folder": "Ben and Josh",
-            "duration_frames": 53,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                76.13981762917933,
-                45.14767932489451
-            ]
-        },
-        {
-            "duration_sec": 2.2291,
-            "sectionName": "Celebrate Life",
-            "file": "IMG_20171212_0476.jpg",
-            "folder": "Ben and Josh",
-            "duration_frames": 53,
-            "transition": "crossfade",
-            "isPlaceholder": false
-        },
-        {
-            "duration_sec": 1.9488,
-            "sectionName": "Celebrate Life",
-            "file": "IMG_20171212_0462.jpg",
-            "folder": "Ben and Josh",
-            "duration_frames": 47,
-            "transition": "crossfade",
-            "isPlaceholder": false,
-            "focus": [
-                53.01470588235294,
-                26.535087719298247
-            ]
-        },
-        {
-            "type": "title",
-            "title": "Until We Meet Again",
-            "duration_sec": 10.46,
-            "duration_frames": 314,
-            "isCard": true
-        },
-        {
-            "type": "title",
-            "title": "Rope Swing",
-            "duration_sec": 10.46,
-            "duration_frames": 314,
-            "isCard": true
-        }
-    ]
+  "slides": [
+    {
+      "type": "title",
+      "title": "Joshua Michael Burns",
+      "duration_sec": 5.04,
+      "duration_frames": 151,
+      "sectionName": "Intro",
+      "isCard": true
+    },
+    {
+      "folder": "Baby & toddler Josh",
+      "file": "Photo May 24 2026, 10 32 05 AM.jpg",
+      "duration_sec": 3.5514,
+      "transition": "crossfade",
+      "sectionName": "Early Pictures",
+      "duration_frames": 85,
+      "isPlaceholder": false,
+      "focus": [
+        51.354166666666664,
+        12.407407407407405
+      ]
+    },
+    {
+      "folder": "Baby & toddler Josh",
+      "file": "IMG_20171212_0261.jpg",
+      "duration_sec": 3.5527,
+      "transition": "crossfade",
+      "sectionName": "Early Pictures",
+      "duration_frames": 85,
+      "isPlaceholder": false,
+      "focus": [
+        54.71769609700644,
+        74.02728650833754
+      ]
+    },
+    {
+      "folder": "Baby & toddler Josh",
+      "file": "IMG_20171212_0237.jpg",
+      "duration_sec": 3.5294,
+      "transition": "crossfade",
+      "sectionName": "Early Pictures",
+      "duration_frames": 85,
+      "isPlaceholder": false,
+      "focus": [
+        47.72727272727273,
+        68.14671814671814
+      ]
+    },
+    {
+      "folder": "Baby & toddler Josh",
+      "file": "IMG_20171212_0336.jpg",
+      "duration_sec": 3.5527,
+      "transition": "crossfade",
+      "sectionName": "Early Pictures",
+      "duration_frames": 85,
+      "isPlaceholder": false,
+      "focus": [
+        46.82779456193353,
+        32.20338983050847
+      ]
+    },
+    {
+      "folder": "Baby & toddler Josh",
+      "file": "IMG_20171212_0275.jpg",
+      "duration_sec": 3.5759,
+      "transition": "crossfade",
+      "sectionName": "Early Pictures",
+      "duration_frames": 86,
+      "isPlaceholder": false,
+      "focus": [
+        32.53839590443687,
+        8.037749287749289
+      ],
+      "scale": 121
+    },
+    {
+      "folder": "Ben and Josh",
+      "file": "IMG_20171212_0546.jpg",
+      "duration_sec": 3.483,
+      "transition": "crossfade",
+      "sectionName": "Early Pictures",
+      "duration_frames": 84,
+      "isPlaceholder": false,
+      "focus": [
+        48.28767123287671,
+        46.56652360515021
+      ],
+      "scale": 100
+    },
+    {
+      "folder": "Ben and Josh",
+      "file": "IMG_20171212_0374.jpg",
+      "duration_sec": 3.5062,
+      "transition": "crossfade",
+      "sectionName": "Early Pictures",
+      "duration_frames": 84,
+      "isPlaceholder": false,
+      "focus": [
+        98.44699848024317,
+        71.68776371308017
+      ],
+      "scale": 115
+    },
+    {
+      "folder": "Josh - Family",
+      "file": "IMG_20171212_0437.jpg",
+      "duration_sec": 3.5062,
+      "transition": "crossfade",
+      "sectionName": "Early Pictures",
+      "duration_frames": 84,
+      "isPlaceholder": false,
+      "focus": [
+        52.90262172284644,
+        48.72727272727273
+      ],
+      "scale": 100
+    },
+    {
+      "folder": "Baby & toddler Josh",
+      "file": "IMG_20171212_0358.jpg",
+      "duration_sec": 3.4598,
+      "transition": "crossfade",
+      "sectionName": "Early Pictures",
+      "duration_frames": 83,
+      "isPlaceholder": false,
+      "focus": [
+        50.08032128514056,
+        15.45825486503453
+      ]
+    },
+    {
+      "folder": "Baby & toddler Josh",
+      "file": "IMG_20171212_0293.jpg",
+      "duration_sec": 3.5759,
+      "transition": "crossfade",
+      "sectionName": "Early Pictures",
+      "duration_frames": 86,
+      "isPlaceholder": false,
+      "focus": [
+        49.24698795180723,
+        33.05084745762712
+      ]
+    },
+    {
+      "folder": "Josh - Family",
+      "file": "IMG_20171212_0709.jpg",
+      "duration_sec": 3.5062,
+      "transition": "crossfade",
+      "sectionName": "Early Pictures",
+      "duration_frames": 84,
+      "isPlaceholder": false,
+      "focus": [
+        57.31359649122807,
+        24.917545282508776
+      ],
+      "scale": 158
+    },
+    {
+      "folder": "Ben and Josh",
+      "file": "Photo May 18 2026, 4 33 29 PM (6).jpg",
+      "duration_sec": 3.3437,
+      "transition": "crossfade",
+      "sectionName": "Early Pictures",
+      "duration_frames": 80,
+      "isPlaceholder": false,
+      "focus": [
+        50.729166666666664,
+        25.925925925925927
+      ],
+      "scale": 119
+    },
+    {
+      "folder": "Baby & toddler Josh",
+      "file": "IMG_5337_Original.jpg",
+      "duration_sec": 3.3205,
+      "transition": "crossfade",
+      "sectionName": "Early Pictures",
+      "duration_frames": 80,
+      "isPlaceholder": false,
+      "focus": [
+        50.56216931216932,
+        34.077380952380956
+      ]
+    },
+    {
+      "folder": "Ben and Josh",
+      "file": "IMG_20171212_0478.jpg",
+      "duration_sec": 3.6223,
+      "transition": "crossfade",
+      "sectionName": "Early Pictures",
+      "duration_frames": 87,
+      "isPlaceholder": false,
+      "focus": [
+        21.29436325678497,
+        55.762081784386616
+      ],
+      "scale": 105
+    },
+    {
+      "folder": "Ben and Josh",
+      "file": "IMG_20171212_0280.jpg",
+      "duration_sec": 3.6223,
+      "transition": "crossfade",
+      "sectionName": "Early Pictures",
+      "duration_frames": 87,
+      "isPlaceholder": false
+    },
+    {
+      "folder": "Ben and Josh",
+      "file": "IMG_20171212_0437.jpg",
+      "duration_sec": 3.5294,
+      "transition": "crossfade",
+      "sectionName": "Early Pictures",
+      "duration_frames": 85,
+      "isPlaceholder": false,
+      "focus": [
+        52.90262172284644,
+        48.72727272727273
+      ],
+      "scale": 100
+    },
+    {
+      "folder": "Ben and Josh",
+      "file": "IMG_20171212_0363.jpg",
+      "duration_sec": 3.5759,
+      "transition": "crossfade",
+      "sectionName": "Early Pictures",
+      "duration_frames": 86,
+      "isPlaceholder": false
+    },
+    {
+      "folder": "Ben and Josh",
+      "file": "IMG_20171212_0476.jpg",
+      "duration_sec": 3.5759,
+      "transition": "crossfade",
+      "sectionName": "Early Pictures",
+      "duration_frames": 86,
+      "isPlaceholder": false,
+      "focus": [
+        60.520833333333336,
+        64.62962962962963
+      ],
+      "scale": 158
+    },
+    {
+      "folder": "Ben and Josh",
+      "file": "IMG_1142.JPG",
+      "duration_sec": 3.0708,
+      "transition": "crossfade",
+      "sectionName": "Early Pictures",
+      "duration_frames": 74,
+      "isPlaceholder": false
+    },
+    {
+      "duration_sec": 5.1259,
+      "sectionName": "Family, High School",
+      "file": "School photos_20171213_0014.jpg",
+      "folder": "Josh school years",
+      "duration_frames": 123,
+      "transition": "crossfade",
+      "isPlaceholder": false,
+      "focus": [
+        36.79771505376345,
+        31.703415477734545
+      ],
+      "scale": 113
+    },
+    {
+      "duration_sec": 5.2709,
+      "sectionName": "Family, High School",
+      "file": "School photos_20171213_0015.jpg",
+      "folder": "Josh school years",
+      "duration_frames": 127,
+      "transition": "crossfade",
+      "isPlaceholder": false,
+      "focus": [
+        54.66404886561955,
+        20.76219512195122
+      ],
+      "scale": 122
+    },
+    {
+      "duration_sec": 5.2709,
+      "sectionName": "Family, High School",
+      "file": "Photo Jun 06 2026, 9 59 53 AM.jpg",
+      "folder": "Josh and Friends",
+      "duration_frames": 127,
+      "transition": "crossfade",
+      "isPlaceholder": false,
+      "focus": [
+        21.694775132275133,
+        15.833333333333329
+      ],
+      "scale": 104
+    },
+    {
+      "duration_sec": 3.6776,
+      "sectionName": "Family, High School",
+      "file": "1995_20171214_0012.JPG",
+      "folder": "Josh - Family",
+      "duration_frames": 88,
+      "transition": "crossfade",
+      "isPlaceholder": false,
+      "focus": [
+        22.90662650602409,
+        2.888957730965167
+      ],
+      "scale": 133
+    },
+    {
+      "duration_sec": 5.3406,
+      "sectionName": "Family, High School",
+      "file": "Photo Jun 06 2026, 9 57 51 AM.jpg",
+      "folder": "Josh - Family",
+      "duration_frames": 128,
+      "transition": "crossfade",
+      "isPlaceholder": false
+    },
+    {
+      "duration_sec": 5.3638,
+      "sectionName": "Family, High School",
+      "file": "Photo May 24 2026, 10 35 38 AM.jpg",
+      "folder": "Josh - Family",
+      "duration_frames": 129,
+      "transition": "crossfade",
+      "isPlaceholder": false,
+      "focus": [
+        49.94746481588586,
+        2.254204860218735
+      ]
+    },
+    {
+      "duration_sec": 4.7137,
+      "sectionName": "Family, High School",
+      "file": "Photo May 24 2026, 10 35 56 AM.jpg",
+      "folder": "Josh - Family",
+      "duration_frames": 113,
+      "transition": "crossfade",
+      "isPlaceholder": false,
+      "focus": [
+        53.29512893982808,
+        27.07736389684814
+      ]
+    },
+    {
+      "duration_sec": 4.9923,
+      "sectionName": "Family, High School",
+      "file": "Photo Jun 06 2026, 9 59 13 AM.jpg",
+      "folder": "Josh and Friends",
+      "duration_frames": 120,
+      "transition": "crossfade",
+      "isPlaceholder": false
+    },
+    {
+      "duration_sec": 5.387,
+      "sectionName": "Family, High School",
+      "file": "School photos_20171213_0022.jpg",
+      "folder": "Josh school years",
+      "duration_frames": 129,
+      "transition": "crossfade",
+      "isPlaceholder": false,
+      "focus": [
+        63.47345132743363,
+        34.505840071877806
+      ],
+      "scale": 108
+    },
+    {
+      "duration_sec": 4.7369,
+      "sectionName": "Family, High School",
+      "file": "Photo Jun 06 2026, 9 53 51 AM.jpg",
+      "folder": "Just Josh",
+      "duration_frames": 114,
+      "transition": "crossfade",
+      "isPlaceholder": false,
+      "focus": [
+        51.85350529100529,
+        19.345238095238102
+      ],
+      "scale": 111
+    },
+    {
+      "duration_sec": 5.4567,
+      "sectionName": "Family, High School",
+      "file": "Josh Random_20180206_0001.jpg",
+      "folder": "save a place for me",
+      "duration_frames": 131,
+      "transition": "crossfade",
+      "isPlaceholder": false,
+      "focus": [
+        46.44293687451886,
+        44.10714285714286
+      ],
+      "scale": 179
+    },
+    {
+      "duration_sec": 5.3406,
+      "sectionName": "Family, High School",
+      "file": "IMG_20171212_0277.jpg",
+      "folder": "Baby & toddler Josh",
+      "duration_frames": 128,
+      "transition": "crossfade",
+      "isPlaceholder": false,
+      "focus": [
+        50.9375,
+        9.259259259259256
+      ],
+      "scale": 132
+    },
+    {
+      "duration_sec": 4.7601,
+      "sectionName": "Family, High School",
+      "file": "019_16a.jpg",
+      "folder": "Josh - Family",
+      "duration_frames": 114,
+      "transition": "crossfade",
+      "isPlaceholder": false,
+      "focus": [
+        19.791666666666668,
+        59.074074074074076
+      ],
+      "scale": 136
+    },
+    {
+      "duration_sec": 5.4102,
+      "sectionName": "Family, High School",
+      "file": "IMG_1152.JPG",
+      "folder": "Josh - Family",
+      "duration_frames": 130,
+      "transition": "crossfade",
+      "isPlaceholder": false,
+      "focus": [
+        36.440677966101696,
+        51.9589552238806
+      ],
+      "scale": 100
+    },
+    {
+      "duration_sec": 5.3638,
+      "sectionName": "Family, High School",
+      "file": "Photo Aug 29 2021, 6 49 05 PM.jpg",
+      "folder": "Josh with Kerrs",
+      "duration_frames": 129,
+      "transition": "crossfade",
+      "isPlaceholder": false
+    },
+    {
+      "duration_sec": 4.644,
+      "sectionName": "Family, High School",
+      "file": "Photo Aug 07 2007, 10 53 17 PM.jpg",
+      "folder": "Josh & Linsey",
+      "duration_frames": 111,
+      "transition": "crossfade",
+      "isPlaceholder": false,
+      "focus": [
+        88.00130208333333,
+        56.09375
+      ],
+      "scale": 140
+    },
+    {
+      "duration_sec": 5.2477,
+      "sectionName": "Family, High School",
+      "file": "Photo May 18 2026, 4 33 29 PM (1).jpg",
+      "folder": "Ben and Josh",
+      "duration_frames": 126,
+      "transition": "crossfade",
+      "isPlaceholder": false,
+      "focus": [
+        58.54235651214129,
+        50.91734118224184
+      ],
+      "scale": 166
+    },
+    {
+      "duration_sec": 5.2709,
+      "sectionName": "Family, High School",
+      "file": "Photo May 24 2026, 10 27 26 AM.jpg",
+      "folder": "Josh & Linsey",
+      "duration_frames": 127,
+      "transition": "crossfade",
+      "isPlaceholder": false
+    },
+    {
+      "duration_sec": 4.9163,
+      "sectionName": "Family, High School",
+      "file": "Photo Jun 06 2026, 9 56 46 AM.jpg",
+      "folder": "Josh - Family",
+      "duration_frames": 118,
+      "transition": "crossfade",
+      "isPlaceholder": false,
+      "focus": [
+        53.929024081115344,
+        0
+      ],
+      "scale": 134
+    },
+    {
+      "type": "title",
+      "title": "United States Navy Explosive Ordnance Disposal (EOD) Group Shot",
+      "duration_sec": 10.17,
+      "duration_frames": 305,
+      "isCard": true
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "2009_20180203_0007_Original.jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36,
+      "focus": [
+        63.68778280542986,
+        48.61577181208054
+      ]
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "IMG_1155.JPG",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "IMG_1525.JPG",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Josh Military 2_20180206_0007.jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "IMG_0355.JPG",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36,
+      "scale": 160
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Photo May 24 2026, 10 37 21 AM.jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36,
+      "focus": [
+        34.67774974953485,
+        3.9371980676328526
+      ],
+      "scale": 100
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Photo Jun 06 2026, 9 56 02 AM.jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36,
+      "focus": [
+        66.13425925925927,
+        51.954365079365076
+      ]
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "IMG_1138.JPG",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36,
+      "focus": [
+        35.400390625,
+        58.723958333333336
+      ]
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "IMG_0359.JPG",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36,
+      "focus": [
+        42.125,
+        42.083333333333336
+      ]
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "IMG_0338.JPG",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36,
+      "focus": [
+        44.25,
+        31.166666666666664
+      ]
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Photo May 18 2026, 7 11 52 PM (3).jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Photo May 16 2026, 6 16 04 PM (11).jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Photo May 16 2026, 6 16 04 PM (5).jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Photo May 16 2026, 6 16 04 PM (11) (1).jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Photo May 18 2026, 7 11 52 PM (4).jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "2009_20180203_0020_Original.jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36,
+      "focus": [
+        48.955981941309254,
+        49.20411985018727
+      ]
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Photo May 16 2026, 6 16 04 PM (4).jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Photo May 16 2026, 6 16 04 PM (10).jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Photo May 24 2026, 10 33 20 AM.jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36,
+      "focus": [
+        56.3161875945537,
+        57.99293998991427
+      ]
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Photo May 16 2026, 6 16 04 PM (9).jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Photo May 16 2026, 6 16 04 PM (8).jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Photo May 16 2026, 6 16 04 PM (3).jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Photo May 16 2026, 6 16 04 PM (6) (1).jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Photo May 16 2026, 6 16 04 PM (8) (1).jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "IMG_1139.JPG",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36,
+      "focus": [
+        39.697265625,
+        35.9375
+      ]
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "IMG_1180.JPG",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "IMG_1454.JPG",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36,
+      "focus": [
+        45.83333333333333,
+        47.325102880658434
+      ]
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "IMG_1524.JPG",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Photo Jun 06 2026, 9 59 06 AM.jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Photo May 16 2026, 6 16 04 PM (12).jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Photo May 16 2026, 6 16 04 PM (6).jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Photo May 16 2026, 6 16 04 PM (7).jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "millerc-r1-034-15a.jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36,
+      "focus": [
+        61.83333333333333,
+        29.38271604938272
+      ]
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Photo May 16 2026, 6 16 04 PM.jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Photo May 16 2026, 6 16 04 PM (1).jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Photo May 18 2026, 7 11 52 PM.jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Photo May 18 2026, 7 11 52 PM (2).jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Photo May 16 2026, 6 16 04 PM (12) (1).jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "millerc-r1-024-10a.jpg",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36,
+      "focus": [
+        66,
+        44.8559670781893
+      ]
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "IMG_1523.JPG",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "IMG_1522.JPG",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36,
+      "focus": [
+        68.61111111111111,
+        39.66597077244259
+      ]
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "IMG_1521.JPG",
+      "folder": "Josh - Military",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Photo Jun 06 2026, 9 55 39 AM.jpg",
+      "folder": "Just Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Photo Jun 06 2026, 9 55 39 AM.jpg",
+      "folder": "Just Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Photo Jun 06 2026, 9 55 39 AM.jpg",
+      "folder": "Just Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "sectionName": "Military Picts",
+      "file": "Photo Jun 06 2026, 9 55 39 AM.jpg",
+      "folder": "Just Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 1.5143,
+      "duration_frames": 36
+    },
+    {
+      "type": "title",
+      "title": "A bond Between Brothers",
+      "duration_sec": 5.67,
+      "duration_frames": 170,
+      "isCard": true
+    },
+    {
+      "sectionName": "Ben and Josh",
+      "file": "IMG_6952_Original.jpg",
+      "folder": "Ben and Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 3.9655,
+      "duration_frames": 95,
+      "focus": [
+        63.146494708994716,
+        26.210317460317462
+      ],
+      "scale": 139
+    },
+    {
+      "sectionName": "Ben and Josh",
+      "file": "Photo May 18 2026, 4 33 29 PM (6).jpg",
+      "folder": "Ben and Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 3.5759,
+      "duration_frames": 86,
+      "scale": 140,
+      "focus": [
+        50.9375,
+        29.62962962962963
+      ]
+    },
+    {
+      "sectionName": "Ben and Josh",
+      "file": "IMG_20171212_0251.jpg",
+      "folder": "Ben and Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 3.9938,
+      "duration_frames": 96
+    },
+    {
+      "sectionName": "Ben and Josh",
+      "file": "IMG_2577.JPG",
+      "folder": "Ben and Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 3.5527,
+      "duration_frames": 85
+    },
+    {
+      "sectionName": "Ben and Josh",
+      "file": "IMG_20171212_0280.jpg",
+      "folder": "Ben and Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 3.9242,
+      "duration_frames": 94
+    },
+    {
+      "sectionName": "Ben and Josh",
+      "file": "IMG_20171212_0363.jpg",
+      "folder": "Ben and Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 3.5991,
+      "duration_frames": 86
+    },
+    {
+      "sectionName": "Ben and Josh",
+      "file": "IMG_1166.JPG",
+      "folder": "Ben and Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 3.5991,
+      "duration_frames": 86
+    },
+    {
+      "sectionName": "Ben and Josh",
+      "file": "IMG_20171212_0735.jpg",
+      "folder": "Ben and Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 4.0635,
+      "duration_frames": 98
+    },
+    {
+      "sectionName": "Ben and Josh",
+      "file": "IMG_20171212_0490.jpg",
+      "folder": "Ben and Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 3.6455,
+      "duration_frames": 87,
+      "scale": 174,
+      "focus": [
+        55.00833333333333,
+        66.51088857097442
+      ]
+    },
+    {
+      "sectionName": "Ben and Josh",
+      "file": "IMG_20171212_0370.jpg",
+      "folder": "Ben and Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 3.9938,
+      "duration_frames": 96,
+      "focus": [
+        42.86525974025974,
+        0
+      ],
+      "scale": 152
+    },
+    {
+      "sectionName": "Ben and Josh",
+      "file": "IMG_20171212_0374.jpg",
+      "folder": "Ben and Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 3.5062,
+      "duration_frames": 84,
+      "scale": 126,
+      "focus": [
+        100,
+        53.72480075011721
+      ]
+    },
+    {
+      "sectionName": "Ben and Josh",
+      "file": "Photo May 18 2026, 4 33 29 PM (3).jpg",
+      "folder": "Ben and Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 3.5294,
+      "duration_frames": 85,
+      "focus": [
+        0,
+        23.03703703703704
+      ],
+      "scale": 119
+    },
+    {
+      "sectionName": "Ben and Josh",
+      "file": "Photo May 18 2026, 4 33 29 PM.jpg",
+      "folder": "Ben and Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 3.9242,
+      "duration_frames": 94,
+      "focus": [
+        42.591145833333336,
+        17.294685990338163
+      ],
+      "scale": 126
+    },
+    {
+      "sectionName": "Ben and Josh",
+      "file": "IMG_20171212_0546.jpg",
+      "folder": "Ben and Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 3.5294,
+      "duration_frames": 85
+    },
+    {
+      "sectionName": "Ben and Josh",
+      "file": "IMG_3570.JPG",
+      "folder": "Ben and Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 3.9474,
+      "duration_frames": 95,
+      "focus": [
+        19.97925588865097,
+        26.22685185185185
+      ],
+      "scale": 135
+    },
+    {
+      "sectionName": "Ben and Josh",
+      "file": "IMG_20171212_0462.jpg",
+      "folder": "Ben and Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 3.5527,
+      "duration_frames": 85
+    },
+    {
+      "sectionName": "Ben and Josh",
+      "file": "IMG_1142.JPG",
+      "folder": "Ben and Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 3.5294,
+      "duration_frames": 85,
+      "focus": [
+        100,
+        7.941429801894914
+      ],
+      "scale": 117
+    },
+    {
+      "sectionName": "Ben and Josh",
+      "file": "Photo May 18 2026, 4 33 29 PM (2).jpg",
+      "folder": "Ben and Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 3.8545,
+      "duration_frames": 93
+    },
+    {
+      "sectionName": "Ben and Josh",
+      "file": "IMG_20171212_0478.jpg",
+      "folder": "Ben and Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 3.5759,
+      "duration_frames": 86
+    },
+    {
+      "sectionName": "Ben and Josh",
+      "file": "IMG_20171212_0437.jpg",
+      "folder": "Ben and Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 3.8313,
+      "duration_frames": 92
+    },
+    {
+      "sectionName": "Ben and Josh",
+      "file": "IMG_20171212_0476.jpg",
+      "folder": "Ben and Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 3.483,
+      "duration_frames": 84
+    },
+    {
+      "sectionName": "Ben and Josh",
+      "file": "Photo May 18 2026, 4 33 29 PM (1).jpg",
+      "folder": "Ben and Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 3.4598,
+      "duration_frames": 83,
+      "scale": 170
+    },
+    {
+      "sectionName": "Ben and Josh",
+      "file": "img_2502_Original.jpg",
+      "folder": "Ben and Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 3.8313,
+      "duration_frames": 92
+    },
+    {
+      "sectionName": "Ben and Josh",
+      "file": "Photo May 18 2026, 4 33 29 PM (4).jpg",
+      "folder": "Ben and Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 3.483,
+      "duration_frames": 84,
+      "focus": [
+        53.69444444444445,
+        26.462962962962962
+      ],
+      "scale": 129
+    },
+    {
+      "sectionName": "Ben and Josh",
+      "file": "Photo May 18 2026, 4 33 29 PM (5).jpg",
+      "folder": "Ben and Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 3.7195,
+      "duration_frames": 89,
+      "focus": [
+        63.19444444444444,
+        11.712962962962965
+      ],
+      "scale": 131
+    },
+    {
+      "type": "title",
+      "title": "Remembering The Moments\nJuly 8th 1982 - January 20th 2026",
+      "duration_sec": 10.46,
+      "duration_frames": 314,
+      "isCard": true
+    },
+    {
+      "sectionName": "Linsey and Josh",
+      "file": "IMG_1087.JPG",
+      "folder": "Josh & Linsey",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.8201,
+      "duration_frames": 68,
+      "scale": 148,
+      "focus": [
+        63.125,
+        31.48148148148148
+      ]
+    },
+    {
+      "sectionName": "Linsey and Josh",
+      "file": "Photo Sep 30 2016, 11 24 03 AM.jpg",
+      "folder": "Josh & Linsey",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.322,
+      "duration_frames": 56,
+      "focus": [
+        32.80180608365019,
+        44.82784114913393
+      ],
+      "scale": 136
+    },
+    {
+      "sectionName": "Linsey and Josh",
+      "file": "2012_20180206_0024.jpg",
+      "folder": "Josh & Linsey",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.2523,
+      "duration_frames": 54,
+      "focus": [
+        56.16470917225951,
+        19.798422824738616
+      ]
+    },
+    {
+      "sectionName": "Linsey and Josh",
+      "file": "IMG_1514.JPG",
+      "folder": "Josh & Linsey",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.2523,
+      "duration_frames": 54,
+      "scale": 101
+    },
+    {
+      "sectionName": "Linsey and Josh",
+      "file": "Photo Jan 13 2022, 10 34 23 AM.jpg",
+      "folder": "Josh & Linsey",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.2988,
+      "duration_frames": 55
+    },
+    {
+      "sectionName": "Linsey and Josh",
+      "file": "Photo May 15 2018, 2 59 39 PM.jpg",
+      "folder": "Josh & Linsey",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.7864,
+      "duration_frames": 67,
+      "scale": 143,
+      "focus": [
+        20.229166666666668,
+        55.416666666666664
+      ]
+    },
+    {
+      "sectionName": "Linsey and Josh",
+      "file": "Photo Sep 04 2017, 9 57 40 AM.jpg",
+      "folder": "Josh & Linsey",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.2523,
+      "duration_frames": 54,
+      "focus": [
+        5.034722222222225,
+        33.217592592592595
+      ],
+      "scale": 100
+    },
+    {
+      "sectionName": "Linsey and Josh",
+      "file": "IMG_2983.JPEG",
+      "folder": "Josh & Linsey",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.3452,
+      "duration_frames": 56,
+      "focus": [
+        43.0869708994709,
+        7.007275132275126
+      ]
+    },
+    {
+      "sectionName": "Linsey and Josh",
+      "file": "Photo Jul 08 2017, 7 07 20 AM.jpg",
+      "folder": "Josh & Linsey",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.2756,
+      "duration_frames": 55,
+      "focus": [
+        40.59770499108734,
+        7.981918926800816
+      ]
+    },
+    {
+      "sectionName": "Linsey and Josh",
+      "file": "Photo Oct 15 2021, 1 01 13 PM.jpg",
+      "folder": "Josh & Linsey",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.3452,
+      "duration_frames": 56
+    },
+    {
+      "sectionName": "Linsey and Josh",
+      "file": "Photo May 22 2026, 6 51 12 AM (1).jpg",
+      "folder": "Josh & Linsey",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.4149,
+      "duration_frames": 58,
+      "scale": 131,
+      "focus": [
+        89.55833333333334,
+        51.154629629629625
+      ]
+    },
+    {
+      "sectionName": "Linsey and Josh",
+      "file": "Photo Jan 10 2020, 9 45 44 AM.jpg",
+      "folder": "Josh & Linsey",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.7148,
+      "duration_frames": 65,
+      "scale": 194,
+      "focus": [
+        46.747835497835496,
+        45.1994825708061
+      ]
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "Photo Jun 06 2026, 9 54 06 AM.jpg",
+      "folder": "Josh - Family",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.3936,
+      "duration_frames": 57
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "Photo Jun 06 2026, 9 57 14 AM.jpg",
+      "folder": "Josh - Family",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.8096,
+      "duration_frames": 67
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "Photo Jun 06 2026, 9 58 20 AM.jpg",
+      "folder": "Josh - Family",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.8328,
+      "duration_frames": 68
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "Photo Jun 28 2025, 2 07 18 PM.jpg",
+      "folder": "Josh and Friends",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.2756,
+      "duration_frames": 55
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "Photo May 24 2026, 9 40 44 AM (5).jpg",
+      "folder": "Josh and Friends",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.8328,
+      "duration_frames": 68
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "IMG_0787_Original.jpg",
+      "folder": "Josh\u2019s places and travel",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.8096,
+      "duration_frames": 67,
+      "focus": [
+        31.04166666666667,
+        22.77777777777778
+      ],
+      "scale": 114
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "IMG_1159.JPG",
+      "folder": "Just Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.8561,
+      "duration_frames": 69,
+      "focus": [
+        65.82299233252624,
+        13.740740740740742
+      ]
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "2FE58D6D-E213-45A8-BD69-D2BB12081BD4.JPG",
+      "folder": "Josh - Family",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.2523,
+      "duration_frames": 54
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "IMG_1060_Original.jpg",
+      "folder": "Josh - Family",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.7864,
+      "duration_frames": 67,
+      "scale": 171,
+      "focus": [
+        50.6875,
+        44.45370370370371
+      ]
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "IMG_20171212_0712.jpg",
+      "folder": "Josh - Family",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.8328,
+      "duration_frames": 68
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "IMG_2201.JPG",
+      "folder": "Josh - Family",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.8561,
+      "duration_frames": 69
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "Photo May 18 2024, 1 37 31 PM.jpg",
+      "folder": "Josh - Family",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.322,
+      "duration_frames": 56
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "Photo May 18 2026, 7 16 52 PM (1).jpg",
+      "folder": "Josh - Family",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.8096,
+      "duration_frames": 67,
+      "focus": [
+        47.81250000000001,
+        5.219907407407408
+      ],
+      "scale": 126
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "IMG_1184.JPG",
+      "folder": "Josh and Friends",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.9257,
+      "duration_frames": 70
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "IMG_1582.JPEG",
+      "folder": "Josh and Friends",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.2756,
+      "duration_frames": 55,
+      "focus": [
+        78.18606321839081,
+        24.074313951256954
+      ],
+      "scale": 100
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "Photo Jul 09 2020, 9 10 20 PM.jpg",
+      "folder": "Josh and Friends",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.7864,
+      "duration_frames": 67,
+      "scale": 161,
+      "focus": [
+        57.12136243386243,
+        41.787367724867735
+      ]
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "Photo May 24 2026, 10 27 36 AM.jpg",
+      "folder": "Josh and Friends",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.8328,
+      "duration_frames": 68,
+      "focus": [
+        62.99417593880389,
+        29.624966693312018
+      ],
+      "scale": 137
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "Photo May 24 2026, 10 36 19 AM.jpg",
+      "folder": "Josh - Family",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.8328,
+      "duration_frames": 68
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "Photo May 24 2026, 10 36 19 AM.jpg",
+      "folder": "Baby & toddler Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.2523,
+      "duration_frames": 54
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "Photo Nov 23 2018, 7 57 21 PM.jpg",
+      "folder": "Josh - Family",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.8561,
+      "duration_frames": 69
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "Photo Jun 06 2026, 9 58 08 AM.jpg",
+      "folder": "Josh - Family",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.8096,
+      "duration_frames": 67
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "IMG_1103.JPG",
+      "folder": "Josh and Friends",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.8328,
+      "duration_frames": 68,
+      "scale": 131,
+      "focus": [
+        73.95833333333333,
+        51.342592592592595
+      ]
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "Photo Feb 23 2021, 5 47 07 PM.jpg",
+      "folder": "Josh and Friends",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.322,
+      "duration_frames": 56,
+      "focus": [
+        46.770833333333336,
+        33.51851851851852
+      ],
+      "scale": 103
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "img_2475_Original.jpg",
+      "folder": "Josh - Family",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.8793,
+      "duration_frames": 69,
+      "focus": [
+        89.10416666666666,
+        26.814814814814817
+      ],
+      "scale": 123
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "Photo Dec 24 2018, 10 39 53 PM.jpg",
+      "folder": "Josh - Family",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.8561,
+      "duration_frames": 69,
+      "scale": 141,
+      "focus": [
+        45.1375,
+        44.84722222222222
+      ]
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "DSC_0392.JPG",
+      "folder": "Josh\u2019s places and travel",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.3452,
+      "duration_frames": 56
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "IMG_1085.JPG",
+      "folder": "Josh\u2019s places and travel",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.9257,
+      "duration_frames": 70,
+      "scale": 185,
+      "focus": [
+        34.16666666666667,
+        53.888888888888886
+      ]
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "IMG_20171212_0265.jpg",
+      "folder": "Baby & toddler Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.7167,
+      "duration_frames": 65
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "Photo Jun 06 2026, 9 56 18 AM.jpg",
+      "folder": "Josh - Family",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.6239,
+      "duration_frames": 63
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "IMG_0016.JPG",
+      "folder": "Josh - Family",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.2756,
+      "duration_frames": 55
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "IMG_5530_Original.jpg",
+      "folder": "Josh\u2019s places and travel",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.8096,
+      "duration_frames": 67,
+      "focus": [
+        58.541666666666664,
+        100
+      ],
+      "scale": 125
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "IMG_20171212_0350.jpg",
+      "folder": "Baby & toddler Josh",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.7864,
+      "duration_frames": 67
+    },
+    {
+      "sectionName": "Celebrate Life",
+      "file": "C7C76AD6-087C-4AA1-875F-7170E206A748.PNG",
+      "folder": "Josh\u2019s places and travel",
+      "isPlaceholder": false,
+      "transition": "crossfade",
+      "duration_sec": 2.5061,
+      "duration_frames": 60
+    },
+    {
+      "type": "title",
+      "title": "Until We Meet Again",
+      "duration_sec": 10.46,
+      "duration_frames": 314,
+      "isCard": true
+    },
+    {
+      "type": "title",
+      "title": "Rope Swing",
+      "duration_sec": 10.46,
+      "duration_frames": 314,
+      "isCard": true
+    }
+  ],
+  "modified": "2026-07-06T10:40:03.064237",
+  "created": "2026-07-06T10:40:03.064237"
 }
