@@ -1,307 +1,119 @@
-import os
 import json
-import subprocess
-from urllib.parse import quote
+import os
+import xml.etree.ElementTree as ET
+from xml.dom import minidom
 
-# ---------------------------------------------------------
-# CONSTANTS & SETUP
-# ---------------------------------------------------------
-PROJECT_ROOT = "/Volumes/Extreme SSD/JOSH"
-XML_DIR = os.path.join(PROJECT_ROOT, "Premiere", "XML")
-SEQUENCES_DIR = os.path.join(PROJECT_ROOT, "EDITING_FRAMEWORK", "sequences")
-
-# Sequence properties
-TIMEBASE = 24
-NTSC = "TRUE"
-FPS = 24.0
-WIDTH, HEIGHT = 1920, 1080
-AUDIO_RATE = 48000
-AUDIO_DEPTH = 16
-STILL_MASTER_DURATION = 86400 # 1 hour, to allow any slide duration
-
-def s2f(seconds):
-    """Convert seconds to frames."""
-    return int(round(seconds * FPS))
-
-def get_next_xml_filename(base_name="Josh_Memorial"):
-    """Auto-increments the XML version number so we never overwrite."""
-    import glob
-    existing_files = glob.glob(os.path.join(XML_DIR, f"{base_name}_v*.xml"))
-    max_v = 0
-    for f in existing_files:
-        try:
-            v_str = os.path.basename(f).replace(f"{base_name}_v", "").replace(".xml", "")
-            max_v = max(max_v, int(v_str))
-        except ValueError:
-            pass
-    return os.path.join(XML_DIR, f"{base_name}_v{max_v + 1}.xml")
-
-def encode_path(p):
-    """URL encode spaces and XML escape ampersands, mimicking Premiere exactly."""
-    return p.replace(" ", "%20").replace("&", "&amp;")
-
-def get_image_dimensions(filepath):
-    cmd = [
-        "ffprobe", "-v", "error",
-        "-show_entries", "stream=width,height",
-        "-of", "csv=p=0", filepath
-    ]
-    try:
-        output = subprocess.check_output(cmd, text=True).strip()
-        if output:
-            parts = output.split(",")
-            if len(parts) == 2:
-                return int(parts[0]), int(parts[1])
-    except Exception:
-        pass
-    return 1920, 1080
-
-def generate_xml(sequence_id):
-    seq_path = os.path.join(SEQUENCES_DIR, f"{sequence_id}.json")
-    if not os.path.exists(seq_path):
-        print(f"Sequence not found: {seq_path}")
-        return
-
-    with open(seq_path, 'r') as f:
-        seq = json.load(f)
-
-    # 1. Grab Audio
-    audio_filename = seq.get("song", {}).get("filename")
-    audio_path = os.path.join(PROJECT_ROOT, "Music", audio_filename)
-    audio_url = "file://localhost" + encode_path(audio_path)
+def generate_xml():
+    with open('/Volumes/Extreme SSD/JOSH/EDITING_FRAMEWORK/sequences/master_timeline.json') as f:
+        tl = json.load(f)
+        
+    xmeml = ET.Element('xmeml', version='4')
+    project = ET.SubElement(xmeml, 'project')
+    project_name = ET.SubElement(project, 'name')
+    project_name.text = 'Josh Memorial'
     
-    # 2. Master Clips XML
-    master_clips_xml = ""
+    children = ET.SubElement(project, 'children')
+    
+    # Sequence
+    sequence = ET.SubElement(children, 'sequence', id='sequence-1')
+    seq_name = ET.SubElement(sequence, 'name')
+    seq_name.text = 'Beat Mapped Timeline'
+    
+    duration = ET.SubElement(sequence, 'duration')
+    rate = ET.SubElement(sequence, 'rate')
+    ET.SubElement(rate, 'timebase').text = '30'
+    ET.SubElement(rate, 'ntsc').text = 'TRUE'
+    
+    media = ET.SubElement(sequence, 'media')
+    video = ET.SubElement(media, 'video')
+    
+    format = ET.SubElement(video, 'format')
+    samplecharacteristics = ET.SubElement(format, 'samplecharacteristics')
+    rate_fmt = ET.SubElement(samplecharacteristics, 'rate')
+    ET.SubElement(rate_fmt, 'timebase').text = '30'
+    ET.SubElement(rate_fmt, 'ntsc').text = 'TRUE'
+    ET.SubElement(samplecharacteristics, 'width').text = '1920'
+    ET.SubElement(samplecharacteristics, 'height').text = '1080'
+    ET.SubElement(samplecharacteristics, 'pixelaspectratio').text = 'square'
+    
+    track = ET.SubElement(video, 'track')
+    
+    file_registry = {}
+    files_defined = []
+    
+    total_frames = 0
+    current_frame = 0
+    
+    clip_idx = 1
     file_idx = 1
     
-    # Add Audio Master Clip
-    master_clips_xml += f'''        <clip id="masterclip-a">
-          <ismasterclip>TRUE</ismasterclip>
-          <rate><timebase>{TIMEBASE}</timebase><ntsc>{NTSC}</ntsc></rate>
-          <name>{audio_filename}</name>
-          <media>
-            <audio>
-              <track>
-                <clipitem id="clipitem-master-a">
-                  <masterclipid>masterclip-a</masterclipid>
-                  <name>{audio_filename}</name>
-                  <file id="file-a">
-                    <name>{audio_filename}</name>
-                    <duration>{s2f(10000)}</duration>
-                    <rate><timebase>{TIMEBASE}</timebase><ntsc>{NTSC}</ntsc></rate>
-                    <pathurl>{audio_url}</pathurl>
-                    <media>
-                        <audio><samplecharacteristics>
-                            <depth>{AUDIO_DEPTH}</depth><samplerate>{AUDIO_RATE}</samplerate>
-                        </samplecharacteristics><channelcount>2</channelcount></audio>
-                    </media>
-                  </file>
-                </clipitem>
-              </track>
-            </audio>
-          </media>
-        </clip>\n'''
-
-    # Sequence Video Track string
-    seq_vid_xml = ""
-    current_start = 0
-
-    # Photos
-    for idx, slide in enumerate(seq.get("slides", [])):
-        fid = idx + 1
-        filename = slide["file"]
-        folder = slide["folder"]
-        filepath = os.path.join(PROJECT_ROOT, "PHOTOS", "RAW_IMPORTS", folder, filename)
+    for slide in tl['slides']:
+        if slide.get('isPlaceholder'):
+            continue
+            
+        dur_frames = slide.get('duration_frames', 30)
         
-        w, h = get_image_dimensions(filepath)
-        url = "file://localhost" + encode_path(filepath)
+        start = current_frame
+        end = start + dur_frames
         
-        duration_sec = slide.get("duration_sec", seq.get("default_duration_sec", 6.0))
-        duration_frames = s2f(duration_sec)
+        if slide.get('isCard'):
+            # Just create a placeholder or title clip
+            # For simplicity we'll just skip cards or make them offline
+            current_frame = end
+            continue
+            
+        filename = slide.get('file', 'UNKNOWN.JPG')
+        file_path = f"file://localhost/Volumes/Extreme%20SSD/JOSH/Photos/{filename.replace(' ', '%20')}"
         
-        # --- SCALE & ALIGNMENT LOGIC ---
-        scale_x = WIDTH / float(w)
-        scale_y = HEIGHT / float(h)
-        scale_factor = max(scale_x, scale_y)
-        target_scale = scale_factor * 100.0
+        # Has this file been registered?
+        if filename not in file_registry:
+            file_registry[filename] = file_idx
+            file_idx += 1
+            
+        fid = f"file-{file_registry[filename]}"
         
-        fx = slide.get("focus", [50, 50])[0]
-        fy = slide.get("focus", [50, 50])[1]
+        clipitem = ET.SubElement(track, 'clipitem', id=f"clip-{clip_idx}")
+        clip_idx += 1
         
-        dx_pixels = (0.5 - fx/100.0) * w * scale_factor
-        dy_pixels = (0.5 - fy/100.0) * h * scale_factor
+        ET.SubElement(clipitem, 'name').text = filename
+        ET.SubElement(clipitem, 'enabled').text = 'TRUE'
+        ET.SubElement(clipitem, 'duration').text = '15000'
         
-        max_dx = max(0, (w * scale_factor - WIDTH) / 2.0)
-        max_dy = max(0, (h * scale_factor - HEIGHT) / 2.0)
+        crate = ET.SubElement(clipitem, 'rate')
+        ET.SubElement(crate, 'timebase').text = '30'
+        ET.SubElement(crate, 'ntsc').text = 'TRUE'
         
-        dx_pixels = max(-max_dx, min(max_dx, dx_pixels))
-        dy_pixels = max(-max_dy, min(max_dy, dy_pixels))
+        ET.SubElement(clipitem, 'start').text = str(start)
+        ET.SubElement(clipitem, 'end').text = str(end)
         
-        horiz = dx_pixels / float(WIDTH)
-        vert = dy_pixels / float(HEIGHT)
+        ET.SubElement(clipitem, 'in').text = '0'
+        ET.SubElement(clipitem, 'out').text = str(dur_frames)
         
-        filter_xml = f'''            <filter>
-              <effect>
-                <name>Basic Motion</name>
-                <effectid>basic</effectid>
-                <effectcategory>motion</effectcategory>
-                <effecttype>motion</effecttype>
-                <mediatype>video</mediatype>
-                <parameter>
-                  <parameterid>scale</parameterid>
-                  <name>Scale</name>
-                  <value>{target_scale:.2f}</value>
-                </parameter>
-                <parameter>
-                  <parameterid>center</parameterid>
-                  <name>Center</name>
-                  <value>
-                    <horiz>{horiz:.6f}</horiz>
-                    <vert>{vert:.6f}</vert>
-                  </value>
-                </parameter>
-              </effect>
-            </filter>'''
-        # -------------------------------
+        file_node = ET.SubElement(clipitem, 'file', id=fid)
+        # Only define the file the first time it is used
+        if fid not in files_defined:
+            files_defined.append(fid)
+            ET.SubElement(file_node, 'name').text = filename
+            ET.SubElement(file_node, 'pathurl').text = file_path
+            frate = ET.SubElement(file_node, 'rate')
+            ET.SubElement(frate, 'timebase').text = '30'
+            ET.SubElement(frate, 'ntsc').text = 'TRUE'
+            ET.SubElement(file_node, 'duration').text = '15000'
+            fmedia = ET.SubElement(file_node, 'media')
+            fvideo = ET.SubElement(fmedia, 'video')
+            ET.SubElement(fvideo, 'duration').text = '15000'
         
-        master_clips_xml += f'''        <clip id="masterclip-{fid}" explodedTracks="true">
-          <masterclipid>masterclip-{fid}</masterclipid>
-          <ismasterclip>TRUE</ismasterclip>
-          <duration>{STILL_MASTER_DURATION}</duration>
-          <rate><timebase>{TIMEBASE}</timebase><ntsc>{NTSC}</ntsc></rate>
-          <in>0</in>
-          <out>{STILL_MASTER_DURATION - 1}</out>
-          <name>{filename}</name>
-          <media>
-            <video>
-              <track>
-                <clipitem id="clipitem-master-{fid}">
-                  <masterclipid>masterclip-{fid}</masterclipid>
-                  <name>{filename}</name>
-                  <rate><timebase>{TIMEBASE}</timebase><ntsc>{NTSC}</ntsc></rate>
-                  <alphatype>none</alphatype>
-                  <pixelaspectratio>square</pixelaspectratio>
-                  <anamorphic>FALSE</anamorphic>
-                  <file id="file-{fid}">
-                    <name>{filename}</name>
-                    <pathurl>{url}</pathurl>
-                    <rate><timebase>{TIMEBASE}</timebase><ntsc>{NTSC}</ntsc></rate>
-                    <timecode>
-                        <rate><timebase>{TIMEBASE}</timebase><ntsc>{NTSC}</ntsc></rate>
-                        <string>00:00:00:00</string>
-                        <frame>0</frame>
-                        <displayformat>NDF</displayformat>
-                    </timecode>
-                    <media>
-                        <video>
-                            <samplecharacteristics>
-                                <rate><timebase>{TIMEBASE}</timebase><ntsc>{NTSC}</ntsc></rate>
-                                <width>{w}</width><height>{h}</height>
-                                <anamorphic>FALSE</anamorphic>
-                                <pixelaspectratio>square</pixelaspectratio>
-                                <fielddominance>none</fielddominance>
-                            </samplecharacteristics>
-                        </video>
-                    </media>
-                  </file>
-                </clipitem>
-              </track>
-            </video>
-          </media>
-        </clip>\n'''
+        current_frame = end
+        total_frames = max(total_frames, end)
         
-        end_f = current_start + duration_frames
-        seq_vid_xml += f'''          <clipitem id="seq-clip-{fid}">
-            <name>{filename}</name>
-            <duration>{STILL_MASTER_DURATION}</duration>
-            <rate><timebase>{TIMEBASE}</timebase><ntsc>{NTSC}</ntsc></rate>
-            <start>{current_start}</start><end>{end_f}</end>
-            <enabled>TRUE</enabled>
-            <in>0</in><out>{duration_frames}</out>
-            <file id="file-{fid}"/>
-{filter_xml}
-          </clipitem>\n'''
-        current_start = end_f
-
-    total_duration = current_start
+    duration.text = str(total_frames)
     
-    seq_name = seq.get("name", "Generated Sequence").replace("&", "&amp;")
-    
-    sequence_xml = f'''<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE xmeml>
-<xmeml version="4">
-  <project>
-    <name>{seq_name}</name>
-    <children>
-      <bin>
-        <name>Photos &amp; Video</name>
-        <children>
-{master_clips_xml}        </children>
-      </bin>
-      <bin>
-        <name>Sequences</name>
-        <children>
-          <sequence id="seq-1">
-            <name>{seq_name}</name>
-            <duration>{total_duration}</duration>
-            <rate><timebase>{TIMEBASE}</timebase><ntsc>{NTSC}</ntsc></rate>
-            <timecode>
-                <rate><timebase>{TIMEBASE}</timebase><ntsc>{NTSC}</ntsc></rate>
-                <string>00:00:00:00</string>
-                <frame>0</frame>
-                <displayformat>NDF</displayformat>
-            </timecode>
-            <media>
-              <video>
-                <format><samplecharacteristics>
-                  <rate><timebase>{TIMEBASE}</timebase><ntsc>{NTSC}</ntsc></rate>
-                  <width>{WIDTH}</width><height>{HEIGHT}</height>
-                </samplecharacteristics></format>
-                <track>
-                  <enabled>TRUE</enabled>
-                  <locked>FALSE</locked>
-{seq_vid_xml}                </track>
-              </video>
-              <audio>
-                <numOutputAudioTracks>2</numOutputAudioTracks>
-                <format><samplecharacteristics>
-                  <depth>{AUDIO_DEPTH}</depth><samplerate>{AUDIO_RATE}</samplerate>
-                </samplecharacteristics></format>
-                <track>
-                  <enabled>TRUE</enabled>
-                  <locked>FALSE</locked>
-                  <outputchannelindex>1</outputchannelindex>
-                  <clipitem id="seq-clip-a">
-                    <name>{audio_filename}</name>
-                    <duration>{s2f(10000)}</duration>
-                    <rate><timebase>{TIMEBASE}</timebase><ntsc>{NTSC}</ntsc></rate>
-                    <start>0</start><end>{total_duration}</end>
-                    <enabled>TRUE</enabled>
-                    <in>0</in><out>{total_duration}</out>
-                    <file id="file-a"/>
-                  </clipitem>
-                </track>
-                <track>
-                  <enabled>TRUE</enabled>
-                  <locked>FALSE</locked>
-                  <outputchannelindex>2</outputchannelindex>
-                </track>
-              </audio>
-            </media>
-          </sequence>
-        </children>
-      </bin>
-    </children>
-  </project>
-</xmeml>
-'''
-
-    out_file = get_next_xml_filename()
-    os.makedirs(os.path.dirname(out_file), exist_ok=True)
-    with open(out_file, 'w', encoding='utf-8') as f:
-        f.write(sequence_xml)
+    # Prettify and save
+    xmlstr = minidom.parseString(ET.tostring(xmeml)).toprettyxml(indent="  ")
+    with open('/Volumes/Extreme SSD/JOSH/Exports/Joshy_BeatMapped.xml', 'w') as f:
+        f.write(xmlstr)
         
-    print(f"Success! Generated XML: {out_file}")
+    print(f"Generated XML with {clip_idx-1} clips!")
 
-if __name__ == "__main__":
-    generate_xml("baby-toddler")
+if __name__ == '__main__':
+    generate_xml()

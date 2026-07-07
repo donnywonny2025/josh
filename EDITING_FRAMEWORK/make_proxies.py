@@ -3,7 +3,7 @@ import subprocess
 from pathlib import Path
 
 # Paths
-SOURCE_ROOT = Path('/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS')
+SOURCE_ROOT = Path('/Volumes/Extreme SSD/JOSH/Vids')
 PROXY_DIR = Path('/Volumes/Extreme SSD/JOSH/Photos/Proxies')
 PROXY_DIR.mkdir(parents=True, exist_ok=True)
 

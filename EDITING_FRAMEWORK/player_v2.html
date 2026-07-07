@@ -291,7 +291,9 @@ function buildTimeline() {
   let sectionStartFrame = 0;
   
   masterSequence.forEach((sl, idx) => {
-    const durFrames = sl.duration_frames || Math.round((sl.duration_sec || 5) * 24);
+    // The JSON stores frames in 30fps base. Convert to seconds, then to 24fps for UI rendering.
+    const durSec = sl.duration_frames ? (sl.duration_frames / 30.0) : (sl.duration_sec || 5);
+    const durFrames = Math.round(durSec * 24.0);
     const targetTime = currentFrame / 24.0;
     
     const secName = sl.sectionName || "Untitled Section";
@@ -570,7 +572,10 @@ function updateZoom() {
   document.documentElement.style.setProperty('--z', zoom);
   
   // Calculate total width using JS to ensure container expands properly
-  const totalFrames = masterSequence.reduce((s, sl) => s + (sl.duration_frames || Math.round((sl.duration_sec || 5) * 24)), 0);
+  const totalFrames = masterSequence.reduce((s, sl) => {
+      const durSec = sl.duration_frames ? (sl.duration_frames / 30.0) : (sl.duration_sec || 5);
+      return s + Math.round(durSec * 24.0);
+  }, 0);
   document.getElementById("timelineTracks").style.width = `${totalFrames * zoom}px`;
   
   updatePlayheadUI(audio.currentTime);
@@ -711,7 +716,10 @@ function updateFrame(force = false, forcedTime = null) {
   
   // Strict 24 FPS frame logic
   const nowFrames = Math.round(nowSec * 24.0);
-  const totalFrames = masterSequence.reduce((s, sl) => s + (sl.duration_frames || Math.round((sl.duration_sec || 5) * 24)), 0);
+  const totalFrames = masterSequence.reduce((s, sl) => {
+      const durSec = sl.duration_frames ? (sl.duration_frames / 30.0) : (sl.duration_sec || 5);
+      return s + Math.round(durSec * 24.0);
+  }, 0);
   totalSec = totalFrames / 24.0;
   
   if (nowFrames >= totalFrames && totalFrames > 0) {
@@ -726,7 +734,9 @@ function updateFrame(force = false, forcedTime = null) {
   let accumulatedFrames = 0;
   let targetIndex = 0;
   for (let i = 0; i < masterSequence.length; i++) {
-    const durFrames = (masterSequence[i].duration_frames || Math.round((masterSequence[i].duration_sec || 5) * 24));
+    const sl = masterSequence[i];
+    const durSec = sl.duration_frames ? (sl.duration_frames / 30.0) : (sl.duration_sec || 5);
+    const durFrames = Math.round(durSec * 24.0);
     if (nowFrames >= accumulatedFrames && nowFrames < accumulatedFrames + durFrames) {
       targetIndex = i;
       break;
@@ -747,7 +757,7 @@ function updateFrame(force = false, forcedTime = null) {
   
   const slide = masterSequence[targetIndex];
   if (slide) {
-     const durSec = (slide.duration_frames || Math.round((slide.duration_sec || 5) * 24)) / 24.0;
+     const durSec = slide.duration_frames ? (slide.duration_frames / 30.0) : (slide.duration_sec || 5);
      const localSec = (nowFrames - accumulatedFrames) / 24.0;
      const name = slide.isCard ? `[CARD] ${slide.title}` : (slide.folder ? `${slide.folder}/${slide.file}` : slide.file || "EMPTY SLOT");
      
@@ -862,7 +872,8 @@ function seekRelative(dir) {
     
     let targetFrames = 0;
     for(let i=0; i<target; i++) { 
-        targetFrames += (masterSequence[i].duration_frames || Math.round((masterSequence[i].duration_sec || 5) * 24)); 
+        const durSec = masterSequence[i].duration_frames ? (masterSequence[i].duration_frames / 30.0) : (masterSequence[i].duration_sec || 5);
+        targetFrames += Math.round(durSec * 24.0);
     }
     
     // Add 1 frame buffer to guarantee it lands safely inside the target slide

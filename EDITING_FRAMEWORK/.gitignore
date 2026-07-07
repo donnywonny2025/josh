@@ -1,0 +1,20 @@
+# Media and Renders
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.jpg
+*.jpeg
+*.png
+proxies/
+face_data/
+OLLAMA_MODELS/
+Renders/
+Vids/
+Best Picks/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
