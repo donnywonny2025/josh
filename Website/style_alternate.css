@@ -146,11 +146,11 @@ img {
 .royal-sweep {
   background: linear-gradient(
     75deg, 
-    color-mix(in srgb, currentColor 60%, transparent) 0%, 
-    color-mix(in srgb, currentColor 60%, transparent) 45%, 
+    rgba(240, 235, 228, 0.5) 0%, 
+    rgba(240, 235, 228, 0.5) 45%, 
     #fff 50%, 
-    color-mix(in srgb, currentColor 60%, transparent) 55%, 
-    color-mix(in srgb, currentColor 60%, transparent) 100%
+    rgba(240, 235, 228, 0.5) 55%, 
+    rgba(240, 235, 228, 0.5) 100%
   );
   background-size: 300% auto;
   -webkit-background-clip: text;
@@ -176,11 +176,11 @@ img {
 .subtle-shimmer {
   background: linear-gradient(
     75deg, 
-    color-mix(in srgb, currentColor 70%, transparent) 0%, 
-    color-mix(in srgb, currentColor 70%, transparent) 45%, 
+    rgba(240, 235, 228, 0.5) 0%, 
+    rgba(240, 235, 228, 0.5) 45%, 
     rgba(255, 255, 255, 0.8) 50%, 
-    color-mix(in srgb, currentColor 70%, transparent) 55%, 
-    color-mix(in srgb, currentColor 70%, transparent) 100%
+    rgba(240, 235, 228, 0.5) 55%, 
+    rgba(240, 235, 228, 0.5) 100%
   );
   background-size: 300% auto;
   -webkit-background-clip: text;
@@ -3292,7 +3292,7 @@ a.contact-item:hover {
 .site-header.theme-dark:not(.scrolled) .brand-name,
 .site-header.theme-dark:not(.scrolled) .main-nav a {
   color: var(--gold-light);
-  -webkit-text-fill-color: var(--gold-light);
+  /* removed -webkit-text-fill-color to allow animation to show */
 }
 .site-header.theme-dark:not(.scrolled) .main-nav a::after {
   background: var(--forest-deep);
@@ -3354,4 +3354,10 @@ a.contact-item:hover {
   border-color: var(--gold-light);
 }
 
+
+
+.hero-title { --base-color: var(--gold-light); }
+.hero-dates { --base-color: var(--gold); }
+.hero-desc { --base-color: var(--cream); }
+.main-nav a { --base-color: rgba(240, 235, 228, 0.7); }
 
