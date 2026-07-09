@@ -553,11 +553,12 @@
         loop: true,
         volume: document.getElementById('bgm-volume') ? parseFloat(document.getElementById('bgm-volume').value) : 0.35,
         mute: isMuted,
-        html5: true, // IMPORTANT: Forces HTML5 Audio to stream the 45MB WAV instead of caching to RAM
         onplay: () => { isPlaying = true; updateUI(); },
         onpause: () => { isPlaying = false; updateUI(); },
         onend: () => { loadTrack(currentTrackIndex + 1); },
-        onplayerror: function() {
+        onloaderror: (id, err) => { console.error('Audio load error:', err); },
+        onplayerror: function(id, err) {
+          console.warn('Autoplay blocked:', err);
           // If autoplay is blocked by browser, wait for the first click to unlock
           bgmHowl.once('unlock', function() {
             bgmHowl.play();
