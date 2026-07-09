@@ -87,7 +87,7 @@
     </div>
     
     <!-- Native Audio Player (autoplay via JS to handle policies) -->
-    <audio id="bgm-audio" autoplay preload="auto">
+    <audio id="bgm-audio" autoplay muted preload="auto">
       <source src="music/A_Quiet_New_Road.wav" type="audio/wav">
     </audio>
   </div>
@@ -516,6 +516,13 @@
     // Set muted property on the audio element so it can bypass browser autoplay blocks
     bgmAudio.muted = true;
     bgmAudio.volume = 0.35;
+    bgmAudio.currentTime = 0; // Force restart on reload
+    
+    // Check if the browser natively autoplayed the audio via the HTML attribute before JS even ran
+    if (!bgmAudio.paused) {
+      isPlaying = true;
+      updateUI();
+    }
     
     // Autoplay attempt on load
     const tryPlayBGM = () => {
@@ -582,11 +589,7 @@
       if (isPlaying) bgmAudio.play().catch(e => console.log(e));
     }
 
-    if (bgmBtn && bgmAudio) {
-      bgmBtn.addEventListener('click', () => {
-        if (isPlaying) bgmAudio.pause();
-        else bgmAudio.play().catch(e => console.log(e));
-      });
+    if (bgmAudio) {
       
       bgmAudio.addEventListener('play', () => { isPlaying = true; updateUI(); });
       bgmAudio.addEventListener('pause', () => { isPlaying = false; updateUI(); });
