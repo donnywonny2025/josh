@@ -324,6 +324,27 @@ img {
   text-transform: uppercase;
   position: relative;
   transition: color var(--duration-fast) var(--ease-out);
+}
+
+/* Dynamic Header Animations */
+@keyframes headerEntrance {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+    filter: blur(8px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+.header-anim {
+  animation: 
+    headerEntrance 1s var(--ease-out-expo) var(--stagger, 0s) backwards,
+    navShimmer 4s linear infinite;
+    
   background: linear-gradient(
     90deg,
     rgba(240, 235, 228, 0.4) 0%,
@@ -336,7 +357,6 @@ img {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  animation: navShimmer 4s linear infinite;
 }
 
 .main-nav a::after {
