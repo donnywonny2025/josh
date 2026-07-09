@@ -34,20 +34,62 @@
     </div>
   </header>
 
-  <!-- ===== BGM PLAYER WIDGET ===== -->
+  <!-- ===== MULTI-TRACK BGM PLAYER WIDGET ===== -->
   <div class="bgm-player theme-dark" id="bgm-player">
-    <button class="bgm-btn" id="bgm-btn" aria-label="Play background music">
-      <svg class="bgm-icon-play" viewBox="0 0 24 24" fill="currentColor">
-        <polygon points="5,3 19,12 5,21"/>
-      </svg>
-      <svg class="bgm-icon-pause" viewBox="0 0 24 24" fill="currentColor" style="display:none;">
-        <rect x="6" y="4" width="4" height="16"/>
-        <rect x="14" y="4" width="4" height="16"/>
-      </svg>
-    </button>
     
-    <!-- Native Audio Player -->
-    <audio id="bgm-audio" src="music/Quiet New Road.mp3" loop preload="auto"></audio>
+    <div class="bgm-left-controls">
+      <button class="bgm-btn small" id="bgm-prev" aria-label="Previous Track">
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,12 16,5 16,19"/></svg>
+      </button>
+      <button class="bgm-btn" id="bgm-btn" aria-label="Play/Pause">
+        <svg class="bgm-icon-play" viewBox="0 0 24 24" fill="currentColor">
+          <polygon points="5,3 19,12 5,21"/>
+        </svg>
+        <svg class="bgm-icon-pause" viewBox="0 0 24 24" fill="currentColor" style="display:none;">
+          <rect x="6" y="4" width="4" height="16"/>
+          <rect x="14" y="4" width="4" height="16"/>
+        </svg>
+      </button>
+      <button class="bgm-btn small" id="bgm-next" aria-label="Next Track">
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="18,12 8,19 8,5"/></svg>
+      </button>
+    </div>
+
+    <div class="bgm-info" id="bgm-info-toggle">
+      <div class="bgm-title-scroll">
+        <span class="bgm-title" id="bgm-title">Quiet New Road</span>
+      </div>
+      <div class="bgm-artist-row">
+        <span class="bgm-artist">Remembering Josh</span>
+        <div class="bgm-waveform" id="bgm-waveform">
+          <span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+      
+      <!-- Tracklist Dropdown Menu -->
+      <div class="bgm-tracklist-menu" id="bgm-tracklist">
+        <div class="track-item active" data-src="music/Quiet New Road.mp3">Quiet New Road</div>
+        <div class="track-item" data-src="music/lullaby_of_the_lost.mp3">Lullaby of the Lost</div>
+      </div>
+    </div>
+    
+    <div class="bgm-right-controls">
+      <button class="bgm-btn small" id="bgm-mute" aria-label="Mute/Unmute">
+        <svg class="bgm-icon-unmuted" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M11,5 L6,9 L2,9 L2,15 L6,15 L11,19 L11,5 Z M15.54,8.46 C16.48,9.4 17,10.66 17,12 C17,13.34 16.48,14.6 15.54,15.54 M18.36,5.64 C19.95,7.23 20.92,9.5 21.05,11.96"/>
+        </svg>
+        <svg class="bgm-icon-muted" viewBox="0 0 24 24" fill="currentColor" style="display:none;">
+          <path d="M11,5 L6,9 L2,9 L2,15 L6,15 L11,19 L11,5 Z"/>
+          <line x1="22" y1="9" x2="16" y2="15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <line x1="16" y1="9" x2="22" y2="15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+    
+    <!-- Native Audio Player (autoplay via JS to handle policies) -->
+    <audio id="bgm-audio" preload="auto">
+      <source src="music/Quiet New Road.mp3" type="audio/mpeg">
+    </audio>
   </div>
 
   <!-- ===== HERO: ASYMMETRICAL EDITORIAL GRID ===== -->
@@ -455,40 +497,114 @@
       navToggle.classList.toggle('open');
     });
 
-    // --- BGM PLAYER LOGIC ---
-    const bgmBtn = document.getElementById('bgm-btn');
+    // --- MULTI-TRACK BGM PLAYER LOGIC ---
     const bgmAudio = document.getElementById('bgm-audio');
-    let bgmPlaying = false;
+    const bgmBtn = document.getElementById('bgm-btn');
+    const bgmPrev = document.getElementById('bgm-prev');
+    const bgmNext = document.getElementById('bgm-next');
+    const bgmMute = document.getElementById('bgm-mute');
     
     const playIcon = document.querySelector('.bgm-icon-play');
     const pauseIcon = document.querySelector('.bgm-icon-pause');
+    const mutedIcon = document.querySelector('.bgm-icon-muted');
+    const unmutedIcon = document.querySelector('.bgm-icon-unmuted');
+    const waveform = document.getElementById('bgm-waveform');
+    
+    const tracklistToggle = document.getElementById('bgm-info-toggle');
+    const tracklistMenu = document.getElementById('bgm-tracklist');
+    const trackItems = document.querySelectorAll('.track-item');
+    const titleDisplay = document.getElementById('bgm-title');
+    
+    let isPlaying = false;
+    let isMuted = false;
+    let currentTrackIndex = 0;
+    
+    // Autoplay attempt on load
+    bgmAudio.play().then(() => {
+      isPlaying = true;
+      updateUI();
+    }).catch(e => {
+      console.log('Autoplay blocked by browser policy. User must interact first.');
+    });
 
-    function updateBgmUI() {
-      if (bgmPlaying) {
+    function updateUI() {
+      if (isPlaying) {
         playIcon.style.display = 'none';
         pauseIcon.style.display = 'block';
+        waveform.classList.add('playing');
       } else {
         playIcon.style.display = 'block';
         pauseIcon.style.display = 'none';
+        waveform.classList.remove('playing');
       }
+      
+      if (isMuted) {
+        mutedIcon.style.display = 'block';
+        unmutedIcon.style.display = 'none';
+      } else {
+        mutedIcon.style.display = 'none';
+        unmutedIcon.style.display = 'block';
+      }
+    }
+
+    function loadTrack(index) {
+      if (index < 0) index = trackItems.length - 1;
+      if (index >= trackItems.length) index = 0;
+      currentTrackIndex = index;
+      
+      const item = trackItems[index];
+      bgmAudio.src = item.getAttribute('data-src');
+      titleDisplay.textContent = item.textContent;
+      
+      trackItems.forEach(t => t.classList.remove('active'));
+      item.classList.add('active');
+      
+      if (isPlaying) bgmAudio.play().catch(e => console.log(e));
     }
 
     if (bgmBtn && bgmAudio) {
       bgmBtn.addEventListener('click', () => {
-        if (bgmPlaying) {
-          bgmAudio.pause();
-        } else {
-          bgmAudio.play().catch(e => console.log('Audio play failed:', e));
+        if (isPlaying) bgmAudio.pause();
+        else bgmAudio.play().catch(e => console.log(e));
+      });
+      
+      bgmAudio.addEventListener('play', () => { isPlaying = true; updateUI(); });
+      bgmAudio.addEventListener('pause', () => { isPlaying = false; updateUI(); });
+      bgmAudio.addEventListener('ended', () => { loadTrack(currentTrackIndex + 1); });
+      
+      bgmMute.addEventListener('click', () => {
+        isMuted = !isMuted;
+        bgmAudio.muted = isMuted;
+        updateUI();
+      });
+      
+      bgmPrev.addEventListener('click', () => {
+        loadTrack(currentTrackIndex - 1);
+        if (!isPlaying) { bgmAudio.play().catch(e => console.log(e)); }
+      });
+      
+      bgmNext.addEventListener('click', () => {
+        loadTrack(currentTrackIndex + 1);
+        if (!isPlaying) { bgmAudio.play().catch(e => console.log(e)); }
+      });
+      
+      tracklistToggle.addEventListener('click', (e) => {
+        if (e.target.closest('.bgm-tracklist-menu')) return;
+        tracklistMenu.classList.toggle('open');
+      });
+      
+      trackItems.forEach((item, index) => {
+        item.addEventListener('click', () => {
+          loadTrack(index);
+          tracklistMenu.classList.remove('open');
+          bgmAudio.play().catch(e => console.log(e));
+        });
+      });
+      
+      document.addEventListener('click', (e) => {
+        if (!tracklistToggle.contains(e.target)) {
+          tracklistMenu.classList.remove('open');
         }
-      });
-
-      bgmAudio.addEventListener('play', () => {
-        bgmPlaying = true;
-        updateBgmUI();
-      });
-      bgmAudio.addEventListener('pause', () => {
-        bgmPlaying = false;
-        updateBgmUI();
       });
     }
 

@@ -2468,14 +2468,14 @@ a.contact-item:hover {
   align-items: center;
   gap: 16px;
   padding: 10px 16px;
-  background: rgba(10, 10, 10, 0.6);
+  background: rgba(10, 10, 10, 0.7);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(181, 149, 90, 0.2);
+  border: 1px solid rgba(181, 149, 90, 0.25);
   border-radius: 40px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
   transition: all var(--duration-med) var(--ease-out);
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .bgm-player.fade-out {
@@ -2486,8 +2486,14 @@ a.contact-item:hover {
 
 .bgm-player:hover {
   opacity: 1;
-  background: rgba(10, 10, 10, 0.8);
-  border-color: rgba(181, 149, 90, 0.5);
+  background: rgba(10, 10, 10, 0.85);
+  border-color: rgba(181, 149, 90, 0.6);
+}
+
+.bgm-left-controls, .bgm-right-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .bgm-btn {
@@ -2504,30 +2510,65 @@ a.contact-item:hover {
   transition: all var(--duration-fast) var(--ease-out);
 }
 
+.bgm-btn.small {
+  width: 28px;
+  height: 28px;
+  border-color: rgba(181, 149, 90, 0.4);
+}
+
 .bgm-btn svg {
   width: 14px;
   height: 14px;
+}
+
+.bgm-btn.small svg {
+  width: 12px;
+  height: 12px;
 }
 
 .bgm-btn:hover {
   background: rgba(181, 149, 90, 0.2);
   color: #fff;
   transform: scale(1.05);
+  border-color: var(--gold);
 }
 
 .bgm-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
+  min-width: 140px;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 8px;
+  transition: background var(--duration-fast);
+}
+
+.bgm-info:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.bgm-title-scroll {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
 }
 
 .bgm-title {
   font-family: var(--font-body);
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   font-weight: 500;
   color: var(--cream);
   letter-spacing: 0.05em;
   margin-bottom: 2px;
+  display: inline-block;
+}
+
+.bgm-artist-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .bgm-artist {
@@ -2542,9 +2583,8 @@ a.contact-item:hover {
 .bgm-waveform {
   display: flex;
   align-items: center;
-  gap: 3px;
-  height: 16px;
-  margin-left: 4px;
+  gap: 2px;
+  height: 12px;
   opacity: 0;
   transition: opacity var(--duration-fast) var(--ease-out);
 }
@@ -2563,13 +2603,67 @@ a.contact-item:hover {
 }
 
 .bgm-waveform span:nth-child(1) { animation-delay: 0.0s; }
-.bgm-waveform span:nth-child(2) { animation-delay: 0.2s; height: 10px; }
-.bgm-waveform span:nth-child(3) { animation-delay: 0.4s; height: 14px; }
+.bgm-waveform span:nth-child(2) { animation-delay: 0.2s; height: 8px; }
+.bgm-waveform span:nth-child(3) { animation-delay: 0.4s; height: 12px; }
 .bgm-waveform span:nth-child(4) { animation-delay: 0.6s; height: 6px; }
 
 @keyframes waveform {
   0%, 100% { transform: scaleY(0.5); }
   50% { transform: scaleY(1.5); }
+}
+
+/* Tracklist Dropdown */
+.bgm-tracklist-menu {
+  position: absolute;
+  bottom: calc(100% + 16px);
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  background: rgba(15, 15, 15, 0.95);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(181, 149, 90, 0.3);
+  border-radius: 12px;
+  padding: 8px;
+  width: max-content;
+  min-width: 180px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+  opacity: 0;
+  pointer-events: none;
+  transition: all var(--duration-med) var(--ease-out);
+}
+
+.bgm-tracklist-menu.open {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
+}
+
+.track-item {
+  padding: 10px 16px;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  color: var(--cream);
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background var(--duration-fast);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.track-item:hover {
+  background: rgba(181, 149, 90, 0.15);
+}
+
+.track-item.active {
+  color: var(--gold-light);
+  font-weight: 500;
+  background: rgba(181, 149, 90, 0.1);
+}
+
+.track-item.active::before {
+  content: '▸';
+  color: var(--gold);
 }
 
 /* ---- RESPONSIVE ---- */
