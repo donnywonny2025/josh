@@ -2996,9 +2996,9 @@ a.contact-item:hover {
 
 .video-card-wrap video {
   position: absolute;
-  top: calc((15 / 515) * 100%);
-  left: calc((-3 / 857) * 100%);
-  width: 102%;
+  top: calc((18 / 515) * 100%);
+  left: calc((-1 / 857) * 100%);
+  width: 100%;
   height: auto;
   transform-origin: top left;
   transform: none;

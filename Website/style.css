@@ -468,6 +468,7 @@ img {
 /* --- Hero Right: Video Showcase --- */
 .hero-video-col {
   width: 100%;
+  min-width: 0;
 }
 
 .hero-video-showcase {
@@ -1355,6 +1356,8 @@ a.contact-item:hover {
 
 @keyframes shineSweep {
   0% { background-position: 150% center; }
+  100% { background-position: -50% center; }
+}
 
 /* Elegant Soft Write-On Reveal */
 .quote-text.reveal-write-on {
@@ -3226,9 +3229,8 @@ a.contact-item:hover {
   position: absolute;
   inset: 0;
   z-index: 1;
-  opacity: 0.12; /* Very faint */
   mix-blend-mode: screen; /* lighter */
-  opacity: 0.08; /* Blends nicely with the warm cream */
+  opacity: 0.15; /* Increased from 0.08 to brighten slightly */
   filter: grayscale(100%) contrast(120%); /* Black and white watermark effect */
 }
 
