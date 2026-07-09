@@ -565,7 +565,15 @@
       currentTrackIndex = index;
       
       const item = trackItems[index];
-      bgmAudio.src = item.getAttribute('data-src');
+      const newSrc = item.getAttribute('data-src');
+      
+      // Gapless looping for the same track
+      if (bgmAudio.getAttribute('src') === newSrc || bgmAudio.src.endsWith(newSrc)) {
+        bgmAudio.currentTime = 0;
+      } else {
+        bgmAudio.src = newSrc;
+      }
+      
       titleDisplay.textContent = item.textContent;
       
       trackItems.forEach(t => t.classList.remove('active'));
