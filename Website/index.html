@@ -8,7 +8,7 @@
   <meta property="og:title" content="Joshua Michael Burns — Always Around">
   <meta property="og:description" content="Celebrating the life, the laughter, and the legacy of an American hero.">
   <meta property="og:type" content="website">
-  <link rel="stylesheet" href="style.css?v=23">
+  <link rel="stylesheet" href="style.css?v=37">
   <script>
     if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
     window.scrollTo(0, 0);
@@ -17,16 +17,16 @@
 <body>
 
   <!-- ===== HEADER ===== -->
-  <header class="site-header" id="header">
+  <header class="site-header theme-dark" id="header">
     <div class="header-container">
       <div class="logo-area">
-        <span class="brand-name" style="letter-spacing: 0.3em; font-size: 0.95rem; font-weight: 500;">JMB</span>
+        <span class="brand-name royal-sweep" style="letter-spacing: 0.3em; font-size: 0.95rem; font-weight: 500; animation-delay: 0s;">JMB</span>
       </div>
       <nav class="main-nav" id="main-nav">
-        <a href="#" class="active">Home</a>
-        <a href="#video">The Video</a>
-        <a href="#chapters">The Chapters</a>
-        <a href="#contact">Contact</a>
+        <a href="index.html" class="reveal royal-sweep reveal-delay-1" style="animation-delay: 0.5s;">Home</a>
+        <a href="#video-showcase" class="reveal royal-sweep reveal-delay-2" style="animation-delay: 1.0s;">The Video</a>
+        <a href="#chapters" class="reveal royal-sweep reveal-delay-3" style="animation-delay: 1.5s;">The Chapters</a>
+        <a href="#contact" class="reveal royal-sweep reveal-delay-4" style="animation-delay: 2.0s;">Contact</a>
       </nav>
       <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
         <span></span><span></span><span></span>
@@ -35,7 +35,7 @@
   </header>
 
   <!-- ===== BGM PLAYER WIDGET ===== -->
-  <div class="bgm-player" id="bgm-player">
+  <div class="bgm-player theme-dark" id="bgm-player">
     <button class="bgm-btn" id="bgm-btn" aria-label="Play background music">
       <svg class="bgm-icon-play" viewBox="0 0 24 24" fill="currentColor">
         <polygon points="5,3 19,12 5,21"/>
@@ -51,9 +51,26 @@
   </div>
 
   <!-- ===== HERO: ASYMMETRICAL EDITORIAL GRID ===== -->
-  <section class="hero" id="hero">
-    <div class="hero-bg-image"></div>
-    <div class="hero-overlay"></div>
+  <section class="hero theme-dark" id="hero">
+    <div class="hero-bg-slideshow">
+      <div class="bg-slide" style="background-image: url('../Photos/RAW_IMPORTS/Just Josh/Photo Apr 28 2018, 4 06 42 PM.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('../Photos/RAW_IMPORTS/Just Josh/Photo Dec 23 2018, 7 24 42 PM.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('../Photos/RAW_IMPORTS/Just Josh/Photo Aug 05 2021, 3 48 39 PM.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('../Photos/RAW_IMPORTS/Just Josh/Photo Apr 18 2019, 1 02 58 PM.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('../Photos/RAW_IMPORTS/Just Josh/Photo Jan 10 2020, 7 55 02 PM.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('../Photos/RAW_IMPORTS/Just Josh/Photo Jul 13 2020, 5 10 59 PM.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('../Photos/RAW_IMPORTS/Just Josh/Photo Jul 06 2019, 11 52 03 AM.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('../Photos/RAW_IMPORTS/Josh’s places and travel/Photo May 19 2020, 11 39 39 AM.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('../Photos/RAW_IMPORTS/Josh’s places and travel/DSC_0392.JPG');"></div>
+      <div class="bg-slide" style="background-image: url('../Photos/RAW_IMPORTS/Josh’s places and travel/2D3BB106-974A-4683-9E60-BE1216BBC805.JPG');"></div>
+      <div class="bg-slide" style="background-image: url('../Photos/RAW_IMPORTS/Josh’s places and travel/1994 Photos_20171213_0046.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('../Photos/RAW_IMPORTS/Josh’s places and travel/IMG_0330_Original.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('../Photos/RAW_IMPORTS/Josh’s places and travel/1999_20180203_0108.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('../Photos/RAW_IMPORTS/Josh’s places and travel/IMG_0787_Original.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('../Photos/Make sure these are in there/Photo Apr 28 2018, 8 28 10 PM.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('../Photos/Make sure these are in there/IMG_1715.PNG');"></div>
+      <div class="bg-slide" style="background-image: url('../Photos/Make sure these are in there/IMG_1681.PNG');"></div>
+    </div>
     <div class="hero-content-wrap">
       
       <!-- Left: Elegant Typography Anchor -->
@@ -66,30 +83,40 @@
             <path d="M37 9.5C36 6.5 37.5 4 41 5C42.5 7 40.5 9 37 9.5Z" fill="var(--gold)" stroke="none" />
             <path d="M20 15C22 18 25 18 24 15C23 12 21 13 20 15Z" fill="var(--gold)" stroke="none" />
           </svg>
-          <h1 class="hero-title">Joshua Michael Burns</h1>
-          <p class="hero-dates">July 8, 1982 — January 20, 2026</p>
+          <h1 class="hero-title">
+            <span class="reveal royal-sweep" style="display: inline-block; transition-delay: 0.2s; animation-delay: 0s;">Joshua</span><br>
+            <span class="reveal royal-sweep" style="display: inline-block; transition-delay: 0.7s; animation-delay: 1.5s;">Michael</span><br>
+            <span class="reveal royal-sweep" style="display: inline-block; transition-delay: 1.2s; animation-delay: 3.0s;">Burns</span>
+          </h1>
+          <p class="hero-dates reveal royal-sweep" style="transition-delay: 1.7s; animation-delay: 4.5s;">July 8, 1982 &mdash; January 20, 2026</p>
         </div>
 
         <div class="hero-bottom-tagline anim-wrap wrap-2">
-          <p class="hero-desc">Beloved son, brother, friend, and adventurer.<br>His story lives on.</p>
+          <p class="hero-desc reveal subtle-shimmer" style="transition-delay: 2.2s; animation-delay: 6s;">Beloved son, brother, friend, and adventurer.<br>His story lives on.</p>
         </div>
       </div>
 
       <!-- Right: Premium Video Showcase -->
       <div class="hero-video-col anim-wrap wrap-3">
         <div class="hero-video-showcase" id="video">
-          <div class="video-card-wrap">
-            <video id="tribute-video" playsinline autoplay muted loop poster="images/josh_childhood.jpg">
-              <source src="videos/josh_master.mp4" type="video/mp4">
-            </video>
-            <div class="video-play-overlay" id="video-play-overlay">
-              <div class="play-button-circle">
-                <svg viewBox="0 0 24 24" fill="currentColor">
-                  <polygon points="8 5 19 12 8 19 8 5"/>
+          <div class="stacked-cards-container">
+            <div class="video-card-wrap playing">
+              <div class="wooden-frame-bg"></div>
+              <video id="tribute-video" playsinline autoplay muted loop poster="images/josh_childhood.jpg">
+                <source src="video/Josh_Master_Final_Edit_V3_WebMaster.mp4" type="video/mp4">
+              </video>
+              <div class="video-play-overlay" onclick="playInlineVideo()" aria-label="Play Tribute Video">
+                <svg viewBox="0 0 24 24">
+                  <polygon points="7,5 19,12 7,19"/>
                 </svg>
               </div>
             </div>
           </div>
+        </div>
+
+        <div class="hero-video-passage anim-wrap wrap-4">
+          <div class="passage-line"></div>
+          <p class="reveal ghost-reveal royal-sweep reveal-delay-3">His courage was a quiet force. He lived not just for himself, but for the safety, joy, and profound love of everyone lucky enough to stand beside him. This is his story.</p>
         </div>
       </div>
 
@@ -98,11 +125,13 @@
 
   <!-- ===== QUOTE BANNER ===== -->
   <section class="quote-banner-section">
-    <div class="quote-banner-bg" style="background-image: url('images/quote_bg.png');"></div>
+    <video class="quote-banner-bg-video" autoplay muted loop playsinline poster="images/quote_bg.png">
+      <source src="video/Grand_Canyon_sunset_seamless.mp4" type="video/mp4">
+    </video>
     <div class="quote-banner-overlay"></div>
     <div class="quote-banner-content">
-      <span class="quote-mark reveal">“</span>
-      <p class="quote-text reveal reveal-delay-1">“He lived with passion, loved deeply, and inspired everyone around him.”</p>
+      <span class="quote-mark reveal royal-sweep" style="animation-delay: 0s;">“</span>
+      <p class="quote-text reveal reveal-write-on royal-sweep reveal-delay-1" style="animation-delay: 1.0s;">“He lived with passion, loved deeply, and inspired everyone around him.”</p>
       <div class="quote-divider-branch reveal reveal-delay-2">
         <svg width="48" height="24" viewBox="0 0 48 24" fill="none" stroke="var(--gold)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="leaf-twig" style="opacity: 0.85;">
           <path d="M4 18C12 16 26 10 42 6" />
@@ -118,21 +147,21 @@
   <!-- ===== THE CHAPTERS ===== -->
   <section class="symposium-section" id="chapters">
     <div class="symposium-header">
-      <div class="label reveal">The Story</div>
-      <h2 class="reveal reveal-delay-1">Chapters of<br>His Life</h2>
-      <p class="symposium-tagline reveal reveal-delay-2">A timeline honoring the memories, the service, and the legacy.<br>Click on a chapter to view the gallery.</p>
+      <div class="label reveal royal-sweep" style="animation-delay: 0s;">The Story</div>
+      <h2 class="reveal royal-sweep reveal-delay-1" style="animation-delay: 0.8s;">Chapters of<br>His Life</h2>
+      <p class="symposium-tagline reveal subtle-shimmer reveal-delay-2" style="animation-delay: 1.6s;">A timeline honoring the memories, the service, and the legacy.<br>Click on a chapter to view the gallery.</p>
     </div>
 
     <!-- Chapters Grid -->
     <div class="presenters-label reveal">
-      <div class="label">The Journey</div>
+      <div class="label subtle-shimmer">The Journey</div>
     </div>
     <div class="presenters-grid">
         <article class="presenter reveal" style="--i:0" onclick="openGallery('early')">
           <div class="presenter-image" style="background-image: url('images/chapter_early.jpg');">
           </div>
           <div class="presenter-info">
-            <h3>Early Pictures</h3>
+            <h3 class="reveal royal-sweep reveal-delay-1" style="animation-delay: 0.0s;">Early Pictures</h3>
             <p>The beginning of a beautiful life</p>
             <span class="presenter-cred">00:04 - 01:12</span>
           </div>
@@ -142,7 +171,7 @@
           <div class="presenter-image" style="background-image: url('images/chapter_family.jpg');">
           </div>
           <div class="presenter-info">
-            <h3>Family & High School</h3>
+            <h3 class="reveal royal-sweep reveal-delay-2">Family & High School</h3>
             <p>Growing up and making memories</p>
             <span class="presenter-cred">01:12 - 02:47</span>
           </div>
@@ -152,7 +181,7 @@
           <div class="presenter-image" style="background-image: url('images/chapter_navy.jpg');">
           </div>
           <div class="presenter-info">
-            <h3>Navy EOD Service</h3>
+            <h3 class="reveal royal-sweep reveal-delay-3">Navy EOD Service</h3>
             <p>Explosive Ordnance Disposal</p>
             <span class="presenter-cred">02:47 - 04:07</span>
           </div>
@@ -162,7 +191,7 @@
           <div class="presenter-image" style="background-image: url('images/chapter_brothers.jpg');">
           </div>
           <div class="presenter-info">
-            <h3>A Bond Between Brothers</h3>
+            <h3 class="reveal royal-sweep reveal-delay-4">A Bond Between Brothers</h3>
             <p>Ben and Josh</p>
             <span class="presenter-cred">04:07 - 05:45</span>
           </div>
@@ -172,7 +201,7 @@
           <div class="presenter-image" style="background-image: url('images/chapter_linsey.jpg');">
           </div>
           <div class="presenter-info">
-            <h3>Linsey & Josh</h3>
+            <h3 class="reveal royal-sweep reveal-delay-5" style="animation-delay: 2.0s;">Linsey & Josh</h3>
             <p>Remembering the Moments</p>
             <span class="presenter-cred">05:45 - 06:25</span>
           </div>
@@ -182,7 +211,7 @@
           <div class="presenter-image" style="background-image: url('images/chapter_celebrate.jpg');">
           </div>
           <div class="presenter-info">
-            <h3>Celebrate Life</h3>
+            <h3 class="reveal royal-sweep reveal-delay-6">Celebrate Life</h3>
             <p>Until We Meet Again</p>
             <span class="presenter-cred">06:25 - 08:15</span>
           </div>
@@ -199,8 +228,8 @@
     <div class="contact-inner">
       <div class="contact-info">
         <div class="label reveal">Remember</div>
-        <h2 class="reveal reveal-delay-1">Always Around</h2>
-        <p class="reveal reveal-delay-2">Joshua Michael Burns — Navy EOD, brother, husband, friend. His light doesn't go out. It lives in every person he touched.</p>
+        <h2 class="reveal ambient-core reveal-delay-1">Always Around</h2>
+        <p class="reveal subtle-shimmer reveal-delay-2">Joshua Michael Burns — Navy EOD, brother, husband, friend. His light doesn't go out. It lives in every person he touched.</p>
         <div class="contact-details reveal reveal-delay-3">
           <div class="contact-item">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -210,12 +239,12 @@
       </div>
       <div class="contact-form-wrap">
         <div class="label reveal">Share a Memory</div>
-        <h3 class="reveal reveal-delay-1">Leave a Message</h3>
-        <p class="reveal reveal-delay-2">Share a memory, a story, or just say hello.</p>
+        <h3 class="reveal royal-sweep reveal-delay-1">Leave a Message</h3>
+        <p class="reveal subtle-shimmer reveal-delay-2">Share a memory, a story, or just say hello.</p>
         <form class="mailing-form reveal reveal-delay-3" onsubmit="event.preventDefault(); this.innerHTML='<p style=\'color:var(--gold-light);font-family:var(--font-heading);font-style:italic;font-size:1.2rem;\'>Thank you for sharing.</p>';">
           <input type="text" placeholder="Your Name" required>
           <textarea placeholder="Your message or memory..." rows="4" style="width:100%;padding:12px 16px;border:1px solid var(--sage);border-radius:8px;background:rgba(255,255,255,0.05);color:var(--text-primary);font-family:var(--font-body);resize:vertical;"></textarea>
-          <button type="submit">Send</button>
+          <button type="submit" class="cta-button primary metallic-reflection">Send Message</button>
         </form>
       </div>
     </div>
@@ -306,19 +335,61 @@
   <!-- ===== SCRIPTS ===== -->
   <script src="https://player.vimeo.com/api/player.js"></script>
   <script>
-    // Video play trigger
-    function playTributeVideo() {
-      const video = document.getElementById('tribute-video');
-      const videoCard = document.querySelector('.video-card-wrap');
-      if (video) {
-        video.play();
-        video.controls = true;
-        if (videoCard) {
-          videoCard.classList.add('playing');
-        }
-        video.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    // --- INLINE VIDEO LOGIC ---
+    function playInlineVideo() {
+      const bgVideo = document.getElementById('tribute-video');
+      const bgmAudio = document.getElementById('bgm-audio');
+      const overlay = document.querySelector('.video-play-overlay');
+      const hero = document.getElementById('hero');
+      
+      // Pause background music
+      if (bgmAudio && !bgmAudio.paused) {
+        bgmAudio.pause();
+        bgmPlaying = false;
+        updateBgmUI();
+      }
+
+      // Hide overlay and expand layout
+      if (overlay) overlay.style.display = 'none';
+      if (hero) hero.classList.add('video-active');
+
+      // Play video with sound inline
+      if (bgVideo) {
+        bgVideo.currentTime = 0;
+        bgVideo.muted = false;
+        bgVideo.controls = true;
+        bgVideo.play();
       }
     }
+
+    function closeInlineVideo() {
+      const bgVideo = document.getElementById('tribute-video');
+      const overlay = document.querySelector('.video-play-overlay');
+      const hero = document.getElementById('hero');
+
+      if (hero) hero.classList.remove('video-active');
+      if (overlay) overlay.style.display = 'flex';
+
+      if (bgVideo) {
+        bgVideo.controls = false;
+        bgVideo.muted = true;
+        // The video will automatically resume looping seamlessly in the background
+        bgVideo.play();
+      }
+    }
+
+    // Global click listener for "click off" functionality
+    document.addEventListener('click', function(e) {
+      const hero = document.getElementById('hero');
+      // Only run if the video is currently expanded
+      if (hero && hero.classList.contains('video-active')) {
+        const videoWrap = document.querySelector('.video-card-wrap');
+        // If the click is NOT inside the video wrapper (and not on the overlay button)
+        if (videoWrap && !videoWrap.contains(e.target) && !e.target.closest('.video-play-overlay')) {
+          closeInlineVideo();
+        }
+      }
+    });
 
     // Scroll reveal — IntersectionObserver with stagger
     const reveals = document.querySelectorAll('.reveal');
@@ -424,40 +495,223 @@
     // --- LIGHTBOX INTERACTIVE GALLERIES ---
     const galleries = {
       early: [
-        "images/gallery/early/photo_1.jpg", "images/gallery/early/photo_2.jpg",
-        "images/gallery/early/photo_3.jpg", "images/gallery/early/photo_4.jpg",
-        "images/gallery/early/photo_5.jpg", "images/gallery/early/photo_6.jpg",
-        "images/gallery/early/photo_7.jpg", "images/gallery/early/photo_8.jpg"
+        "images/gallery/early/photo_001.jpg",
+        "images/gallery/early/photo_002.jpg",
+        "images/gallery/early/photo_003.jpg",
+        "images/gallery/early/photo_004.jpg",
+        "images/gallery/early/photo_005.jpg",
+        "images/gallery/early/photo_006.jpg",
+        "images/gallery/early/photo_007.jpg",
+        "images/gallery/early/photo_008.jpg",
+        "images/gallery/early/photo_009.jpg",
+        "images/gallery/early/photo_010.jpg",
+        "images/gallery/early/photo_011.jpg",
+        "images/gallery/early/photo_012.jpg",
+        "images/gallery/early/photo_013.jpg",
+        "images/gallery/early/photo_014.jpg",
+        "images/gallery/early/photo_015.jpg",
+        "images/gallery/early/photo_016.jpg",
+        "images/gallery/early/photo_017.jpg",
+        "images/gallery/early/photo_018.jpg",
+        "images/gallery/early/photo_019.jpg",
+        "images/gallery/early/photo_020.jpg",
+        "images/gallery/early/photo_021.jpg",
+        "images/gallery/early/photo_022.jpg"
       ],
       family: [
-        "images/gallery/family/photo_1.jpg", "images/gallery/family/photo_2.jpg",
-        "images/gallery/family/photo_3.jpg", "images/gallery/family/photo_4.jpg",
-        "images/gallery/family/photo_5.jpg", "images/gallery/family/photo_6.jpg",
-        "images/gallery/family/photo_7.jpg", "images/gallery/family/photo_8.jpg"
+        "images/gallery/family/photo_001.jpg",
+        "images/gallery/family/photo_002.jpg",
+        "images/gallery/family/photo_003.jpg",
+        "images/gallery/family/photo_004.jpg",
+        "images/gallery/family/photo_005.jpg",
+        "images/gallery/family/photo_006.jpg",
+        "images/gallery/family/photo_007.jpg",
+        "images/gallery/family/photo_008.jpg",
+        "images/gallery/family/photo_009.jpg",
+        "images/gallery/family/photo_010.jpg",
+        "images/gallery/family/photo_011.jpg",
+        "images/gallery/family/photo_012.jpg",
+        "images/gallery/family/photo_013.jpg",
+        "images/gallery/family/photo_014.jpg",
+        "images/gallery/family/photo_015.jpg",
+        "images/gallery/family/photo_016.jpg",
+        "images/gallery/family/photo_017.jpg",
+        "images/gallery/family/photo_018.jpg",
+        "images/gallery/family/photo_019.jpg",
+        "images/gallery/family/photo_020.jpg",
+        "images/gallery/family/photo_021.jpeg",
+        "images/gallery/family/photo_022.jpg",
+        "images/gallery/family/photo_023.jpg",
+        "images/gallery/family/photo_024.jpg",
+        "images/gallery/family/photo_025.jpg",
+        "images/gallery/family/photo_026.jpg",
+        "images/gallery/family/photo_027.jpg",
+        "images/gallery/family/photo_028.jpg",
+        "images/gallery/family/photo_029.jpg",
+        "images/gallery/family/photo_030.jpg",
+        "images/gallery/family/photo_031.jpg",
+        "images/gallery/family/photo_032.jpg",
+        "images/gallery/family/photo_033.jpg",
+        "images/gallery/family/photo_034.jpg",
+        "images/gallery/family/photo_035.jpg",
+        "images/gallery/family/photo_036.jpg",
+        "images/gallery/family/photo_037.jpg",
+        "images/gallery/family/photo_038.jpg",
+        "images/gallery/family/photo_039.jpg",
+        "images/gallery/family/photo_040.jpg",
+        "images/gallery/family/photo_041.jpeg",
+        "images/gallery/family/photo_042.jpg",
+        "images/gallery/family/photo_043.jpg",
+        "images/gallery/family/photo_044.jpg",
+        "images/gallery/family/photo_045.jpg",
+        "images/gallery/family/photo_046.jpg"
       ],
       navy: [
-        "images/gallery/navy/photo_1.jpg", "images/gallery/navy/photo_2.jpg",
-        "images/gallery/navy/photo_3.jpg", "images/gallery/navy/photo_4.jpg",
-        "images/gallery/navy/photo_5.jpg", "images/gallery/navy/photo_6.jpg",
-        "images/gallery/navy/photo_7.jpg", "images/gallery/navy/photo_8.jpg"
+        "images/gallery/navy/photo_001.jpg",
+        "images/gallery/navy/photo_002.jpg",
+        "images/gallery/navy/photo_003.jpg",
+        "images/gallery/navy/photo_004.jpg",
+        "images/gallery/navy/photo_005.jpg",
+        "images/gallery/navy/photo_006.jpg",
+        "images/gallery/navy/photo_007.jpg",
+        "images/gallery/navy/photo_008.jpg",
+        "images/gallery/navy/photo_009.jpg",
+        "images/gallery/navy/photo_010.jpg",
+        "images/gallery/navy/photo_011.jpg",
+        "images/gallery/navy/photo_012.jpg",
+        "images/gallery/navy/photo_013.jpg",
+        "images/gallery/navy/photo_014.jpg",
+        "images/gallery/navy/photo_015.jpg",
+        "images/gallery/navy/photo_016.jpg",
+        "images/gallery/navy/photo_017.jpg",
+        "images/gallery/navy/photo_018.jpg",
+        "images/gallery/navy/photo_019.jpg",
+        "images/gallery/navy/photo_020.jpg",
+        "images/gallery/navy/photo_021.jpg",
+        "images/gallery/navy/photo_022.jpg",
+        "images/gallery/navy/photo_023.jpg",
+        "images/gallery/navy/photo_024.jpg",
+        "images/gallery/navy/photo_025.jpg",
+        "images/gallery/navy/photo_026.jpg",
+        "images/gallery/navy/photo_027.jpg",
+        "images/gallery/navy/photo_028.jpg",
+        "images/gallery/navy/photo_029.jpg",
+        "images/gallery/navy/photo_030.jpg",
+        "images/gallery/navy/photo_031.jpg",
+        "images/gallery/navy/photo_032.jpg",
+        "images/gallery/navy/photo_033.jpg",
+        "images/gallery/navy/photo_034.jpg",
+        "images/gallery/navy/photo_035.jpg",
+        "images/gallery/navy/photo_036.jpg",
+        "images/gallery/navy/photo_037.jpg",
+        "images/gallery/navy/photo_038.jpg",
+        "images/gallery/navy/photo_039.jpg",
+        "images/gallery/navy/photo_040.jpg",
+        "images/gallery/navy/photo_041.jpg",
+        "images/gallery/navy/photo_042.jpg",
+        "images/gallery/navy/photo_043.jpg",
+        "images/gallery/navy/photo_044.jpg",
+        "images/gallery/navy/photo_045.jpg",
+        "images/gallery/navy/photo_046.jpg"
       ],
       brothers: [
-        "images/gallery/brothers/photo_1.jpg", "images/gallery/brothers/photo_2.jpg",
-        "images/gallery/brothers/photo_3.jpg", "images/gallery/brothers/photo_4.jpg",
-        "images/gallery/brothers/photo_5.jpg", "images/gallery/brothers/photo_6.jpg",
-        "images/gallery/brothers/photo_7.jpg", "images/gallery/brothers/photo_8.jpg"
+        "images/gallery/brothers/photo_001.jpg",
+        "images/gallery/brothers/photo_002.jpg",
+        "images/gallery/brothers/photo_003.jpg",
+        "images/gallery/brothers/photo_004.jpg",
+        "images/gallery/brothers/photo_005.jpg",
+        "images/gallery/brothers/photo_006.jpg",
+        "images/gallery/brothers/photo_007.jpg",
+        "images/gallery/brothers/photo_008.jpg",
+        "images/gallery/brothers/photo_009.jpg",
+        "images/gallery/brothers/photo_010.jpg",
+        "images/gallery/brothers/photo_011.jpg",
+        "images/gallery/brothers/photo_012.jpg",
+        "images/gallery/brothers/photo_013.jpg",
+        "images/gallery/brothers/photo_014.jpg",
+        "images/gallery/brothers/photo_015.jpg",
+        "images/gallery/brothers/photo_016.jpg",
+        "images/gallery/brothers/photo_017.jpg",
+        "images/gallery/brothers/photo_018.jpg",
+        "images/gallery/brothers/photo_019.jpg",
+        "images/gallery/brothers/photo_020.jpg",
+        "images/gallery/brothers/photo_021.jpg",
+        "images/gallery/brothers/photo_022.jpg",
+        "images/gallery/brothers/photo_023.jpg",
+        "images/gallery/brothers/photo_024.jpeg",
+        "images/gallery/brothers/photo_025.jpg",
+        "images/gallery/brothers/photo_026.jpg",
+        "images/gallery/brothers/photo_027.jpg",
+        "images/gallery/brothers/photo_028.jpg",
+        "images/gallery/brothers/photo_029.jpg",
+        "images/gallery/brothers/photo_030.jpg",
+        "images/gallery/brothers/photo_031.jpg",
+        "images/gallery/brothers/photo_032.jpg",
+        "images/gallery/brothers/photo_033.jpg",
+        "images/gallery/brothers/photo_034.jpg",
+        "images/gallery/brothers/photo_035.jpg",
+        "images/gallery/brothers/photo_036.jpg",
+        "images/gallery/brothers/photo_037.jpg",
+        "images/gallery/brothers/photo_038.jpg",
+        "images/gallery/brothers/photo_039.jpg",
+        "images/gallery/brothers/photo_040.jpg",
+        "images/gallery/brothers/photo_041.jpg",
+        "images/gallery/brothers/photo_042.jpg",
+        "images/gallery/brothers/photo_043.jpg",
+        "images/gallery/brothers/photo_044.jpg",
+        "images/gallery/brothers/photo_045.jpg"
       ],
       linsey: [
-        "images/gallery/linsey/photo_1.jpg", "images/gallery/linsey/photo_2.jpg",
-        "images/gallery/linsey/photo_3.jpg", "images/gallery/linsey/photo_4.jpg",
-        "images/gallery/linsey/photo_5.jpg", "images/gallery/linsey/photo_6.jpg",
-        "images/gallery/linsey/photo_7.jpg", "images/gallery/linsey/photo_8.jpg"
+        "images/gallery/linsey/photo_001.jpg",
+        "images/gallery/linsey/photo_002.jpg",
+        "images/gallery/linsey/photo_003.jpg",
+        "images/gallery/linsey/photo_004.jpg",
+        "images/gallery/linsey/photo_005.jpg",
+        "images/gallery/linsey/photo_006.jpg",
+        "images/gallery/linsey/photo_007.jpg",
+        "images/gallery/linsey/photo_008.jpeg",
+        "images/gallery/linsey/photo_009.jpg",
+        "images/gallery/linsey/photo_010.jpg",
+        "images/gallery/linsey/photo_011.jpg",
+        "images/gallery/linsey/photo_012.jpg"
       ],
       celebrate: [
-        "images/gallery/celebrate/photo_1.jpg", "images/gallery/celebrate/photo_2.jpg",
-        "images/gallery/celebrate/photo_3.jpg", "images/gallery/celebrate/photo_4.jpg",
-        "images/gallery/celebrate/photo_5.jpg", "images/gallery/celebrate/photo_6.jpg",
-        "images/gallery/celebrate/photo_7.jpg", "images/gallery/celebrate/photo_8.jpg"
+        "images/gallery/celebrate/photo_001.jpg",
+        "images/gallery/celebrate/photo_002.jpeg",
+        "images/gallery/celebrate/photo_003.jpg",
+        "images/gallery/celebrate/photo_004.jpg",
+        "images/gallery/celebrate/photo_005.jpg",
+        "images/gallery/celebrate/photo_006.jpg",
+        "images/gallery/celebrate/photo_007.jpg",
+        "images/gallery/celebrate/photo_008.jpg",
+        "images/gallery/celebrate/photo_009.jpg",
+        "images/gallery/celebrate/photo_010.jpg",
+        "images/gallery/celebrate/photo_011.jpg",
+        "images/gallery/celebrate/photo_012.jpg",
+        "images/gallery/celebrate/photo_013.jpg",
+        "images/gallery/celebrate/photo_014.jpg",
+        "images/gallery/celebrate/photo_015.jpg",
+        "images/gallery/celebrate/photo_016.jpg",
+        "images/gallery/celebrate/photo_017.jpeg",
+        "images/gallery/celebrate/photo_018.jpg",
+        "images/gallery/celebrate/photo_019.jpg",
+        "images/gallery/celebrate/photo_020.jpg",
+        "images/gallery/celebrate/photo_021.jpg",
+        "images/gallery/celebrate/photo_022.jpg",
+        "images/gallery/celebrate/photo_023.jpg",
+        "images/gallery/celebrate/photo_024.jpg",
+        "images/gallery/celebrate/photo_025.jpg",
+        "images/gallery/celebrate/photo_026.jpg",
+        "images/gallery/celebrate/photo_027.jpg",
+        "images/gallery/celebrate/photo_028.jpg",
+        "images/gallery/celebrate/photo_029.jpg",
+        "images/gallery/celebrate/photo_030.jpg",
+        "images/gallery/celebrate/photo_031.jpg",
+        "images/gallery/celebrate/photo_032.jpg",
+        "images/gallery/celebrate/photo_033.jpg",
+        "images/gallery/celebrate/photo_034.jpg",
+        "images/gallery/celebrate/photo_035.png",
+        "images/gallery/celebrate/photo_036.jpg"
       ]
     };
 
@@ -537,61 +791,8 @@
 
     // (Parallax scroll logic was moved to the unified requestAnimationFrame loop above)
 
-    // --- AUDIO-SYNC: TRIBUTE VIDEO CONTROL BGM ---
-    const tributeVideo = document.getElementById('tribute-video');
-    const videoCard = document.querySelector('.video-card-wrap');
-    const playOverlay = document.getElementById('video-play-overlay');
-    let wasBgmPlaying = false;
-
-    if (tributeVideo) {
-      if (playOverlay && videoCard) {
-        playOverlay.addEventListener('click', () => {
-          tributeVideo.muted = false;
-          tributeVideo.currentTime = 0;
-          tributeVideo.play();
-          tributeVideo.controls = true;
-          videoCard.classList.add('playing');
-        });
-      }
-
-      tributeVideo.addEventListener('play', () => {
-        // Only pause BGM if the video is playing with sound
-        if (!tributeVideo.muted && bgmAudio && bgmPlaying) {
-          wasBgmPlaying = true;
-          bgmAudio.pause();
-        }
-      });
-      
-      tributeVideo.addEventListener('pause', () => {
-        if (bgmAudio && wasBgmPlaying) {
-          bgmAudio.play();
-          wasBgmPlaying = false;
-        }
-      });
-      
-      tributeVideo.addEventListener('ended', () => {
-        if (videoCard) {
-          videoCard.classList.remove('playing');
-          tributeVideo.controls = false;
-          tributeVideo.muted = true;
-          tributeVideo.play(); // Go back to silent background loop
-        }
-        if (bgmAudio && wasBgmPlaying) {
-          bgmAudio.play();
-          wasBgmPlaying = false;
-        }
-      });
-      
-      tributeVideo.addEventListener('volumechange', () => {
-         if (tributeVideo.muted && wasBgmPlaying && bgmAudio) {
-            bgmAudio.play();
-            wasBgmPlaying = false;
-         } else if (!tributeVideo.muted && !tributeVideo.paused && bgmPlaying && bgmAudio) {
-            wasBgmPlaying = true;
-            bgmAudio.pause();
-         }
-      });
-    }
+    // The video is now purely an ambient cinematic element.
+    // Audio sync logic removed as requested (no controls).
 
   </script>
 
