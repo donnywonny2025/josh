@@ -514,12 +514,26 @@
     let currentTrackIndex = 0;
     
     // Autoplay attempt on load
-    bgmAudio.play().then(() => {
-      isPlaying = true;
-      updateUI();
-    }).catch(e => {
-      console.log('Autoplay blocked by browser policy. User must interact first.');
-    });
+    const tryPlayBGM = () => {
+      if (isPlaying) return;
+      bgmAudio.play().then(() => {
+        isPlaying = true;
+        updateUI();
+        document.removeEventListener('click', tryPlayBGM);
+        document.removeEventListener('scroll', tryPlayBGM);
+        document.removeEventListener('keydown', tryPlayBGM);
+      }).catch(e => {
+        console.log('Autoplay blocked. Waiting for user interaction...');
+      });
+    };
+    
+    // Attempt immediately
+    tryPlayBGM();
+    
+    // If browser blocks initial load, force it to start the exact moment they touch the page
+    document.addEventListener('click', tryPlayBGM);
+    document.addEventListener('scroll', tryPlayBGM);
+    document.addEventListener('keydown', tryPlayBGM);
 
     function updateUI() {
       if (isPlaying) {
