@@ -315,12 +315,13 @@ img {
 }
 
 .main-nav a {
-  font-family: var(--font-body);
+  font-family: var(--font-sans);
   font-size: 0.72rem;
   font-weight: 500;
   color: rgba(240, 235, 228, 0.7);
   padding: 8px 16px;
   letter-spacing: 0.18em;
+  text-transform: uppercase;
   position: relative;
   transition: color var(--duration-fast) var(--ease-out);
   background: linear-gradient(
