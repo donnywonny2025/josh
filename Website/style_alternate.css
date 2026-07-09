@@ -2994,7 +2994,8 @@ a.contact-item:hover {
   pointer-events: none;
 }
 
-.video-card-wrap video {
+.video-card-wrap video, .video-card-wrap iframe {
+  aspect-ratio: 16 / 9;
   position: absolute;
   top: calc((18 / 515) * 100%);
   left: calc((-1 / 857) * 100%);
@@ -3050,6 +3051,11 @@ a.contact-item:hover {
 .hero.video-active .video-card-wrap {
   box-shadow: 0 32px 80px rgba(0, 0, 0, 0.8);
 }
+.hero.video-active .wooden-frame-bg {
+  opacity: 0;
+  pointer-events: none;
+}
+
 
 /* Play Button Overlay for Background Video */
 .video-play-overlay {
