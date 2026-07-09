@@ -1,0 +1,531 @@
+1. Photo Jun 06 2026, 9 58 33 AM.jpg (Start frame: -1)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Jun 06 2026, 9 58 33 AM.jpg
+
+2. Photo May 16 2026, 6 16 04 PM (6) (1).jpg (Start frame: -1)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 16 2026, 6 16 04 PM (6) (1).jpg
+
+3. Photo May 16 2026, 6 16 04 PM (12).jpg (Start frame: -1)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 16 2026, 6 16 04 PM (12).jpg
+
+4. IMG_1522.JPG (Start frame: -1)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/IMG_1522.JPG
+
+5. black_slug.png (Start frame: 0)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/EDITING_FRAMEWORK/black_slug.png
+
+6. IMG_113701.JPG (Start frame: 109)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/IMG_113701.JPG
+
+7. IMG_20171212_0237.jpg (Start frame: 181)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/IMG_20171212_0237.jpg
+
+8. IMG_20171212_0261.jpg (Start frame: 239)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/IMG_20171212_0261.jpg
+
+9. IMG_20171212_0275.jpg (Start frame: 297)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/IMG_20171212_0275.jpg
+
+10. IMG_20171212_0293.jpg (Start frame: 354)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/IMG_20171212_0293.jpg
+
+11. IMG_20171212_0336.jpg (Start frame: 412)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/IMG_20171212_0336.jpg
+
+12. IMG_20171212_0358.jpg (Start frame: 469)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/IMG_20171212_0358.jpg
+
+13. IMG_20171212_0388.jpg (Start frame: 527)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/IMG_20171212_0388.jpg
+
+14. IMG_5337_Original.jpg (Start frame: 585)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/IMG_5337_Original.jpg
+
+15. Photo May 24 2026, 10 32 05 AM.jpg (Start frame: 642)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/Photo May 24 2026, 10 32 05 AM.jpg
+
+16. IMG_1459.JPG (Start frame: 700)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/IMG_1459.JPG
+
+17. Photo May 24 2026, 10 33 02 AM.jpg (Start frame: 757)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/Photo May 24 2026, 10 33 02 AM.jpg
+
+18. Photo Jun 06 2026, 9 57 05 AM.jpg (Start frame: 814)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 57 05 AM.jpg
+
+19. IMG_1163.JPG (Start frame: 872)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh school years/IMG_1163.JPG
+
+20. IMG_20171212_0581.jpg (Start frame: 930)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh school years/IMG_20171212_0581.jpg
+
+21. School photos_20171213_0011.JPG (Start frame: 987)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh school years/School photos_20171213_0011.JPG
+
+22. School photos_20171213_0013.jpg (Start frame: 1045)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh school years/School photos_20171213_0013.jpg
+
+23. IMG_20171212_0779.jpg (Start frame: 1102)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_20171212_0779.jpg
+
+24. School photos_20171213_0014.jpg (Start frame: 1160)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh school years/School photos_20171213_0014.jpg
+
+25. School photos_20171213_0015.jpg (Start frame: 1218)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh school years/School photos_20171213_0015.jpg
+
+26. 1995_20171214_0012.JPG (Start frame: 1275)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/1995_20171214_0012.JPG
+
+27. Photo Jun 06 2026, 9 57 51 AM.jpg (Start frame: 1333)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 57 51 AM.jpg
+
+28. Photo May 24 2026, 10 35 38 AM.jpg (Start frame: 1390)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 35 38 AM.jpg
+
+29. Photo May 24 2026, 10 35 56 AM.jpg (Start frame: 1448)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 35 56 AM.jpg
+
+30. School photos_20171213_0022.jpg (Start frame: 1506)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh school years/School photos_20171213_0022.jpg
+
+31. Photo Jun 06 2026, 9 53 51 AM.jpg (Start frame: 1563)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Jun 06 2026, 9 53 51 AM.jpg
+
+32. IMG_20171212_0277.jpg (Start frame: 1621)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/IMG_20171212_0277.jpg
+
+33. 019_16a.jpg (Start frame: 1678)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/019_16a.jpg
+
+34. IMG_1152.JPG (Start frame: 1736)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_1152.JPG
+
+35. Photo Jun 06 2026, 9 56 46 AM.jpg (Start frame: 1794)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 56 46 AM.jpg
+
+36. Photo Jun 06 2026, 9 54 58 AM.jpg (Start frame: 1851)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Jun 06 2026, 9 54 58 AM.jpg
+
+37. 1991 photos_20171213_0043.jpg (Start frame: 1909)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/1991 photos_20171213_0043.jpg
+
+38. 2000_20180203_0036.jpg (Start frame: 1966)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/2000_20180203_0036.jpg
+
+39. 2005_20180203_0075.jpg (Start frame: 2024)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/2005_20180203_0075.jpg
+
+40. 2006_20180203_0018.jpg (Start frame: 2082)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/2006_20180203_0018.jpg
+
+41. IMG_0798.JPG (Start frame: 2139)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/Make sure these are in there/IMG_0798.JPG
+
+42. IMG_6162_Original.jpg (Start frame: 2204)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_6162_Original.jpg
+
+43. IMG_0363.JPG (Start frame: 2254)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_0363.JPG
+
+44. 1994 Photos_20171213_0016.jpg (Start frame: 2312)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh school years/1994 Photos_20171213_0016.jpg
+
+45. IMG_20171212_0272.jpg (Start frame: 2370)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_20171212_0272.jpg
+
+46. Photo May 24 2026, 10 32 52 AM.jpg (Start frame: 2427)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/Photo May 24 2026, 10 32 52 AM.jpg
+
+47. IMG_5286.JPG (Start frame: 2485)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_5286.JPG
+
+48. P7080004_Original.jpg (Start frame: 2542)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/P7080004_Original.jpg
+
+49. Photo May 24 2026, 10 32 45 AM.jpg (Start frame: 2600)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 32 45 AM.jpg
+
+50. Photo May 24 2026, 10 34 49 AM.jpg (Start frame: 2650)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 34 49 AM.jpg
+
+51. 2004_20180203_0003.jpg (Start frame: 2750)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/2004_20180203_0003.jpg
+
+52. Photo Jun 06 2026, 9 56 10 AM.jpg (Start frame: 2773)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 56 10 AM.jpg
+
+53. Photo Jun 06 2026, 9 56 36 AM.jpg (Start frame: 2830)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 56 36 AM.jpg
+
+54. Photo May 18 2026, 7 16 52 PM (3).jpg (Start frame: 2888)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 18 2026, 7 16 52 PM (3).jpg
+
+55. Photo May 18 2026, 7 16 52 PM (4) (1).jpg (Start frame: 2946)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 18 2026, 7 16 52 PM (4) (1).jpg
+
+56. Photo May 18 2026, 7 16 52 PM.jpg (Start frame: 3003)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 18 2026, 7 16 52 PM.jpg
+
+57. Photo May 24 2026, 10 32 36 AM.jpg (Start frame: 3061)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 32 36 AM.jpg
+
+58. Photo May 24 2026, 10 33 13 AM.jpg (Start frame: 3118)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 33 13 AM.jpg
+
+59. Photo May 24 2026, 10 33 42 AM.jpg (Start frame: 3176)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 33 42 AM.jpg
+
+60. Photo May 24 2026, 10 34 56 AM.jpg (Start frame: 3234)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 34 56 AM.jpg
+
+61. Photo May 24 2026, 10 36 12 AM.jpg (Start frame: 3291)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 36 12 AM.jpg
+
+62. fktmp222_0046_0046_Original.jpg (Start frame: 3349)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/fktmp222_0046_0046_Original.jpg
+
+63. Josh Random_20180206_0006.jpg (Start frame: 3406)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Josh Random_20180206_0006.jpg
+
+64. IMG_1460.JPG (Start frame: 3464)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh school years/IMG_1460.JPG
+
+65. Photo May 24 2026, 10 33 58 AM.jpg (Start frame: 3522)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh school years/Photo May 24 2026, 10 33 58 AM.jpg
+
+66. IMG_0016.JPG (Start frame: 3587)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_0016.JPG
+
+67. IMG_20171212_0350.jpg (Start frame: 3642)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/IMG_20171212_0350.jpg
+
+68. Photo May 24 2026, 10 36 19 AM.jpg (Start frame: 3696)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Baby & toddler Josh/Photo May 24 2026, 10 36 19 AM.jpg
+
+69. IMG_0767_Original.jpg (Start frame: 3756)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_0767_Original.jpg
+
+70. IMG_0776_Original.jpg (Start frame: 3810)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_0776_Original.jpg
+
+71. IMG_1098.JPG (Start frame: 3867)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_1098.JPG
+
+72. Photo May 24 2026, 10 37 31 AM.jpg (Start frame: 3917)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 37 31 AM.jpg
+
+73. C7C76AD6-087C-4AA1-875F-7170E206A748.PNG (Start frame: 4135)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh’s places and travel/C7C76AD6-087C-4AA1-875F-7170E206A748.PNG
+
+74. Photo May 24 2026, 10 37 21 AM.jpg (Start frame: 4223)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 24 2026, 10 37 21 AM.jpg
+
+75. Photo May 16 2026, 6 16 04 PM (5).jpg (Start frame: 4357)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 16 2026, 6 16 04 PM (5).jpg
+
+76. Photo May 18 2026, 7 11 52 PM (3).jpg (Start frame: 4435)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 18 2026, 7 11 52 PM (3).jpg
+
+77. Photo May 24 2026, 10 33 20 AM.jpg (Start frame: 4496)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 24 2026, 10 33 20 AM.jpg
+
+78. IMG_1138.JPG (Start frame: 4688)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/IMG_1138.JPG
+
+79. Josh Military 2_20180206_0007.jpg (Start frame: 4754)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Josh Military 2_20180206_0007.jpg
+
+80. Photo May 16 2026, 6 16 04 PM (8).jpg (Start frame: 4812)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 16 2026, 6 16 04 PM (8).jpg
+
+81. Photo Jun 06 2026, 9 56 02 AM.jpg (Start frame: 4857)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo Jun 06 2026, 9 56 02 AM.jpg
+
+82. Photo May 16 2026, 6 16 04 PM (3).jpg (Start frame: 4896)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 16 2026, 6 16 04 PM (3).jpg
+
+83. Photo May 16 2026, 6 16 04 PM (11).jpg (Start frame: 4935)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 16 2026, 6 16 04 PM (11).jpg
+
+84. Photo May 16 2026, 6 16 04 PM (1).jpg (Start frame: 4960)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 16 2026, 6 16 04 PM (1).jpg
+
+85. IMG_1180.JPG (Start frame: 4996)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/IMG_1180.JPG
+
+86. IMG_1454.JPG (Start frame: 5020)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/IMG_1454.JPG
+
+87. Photo Jun 06 2026, 9 55 39 AM.jpg (Start frame: 5057)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/Photo Jun 06 2026, 9 55 39 AM.jpg
+
+88. Photo Jun 06 2026, 9 59 06 AM.jpg (Start frame: 5084)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo Jun 06 2026, 9 59 06 AM.jpg
+
+89. Photo May 18 2026, 7 11 52 PM.jpg (Start frame: 5084)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 18 2026, 7 11 52 PM.jpg
+
+90. IMG_1524.JPG (Start frame: 5125)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/IMG_1524.JPG
+
+91. 2009_20180203_0007_Original.jpg (Start frame: 5161)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/2009_20180203_0007_Original.jpg
+
+92. millerc-r1-034-15a.jpg (Start frame: 5164)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/millerc-r1-034-15a.jpg
+
+93. IMG_0338.JPG (Start frame: 5203)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/IMG_0338.JPG
+
+94. IMG_1139.JPG (Start frame: 5204)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/IMG_1139.JPG
+
+95. Photo May 16 2026, 6 16 04 PM (10).jpg (Start frame: 5246)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 16 2026, 6 16 04 PM (10).jpg
+
+96. Photo May 18 2026, 7 11 52 PM (4).jpg (Start frame: 5392)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 18 2026, 7 11 52 PM (4).jpg
+
+97. IMG_1521.JPG (Start frame: 5491)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/IMG_1521.JPG
+
+98. Photo May 16 2026, 6 16 04 PM (6).jpg (Start frame: 5514)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 16 2026, 6 16 04 PM (6).jpg
+
+99. Photo May 18 2026, 7 11 52 PM (2).jpg (Start frame: 5575)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 18 2026, 7 11 52 PM (2).jpg
+
+100. Photo May 16 2026, 6 16 04 PM (11) (1).jpg (Start frame: 5592)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 16 2026, 6 16 04 PM (11) (1).jpg
+
+101. millerc-r1-024-10a.jpg (Start frame: 5606)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/millerc-r1-024-10a.jpg
+
+102. IMG_1155.JPG (Start frame: 5659)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/IMG_1155.JPG
+
+103. IMG_1523.JPG (Start frame: 5689)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/IMG_1523.JPG
+
+104. Photo May 16 2026, 6 16 04 PM (12) (1).jpg (Start frame: 5822)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Military/Photo May 16 2026, 6 16 04 PM (12) (1).jpg
+
+105. IMG_3570.JPG (Start frame: 6011)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/IMG_3570.JPG
+
+106. IMG_1166.JPG (Start frame: 6089)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/IMG_1166.JPG
+
+107. IMG_20171212_0478.jpg (Start frame: 6134)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/IMG_20171212_0478.jpg
+
+108. IMG_20171212_0546.jpg (Start frame: 6212)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/IMG_20171212_0546.jpg
+
+109. Photo Jun 06 2026, 9 56 18 AM.jpg (Start frame: 6262)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 56 18 AM.jpg
+
+110. Photo May 24 2026, 10 36 51 AM.jpg (Start frame: 6312)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 36 51 AM.jpg
+
+111. Photo May 18 2026, 4 33 29 PM.jpg (Start frame: 6362)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/Photo May 18 2026, 4 33 29 PM.jpg
+
+112. Photo May 18 2026, 4 33 29 PM (2).jpg (Start frame: 6412)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/Photo May 18 2026, 4 33 29 PM (2).jpg
+
+113. IMG_3578.JPG (Start frame: 6462)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_3578.JPG
+
+114. Photo May 18 2026, 4 33 29 PM (5).jpg (Start frame: 6512)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/Photo May 18 2026, 4 33 29 PM (5).jpg
+
+115. IMG_20171212_0490.jpg (Start frame: 6563)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/IMG_20171212_0490.jpg
+
+116. Photo Jun 06 2026, 9 56 26 AM.jpg (Start frame: 6613)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 56 26 AM.jpg
+
+117. Photo May 24 2026, 10 32 16 AM.jpg (Start frame: 6663)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 32 16 AM.jpg
+
+118. Photo May 24 2026, 10 34 28 AM.jpg (Start frame: 6713)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 34 28 AM.jpg
+
+119. Photo May 24 2026, 10 32 28 AM.jpg (Start frame: 6763)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 32 28 AM.jpg
+
+120. IMG_20171212_0432.jpg (Start frame: 6813)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/save a place for me/IMG_20171212_0432.jpg
+
+121. IMG_5002 (1).jpg (Start frame: 6863)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_5002 (1).jpg
+
+122. IMG_20171212_0437.jpg (Start frame: 6922)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/IMG_20171212_0437.jpg
+
+123. IMG_2281.JPG (Start frame: 7013)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_2281.JPG
+
+124. Photo May 18 2026, 4 33 29 PM (4).jpg (Start frame: 7063)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/Photo May 18 2026, 4 33 29 PM (4).jpg
+
+125. Photo May 24 2026, 10 37 06 AM.jpg (Start frame: 7163)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 37 06 AM.jpg
+
+126. 2969251672116281152.jpeg (Start frame: 7213)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/2969251672116281152.jpeg
+
+127. IMG_20171212_0476.jpg (Start frame: 7213)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/IMG_20171212_0476.jpg
+
+128. Photo Jun 06 2026, 9 57 35 AM.jpg (Start frame: 7263)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 57 35 AM.jpg
+
+129. CB26E457-622D-4C13-8E9F-F0D3738D0DD3.JPG (Start frame: 7313)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/CB26E457-622D-4C13-8E9F-F0D3738D0DD3.JPG
+
+130. IMG_20171212_0888.jpg (Start frame: 7363)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_20171212_0888.jpg
+
+131. Photo Jun 04 2017, 3 28 32 PM.jpg (Start frame: 7413)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 04 2017, 3 28 32 PM.jpg
+
+132. IMG_1150.JPG (Start frame: 7413)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_1150.JPG
+
+133. IMG_20171212_0363.jpg (Start frame: 7462)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Ben and Josh/IMG_20171212_0363.jpg
+
+134. Photo May 18 2026, 7 16 52 PM (1).jpg (Start frame: 7658)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 18 2026, 7 16 52 PM (1).jpg
+
+135. IMG_1087.JPG (Start frame: 8415)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/IMG_1087.JPG
+
+136. Photo Sep 30 2016, 11 24 03 AM.jpg (Start frame: 8466)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Sep 30 2016, 11 24 03 AM.jpg
+
+137. 2012_20180206_0024.jpg (Start frame: 8571)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/2012_20180206_0024.jpg
+
+138. IMG_1514.JPG (Start frame: 8673)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/IMG_1514.JPG
+
+139. Photo Jan 13 2022, 10 34 23 AM.jpg (Start frame: 8709)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Jan 13 2022, 10 34 23 AM.jpg
+
+140. Photo May 15 2018, 2 59 39 PM.jpg (Start frame: 8766)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo May 15 2018, 2 59 39 PM.jpg
+
+141. Photo Sep 04 2017, 9 57 40 AM.jpg (Start frame: 8821)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Sep 04 2017, 9 57 40 AM.jpg
+
+142. IMG_2983.JPEG (Start frame: 8906)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/IMG_2983.JPEG
+
+143. Photo Oct 15 2021, 1 01 13 PM.jpg (Start frame: 9095)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Oct 15 2021, 1 01 13 PM.jpg
+
+144. Photo May 22 2026, 6 51 12 AM (1).jpg (Start frame: 9199)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo May 22 2026, 6 51 12 AM (1).jpg
+
+145. Photo Jul 08 2017, 7 07 20 AM.jpg (Start frame: 9199)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Jul 08 2017, 7 07 20 AM.jpg
+
+146. Photo Jan 10 2020, 9 45 44 AM.jpg (Start frame: 9288)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh & Linsey/Photo Jan 10 2020, 9 45 44 AM.jpg
+
+147. Photo Jun 06 2026, 9 54 06 AM.jpg (Start frame: 9386)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 54 06 AM.jpg
+
+148. Photo Jun 06 2026, 9 57 14 AM.jpg (Start frame: 9442)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 57 14 AM.jpg
+
+149. Photo Jun 06 2026, 9 58 20 AM.jpg (Start frame: 9509)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 58 20 AM.jpg
+
+150. IMG_0699.jpeg (Start frame: 9634)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/IMG_0699.jpeg
+
+151. IMG_0787_Original.jpg (Start frame: 9790)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh’s places and travel/IMG_0787_Original.jpg
+
+152. Photo May 24 2026, 9 40 44 AM (5).jpg (Start frame: 9790)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo May 24 2026, 9 40 44 AM (5).jpg
+
+153. IMG_1159.JPG (Start frame: 9858)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_1159.JPG
+
+154. 2FE58D6D-E213-45A8-BD69-D2BB12081BD4.JPG (Start frame: 9926)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/2FE58D6D-E213-45A8-BD69-D2BB12081BD4.JPG
+
+155. IMG_1060_Original.jpg (Start frame: 9994)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_1060_Original.jpg
+
+156. IMG_1086.JPG (Start frame: 10061)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/Make sure these are in there/IMG_1086.JPG
+
+157. IMG_20171212_0712.jpg (Start frame: 10063)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_20171212_0712.jpg
+
+158. IMG_20221011_194748.jpg (Start frame: 10095)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/Make sure these are in there/IMG_20221011_194748.jpg
+
+159. IMG_2201.JPG (Start frame: 10113)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/IMG_2201.JPG
+
+160. Photo Apr 28 2018, 8 28 10 PM.jpg (Start frame: 10137)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/Make sure these are in there/Photo Apr 28 2018, 8 28 10 PM.jpg
+
+161. Photo May 24 2026, 10 36 19 AM.jpg (Start frame: 10569)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 24 2026, 10 36 19 AM.jpg
+
+162. Photo Nov 23 2018, 7 57 21 PM.jpg (Start frame: 10732)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Nov 23 2018, 7 57 21 PM.jpg
+
+163. Photo Jun 06 2026, 9 58 08 AM.jpg (Start frame: 10763)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Jun 06 2026, 9 58 08 AM.jpg
+
+164. IMG_1103.JPG (Start frame: 10831)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/IMG_1103.JPG
+
+165. Photo Feb 23 2021, 5 47 07 PM.jpg (Start frame: 10899)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo Feb 23 2021, 5 47 07 PM.jpg
+
+166. img_2475_Original.jpg (Start frame: 10956)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/img_2475_Original.jpg
+
+167. Photo Dec 24 2018, 10 39 53 PM.jpg (Start frame: 11007)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo Dec 24 2018, 10 39 53 PM.jpg
+
+168. Photo May 24 2026, 10 27 36 AM.jpg (Start frame: 11007)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo May 24 2026, 10 27 36 AM.jpg
+
+169. Photo Jul 09 2020, 9 10 20 PM.jpg (Start frame: 11063)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/Photo Jul 09 2020, 9 10 20 PM.jpg
+
+170. IMG_1582.JPEG (Start frame: 11118)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/IMG_1582.JPEG
+
+171. IMG_1184.JPG (Start frame: 11170)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh and Friends/IMG_1184.JPG
+
+172. 20240913_144331.jpeg (Start frame: 11272)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/Make sure these are in there/20240913_144331.jpeg
+
+173. IMG_1085.JPG (Start frame: 11324)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh’s places and travel/IMG_1085.JPG
+
+174. Photo May 18 2024, 1 37 31 PM.jpg (Start frame: 11352)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Josh - Family/Photo May 18 2024, 1 37 31 PM.jpg
+
+175. 2010_20180206_0003.jpg (Start frame: 11384)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/2010_20180206_0003.jpg
+
+176. IMG_0021.JPG (Start frame: 11441)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Photos/RAW_IMPORTS/Just Josh/IMG_0021.JPG
+
+177. Photo Jan 24 2026, 1 11 04 PM.jpg (Start frame: 11512)
+   Path: file://localhost/Volumes/Extreme SSD/JOSH/Best Picks/Photo Jan 24 2026, 1 11 04 PM.jpg
+

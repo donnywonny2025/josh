@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Style Guide — Evolution Horsemanship (Internal)</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Great+Vibes&display=swap" rel="stylesheet">
+<style>
+:root {
+  --forest: #1a2e1f; --forest-deep: #0f1c13; --moss: #3d6b4e; --moss-light: #5a9370;
+  --sage: #8bab7f; --gold: #b5955a; --gold-light: #d4b97a; --cream: #faf6f0;
+  --cream-warm: #f5ede0; --stone: #e8dfd4; --bark: #2c2420; --bark-light: #4a3f38;
+  --text-primary: #2c2420; --text-secondary: #5e534a; --text-on-dark: #f0ebe4; --text-muted: #8a7e74;
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-heading: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'DM Sans', -apple-system, sans-serif;
+}
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { background: var(--forest-deep); }
+body { font-family: var(--font-body); color: var(--text-on-dark); line-height:1.7; padding:0; }
+
+.sg-header { text-align:center; padding:80px 40px 60px; border-bottom:1px solid rgba(181,149,90,0.2); }
+.sg-header h1 { font-family:var(--font-display); font-size:2.8rem; font-weight:400; color:var(--cream); margin-bottom:8px; }
+.sg-header p { font-family:var(--font-heading); font-size:1.2rem; font-style:italic; color:var(--text-muted); }
+.sg-header .badge { display:inline-block; margin-top:16px; padding:6px 18px; font-size:0.65rem; letter-spacing:0.2em; text-transform:uppercase; border:1px solid rgba(181,149,90,0.3); color:var(--gold); border-radius:2px; }
+
+.sg-section { max-width:1100px; margin:0 auto; padding:60px 40px; border-bottom:1px solid rgba(181,149,90,0.1); }
+.sg-section h2 { font-family:var(--font-display); font-size:1.8rem; font-weight:400; color:var(--cream); margin-bottom:8px; }
+.sg-section .section-sub { font-size:0.7rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--gold); margin-bottom:32px; }
+
+/* Colors */
+.color-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(140px,1fr)); gap:16px; }
+.color-card { border-radius:4px; overflow:hidden; border:1px solid rgba(255,255,255,0.06); }
+.color-swatch { height:80px; }
+.color-info { padding:10px 12px; background:rgba(255,255,255,0.03); }
+.color-info .name { font-size:0.8rem; font-weight:500; color:var(--cream); }
+.color-info .hex { font-size:0.7rem; color:var(--text-muted); font-family:monospace; }
+.color-info .var { font-size:0.65rem; color:var(--gold); opacity:0.7; font-family:monospace; }
+
+/* Typography */
+.type-row { margin-bottom:32px; padding-bottom:32px; border-bottom:1px solid rgba(255,255,255,0.04); }
+.type-row:last-child { border-bottom:none; }
+.type-meta { display:flex; gap:24px; margin-bottom:8px; flex-wrap:wrap; }
+.type-meta span { font-size:0.65rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--gold); opacity:0.7; }
+.type-sample-display { font-family:var(--font-display); font-size:clamp(2.4rem,4.5vw,4.2rem); font-weight:400; color:var(--cream); line-height:1.15; }
+.type-sample-heading { font-family:var(--font-heading); font-size:clamp(1.8rem,3.2vw,3rem); font-weight:300; font-style:italic; color:var(--cream); line-height:1.3; }
+.type-sample-body { font-family:var(--font-body); font-size:1rem; color:var(--text-on-dark); line-height:1.7; max-width:600px; }
+.type-sample-label { font-family:var(--font-body); font-size:0.75rem; font-weight:500; letter-spacing:0.25em; text-transform:uppercase; color:var(--gold); }
+
+/* Logos */
+.logo-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(280px,1fr)); gap:24px; }
+.logo-card { border:1px solid rgba(255,255,255,0.06); border-radius:4px; overflow:hidden; }
+.logo-card .preview { padding:40px; display:flex; align-items:center; justify-content:center; min-height:200px; }
+.logo-card .preview img { max-height:140px; width:auto; }
+.logo-card .preview.dark { background:#000; }
+.logo-card .preview.light { background:var(--cream); }
+.logo-card .caption { padding:12px 16px; background:rgba(255,255,255,0.03); font-size:0.75rem; color:var(--text-muted); }
+.logo-card .caption strong { color:var(--cream); }
+
+/* Spacing */
+.spacing-demo { display:flex; flex-wrap:wrap; gap:24px; align-items:flex-end; }
+.spacing-item { text-align:center; }
+.spacing-bar { background:var(--gold); opacity:0.5; width:40px; margin:0 auto 8px; border-radius:2px; }
+.spacing-item .name { font-size:0.65rem; color:var(--gold); font-family:monospace; }
+.spacing-item .val { font-size:0.6rem; color:var(--text-muted); font-family:monospace; }
+
+/* Buttons */
+.btn-row { display:flex; flex-wrap:wrap; gap:16px; align-items:center; margin-bottom:24px; }
+.demo-btn { display:inline-flex; align-items:center; gap:8px; font-family:var(--font-body); font-size:0.8rem; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; padding:14px 36px; cursor:pointer; border:none; transition:all 0.3s ease; text-decoration:none; }
+.demo-btn.primary { background:var(--forest); color:var(--cream); }
+.demo-btn.primary:hover { background:var(--moss); }
+.demo-btn.outline { background:transparent; border:1px solid var(--forest); color:var(--cream); border-color:var(--cream); }
+.demo-btn.outline:hover { background:var(--cream); color:var(--forest); }
+.demo-btn.gold { background:rgba(181,149,90,0.15); border:1px solid rgba(181,149,90,0.5); color:var(--gold); backdrop-filter:blur(12px); }
+.demo-btn.gold:hover { background:rgba(181,149,90,0.3); color:#fff; }
+
+/* Motion */
+.motion-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(200px,1fr)); gap:16px; }
+.motion-card { padding:20px; border:1px solid rgba(255,255,255,0.06); border-radius:4px; text-align:center; }
+.motion-card .name { font-size:0.7rem; color:var(--gold); font-family:monospace; margin-bottom:4px; }
+.motion-card .val { font-size:0.6rem; color:var(--text-muted); font-family:monospace; }
+.motion-ball { width:24px; height:24px; border-radius:50%; background:var(--gold); margin:16px auto 0; }
+.motion-card:hover .ball-ease { animation: demoEase 0.6s cubic-bezier(0.16,1,0.3,1) forwards; }
+.motion-card:hover .ball-expo { animation: demoEase 0.6s cubic-bezier(0.19,1,0.22,1) forwards; }
+@keyframes demoEase { 0%{transform:translateX(-40px)} 100%{transform:translateX(40px)} }
+</style>
+</head>
+<body>
+
+<div class="sg-header">
+  <h1>Style Guide</h1>
+  <p>Evolution Horsemanship — Design System Reference</p>
+  <div class="badge">Internal Use Only</div>
+</div>
+
+<!-- ===== SERVICES PROPOSAL / PITCH DECK ===== -->
+<div class="sg-section" style="border-bottom:2px solid rgba(181,149,90,0.3);">
+  <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px; margin-bottom:12px;">
+    <h2 style="margin:0;">Growth Services Proposal</h2>
+    <div class="badge" style="margin:0;">Prepared by Kerr Media Group</div>
+  </div>
+  <div class="section-sub">Expanding Evolution Horsemanship — Production, Digital & Marketing</div>
+  <p style="color:var(--text-on-dark); opacity:0.75; max-width:800px; margin-bottom:40px; line-height:1.8;">
+    The website build demonstrated what a premium digital presence does for perception. The following services extend that same production quality across video, audio, advertising, and digital management — everything Donna needs to fill the Symposium, grow the ranch's visibility, and turn a local business into a recognized brand.
+  </p>
+
+  <!-- TIER 1: DELIVERED -->
+  <div style="margin-bottom:48px;">
+    <div style="font-size:0.65rem; letter-spacing:0.25em; text-transform:uppercase; color:var(--moss-light); margin-bottom:16px; padding-bottom:8px; border-bottom:1px solid rgba(90,147,112,0.2);">✓ Tier 1 — Already Delivered</div>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px,1fr)); gap:16px;">
+
+      <div style="border:1px solid rgba(255,255,255,0.06); border-radius:4px; padding:24px; background:rgba(255,255,255,0.02);">
+        <div style="font-size:0.65rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--gold); margin-bottom:8px;">01 — Website Design & Development</div>
+        <div style="font-family:var(--font-heading); font-size:1.3rem; color:var(--cream); margin-bottom:12px;">Custom Website Build</div>
+        <p style="font-size:0.88rem; color:var(--text-on-dark); opacity:0.7; line-height:1.7; margin-bottom:16px;">
+          Full replacement of the Wix site with a hand-coded, premium experience. Responsive design, YouTube API integration, ambient background media, scroll-driven animations, and SEO-optimized markup.
+        </p>
+        <div style="font-size:0.7rem; color:var(--sage);">Delivered: Symposium landing page &bull; Hero promo video &bull; Presenter profiles &bull; Contact form &bull; BGM player &bull; Mobile-optimized</div>
+      </div>
+
+      <div style="border:1px solid rgba(255,255,255,0.06); border-radius:4px; padding:24px; background:rgba(255,255,255,0.02);">
+        <div style="font-size:0.65rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--gold); margin-bottom:8px;">02 — Brand Identity System</div>
+        <div style="font-family:var(--font-heading); font-size:1.3rem; color:var(--cream); margin-bottom:12px;">Style Guide & Visual DNA</div>
+        <p style="font-size:0.88rem; color:var(--text-on-dark); opacity:0.7; line-height:1.7; margin-bottom:16px;">
+          Complete design system with color palette, typography hierarchy, spacing scale, motion tokens, and 10 Symposium logo colorways. Ensures brand consistency across all future materials.
+        </p>
+        <div style="font-size:0.7rem; color:var(--sage);">Delivered: This style guide &bull; 10 logo variants &bull; Veo 3 intro style frame &bull; Design tokens</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- TIER 2: NEXT PHASE -->
+  <div style="margin-bottom:48px;">
+    <div style="font-size:0.65rem; letter-spacing:0.25em; text-transform:uppercase; color:var(--gold-light); margin-bottom:16px; padding-bottom:8px; border-bottom:1px solid rgba(212,185,122,0.2);">→ Tier 2 — Immediate Next Phase</div>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px,1fr)); gap:16px;">
+
+      <div style="border:1px solid rgba(181,149,90,0.15); border-radius:4px; padding:24px; background:rgba(181,149,90,0.04);">
+        <div style="font-size:0.65rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--gold); margin-bottom:8px;">03 — Video Production</div>
+        <div style="font-family:var(--font-heading); font-size:1.3rem; color:var(--cream); margin-bottom:12px;">On-Site Filming & Editing</div>
+        <p style="font-size:0.88rem; color:var(--text-on-dark); opacity:0.7; line-height:1.7; margin-bottom:16px;">
+          Professional video shoots at the ranch — clinician interviews, training sessions, event coverage, testimonials. Full post-production with color grading, motion graphics, and platform-specific versioning (YouTube, Instagram, Facebook, TikTok).
+        </p>
+        <div style="font-size:0.7rem; color:var(--gold-light);">
+          <strong>Includes:</strong> Pre-production planning &bull; On-site crew &bull; Multi-cam editing &bull; L3 graphics &bull; Social cutdowns &bull; YouTube-optimized masters
+        </div>
+      </div>
+
+      <div style="border:1px solid rgba(181,149,90,0.15); border-radius:4px; padding:24px; background:rgba(181,149,90,0.04);">
+        <div style="font-size:0.65rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--gold); margin-bottom:8px;">04 — Audio Services</div>
+        <div style="font-family:var(--font-heading); font-size:1.3rem; color:var(--cream); margin-bottom:12px;">Professional Audio Capture & Mixing</div>
+        <p style="font-size:0.88rem; color:var(--text-on-dark); opacity:0.7; line-height:1.7; margin-bottom:16px;">
+          On-site audio recording — lav mic wiring, multi-track capture, and professional mixing. Clean audio for interviews, clinics, and event documentation. Podcast-ready masters if Donna wants to expand into that space.
+        </p>
+        <div style="font-size:0.7rem; color:var(--gold-light);">
+          <strong>Includes:</strong> Lav mic setup &bull; Multi-track recording &bull; Noise reduction &bull; Mix/master &bull; Podcast-ready output &bull; Logic Pro finishing
+        </div>
+      </div>
+
+      <div style="border:1px solid rgba(181,149,90,0.15); border-radius:4px; padding:24px; background:rgba(181,149,90,0.04);">
+        <div style="font-size:0.65rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--gold); margin-bottom:8px;">05 — YouTube Channel Management</div>
+        <div style="font-family:var(--font-heading); font-size:1.3rem; color:var(--cream); margin-bottom:12px;">Channel Strategy & Growth</div>
+        <p style="font-size:0.88rem; color:var(--text-on-dark); opacity:0.7; line-height:1.7; margin-bottom:16px;">
+          Full YouTube management — uploads, thumbnails, descriptions, tags, playlists, end cards, and analytics reporting. Build a content calendar around clinics, horse stories, and the Symposium brand. The equestrian YouTube space is underserved and ripe for Donna's expertise.
+        </p>
+        <div style="font-size:0.7rem; color:var(--gold-light);">
+          <strong>Includes:</strong> Channel optimization &bull; Thumbnail design &bull; SEO titles/descriptions &bull; Upload scheduling &bull; Analytics reports &bull; Shorts strategy
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- TIER 3: GROWTH -->
+  <div style="margin-bottom:48px;">
+    <div style="font-size:0.65rem; letter-spacing:0.25em; text-transform:uppercase; color:var(--gold); margin-bottom:16px; padding-bottom:8px; border-bottom:1px solid rgba(181,149,90,0.2);">↑ Tier 3 — Growth Acceleration</div>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px,1fr)); gap:16px;">
+
+      <div style="border:1px solid rgba(181,149,90,0.2); border-radius:4px; padding:24px; background:rgba(181,149,90,0.06);">
+        <div style="font-size:0.65rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--gold); margin-bottom:8px;">06 — Digital Advertising</div>
+        <div style="font-family:var(--font-heading); font-size:1.3rem; color:var(--cream); margin-bottom:12px;">Paid Ads — Facebook, Instagram & Google</div>
+        <p style="font-size:0.88rem; color:var(--text-on-dark); opacity:0.7; line-height:1.7; margin-bottom:16px;">
+          Targeted advertising campaigns driving traffic to the ranch and the Symposium. Geo-targeted around Ocala and the broader Florida/Southeast equestrian community. Video ads repurposed from production shoots for maximum ROI.
+        </p>
+        <div style="font-size:0.7rem; color:var(--gold-light);">
+          <strong>Includes:</strong> Campaign strategy &bull; Ad creative (video + static) &bull; Audience targeting &bull; A/B testing &bull; Retargeting pixels &bull; Monthly performance reports
+        </div>
+      </div>
+
+      <div style="border:1px solid rgba(181,149,90,0.2); border-radius:4px; padding:24px; background:rgba(181,149,90,0.06);">
+        <div style="font-size:0.65rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--gold); margin-bottom:8px;">07 — SEO & Content Strategy</div>
+        <div style="font-family:var(--font-heading); font-size:1.3rem; color:var(--cream); margin-bottom:12px;">Search Visibility & Organic Growth</div>
+        <p style="font-size:0.88rem; color:var(--text-on-dark); opacity:0.7; line-height:1.7; margin-bottom:16px;">
+          Technical SEO audit, keyword research for the equestrian/Ocala market, local business listings (Google Business Profile), blog content strategy, and ongoing optimization. Make "horse training Ocala" and "horseman symposium" rank on page one.
+        </p>
+        <div style="font-size:0.7rem; color:var(--gold-light);">
+          <strong>Includes:</strong> Technical SEO audit &bull; Google Business Profile setup &bull; Keyword research &bull; Blog content plan &bull; Schema markup &bull; Monthly ranking reports
+        </div>
+      </div>
+
+      <div style="border:1px solid rgba(181,149,90,0.2); border-radius:4px; padding:24px; background:rgba(181,149,90,0.06);">
+        <div style="font-size:0.65rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--gold); margin-bottom:8px;">08 — Multi-Site Management</div>
+        <div style="font-family:var(--font-heading); font-size:1.3rem; color:var(--cream); margin-bottom:12px;">Additional Sites & Properties</div>
+        <p style="font-size:0.88rem; color:var(--text-on-dark); opacity:0.7; line-height:1.7; margin-bottom:16px;">
+          Manage and upgrade Donna's other web properties — Quality Horseman Equipment site, event registration pages, and any future microsites. Consistent branding, modern code, and shared design system across all properties.
+        </p>
+        <div style="font-size:0.7rem; color:var(--gold-light);">
+          <strong>Properties:</strong> evolutionhorsemanship.com &bull; qualityhorseman.net &bull; Symposium event pages &bull; Future presenter sites
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- TIER 4: PREMIUM -->
+  <div style="margin-bottom:24px;">
+    <div style="font-size:0.65rem; letter-spacing:0.25em; text-transform:uppercase; color:#fff; margin-bottom:16px; padding-bottom:8px; border-bottom:1px solid rgba(255,255,255,0.15);">★ Tier 4 — Premium Production</div>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px,1fr)); gap:16px;">
+
+      <div style="border:1px solid rgba(255,255,255,0.12); border-radius:4px; padding:24px; background:linear-gradient(135deg, rgba(181,149,90,0.08), rgba(26,46,31,0.15));">
+        <div style="font-size:0.65rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--gold); margin-bottom:8px;">09 — Aerial & Virtual Tour</div>
+        <div style="font-family:var(--font-heading); font-size:1.3rem; color:var(--cream); margin-bottom:12px;">Drone Photography & Ranch Virtual Tour</div>
+        <p style="font-size:0.88rem; color:var(--text-on-dark); opacity:0.7; line-height:1.7; margin-bottom:16px;">
+          Full aerial shoot of the 55-acre ranch — sweeping drone footage of the pastures, oak trees, facilities, and horses. Build an interactive virtual tour for the website so prospective boarders, Symposium attendees, and Lifemanship clients can experience the property before they arrive. Aerial footage also feeds directly into event intros, ad creative, and social content.
+        </p>
+        <div style="font-size:0.7rem; color:var(--gold-light);">
+          <strong>Deliverables:</strong> 4K drone footage &bull; Aerial stills for web/print &bull; Interactive virtual tour page &bull; Intro video b-roll &bull; Social media hero assets
+        </div>
+      </div>
+
+      <div style="border:1px solid rgba(255,255,255,0.12); border-radius:4px; padding:24px; background:linear-gradient(135deg, rgba(181,149,90,0.08), rgba(26,46,31,0.15));">
+        <div style="font-size:0.65rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--gold); margin-bottom:8px;">10 — Symposium Live Production</div>
+        <div style="font-family:var(--font-heading); font-size:1.3rem; color:var(--cream); margin-bottom:12px;">Event Coverage & Livestream</div>
+        <p style="font-size:0.88rem; color:var(--text-on-dark); opacity:0.7; line-height:1.7; margin-bottom:16px;">
+          Multi-camera live event production for the Symposium — stage coverage, audience reactions, backstage content, and optional YouTube livestream. Full post-event edit into highlight reels, individual presenter segments, and marketing assets for the next year's event cycle.
+        </p>
+        <div style="font-size:0.7rem; color:var(--gold-light);">
+          <strong>Deliverables:</strong> Multi-cam shoot &bull; Live switching &bull; Livestream (optional) &bull; Post-event highlight reel &bull; Individual presenter clips &bull; Social media package
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- WHY US -->
+  <div style="margin-top:48px; padding:32px; border:1px solid rgba(181,149,90,0.2); border-radius:4px; background:rgba(181,149,90,0.04);">
+    <div style="font-size:0.65rem; letter-spacing:0.25em; text-transform:uppercase; color:var(--gold); margin-bottom:16px;">Why Kerr Media Group</div>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); gap:24px;">
+      <div>
+        <div style="font-family:var(--font-heading); font-size:1.1rem; color:var(--cream); margin-bottom:6px;">15+ Years Production</div>
+        <p style="font-size:0.82rem; color:var(--text-on-dark); opacity:0.6; line-height:1.6;">
+          Director, Producer, Editor — Fortune 500 brands, federal agencies, live events up to 10,000 attendees. 10M+ views across campaigns.
+        </p>
+      </div>
+      <div>
+        <div style="font-family:var(--font-heading); font-size:1.1rem; color:var(--cream); margin-bottom:6px;">Full Stack Creative</div>
+        <p style="font-size:0.82rem; color:var(--text-on-dark); opacity:0.6; line-height:1.6;">
+          Design, code, edit, film, mix — one team handles everything. No subcontractor telephone game. React, After Effects, Premiere, DaVinci, Cinema 4D, Logic Pro.
+        </p>
+      </div>
+      <div>
+        <div style="font-family:var(--font-heading); font-size:1.1rem; color:var(--cream); margin-bottom:6px;">Already Know the Brand</div>
+        <p style="font-size:0.82rem; color:var(--text-on-dark); opacity:0.6; line-height:1.6;">
+          We built the website, the design system, the style guide. Zero ramp-up time. Every future deliverable matches the "Organic Luxury" aesthetic from day one.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="sg-section" style="max-width:100%; padding:40px;">
+  <h2>Veo 3 Intro — Style Frame</h2>
+  <div class="section-sub">8-Second Video Intro Starting Frame (1920×1080)</div>
+  <div style="border:1px solid rgba(181,149,90,0.2); border-radius:4px; overflow:hidden; max-width:1100px; margin:0 auto;">
+    <img src="images/styleframe_v1.jpg" alt="Intro Style Frame" style="width:100%; display:block;">
+  </div>
+  <div style="text-align:center; margin-top:16px; font-size:0.7rem; color:var(--text-muted);">intro/styleframe_v1.jpg — Feed to Veo 3 as image-to-video input</div>
+</div>
+
+<!-- COLORS -->
+<div class="sg-section">
+  <h2>Color Palette</h2>
+  <div class="section-sub">Brand Colors</div>
+  <div class="color-grid">
+    <div class="color-card"><div class="color-swatch" style="background:#1a2e1f"></div><div class="color-info"><div class="name">Forest</div><div class="hex">#1a2e1f</div><div class="var">--forest</div></div></div>
+    <div class="color-card"><div class="color-swatch" style="background:#0f1c13"></div><div class="color-info"><div class="name">Forest Deep</div><div class="hex">#0f1c13</div><div class="var">--forest-deep</div></div></div>
+    <div class="color-card"><div class="color-swatch" style="background:#3d6b4e"></div><div class="color-info"><div class="name">Moss</div><div class="hex">#3d6b4e</div><div class="var">--moss</div></div></div>
+    <div class="color-card"><div class="color-swatch" style="background:#5a9370"></div><div class="color-info"><div class="name">Moss Light</div><div class="hex">#5a9370</div><div class="var">--moss-light</div></div></div>
+    <div class="color-card"><div class="color-swatch" style="background:#8bab7f"></div><div class="color-info"><div class="name">Sage</div><div class="hex">#8bab7f</div><div class="var">--sage</div></div></div>
+    <div class="color-card"><div class="color-swatch" style="background:#b5955a"></div><div class="color-info"><div class="name">Gold</div><div class="hex">#b5955a</div><div class="var">--gold</div></div></div>
+    <div class="color-card"><div class="color-swatch" style="background:#d4b97a"></div><div class="color-info"><div class="name">Gold Light</div><div class="hex">#d4b97a</div><div class="var">--gold-light</div></div></div>
+    <div class="color-card"><div class="color-swatch" style="background:#faf6f0"></div><div class="color-info"><div class="name">Cream</div><div class="hex">#faf6f0</div><div class="var">--cream</div></div></div>
+    <div class="color-card"><div class="color-swatch" style="background:#f5ede0"></div><div class="color-info"><div class="name">Cream Warm</div><div class="hex">#f5ede0</div><div class="var">--cream-warm</div></div></div>
+    <div class="color-card"><div class="color-swatch" style="background:#e8dfd4"></div><div class="color-info"><div class="name">Stone</div><div class="hex">#e8dfd4</div><div class="var">--stone</div></div></div>
+    <div class="color-card"><div class="color-swatch" style="background:#2c2420"></div><div class="color-info"><div class="name">Bark</div><div class="hex">#2c2420</div><div class="var">--bark</div></div></div>
+    <div class="color-card"><div class="color-swatch" style="background:#4a3f38"></div><div class="color-info"><div class="name">Bark Light</div><div class="hex">#4a3f38</div><div class="var">--bark-light</div></div></div>
+  </div>
+
+  <div class="section-sub" style="margin-top:40px">Text Colors</div>
+  <div class="color-grid">
+    <div class="color-card"><div class="color-swatch" style="background:#2c2420"></div><div class="color-info"><div class="name">Primary</div><div class="hex">#2c2420</div><div class="var">--text-primary</div></div></div>
+    <div class="color-card"><div class="color-swatch" style="background:#5e534a"></div><div class="color-info"><div class="name">Secondary</div><div class="hex">#5e534a</div><div class="var">--text-secondary</div></div></div>
+    <div class="color-card"><div class="color-swatch" style="background:#f0ebe4"></div><div class="color-info"><div class="name">On Dark</div><div class="hex">#f0ebe4</div><div class="var">--text-on-dark</div></div></div>
+    <div class="color-card"><div class="color-swatch" style="background:#8a7e74"></div><div class="color-info"><div class="name">Muted</div><div class="hex">#8a7e74</div><div class="var">--text-muted</div></div></div>
+  </div>
+</div>
+
+<!-- TYPOGRAPHY -->
+<div class="sg-section">
+  <h2>Typography</h2>
+  <div class="section-sub">Font Families &amp; Scale</div>
+
+  <div class="type-row">
+    <div class="type-meta"><span>Playfair Display</span><span>--font-display</span><span>Hero &amp; Section Titles</span></div>
+    <div class="type-sample-display">The Horseman Symposium</div>
+  </div>
+  <div class="type-row">
+    <div class="type-meta"><span>Cormorant Garamond</span><span>--font-heading</span><span>Subheads &amp; Quotes</span></div>
+    <div class="type-sample-heading">A bold international gathering bringing you the best horsemen who put the horse first.</div>
+  </div>
+  <div class="type-row">
+    <div class="type-meta"><span>DM Sans</span><span>--font-body</span><span>Body &amp; UI</span></div>
+    <div class="type-sample-body">Evolution Horsemanship is a movement — a bold gathering designed for horse lovers, trainers, riders, and horsemen who believe in a better way with horses. Whether you are starting your journey or seeking to refine your advanced skills, this is your opportunity.</div>
+  </div>
+  <div class="type-row">
+    <div class="type-meta"><span>DM Sans</span><span>--fs-label: 0.75rem</span><span>Labels &amp; Eyebrows</span></div>
+    <div class="type-sample-label">March 28–29, 2026 — Ocala, Florida</div>
+  </div>
+</div>
+
+<!-- LOGOS -->
+<div class="sg-section">
+  <h2>Logos</h2>
+  <div class="section-sub">Brand Marks</div>
+  <div class="logo-grid">
+    <div class="logo-card">
+      <div class="preview dark"><img src="images/symposium_logo_dark.jpg" alt="Symposium Logo on Dark"></div>
+      <div class="caption"><strong>Symposium Logo</strong> — Dark background (primary use)</div>
+    </div>
+    <div class="logo-card">
+      <div class="preview light"><img src="images/symposium_logo.jpg" alt="Symposium Logo on Light"></div>
+      <div class="caption"><strong>Symposium Logo</strong> — Light background</div>
+    </div>
+    <div class="logo-card">
+      <div class="preview dark" style="background:var(--forest-deep)"><img src="images/logo.png" alt="EH Brand Mark" style="filter:invert(1) brightness(1.8); max-height:80px;"></div>
+      <div class="caption"><strong>EH Swirl Mark</strong> — Inverted for dark backgrounds</div>
+    </div>
+    <div class="logo-card">
+      <div class="preview light"><img src="images/logo.png" alt="EH Brand Mark" style="max-height:80px;"></div>
+      <div class="caption"><strong>EH Swirl Mark</strong> — Original on light</div>
+    </div>
+  </div>
+</div>
+
+<!-- LOGO COLORWAYS -->
+<div class="sg-section">
+  <h2>Logo Colorways</h2>
+  <div class="section-sub">Symposium Logo — Brand Color Variants</div>
+  <div class="logo-grid" style="grid-template-columns:repeat(auto-fit, minmax(240px,1fr));">
+    <div class="logo-card">
+      <div class="preview" style="background:#0f1c13; padding:24px;"><img src="images/symposium_logo_forest_gold.jpg" alt="Forest + Gold"></div>
+      <div class="caption"><strong>Forest + Gold</strong> — Primary brand colorway</div>
+    </div>
+    <div class="logo-card">
+      <div class="preview" style="background:#0f1c13; padding:24px;"><img src="images/symposium_logo_forest_goldlight.jpg" alt="Forest + Gold Light"></div>
+      <div class="caption"><strong>Forest + Gold Light</strong> — Brighter gold accent</div>
+    </div>
+    <div class="logo-card">
+      <div class="preview" style="background:#0f1c13; padding:24px;"><img src="images/symposium_logo_forest_sage.jpg" alt="Forest + Sage"></div>
+      <div class="caption"><strong>Forest + Sage</strong> — Earthy, natural feel</div>
+    </div>
+    <div class="logo-card">
+      <div class="preview" style="background:#2c2420; padding:24px;"><img src="images/symposium_logo_bark_gold.jpg" alt="Bark + Gold"></div>
+      <div class="caption"><strong>Bark + Gold</strong> — Warm leather tone</div>
+    </div>
+    <div class="logo-card">
+      <div class="preview" style="background:#000; padding:24px;"><img src="images/symposium_logo_black_gold.jpg" alt="Black + Gold"></div>
+      <div class="caption"><strong>Black + Gold</strong> — Maximum contrast</div>
+    </div>
+    <div class="logo-card">
+      <div class="preview" style="background:#000; padding:24px;"><img src="images/symposium_logo_black_moss.jpg" alt="Black + Moss"></div>
+      <div class="caption"><strong>Black + Moss</strong> — Cool, modern</div>
+    </div>
+    <div class="logo-card">
+      <div class="preview" style="background:#faf6f0; padding:24px;"><img src="images/symposium_logo_cream_forest.jpg" alt="Cream + Forest"></div>
+      <div class="caption"><strong>Cream + Forest</strong> — Light mode, editorial</div>
+    </div>
+    <div class="logo-card">
+      <div class="preview" style="background:#e8dfd4; padding:24px;"><img src="images/symposium_logo_stone_moss.jpg" alt="Stone + Moss"></div>
+      <div class="caption"><strong>Stone + Moss</strong> — Soft, organic</div>
+    </div>
+    <div class="logo-card">
+      <div class="preview" style="background:#1a2e1f; padding:24px;"><img src="images/symposium_logo_forest_allgold.jpg" alt="All Gold"></div>
+      <div class="caption"><strong>All Gold</strong> — Monochrome gold on forest</div>
+    </div>
+    <div class="logo-card">
+      <div class="preview" style="background:#0f1c13; padding:24px;"><img src="images/symposium_logo_forest_cream.jpg" alt="Cream Mono"></div>
+      <div class="caption"><strong>Cream Mono</strong> — Single-color on dark</div>
+    </div>
+  </div>
+</div>
+
+<!-- BUTTONS -->
+<div class="sg-section">
+  <h2>Buttons</h2>
+  <div class="section-sub">Interactive Elements</div>
+  <div class="btn-row">
+    <a class="demo-btn primary" href="#">Primary</a>
+    <a class="demo-btn outline" href="#">Outline</a>
+    <a class="demo-btn gold" href="#">Gold / Glass</a>
+  </div>
+</div>
+
+<!-- SPACING -->
+<div class="sg-section">
+  <h2>Spacing Scale</h2>
+  <div class="section-sub">Fluid Spacing Tokens</div>
+  <div class="spacing-demo">
+    <div class="spacing-item"><div class="spacing-bar" style="height:12px"></div><div class="name">--space-xs</div><div class="val">0.5–0.75rem</div></div>
+    <div class="spacing-item"><div class="spacing-bar" style="height:24px"></div><div class="name">--space-sm</div><div class="val">1–1.5rem</div></div>
+    <div class="spacing-item"><div class="spacing-bar" style="height:48px"></div><div class="name">--space-md</div><div class="val">2–3.5rem</div></div>
+    <div class="spacing-item"><div class="spacing-bar" style="height:80px"></div><div class="name">--space-lg</div><div class="val">3.5–6rem</div></div>
+    <div class="spacing-item"><div class="spacing-bar" style="height:120px"></div><div class="name">--space-xl</div><div class="val">5–10rem</div></div>
+    <div class="spacing-item"><div class="spacing-bar" style="height:160px"></div><div class="name">--space-2xl</div><div class="val">7–14rem</div></div>
+  </div>
+</div>
+
+<!-- MOTION -->
+<div class="sg-section">
+  <h2>Motion</h2>
+  <div class="section-sub">Easing &amp; Duration (hover to preview)</div>
+  <div class="motion-grid">
+    <div class="motion-card"><div class="name">--ease-out</div><div class="val">cubic-bezier(0.16, 1, 0.3, 1)</div><div class="motion-ball ball-ease"></div></div>
+    <div class="motion-card"><div class="name">--ease-out-expo</div><div class="val">cubic-bezier(0.19, 1, 0.22, 1)</div><div class="motion-ball ball-expo"></div></div>
+  </div>
+  <div class="motion-grid" style="margin-top:16px">
+    <div class="motion-card"><div class="name">--duration-fast</div><div class="val">0.3s</div></div>
+    <div class="motion-card"><div class="name">--duration-med</div><div class="val">0.6s</div></div>
+    <div class="motion-card"><div class="name">--duration-slow</div><div class="val">1.0s</div></div>
+  </div>
+</div>
+
+<div style="text-align:center; padding:40px; color:var(--text-muted); font-size:0.7rem; letter-spacing:0.1em;">
+  EVOLUTION HORSEMANSHIP — INTERNAL STYLE GUIDE — NOT FOR PUBLIC USE
+</div>
+
+</body>
+</html>

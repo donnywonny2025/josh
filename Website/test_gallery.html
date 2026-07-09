@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body { background: #110f0d; color: white; font-family: sans-serif; padding: 20px; padding-bottom: 100px; }
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .card { background: #2a2520; padding: 10px; border-radius: 8px; text-align: center; cursor: pointer; border: 3px solid transparent; transition: 0.2s; }
+  .card:hover { transform: scale(1.02); }
+  .card.selected { border-color: #fca311; background: #3a3229; }
+  img { width: 100%; height: 300px; object-fit: cover; border-radius: 4px; margin-bottom: 10px; }
+  h2 { font-weight: 300; letter-spacing: 2px; }
+  #floating-btn { position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%); background: #fca311; color: #110f0d; border: none; padding: 15px 30px; font-size: 16px; font-weight: bold; border-radius: 30px; cursor: pointer; box-shadow: 0 4px 15px rgba(0,0,0,0.5); display: none; }
+</style>
+</head>
+<body>
+  <h2>ACTUAL JOSH PHOTOS (Just Josh)</h2>
+  <div class="grid">
+    <div class="card"><img src="../Photos/RAW_IMPORTS/Just Josh/Photo Apr 28 2018, 4 06 42 PM.jpg"><br>Apr 28 2018</div>
+    <div class="card"><img src="../Photos/RAW_IMPORTS/Just Josh/Photo Dec 23 2018, 7 24 42 PM.jpg"><br>Dec 23 2018</div>
+    <div class="card"><img src="../Photos/RAW_IMPORTS/Just Josh/Photo Apr 05 2018, 5 19 30 PM.jpg"><br>Apr 05 2018</div>
+    <div class="card"><img src="../Photos/RAW_IMPORTS/Just Josh/Photo Dec 01 2018, 11 16 43 AM.jpg"><br>Dec 01 2018</div>
+    <div class="card"><img src="../Photos/RAW_IMPORTS/Just Josh/Photo Aug 05 2021, 3 48 39 PM.jpg"><br>Aug 05 2021</div>
+    <div class="card"><img src="../Photos/RAW_IMPORTS/Just Josh/Photo Apr 18 2019, 1 02 58 PM.jpg"><br>Apr 18 2019</div>
+    <div class="card"><img src="../Photos/RAW_IMPORTS/Just Josh/Photo Jan 07 2022, 1 59 14 PM.jpg"><br>Jan 07 2022</div>
+    <div class="card"><img src="../Photos/RAW_IMPORTS/Just Josh/Photo Jan 10 2020, 7 55 02 PM.jpg"><br>Jan 10 2020</div>
+    <div class="card"><img src="../Photos/RAW_IMPORTS/Just Josh/Photo Jan 11 2020, 11 28 23 AM.jpg"><br>Jan 11 2020</div>
+    <div class="card"><img src="../Photos/RAW_IMPORTS/Just Josh/Photo Jul 06 2019, 11 52 03 AM.jpg"><br>Jul 06 2019</div>
+    <div class="card"><img src="../Photos/RAW_IMPORTS/Just Josh/Photo Jul 10 2020, 12 29 23 PM.jpg"><br>Jul 10 2020</div>
+    <div class="card"><img src="../Photos/RAW_IMPORTS/Just Josh/Photo Jul 13 2020, 5 10 59 PM.jpg"><br>Jul 13 2020</div>
+  </div>
+
+  <button id="floating-btn">Copy Selections (0)</button>
+
+  <script>
+    const cards = document.querySelectorAll('.card');
+    const btn = document.getElementById('floating-btn');
+    let selected = [];
+
+    cards.forEach(card => {
+      card.addEventListener('click', () => {
+        card.classList.toggle('selected');
+        const img = card.querySelector('img').src;
+        const name = img.split('/').pop();
+        
+        if (card.classList.contains('selected')) {
+          selected.push(name);
+        } else {
+          selected = selected.filter(s => s !== name);
+        }
+
+        if (selected.length > 0) {
+          btn.style.display = 'block';
+          btn.innerText = `Copy Selections (${selected.length})`;
+        } else {
+          btn.style.display = 'none';
+        }
+      });
+    });
+
+    btn.addEventListener('click', () => {
+      navigator.clipboard.writeText(selected.join('\\n')).then(() => {
+        btn.innerText = 'Copied!';
+        setTimeout(() => btn.innerText = `Copy Selections (${selected.length})`, 2000);
+      });
+    });
+  </script>
+</body>
+</html>

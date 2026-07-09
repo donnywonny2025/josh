@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Video Aligner</title>
+  <style>
+    body { background: #222; margin: 50px; font-family: sans-serif; }
+    
+    .controls { 
+      position: fixed; top: 20px; right: 20px; z-index: 1000;
+      background: #333; color: white; padding: 20px; border-radius: 8px; width: 400px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    }
+    .control-group { display: flex; align-items: center; gap: 15px; margin-bottom: 10px; }
+    label { width: 100px; font-weight: bold; }
+    input[type="range"] { flex-grow: 1; }
+    input[type="number"] { width: 60px; background: #555; color: white; border: none; padding: 5px; }
+
+    /* The literal frame image */
+    img#frame {
+      width: 840px;
+      height: 515px;
+      display: block;
+      position: absolute;
+      top: 100px;
+      left: 100px;
+      z-index: 10;
+    }
+
+    /* The raw video element, floating freely with no containers */
+    video#video {
+      position: absolute;
+      /* Base size before scaling so it's manageable */
+      width: 840px; 
+      /* Let height adjust naturally to its 16:9 ratio */
+      top: 100px;
+      left: 100px;
+      z-index: 20;
+      opacity: 0.7;
+      transform-origin: top left; /* Makes math easier */
+    }
+
+    #output { margin-top: 15px; background: #111; padding: 10px; color: #4caf50; font-family: monospace; }
+  </style>
+</head>
+<body>
+
+  <div class="controls">
+    <h3>Raw Video Controls</h3>
+    <div class="control-group">
+      <label>Move X (px)</label>
+      <input type="range" id="x-range" min="-300" max="300" step="1" value="-1">
+      <input type="number" id="x-num" value="-1">
+    </div>
+    <div class="control-group">
+      <label>Move Y (px)</label>
+      <input type="range" id="y-range" min="-300" max="300" step="1" value="18">
+      <input type="number" id="y-num" value="18">
+    </div>
+    <div class="control-group">
+      <label>Scale X</label>
+      <input type="range" id="sx-range" min="0.1" max="3" step="0.01" value="1">
+      <input type="number" id="sx-num" step="0.01" value="1">
+    </div>
+    <div class="control-group">
+      <label>Scale Y</label>
+      <input type="range" id="sy-range" min="0.1" max="3" step="0.01" value="1">
+      <input type="number" id="sy-num" step="0.01" value="1">
+    </div>
+    <div class="control-group" style="margin-top: 15px; border-top: 1px solid #555; padding-top: 15px;">
+      <label>Frame Width</label>
+      <input type="range" id="fw-range" min="700" max="1000" step="1" value="857">
+      <input type="number" id="fw-num" value="857">
+    </div>
+    <div class="control-group">
+      <label>Time Scrub</label>
+      <input type="range" id="t-range" min="0" max="100" step="0.1" value="0">
+    </div>
+    <div id="output">
+      transform: translate(-1px, 18px) scale(1, 1);
+    </div>
+  </div>
+
+  <img id="frame" src="images/frame_only.png" style="width: 857px;">
+  
+  <video id="video" autoplay muted loop playsinline>
+    <source src="../Exports/Gemini Exports/Josh_Master_Final_Edit_V2_WebMaster.mp4" type="video/mp4">
+  </video>
+
+  <script>
+    const video = document.getElementById('video');
+    const frame = document.getElementById('frame');
+    const output = document.getElementById('output');
+    const timeRange = document.getElementById('t-range');
+    
+    let state = { x: -1, y: 18, sx: 1, sy: 1, fw: 857 };
+
+    video.addEventListener('loadedmetadata', () => {
+      timeRange.max = video.duration;
+    });
+
+    timeRange.addEventListener('input', (e) => {
+      video.currentTime = parseFloat(e.target.value);
+    });
+
+    video.addEventListener('timeupdate', () => {
+      timeRange.value = video.currentTime;
+    });
+
+    function update() {
+      const transformStr = `translate(${state.x}px, ${state.y}px) scale(${state.sx}, ${state.sy})`;
+      video.style.transform = transformStr;
+      frame.style.width = state.fw + 'px';
+      output.innerText = `transform: ${transformStr};\nFrame Width: ${state.fw}px;`;
+    }
+
+    function bind(id, key) {
+      const range = document.getElementById(id + '-range');
+      const num = document.getElementById(id + '-num');
+      range.addEventListener('input', (e) => {
+        state[key] = parseFloat(e.target.value);
+        num.value = state[key];
+        update();
+      });
+      num.addEventListener('input', (e) => {
+        state[key] = parseFloat(e.target.value);
+        range.value = state[key];
+        update();
+      });
+    }
+
+    bind('x', 'x');
+    bind('y', 'y');
+    bind('sx', 'sx');
+    bind('sy', 'sy');
+    bind('fw', 'fw');
+  </script>
+</body>
+</html>
