@@ -3184,6 +3184,13 @@ a.contact-item:hover {
   z-index: 1;
 }
 
+/* Push native video controls away from the wooden frame edges */
+.video-card-wrap video::-webkit-media-controls-enclosure {
+  padding-bottom: 28px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
 
 /* Scroll-Driven Parallax on Quote Banner */
 .quote-banner-section {
