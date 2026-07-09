@@ -156,7 +156,7 @@ img {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: royalSweep 12s linear infinite;
+  animation: royalSweep 18s linear infinite;
 }
 @keyframes royalSweep {
   0% { background-position: 150% center; }
