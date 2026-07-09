@@ -509,8 +509,11 @@
     const titleDisplay = document.getElementById('bgm-title');
     
     let isPlaying = false;
-    let isMuted = false;
+    let isMuted = true;
     let currentTrackIndex = 0;
+    
+    // Set muted property on the audio element so it can bypass browser autoplay blocks
+    bgmAudio.muted = true;
     
     // Autoplay attempt on load
     const tryPlayBGM = () => {
