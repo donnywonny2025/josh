@@ -521,8 +521,10 @@
     // Check if the browser natively autoplayed the audio via the HTML attribute before JS even ran
     if (!bgmAudio.paused) {
       isPlaying = true;
-      updateUI();
     }
+    
+    // Force UI to sync immediately on load before any promises resolve
+    updateUI();
     
     // Autoplay attempt on load
     const tryPlayBGM = () => {
@@ -590,6 +592,12 @@
     }
 
     if (bgmAudio) {
+      if (bgmBtn) {
+        bgmBtn.addEventListener('click', () => {
+          if (isPlaying) bgmAudio.pause();
+          else bgmAudio.play().catch(e => console.log(e));
+        });
+      }
       
       bgmAudio.addEventListener('play', () => { isPlaying = true; updateUI(); });
       bgmAudio.addEventListener('pause', () => { isPlaying = false; updateUI(); });
