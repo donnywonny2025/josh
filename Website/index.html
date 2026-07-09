@@ -458,13 +458,7 @@
       // 1. Header & BGM Player
       const isScrolled = lastKnownScrollPosition > 60;
       header.classList.toggle('scrolled', isScrolled);
-      if (bgmPlayer) {
-        if (lastKnownScrollPosition > 150) {
-          bgmPlayer.classList.add('fade-out');
-        } else {
-          bgmPlayer.classList.remove('fade-out');
-        }
-      }
+      // BGM player stays visible at all times
 
       // 2. Parallax Quote Banner
       if (quoteBg && quoteSection) {
