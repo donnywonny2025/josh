@@ -86,10 +86,6 @@
       </button>
     </div>
     
-    <!-- Native Audio Player (autoplay via JS to handle policies) -->
-    <audio id="bgm-audio" autoplay muted preload="auto">
-      <source src="music/A_Quiet_New_Road.wav" type="audio/wav">
-    </audio>
   </div>
 
   <!-- ===== HERO: ASYMMETRICAL EDITORIAL GRID ===== -->
@@ -377,18 +373,21 @@
   <!-- ===== SCRIPTS ===== -->
   <script src="https://player.vimeo.com/api/player.js"></script>
   <script>
+    // --- GLOBAL BGM STATE ---
+    let bgmHowl = null;
+    let isPlaying = false;
+    let isMuted = true;
+    let currentTrackIndex = 0;
+
     // --- INLINE VIDEO LOGIC ---
     function playInlineVideo() {
       const bgVideo = document.getElementById('tribute-video');
-      const bgmAudio = document.getElementById('bgm-audio');
       const overlay = document.querySelector('.video-play-overlay');
       const hero = document.getElementById('hero');
       
-      // Pause background music
-      if (bgmAudio && !bgmAudio.paused) {
-        bgmAudio.pause();
-        bgmPlaying = false;
-        updateBgmUI();
+      // Pause background music via Howler
+      if (bgmHowl && bgmHowl.playing()) {
+        bgmHowl.pause();
       }
 
       // Hide overlay and expand layout
@@ -492,7 +491,6 @@
     });
 
     // --- MULTI-TRACK BGM PLAYER LOGIC ---
-    const bgmAudio = document.getElementById('bgm-audio');
     const bgmBtn = document.getElementById('bgm-btn');
     const bgmPrev = document.getElementById('bgm-prev');
     const bgmNext = document.getElementById('bgm-next');
@@ -509,62 +507,31 @@
     const trackItems = document.querySelectorAll('.track-item');
     const titleDisplay = document.getElementById('bgm-title');
     
-    let isPlaying = false;
-    let isMuted = true;
-    let currentTrackIndex = 0;
-    
-    // Set muted property on the audio element so it can bypass browser autoplay blocks
-    bgmAudio.muted = true;
-    bgmAudio.volume = 0.35;
-    bgmAudio.currentTime = 0; // Force restart on reload
-    
-    // Check if the browser natively autoplayed the audio via the HTML attribute before JS even ran
-    if (!bgmAudio.paused) {
-      isPlaying = true;
-    }
+    // Globals moved to top for playInlineVideo access
     
     // Force UI to sync immediately on load before any promises resolve
     updateUI();
     
-    // Autoplay attempt on load
-    const tryPlayBGM = () => {
-      if (isPlaying) return;
-      bgmAudio.play().then(() => {
-        isPlaying = true;
-        updateUI();
-        document.removeEventListener('click', tryPlayBGM);
-        document.removeEventListener('scroll', tryPlayBGM);
-        document.removeEventListener('keydown', tryPlayBGM);
-      }).catch(e => {
-        console.log('Autoplay blocked. Waiting for user interaction...');
-      });
-    };
-    
-    // Attempt immediately
-    tryPlayBGM();
-    
-    // If browser blocks initial load, force it to start the exact moment they touch the page
-    document.addEventListener('click', tryPlayBGM);
-    document.addEventListener('scroll', tryPlayBGM);
-    document.addEventListener('keydown', tryPlayBGM);
+    // Explicitly load the track via Howler
+    loadTrack(currentTrackIndex);
 
     function updateUI() {
       if (isPlaying) {
-        playIcon.style.display = 'none';
-        pauseIcon.style.display = 'block';
-        waveform.classList.add('playing');
+        if (playIcon) playIcon.style.display = 'none';
+        if (pauseIcon) pauseIcon.style.display = 'block';
+        if (waveform) waveform.classList.add('playing');
       } else {
-        playIcon.style.display = 'block';
-        pauseIcon.style.display = 'none';
-        waveform.classList.remove('playing');
+        if (playIcon) playIcon.style.display = 'block';
+        if (pauseIcon) pauseIcon.style.display = 'none';
+        if (waveform) waveform.classList.remove('playing');
       }
       
       if (isMuted) {
-        mutedIcon.style.display = 'block';
-        unmutedIcon.style.display = 'none';
+        if (mutedIcon) mutedIcon.style.display = 'block';
+        if (unmutedIcon) unmutedIcon.style.display = 'none';
       } else {
-        mutedIcon.style.display = 'none';
-        unmutedIcon.style.display = 'block';
+        if (mutedIcon) mutedIcon.style.display = 'none';
+        if (unmutedIcon) unmutedIcon.style.display = 'block';
       }
     }
 
@@ -576,89 +543,109 @@
       const item = trackItems[index];
       const newSrc = item.getAttribute('data-src');
       
-      // Gapless looping for the same track
-      if (bgmAudio.getAttribute('src') === newSrc || bgmAudio.src.endsWith(newSrc)) {
-        bgmAudio.currentTime = 0;
-      } else {
-        bgmAudio.src = newSrc;
+      if (bgmHowl) {
+        bgmHowl.unload();
       }
+      
+      bgmHowl = new Howl({
+        src: [newSrc],
+        autoplay: true, // Howler handles interaction unlocking automatically
+        loop: true,
+        volume: document.getElementById('bgm-volume') ? parseFloat(document.getElementById('bgm-volume').value) : 0.35,
+        mute: isMuted,
+        html5: true, // IMPORTANT: Forces HTML5 Audio to stream the 45MB WAV instead of caching to RAM
+        onplay: () => { isPlaying = true; updateUI(); },
+        onpause: () => { isPlaying = false; updateUI(); },
+        onend: () => { loadTrack(currentTrackIndex + 1); },
+        onplayerror: function() {
+          // If autoplay is blocked by browser, wait for the first click to unlock
+          bgmHowl.once('unlock', function() {
+            bgmHowl.play();
+          });
+        }
+      });
       
       titleDisplay.textContent = item.textContent;
       
       trackItems.forEach(t => t.classList.remove('active'));
       item.classList.add('active');
-      
-      if (isPlaying) bgmAudio.play().catch(e => console.log(e));
     }
 
-    if (bgmAudio) {
-      if (bgmBtn) {
-        bgmBtn.addEventListener('click', () => {
-          if (isPlaying) bgmAudio.pause();
-          else bgmAudio.play().catch(e => console.log(e));
-        });
-      }
-      
-      bgmAudio.addEventListener('play', () => { isPlaying = true; updateUI(); });
-      bgmAudio.addEventListener('pause', () => { isPlaying = false; updateUI(); });
-      bgmAudio.addEventListener('ended', () => { loadTrack(currentTrackIndex + 1); });
-      
-      const volumeSlider = document.getElementById('bgm-volume');
-      
+    // Initialize Event Listeners
+    if (bgmBtn) {
+      bgmBtn.addEventListener('click', () => {
+        if (!bgmHowl) return;
+        if (isPlaying) bgmHowl.pause();
+        else bgmHowl.play();
+      });
+    }
+    
+    const volumeSlider = document.getElementById('bgm-volume');
+    
+    if (bgmMute) {
       bgmMute.addEventListener('click', () => {
         isMuted = !isMuted;
-        bgmAudio.muted = isMuted;
-        if (!isMuted && volumeSlider.value == 0) {
+        if (bgmHowl) bgmHowl.mute(isMuted);
+        if (!isMuted && volumeSlider && volumeSlider.value == 0) {
           volumeSlider.value = 0.35;
-          bgmAudio.volume = 0.35;
+          if (bgmHowl) bgmHowl.volume(0.35);
         }
         updateUI();
       });
-      
+    }
+    
+    if (volumeSlider) {
       volumeSlider.addEventListener('input', (e) => {
         const val = parseFloat(e.target.value);
-        bgmAudio.volume = val;
+        if (bgmHowl) bgmHowl.volume(val);
         
         if (val > 0 && isMuted) {
           isMuted = false;
-          bgmAudio.muted = false;
+          if (bgmHowl) bgmHowl.mute(false);
           updateUI();
         } else if (val === 0 && !isMuted) {
           isMuted = true;
-          bgmAudio.muted = true;
+          if (bgmHowl) bgmHowl.mute(true);
           updateUI();
         }
       });
-      
+    }
+    
+    if (bgmPrev) {
       bgmPrev.addEventListener('click', () => {
         loadTrack(currentTrackIndex - 1);
-        if (!isPlaying) { bgmAudio.play().catch(e => console.log(e)); }
+        if (!isPlaying && bgmHowl) { bgmHowl.play(); }
       });
-      
+    }
+    
+    if (bgmNext) {
       bgmNext.addEventListener('click', () => {
         loadTrack(currentTrackIndex + 1);
-        if (!isPlaying) { bgmAudio.play().catch(e => console.log(e)); }
+        if (!isPlaying && bgmHowl) { bgmHowl.play(); }
       });
-      
+    }
+    
+    if (tracklistToggle) {
       tracklistToggle.addEventListener('click', (e) => {
         if (e.target.closest('.bgm-tracklist-menu')) return;
         tracklistMenu.classList.toggle('open');
       });
-      
-      trackItems.forEach((item, index) => {
-        item.addEventListener('click', () => {
-          loadTrack(index);
-          tracklistMenu.classList.remove('open');
-          bgmAudio.play().catch(e => console.log(e));
-        });
-      });
-      
-      document.addEventListener('click', (e) => {
-        if (!tracklistToggle.contains(e.target)) {
-          tracklistMenu.classList.remove('open');
-        }
-      });
     }
+    
+    trackItems.forEach((item, index) => {
+      item.addEventListener('click', (e) => {
+        e.stopPropagation();
+        loadTrack(index);
+        tracklistMenu.classList.remove('open');
+      });
+    });
+    
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (tracklistToggle && !tracklistToggle.contains(e.target)) {
+        tracklistMenu.classList.remove('open');
+      }
+    });
 
     // --- LIGHTBOX INTERACTIVE GALLERIES ---
     const galleries = {
