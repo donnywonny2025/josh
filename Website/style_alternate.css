@@ -2994,8 +2994,7 @@ a.contact-item:hover {
   pointer-events: none;
 }
 
-.video-card-wrap video, .video-card-wrap iframe {
-  aspect-ratio: 16 / 9;
+.video-card-wrap video {
   position: absolute;
   top: calc((18 / 515) * 100%);
   left: calc((-1 / 857) * 100%);

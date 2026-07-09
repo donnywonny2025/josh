@@ -3178,7 +3178,7 @@ a.contact-item:hover {
   pointer-events: none;
 }
 
-.video-card-wrap video, .video-card-wrap iframe {
+.video-card-wrap video {
   position: absolute;
   top: calc((15 / 515) * 100%);
   left: calc((-3 / 857) * 100%);
