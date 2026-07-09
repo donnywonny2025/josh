@@ -1,0 +1,25 @@
+name: Deploy Website to Namecheap
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'Website/**'
+
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v4
+    
+    - name: 📂 Sync files via FTP
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: server223.web-hosting.com
+        username: github@joshburns.org
+        password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ./Website/
+        server-dir: ./
