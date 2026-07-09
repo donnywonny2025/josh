@@ -147,19 +147,20 @@ img {
   background: linear-gradient(
     75deg, 
     var(--text-color, #fff) 0%, 
-    var(--text-color, #fff) 45%, 
+    var(--text-color, #fff) 40%, 
     #fff 50%, 
-    var(--text-color, #fff) 55%, 
+    var(--text-color, #fff) 60%, 
     var(--text-color, #fff) 100%
   );
-  background-size: 300% auto;
+  background-size: 200% auto;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: royalSweep 18s linear infinite;
+  animation: royalSweep 8s linear infinite;
 }
 @keyframes royalSweep {
   0% { background-position: 150% center; }
+  30% { background-position: -50% center; }
   100% { background-position: -50% center; }
 }
 
@@ -177,19 +178,20 @@ img {
   background: linear-gradient(
     75deg, 
     var(--text-color, #fff) 0%, 
-    var(--text-color, #fff) 45%, 
+    var(--text-color, #fff) 40%, 
     rgba(255, 255, 255, 0.7) 50%, 
-    var(--text-color, #fff) 55%, 
+    var(--text-color, #fff) 60%, 
     var(--text-color, #fff) 100%
   );
-  background-size: 300% auto;
+  background-size: 200% auto;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: subtleShimmer 15s linear infinite;
+  animation: subtleShimmer 10s linear infinite;
 }
 @keyframes subtleShimmer {
   0% { background-position: 150% center; }
+  40% { background-position: -50% center; }
   100% { background-position: -50% center; }
 }
 
@@ -1354,8 +1356,6 @@ a.contact-item:hover {
 
 @keyframes shineSweep {
   0% { background-position: 150% center; }
-  100% { background-position: -50% center; }
-}
 
 /* Elegant Soft Write-On Reveal */
 .quote-text.reveal-write-on {
