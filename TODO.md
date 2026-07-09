@@ -1,0 +1,1 @@
+- [ ] Fix typo on plaque: Change 'Ordinance' to 'Ordnance' (Explosive Ordnance Disposal EOD)
