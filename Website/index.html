@@ -552,6 +552,7 @@
         src: [newSrc],
         autoplay: true, // Howler handles interaction unlocking automatically
         loop: true,
+        html5: true, // REQUIRED for autoplaying muted on page load without user interaction
         volume: document.getElementById('bgm-volume') ? parseFloat(document.getElementById('bgm-volume').value) : 0.35,
         mute: isMuted,
         onplay: () => { isPlaying = true; updateUI(); },
