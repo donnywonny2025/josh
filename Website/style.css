@@ -341,9 +341,12 @@ img {
 }
 
 .header-anim {
+  /* Chain the animations properly:
+     1. Entrance runs for 2.5s, delayed by --stagger.
+     2. Shimmer is infinite but delayed by (--stagger + 2.5s) so it only starts once the entrance is 100% finished. */
   animation: 
-    headerEntrance 1s var(--ease-out-expo) var(--stagger, 0s) backwards,
-    navShimmer 4s linear infinite;
+    headerEntrance 2.5s cubic-bezier(0.16, 1, 0.3, 1) var(--stagger, 0s) backwards,
+    navShimmer 6s linear calc(var(--stagger, 0s) + 2.5s) infinite;
     
   background: linear-gradient(
     90deg,
