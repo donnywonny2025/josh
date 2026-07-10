@@ -473,7 +473,7 @@
     let wasBgmPlayingBeforeVideo = false;
 
     // --- INLINE VIDEO LOGIC ---
-    function playInlineVideo() {
+    window.playInlineVideo = function() {
       const bgVideo = document.getElementById('tribute-video');
       const bgmAudio = document.getElementById('bgm-audio');
       const overlay = document.querySelector('.video-play-overlay');
@@ -499,7 +499,7 @@
       }
     }
 
-    function closeInlineVideo() {
+    window.closeInlineVideo = function() {
       const bgVideo = document.getElementById('tribute-video');
       const bgmAudio = document.getElementById('bgm-audio');
       const overlay = document.querySelector('.video-play-overlay');
