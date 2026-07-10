@@ -156,7 +156,7 @@ img {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.4));
+  text-shadow: 0 0 12px rgba(255, 255, 255, 0.3);
   animation: royalSweep 8s linear infinite;
 }
 @keyframes royalSweep {
@@ -188,7 +188,7 @@ img {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.2));
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
   animation: subtleShimmer 10s linear infinite;
 }
 @keyframes subtleShimmer {
