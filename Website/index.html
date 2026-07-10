@@ -102,7 +102,23 @@
   <!-- ===== HERO: ASYMMETRICAL EDITORIAL GRID ===== -->
   <section class="hero theme-dark" id="hero">
     <div class="hero-bg-slideshow">
-      <!-- Background slideshow removed to improve page load speed -->
+      <div class="bg-slide" style="background-image: url('images/gallery/brothers/photo_001.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('images/gallery/brothers/photo_002.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('images/gallery/brothers/photo_003.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('images/gallery/brothers/photo_004.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('images/gallery/brothers/photo_005.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('images/gallery/brothers/photo_006.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('images/gallery/brothers/photo_007.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('images/gallery/brothers/photo_008.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('images/gallery/brothers/photo_009.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('images/gallery/brothers/photo_010.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('images/gallery/brothers/photo_011.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('images/gallery/brothers/photo_012.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('images/gallery/brothers/photo_013.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('images/gallery/brothers/photo_014.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('images/gallery/brothers/photo_015.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('images/gallery/brothers/photo_016.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('images/gallery/brothers/photo_017.jpg');"></div>
     </div>
     <div class="hero-content-wrap">
       
@@ -281,7 +297,7 @@
           <button type="submit" class="cta-button primary metallic-reflection">Send Message</button>
         </form>
         
-        <div id="memories-board" style="margin-top: 4rem; display: flex; flex-direction: column; gap: 1.5rem;">
+        <div id="memories-board" style="margin-top: 4rem; column-count: 2; column-gap: 1.5rem; width: 100%;">
           <!-- Memories will be injected here -->
         </div>
       </div>
@@ -508,7 +524,7 @@
 
   <!-- ===== SCRIPTS ===== -->
   <script src="https://player.vimeo.com/api/player.js"></script>
-  <script>
+  <script type="module">
     let wasBgmPlayingBeforeVideo = false;
 
     // --- INLINE VIDEO LOGIC ---
@@ -1102,86 +1118,96 @@
     // The video is now purely an ambient cinematic element.
     // Audio sync logic removed as requested (no controls).
 
-    // ===== MEMORY BOARD LOGIC (LOCAL STORAGE) =====
-    document.addEventListener('DOMContentLoaded', () => {
-      const memoriesBoard = document.getElementById('memories-board');
-      const memoryForm = document.getElementById('memory-form');
-      const isAdmin = window.location.search.includes('admin=true');
-      
-      // Initialize sample data if empty
-      if (!localStorage.getItem('josh_memories')) {
-        const sampleMemories = [
-          { id: Date.now() + 1, name: "Sarah Jenkins", message: "Josh, you were always the first one to offer a helping hand and the last one to leave. I'll never forget our times together. You are deeply missed.", date: "July 8, 2026" },
-          { id: Date.now() + 2, name: "Chief Roberts", message: "An outstanding EOD tech and an even better man. Fair winds and following seas, brother.", date: "July 9, 2026" },
-          { id: Date.now() + 3, name: "Michael T.", message: "I still remember that laugh. It could light up an entire room. We love you, man.", date: "July 9, 2026" }
-        ];
-        localStorage.setItem('josh_memories', JSON.stringify(sampleMemories));
-      }
+    // ===== MEMORY BOARD LOGIC (FIREBASE) =====
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
+    import { getFirestore, collection, addDoc, onSnapshot, query, orderBy, serverTimestamp, deleteDoc, doc } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js";
+    import { getAuth, signInAnonymously } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js";
 
-      function renderMemories() {
-        if (!memoriesBoard) return;
-        const memories = JSON.parse(localStorage.getItem('josh_memories')) || [];
-        
-        memoriesBoard.innerHTML = memories.map(memory => `
-          <div class="memory-card reveal reveal-delay-2">
-            ${isAdmin ? `<button onclick="deleteMemory(${memory.id})" class="memory-delete-btn">✕</button>` : ''}
-            <p class="memory-text">"${memory.message}"</p>
-            <div class="memory-meta">
-              <span class="memory-author">— ${memory.name}</span>
-              <span class="memory-date">${memory.date}</span>
+    const firebaseConfig = {
+      apiKey: "AIzaSyBqwEjgJnc4l2ckBUkbOyZyxgPz0BlzrFc",
+      authDomain: "ai-image-generation-8b1d0.firebaseapp.com",
+      projectId: "ai-image-generation-8b1d0",
+      storageBucket: "ai-image-generation-8b1d0.firebasestorage.app",
+      messagingSenderId: "523216650786",
+      appId: "1:523216650786:web:db79c1b4fbec2e5d99407b",
+      measurementId: "G-X8116CS8RK"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+    const auth = getAuth(app);
+    
+    // Sign in anonymously to enforce security rules
+    signInAnonymously(auth).catch(error => console.error("Auth Error:", error));
+
+    const memoriesBoard = document.getElementById('memories-board');
+    const memoryForm = document.getElementById('memory-form');
+    const isAdmin = window.location.search.includes('admin=true');
+
+    // Real-time listener for messages
+    if (memoriesBoard) {
+      const q = query(collection(db, "messages"), orderBy("timestamp", "desc"));
+      onSnapshot(q, (snapshot) => {
+        memoriesBoard.innerHTML = '';
+        snapshot.forEach((docSnap) => {
+          const memory = docSnap.data();
+          const dateStr = memory.timestamp ? memory.timestamp.toDate().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }) : "Just now";
+          
+          memoriesBoard.innerHTML += `
+            <div class="memory-card reveal reveal-delay-2 visible" data-id="${docSnap.id}">
+              ${isAdmin ? `<button onclick="deleteMemory('${docSnap.id}')" class="memory-delete-btn">✕</button>` : ''}
+              <p class="memory-text">"${memory.message}"</p>
+              <div class="memory-meta">
+                <span class="memory-author">— ${memory.name}</span>
+                <span class="memory-date" style="font-size:0.8rem; opacity:0.6; margin-left:8px;">${dateStr}</span>
+              </div>
             </div>
-          </div>
-        `).join('');
-        
-        // Trigger reveal animations for new cards
-        setTimeout(() => {
-          document.querySelectorAll('#memories-board .reveal').forEach(el => el.classList.add('visible'));
-        }, 50);
-      }
-
-      // Handle Form Submit
-      if (memoryForm) {
-        memoryForm.addEventListener('submit', (e) => {
-          e.preventDefault();
-          const nameInput = document.getElementById('memory-name').value;
-          const textInput = document.getElementById('memory-text').value;
-          
-          if (!nameInput || !textInput) return;
-          
-          const memories = JSON.parse(localStorage.getItem('josh_memories')) || [];
-          
-          const today = new Date();
-          const options = { month: 'long', day: 'numeric', year: 'numeric' };
-          
-          const newMemory = {
-            id: Date.now(),
-            name: nameInput,
-            message: textInput,
-            date: today.toLocaleDateString('en-US', options)
-          };
-          
-          // Add to beginning of array
-          memories.unshift(newMemory);
-          localStorage.setItem('josh_memories', JSON.stringify(memories));
-          
-          // Clear form and re-render
-          memoryForm.reset();
-          renderMemories();
+          `;
         });
+      });
+    }
+
+    // Handle Form Submit
+    if (memoryForm) {
+      memoryForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const nameInput = document.getElementById('memory-name');
+        const textInput = document.getElementById('memory-text');
+        const submitBtn = memoryForm.querySelector('button[type="submit"]');
+        
+        if (!nameInput.value || !textInput.value) return;
+        
+        submitBtn.disabled = true;
+        submitBtn.textContent = "Sending...";
+        
+        try {
+          await addDoc(collection(db, "messages"), {
+            name: nameInput.value,
+            message: textInput.value,
+            timestamp: serverTimestamp(),
+            uid: auth.currentUser ? auth.currentUser.uid : null
+          });
+          memoryForm.reset();
+        } catch (error) {
+          console.error("Error adding document: ", error);
+          alert("Could not post memory. Please try again.");
+        } finally {
+          submitBtn.disabled = false;
+          submitBtn.textContent = "Send Message";
+        }
+      });
+    }
+
+    // Global delete function for inline onclick handler
+    window.deleteMemory = async function(id) {
+      if (!confirm("Are you sure you want to delete this memory?")) return;
+      try {
+        await deleteDoc(doc(db, "messages", id));
+      } catch (error) {
+        console.error("Error deleting memory:", error);
       }
-
-      // Global delete function for inline onclick handler
-      window.deleteMemory = function(id) {
-        if (!confirm("Are you sure you want to delete this memory?")) return;
-        let memories = JSON.parse(localStorage.getItem('josh_memories')) || [];
-        memories = memories.filter(m => m.id !== id);
-        localStorage.setItem('josh_memories', JSON.stringify(memories));
-        renderMemories();
-      };
-
-      // Initial Render
-      renderMemories();
-    });
+    };
 
   </script>
 
