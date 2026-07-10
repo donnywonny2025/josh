@@ -157,7 +157,7 @@ img {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 0 0 12px rgba(255, 255, 255, 0.3);
-  animation: royalSweep 8s linear infinite;
+  animation: royalSweep 15s linear infinite;
 }
 @keyframes royalSweep {
   0% { background-position: 200% center; }
@@ -189,7 +189,7 @@ img {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
-  animation: subtleShimmer 10s linear infinite;
+  animation: subtleShimmer 20s linear infinite;
 }
 @keyframes subtleShimmer {
   0% { background-position: 200% center; }
