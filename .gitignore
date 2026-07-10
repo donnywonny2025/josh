@@ -33,3 +33,15 @@ AE/
 Proxies/
 EDITING_FRAMEWORK/test/
 EDITING_FRAMEWORK/proxies/
+Website.grok/
+OLLAMA_MODELS/
+Vids/
+Renders/
+.DS_Store
+Website.grok/
+Website/video/
+Website/videos/
+OLLAMA_MODELS/
+Vids/
+Renders/
+*.mp4

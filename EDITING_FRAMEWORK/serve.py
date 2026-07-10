@@ -10,7 +10,7 @@ import urllib.parse
 from datetime import datetime
 from pathlib import Path
 
-PORT = 8080
+PORT = 8123
 PROJECT = Path("/Volumes/Extreme SSD/JOSH")
 PHOTOS = PROJECT / "Photos" / "RAW_IMPORTS"
 MUSIC = PROJECT / "Music"
@@ -33,6 +33,8 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             return self._serve_file(FRAMEWORK / "player.html", "text/html")
         if path == "/player_v2":
             return self._serve_file(FRAMEWORK / "player_v2.html", "text/html")
+        if path == "/player_v3":
+            return self._serve_file(FRAMEWORK / "player_v3.html", "text/html")
         if path == "/faces":
             return self._serve_file(FRAMEWORK / "faces.html", "text/html")
         if path == "/advanced":

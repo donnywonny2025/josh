@@ -113,6 +113,38 @@ body { font-family:'Inter',sans-serif; background:#000; color:#e0e0e8; height:10
 .hover-tooltip.hidden { opacity:0; }
 .hover-tooltip img { width:100%; height:auto; border-radius:4px; }
 .hover-tooltip .tt-title { font-size:11px; color:#ccc; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; text-align:center; }
+
+/* QR CODE OVERLAY */
+.qr-overlay {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    width: 150px;
+    height: 150px;
+    z-index: 10;
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    opacity: 0.85; /* Subtle opacity so it blends */
+}
+.qr-overlay img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.qr-overlay span {
+    font-size: 11px;
+    color: #000;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
 /* --- Alignment UI --- */
 .align-overlay { position:absolute; inset:0; z-index:100; cursor:move; display:none; border:2px solid #34d399; box-shadow:inset 0 0 20px rgba(52,211,153,0.5); }
 .align-overlay.active { display:block; }
@@ -127,10 +159,11 @@ body { font-family:'Inter',sans-serif; background:#000; color:#e0e0e8; height:10
   <a href="/">Browser</a>
   <a href="/builder">Builder</a>
   <a href="/player">Player</a>
-  <a href="/player_v2" class="active">Player V2</a>
-  <a href="/player_v3">Player V3</a>
+  <a href="/player_v2">Player V2</a>
+  <a href="/player_v3" class="active">Player V3</a>
   <a href="/faces">Face ID</a>
   <button id="btnAlign" onclick="toggleAlign()" style="margin-left:12px; background:#1e1e24; color:#aaa; border:1px solid #444; padding:5px 12px; border-radius:6px; cursor:pointer;">📐 Align Off</button>
+  <button id="btnDelete" onclick="deleteCurrentPhoto()" style="margin-left:12px; background:#331111; color:#ff4444; border:1px solid #662222; padding:5px 12px; border-radius:6px; cursor:pointer;">🗑️ Remove Photo</button>
   <button id="btnExportXml" onclick="exportXml()" style="margin-left:auto; background:#1e1e24; color:#fff; border:1px solid #444; padding:5px 12px; border-radius:6px; cursor:pointer; font-weight:600;">Export XML</button>
   <span style="margin-left:12px; font-size:12px; color:#888;">Master Timeline Editor</span>
 </div>
@@ -155,7 +188,14 @@ body { font-family:'Inter',sans-serif; background:#000; color:#e0e0e8; height:10
       <div class="slide hidden" id="slideA"><img id="imgA"></div>
       <div class="slide hidden" id="slideB"><img id="imgB"></div>
       <div class="title-card hidden" id="titleCard"></div>
-      <div class="slide-label" id="slideLabel"></div>
+      
+      <!-- QR Code -->
+      <div class="qr-overlay" id="qrCode">
+          <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://joshburns.org" alt="QR Code">
+          <span>JoshBurns.org</span>
+      </div>
+      
+      <!-- Slide Label Removed -->
     </div>
 </div>
 
@@ -189,7 +229,7 @@ body { font-family:'Inter',sans-serif; background:#000; color:#e0e0e8; height:10
             <div class="tl-track" id="trackSections"></div>
             <div class="tl-track" id="trackCards"></div>
             <div class="tl-track" id="trackMedia"></div>
-            <div class="tl-track" id="trackAudio"></div>
+
             <div class="playhead" id="playhead"></div>
         </div>
     </div>
@@ -200,8 +240,7 @@ body { font-family:'Inter',sans-serif; background:#000; color:#e0e0e8; height:10
   <div id="ttTitle" class="tt-title"></div>
 </div>
 
-<!-- Master Audio Track (User should place Master.mp3 in Music folder) -->
-<audio id="audioPlayer" src="/api/music/Master.mp3"></audio>
+<!-- Audio Removed -->
 
 <script>
 // --- STATE ---
@@ -217,14 +256,14 @@ let requestID = null;
 let totalSec = 0;
 let currentZoom = 1.0;
 
-const audio = document.getElementById('audioPlayer');
+// Audio removed
 
 // --- INIT ---
 // --- INIT ---
 async function init() {
   try { framingMap = await fetch('/data/photo_framing_map.json').then(r => r.json()); } catch(e) {}
 
-  const resp = await fetch(`/api/sequences/master_timeline?t=${Date.now()}`);
+  const resp = await fetch(`/api/sequences/master_timeline_v3?t=${Date.now()}`);
   if (resp.ok) {
       const data = await resp.json();
       masterSequence = data.slides || [];
@@ -269,13 +308,12 @@ async function init() {
 function buildTimeline() {
   const trackCards = document.getElementById("trackCards");
   const trackMedia = document.getElementById("trackMedia");
-  const trackAudio = document.getElementById("trackAudio");
   const trackRuler = document.getElementById("trackRuler");
   const trackSections = document.getElementById("trackSections");
   
   trackCards.innerHTML = "";
   trackMedia.innerHTML = "";
-  trackAudio.innerHTML = "";
+  trackRuler.innerHTML = "";
   trackRuler.innerHTML = "";
   trackSections.innerHTML = "";
   
@@ -360,39 +398,6 @@ function buildTimeline() {
       trackSections.appendChild(block);
   }
   
-  if (audioSequence && audioSequence.length > 0) {
-      audioSequence.forEach((clip, i) => {
-          const audioDiv = document.createElement("div");
-          audioDiv.className = "tl-audio";
-          audioDiv.textContent = `[AUDIO] ${clip.name}`;
-          audioDiv.style.setProperty('--f-start', clip.start_frame);
-          audioDiv.style.setProperty('--f-dur', clip.duration_frames);
-          audioDiv.style.top = `0px`;
-          audioDiv.style.height = `100%`;
-          audioDiv.style.bottom = `auto`;
-          trackAudio.appendChild(audioDiv);
-      });
-  } else if (currentFrameAccum > 0) {
-      const audioDiv = document.createElement("div");
-      audioDiv.className = "tl-audio";
-      audioDiv.textContent = "[AUDIO] Master.mp3";
-      audioDiv.style.setProperty('--f-start', 0);
-      audioDiv.style.setProperty('--f-dur', currentFrameAccum);
-      trackAudio.appendChild(audioDiv);
-  }
-  
-  const waveImg = document.createElement("img");
-  waveImg.src = "/data/waveform.png";
-  waveImg.style.position = "absolute";
-  waveImg.style.left = "0";
-  waveImg.style.top = "0";
-  waveImg.style.width = `calc(${currentFrameAccum} * var(--z) * 1px)`;
-  waveImg.style.height = "100%";
-  waveImg.style.opacity = "0.85";
-  waveImg.style.pointerEvents = "none";
-  waveImg.style.zIndex = "5";
-  trackAudio.appendChild(waveImg);
-  
   updateZoom();
 }
 
@@ -449,6 +454,35 @@ function toggleAlign() {
   }
 }
 
+function deleteCurrentPhoto() {
+    if(currentIndex >= 0 && currentIndex < masterSequence.length) {
+        masterSequence.splice(currentIndex, 1);
+        saveMasterTimeline();
+        
+        // Re-render the timeline DOM
+        const tl = document.getElementById('timelineBlocks');
+        tl.innerHTML = '';
+        masterSequence.forEach((sl, i) => {
+            const div = document.createElement('div');
+            div.className = 'tl-item';
+            div.id = `thumb-${i}`;
+            div.onclick = () => { seekToFrame(i); if(!playing) togglePlay(); };
+            div.style.flex = sl.duration_sec ? sl.duration_sec : 5;
+            
+            const img = document.createElement('img');
+            img.src = `/photos/${encodeURIComponent(sl.folder)}/${encodeURIComponent(sl.file)}`;
+            div.appendChild(img);
+            tl.appendChild(div);
+        });
+        
+        // Advance to next photo safely
+        let nextIndex = currentIndex;
+        if(nextIndex >= masterSequence.length) nextIndex = masterSequence.length - 1;
+        currentIndex = -1; // force reload
+        showSlide(nextIndex);
+    }
+}
+
 function handleAlignDown(e) {
   if (currentIndex < 0 || currentIndex >= masterSequence.length) return;
   isDragging = true;
@@ -503,7 +537,7 @@ function handleAlignMove(e) {
 
 async function saveMasterTimeline() {
   try {
-    const resp = await fetch(`/api/sequences/master_timeline`, {
+    const resp = await fetch(`/api/sequences/master_timeline_v3`, {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({ slides: masterSequence })
@@ -584,7 +618,7 @@ function updateZoom() {
   }, 0);
   document.getElementById("timelineTracks").style.width = `${totalFrames * zoom}px`;
   
-  updatePlayheadUI(audio.currentTime);
+  updatePlayheadUI(0); // or simply skip if you don't need playhead update on zoom init
 }
 
 function updatePlayheadUI(time) {
@@ -717,22 +751,24 @@ function updateFrame(force = false, forcedTime = null) {
   if (forcedTime !== null) {
       nowSec = forcedTime;
   } else {
-      nowSec = audio.readyState >= 1 && !audio.error ? audio.currentTime : (Date.now() - startTime) / 1000;
+      nowSec = (Date.now() - startTime) / 1000;
   }
   
-  // Strict 24 FPS frame logic
-  const nowFrames = Math.round(nowSec * 24.0);
+  // Strict 30 FPS frame logic
+  const nowFrames = Math.round(nowSec * 30.0);
   let t_cumSec = 0.0;
   const totalFrames = masterSequence.reduce((s, sl) => {
       const durSec = sl.duration_frames ? (sl.duration_frames / 30.0) : (sl.duration_sec || 5);
       t_cumSec += durSec;
-      return Math.round(t_cumSec * 24.0);
+      return Math.round(t_cumSec * 30.0);
   }, 0);
-  totalSec = totalFrames / 24.0;
+  totalSec = totalFrames / 30.0;
   
   if (nowFrames >= totalFrames && totalFrames > 0) {
-      seekToTime(0);
-      if (audio.readyState >= 1 && !audio.error) audio.play();
+      if (playing) {
+          startTime = Date.now();
+          startPlayback();
+      }
       return;
   }
   if (playing) {
@@ -746,8 +782,7 @@ function updateFrame(force = false, forcedTime = null) {
     const sl = masterSequence[i];
     const durSec = sl.duration_frames ? (sl.duration_frames / 30.0) : (sl.duration_sec || 5);
     cumulativeSeconds += durSec;
-    const targetFrame = Math.round(cumulativeSeconds * 24.0);
-    const durFrames = targetFrame - accumulatedFrames;
+    const targetFrame = Math.round(cumulativeSeconds * 30.0);
     if (nowFrames >= accumulatedFrames && nowFrames < targetFrame) {
       targetIndex = i;
       break;
@@ -770,20 +805,16 @@ function updateFrame(force = false, forcedTime = null) {
   if (slide) {
      const durSec = slide.duration_frames ? (slide.duration_frames / 30.0) : (slide.duration_sec || 5);
      const localSec = (nowFrames - accumulatedFrames) / 24.0;
-     const name = slide.isCard ? `[CARD] ${slide.title}` : (slide.folder ? `${slide.folder}/${slide.file}` : slide.file || "EMPTY SLOT");
-     
-     document.getElementById('slideLabel').innerHTML = `<span class="active-section">${slide.sectionName || ''}</span><span style="color:#4a9eff; font-size:16px;">[${formatTime(nowSec)}]</span><br/>${name} (${localSec.toFixed(1)}s / ${durSec.toFixed(1)}s)`;
-     
      // JS-Synced Ken Burns
      if (slide.isCard) {
          const tc = document.getElementById('titleCard');
-         const currentScale = 1.0 + (localSec * 0.005);
+         const currentScale = 1.0 + (localSec * 0.025);
          tc.style.transform = `scale(${currentScale})`;
      } else if (!slide.isPlaceholder) {
          const activeDiv = document.getElementById(`slide${activeSlide}`);
          if (activeDiv) {
              const baseScale = parseFloat(activeDiv.dataset.baseScale || 1.0);
-             const currentScale = baseScale * (1.0 + (localSec * 0.005));
+             const currentScale = baseScale * (1.0 + (localSec * 0.025));
              activeDiv.style.transform = `scale(${currentScale})`;
          }
      }
@@ -828,23 +859,15 @@ function startPlayback() {
   playing = true;
   document.getElementById('btnPlayPause').textContent = '⏸';
   
-  if (audio.readyState >= 1 && !audio.error) {
-    audio.play().catch(e => {
-        console.warn("Audio blocked, falling back to silent timer.");
-        const now = (document.getElementById('progressFill').style.width || '0').replace('%','') / 100 * totalSec;
-        startTime = Date.now() - (now * 1000);
-    });
-  } else {
-    const now = (document.getElementById('progressFill').style.width || '0').replace('%','') / 100 * totalSec;
-    startTime = Date.now() - (now * 1000);
-  }
+  const now = (document.getElementById('progressFill').style.width || '0').replace('%','') / 100 * totalSec;
+  startTime = Date.now() - (now * 1000);
   updateFrame();
 }
 
 function pausePlayback() {
   playing = false;
   document.getElementById('btnPlayPause').textContent = '▶';
-  audio.pause();
+  if (requestID) cancelAnimationFrame(requestID);
   if (requestID) cancelAnimationFrame(requestID);
 }
 
@@ -853,15 +876,8 @@ function togglePlay() {
 }
 
 function seekToTime(targetTime) {
-  if (audio.readyState >= 1) {
-      audio.currentTime = targetTime;
-  } else {
-      audio.addEventListener('loadedmetadata', () => {
-          audio.currentTime = targetTime;
-      }, {once: true});
-  }
   localStorage.setItem('josh_player_time', targetTime);
-  startTime = Date.now() - (targetTime * 1000); // Always update JS timer as fallback
+  startTime = Date.now() - (targetTime * 1000); // Always update JS timer
   
   const wasPlaying = playing;
   playing = true; 
@@ -904,8 +920,7 @@ function seekTimeline(e) {
 }
 
 function toggleMute() {
-  audio.muted = !audio.muted;
-  document.getElementById('btnMute').textContent = audio.muted ? '🔇' : '🔊';
+  // Audio removed
 }
 
 document.addEventListener('keydown', (e) => {
@@ -931,17 +946,10 @@ function formatTime(sec) {
   return `${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}:${f.toString().padStart(2, '0')}`;
 }
 
-// Allow time for audio to load metadata before initializing to avoid sync errors
-audio.addEventListener('loadedmetadata', init);
-audio.addEventListener('error', () => {
-    console.warn("Master.mp3 not found or failed to load. Running strictly on silent JS timer.");
-    init();
-});
-
-// Fallback init if audio doesn't fire loadedmetadata quickly
+// Fallback init
 setTimeout(() => {
-    if (masterSequence.length === 0) init();
-}, 1000);
+    init();
+}, 100);
 
 </script>
 </body>
