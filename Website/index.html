@@ -614,8 +614,9 @@
     let isMuted = true;
     let currentTrackIndex = 0;
     
-    // Set muted property on the audio element so it can bypass browser autoplay blocks
-    bgmAudio.muted = true;
+    if (bgmAudio) {
+      // Set muted property on the audio element so it can bypass browser autoplay blocks
+      bgmAudio.muted = true;
     bgmAudio.volume = 0.35;
     bgmAudio.currentTime = 0; // Force restart on reload
     
@@ -759,6 +760,7 @@
           tracklistMenu.classList.remove('open');
         }
       });
+    } // End if (bgmAudio)
     }
 
     // --- LIGHTBOX INTERACTIVE GALLERIES ---
