@@ -1191,7 +1191,7 @@ a.contact-item:hover {
   text-transform: uppercase;
   padding: 16px 40px;
   background: var(--gold);
-  color: var(--gold-light);
+  color: #000;
   border: none;
   cursor: pointer;
   margin-top: 8px;
